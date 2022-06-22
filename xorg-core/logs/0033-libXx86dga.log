@@ -1,0 +1,11 @@
+Making check in src
+make[1]: Entering directory '/usr/oppai/xorg-core/libXxf86dga-1.1.5/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXxf86dga-1.1.5/src'
+Making check in man
+make[1]: Entering directory '/usr/oppai/xorg-core/libXxf86dga-1.1.5/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXxf86dga-1.1.5/man'
+make[1]: Entering directory '/usr/oppai/xorg-core/libXxf86dga-1.1.5'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXxf86dga-1.1.5'

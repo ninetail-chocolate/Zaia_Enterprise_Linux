@@ -1,0 +1,16 @@
+--- /home/yuki/Downloads/qt-everywhere-src-5.15.3/qtbase/mkspecs/linux-clang/qplatformdefs.h	2021-03-19 00:29:29.000000000 +0900
++++ /home/yuki/Desktop/qplatformdefs.h	2022-03-17 05:48:30.385764655 +0900
+@@ -81,10 +81,10 @@
+ 
+ #undef QT_SOCKLEN_T
+ 
+-#if defined(__GLIBC__) && (__GLIBC__ >= 2)
+-#define QT_SOCKLEN_T            socklen_t
+-#else
++#if defined(__GLIBC__) && (__GLIBC__ < 2)
+ #define QT_SOCKLEN_T            int
++#else
++#define QT_SOCKLEN_T            socklen_t
+ #endif
+ 
+ #if defined(_XOPEN_SOURCE) && (_XOPEN_SOURCE >= 500)

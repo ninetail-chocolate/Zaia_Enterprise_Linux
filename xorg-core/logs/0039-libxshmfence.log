@@ -1,0 +1,32 @@
+Making check in src
+make[1]: Entering directory '/usr/oppai/xorg-core/libxshmfence-1.3/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libxshmfence-1.3/src'
+Making check in test
+make[1]: Entering directory '/usr/oppai/xorg-core/libxshmfence-1.3/test'
+make  xshmfence_test
+make[2]: Entering directory '/usr/oppai/xorg-core/libxshmfence-1.3/test'
+  CC       xshmfence_test-xshmfence_test.o
+  CCLD     xshmfence_test
+make[2]: Leaving directory '/usr/oppai/xorg-core/libxshmfence-1.3/test'
+make  check-TESTS
+make[2]: Entering directory '/usr/oppai/xorg-core/libxshmfence-1.3/test'
+make[3]: Entering directory '/usr/oppai/xorg-core/libxshmfence-1.3/test'
+PASS: xshmfence_test
+============================================================================
+Testsuite summary for libxshmfence 1.3
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/usr/oppai/xorg-core/libxshmfence-1.3/test'
+make[2]: Leaving directory '/usr/oppai/xorg-core/libxshmfence-1.3/test'
+make[1]: Leaving directory '/usr/oppai/xorg-core/libxshmfence-1.3/test'
+make[1]: Entering directory '/usr/oppai/xorg-core/libxshmfence-1.3'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libxshmfence-1.3'

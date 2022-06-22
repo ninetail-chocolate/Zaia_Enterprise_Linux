@@ -1,0 +1,57 @@
+Making check in util
+make[1]: Entering directory '/usr/oppai/xorg-core/libXt-1.2.1/util'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXt-1.2.1/util'
+Making check in src
+make[1]: Entering directory '/usr/oppai/xorg-core/libXt-1.2.1/src'
+make  check-am
+make[2]: Entering directory '/usr/oppai/xorg-core/libXt-1.2.1/src'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/oppai/xorg-core/libXt-1.2.1/src'
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXt-1.2.1/src'
+Making check in include
+make[1]: Entering directory '/usr/oppai/xorg-core/libXt-1.2.1/include'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXt-1.2.1/include'
+Making check in man
+make[1]: Entering directory '/usr/oppai/xorg-core/libXt-1.2.1/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXt-1.2.1/man'
+Making check in specs
+make[1]: Entering directory '/usr/oppai/xorg-core/libXt-1.2.1/specs'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXt-1.2.1/specs'
+Making check in test
+make[1]: Entering directory '/usr/oppai/xorg-core/libXt-1.2.1/test'
+make  Alloc Converters Event
+make[2]: Entering directory '/usr/oppai/xorg-core/libXt-1.2.1/test'
+  CC       Alloc.o
+  CC       Converters.o
+  CC       Event.o
+  CCLD     Converters
+  CCLD     Alloc
+  CCLD     Event
+make[2]: Leaving directory '/usr/oppai/xorg-core/libXt-1.2.1/test'
+make  check-TESTS
+make[2]: Entering directory '/usr/oppai/xorg-core/libXt-1.2.1/test'
+make[3]: Entering directory '/usr/oppai/xorg-core/libXt-1.2.1/test'
+PASS: Alloc
+PASS: Converters
+PASS: Event
+============================================================================
+Testsuite summary for libXt 1.2.1
+============================================================================
+# TOTAL: 3
+# PASS:  3
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/usr/oppai/xorg-core/libXt-1.2.1/test'
+make[2]: Leaving directory '/usr/oppai/xorg-core/libXt-1.2.1/test'
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXt-1.2.1/test'
+make[1]: Entering directory '/usr/oppai/xorg-core/libXt-1.2.1'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXt-1.2.1'

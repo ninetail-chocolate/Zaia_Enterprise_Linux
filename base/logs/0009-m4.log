@@ -1,0 +1,1079 @@
+  GEN      public-submodule-commit
+make  check-recursive
+make[1]: Entering directory '/usr/oppai/base/m4-1.4.19/build'
+Making check in .
+make[2]: Entering directory '/usr/oppai/base/m4-1.4.19/build'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/oppai/base/m4-1.4.19/build'
+Making check in examples
+make[2]: Entering directory '/usr/oppai/base/m4-1.4.19/build/examples'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/m4-1.4.19/build/examples'
+Making check in lib
+make[2]: Entering directory '/usr/oppai/base/m4-1.4.19/build/lib'
+make  check-am
+make[3]: Entering directory '/usr/oppai/base/m4-1.4.19/build/lib'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/oppai/base/m4-1.4.19/build/lib'
+make[2]: Leaving directory '/usr/oppai/base/m4-1.4.19/build/lib'
+Making check in src
+make[2]: Entering directory '/usr/oppai/base/m4-1.4.19/build/src'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/m4-1.4.19/build/src'
+Making check in doc
+make[2]: Entering directory '/usr/oppai/base/m4-1.4.19/build/doc'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/m4-1.4.19/build/doc'
+Making check in checks
+make[2]: Entering directory '/usr/oppai/base/m4-1.4.19/build/checks'
+make  check-local
+make[3]: Entering directory '/usr/oppai/base/m4-1.4.19/build/checks'
+PATH=`pwd`/../src":"$PATH; export PATH; \
+../../checks/check-them -I ../../checks/../examples ../../checks/*[0-9][0-9][0-9].* ../../checks/stackovf.test
+m4 (GNU M4) 1.4.19
+Copyright (C) 2021 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by Rene' Seindal.
+Checking ../../checks/001.preprocess
+Checking ../../checks/002.debugging_
+Checking ../../checks/003.command_li
+Checking ../../checks/004.command_li
+Checking ../../checks/005.command_li
+Checking ../../checks/006.command_li
+Checking ../../checks/007.command_li
+Checking ../../checks/008.comments
+Checking ../../checks/009.comments
+Checking ../../checks/010.input_proc
+Checking ../../checks/011.input_proc
+Checking ../../checks/012.inhibiting
+Checking ../../checks/013.inhibiting
+Checking ../../checks/014.inhibiting
+Checking ../../checks/015.inhibiting
+Checking ../../checks/016.inhibiting
+Checking ../../checks/017.inhibiting
+Checking ../../checks/018.inhibiting
+Checking ../../checks/019.inhibiting
+Checking ../../checks/020.macro_argu
+Checking ../../checks/021.macro_argu
+Checking ../../checks/022.macro_argu
+Checking ../../checks/023.macro_argu
+Checking ../../checks/024.macro_argu
+Checking ../../checks/025.quoting_ar
+Checking ../../checks/026.macro_expa
+Checking ../../checks/027.macro_expa
+Checking ../../checks/028.define
+Checking ../../checks/029.define
+Checking ../../checks/030.define
+Checking ../../checks/031.arguments
+Checking ../../checks/032.arguments
+Checking ../../checks/033.arguments
+Checking ../../checks/034.arguments
+Checking ../../checks/035.arguments
+Checking ../../checks/036.arguments
+Checking ../../checks/037.pseudo_arg
+Checking ../../checks/038.pseudo_arg
+Checking ../../checks/039.pseudo_arg
+Checking ../../checks/040.pseudo_arg
+Checking ../../checks/041.pseudo_arg
+Checking ../../checks/042.pseudo_arg
+Checking ../../checks/043.pseudo_arg
+Checking ../../checks/044.pseudo_arg
+Checking ../../checks/045.pseudo_arg
+Checking ../../checks/046.undefine
+Checking ../../checks/047.undefine
+Checking ../../checks/048.defn
+Checking ../../checks/049.defn
+Checking ../../checks/050.defn
+Checking ../../checks/051.defn
+Checking ../../checks/052.defn
+Checking ../../checks/053.defn
+Checking ../../checks/054.defn
+Checking ../../checks/055.pushdef
+Checking ../../checks/056.pushdef
+Checking ../../checks/057.indir
+Checking ../../checks/058.indir
+Checking ../../checks/059.indir
+Checking ../../checks/060.builtin
+Checking ../../checks/061.builtin
+Checking ../../checks/062.builtin
+Checking ../../checks/063.builtin
+Checking ../../checks/064.builtin
+Checking ../../checks/065.ifdef
+Checking ../../checks/066.ifelse
+Checking ../../checks/067.ifelse
+Checking ../../checks/068.ifelse
+Checking ../../checks/069.ifelse
+Checking ../../checks/070.ifelse
+Checking ../../checks/071.shift
+Checking ../../checks/072.shift
+Checking ../../checks/073.shift
+Checking ../../checks/074.shift
+Checking ../../checks/075.shift
+Checking ../../checks/076.shift
+Checking ../../checks/077.shift
+Checking ../../checks/078.shift
+Checking ../../checks/079.forloop
+Checking ../../checks/080.forloop
+Checking ../../checks/081.forloop
+Checking ../../checks/082.foreach
+Checking ../../checks/083.foreach
+Checking ../../checks/084.foreach
+Checking ../../checks/085.foreach
+Checking ../../checks/086.foreach
+Checking ../../checks/087.foreach
+Checking ../../checks/088.stacks
+Checking ../../checks/089.stacks
+Checking ../../checks/090.compositio
+Checking ../../checks/091.compositio
+Checking ../../checks/092.compositio
+Checking ../../checks/093.compositio
+Checking ../../checks/094.dumpdef
+Checking ../../checks/095.dumpdef
+Checking ../../checks/096.trace
+Checking ../../checks/097.trace
+Checking ../../checks/098.trace
+Checking ../../checks/099.trace
+Checking ../../checks/100.trace
+Checking ../../checks/101.debug_leve
+Checking ../../checks/102.debug_leve
+Checking ../../checks/103.debug_leve
+Checking ../../checks/104.debug_outp
+Checking ../../checks/105.dnl
+Checking ../../checks/106.dnl
+Checking ../../checks/107.dnl
+Checking ../../checks/108.changequot
+Checking ../../checks/109.changequot
+Checking ../../checks/110.changequot
+Checking ../../checks/111.changequot
+Checking ../../checks/112.changequot
+Checking ../../checks/113.changequot
+Checking ../../checks/114.changequot
+Checking ../../checks/115.changequot
+Checking ../../checks/116.changequot
+Checking ../../checks/117.changequot
+Checking ../../checks/118.changequot
+Checking ../../checks/119.changecom
+Checking ../../checks/120.changecom
+Checking ../../checks/121.changecom
+Checking ../../checks/122.changecom
+Checking ../../checks/123.changecom
+Checking ../../checks/124.changecom
+Checking ../../checks/125.changeword
+ skipping: no changeword support
+Checking ../../checks/126.changeword
+ skipping: no changeword support
+Checking ../../checks/127.changeword
+ skipping: no changeword support
+Checking ../../checks/128.changeword
+ skipping: no changeword support
+Checking ../../checks/129.changeword
+ skipping: no changeword support
+Checking ../../checks/130.changeword
+ skipping: no changeword support
+Checking ../../checks/131.m4wrap
+Checking ../../checks/132.m4wrap
+Checking ../../checks/133.m4wrap
+Checking ../../checks/134.m4wrap
+Checking ../../checks/135.m4wrap
+Checking ../../checks/136.m4wrap
+Checking ../../checks/137.include
+Checking ../../checks/138.include
+Checking ../../checks/139.include
+Checking ../../checks/140.include
+Checking ../../checks/141.include
+Checking ../../checks/142.include
+Checking ../../checks/143.diversions
+Checking ../../checks/144.diversions
+Checking ../../checks/145.diversions
+Checking ../../checks/146.diversions
+Checking ../../checks/147.divert
+Checking ../../checks/148.divert
+Checking ../../checks/149.divert
+Checking ../../checks/150.divert
+Checking ../../checks/151.divert
+Checking ../../checks/152.undivert
+Checking ../../checks/153.undivert
+Checking ../../checks/154.undivert
+Checking ../../checks/155.undivert
+Checking ../../checks/156.undivert
+Checking ../../checks/157.undivert
+Checking ../../checks/158.divnum
+Checking ../../checks/159.cleardiver
+Checking ../../checks/160.cleardiver
+Checking ../../checks/161.len
+Checking ../../checks/162.index_macr
+Checking ../../checks/163.index_macr
+Checking ../../checks/164.index_macr
+Checking ../../checks/165.index_macr
+Checking ../../checks/166.regexp
+Checking ../../checks/167.regexp
+Checking ../../checks/168.regexp
+Checking ../../checks/169.substr
+Checking ../../checks/170.substr
+Checking ../../checks/171.translit
+Checking ../../checks/172.translit
+Checking ../../checks/173.translit
+Checking ../../checks/174.translit
+Checking ../../checks/175.patsubst
+Checking ../../checks/176.patsubst
+Checking ../../checks/177.patsubst
+Checking ../../checks/178.patsubst
+Checking ../../checks/179.patsubst
+Checking ../../checks/180.format
+Checking ../../checks/181.format
+Checking ../../checks/182.format
+Checking ../../checks/183.format
+Checking ../../checks/184.incr
+Checking ../../checks/185.eval
+Checking ../../checks/186.eval
+Checking ../../checks/187.eval
+Checking ../../checks/188.eval
+Checking ../../checks/189.eval
+Checking ../../checks/190.eval
+Checking ../../checks/191.platform_m
+Checking ../../checks/192.platform_m
+Checking ../../checks/193.platform_m
+Checking ../../checks/194.syscmd
+Checking ../../checks/195.syscmd
+Checking ../../checks/196.esyscmd
+Checking ../../checks/197.sysval
+Checking ../../checks/198.sysval
+Checking ../../checks/199.mkstemp
+Checking ../../checks/200.mkstemp
+Checking ../../checks/201.mkstemp
+Checking ../../checks/202.errprint
+Checking ../../checks/203.location
+Checking ../../checks/204.location
+Checking ../../checks/205.location
+Checking ../../checks/206.m4exit
+Checking ../../checks/207.m4exit
+Checking ../../checks/208.using_froz
+Checking ../../checks/209.using_froz
+Checking ../../checks/210.using_froz
+Checking ../../checks/211.extensions
+Checking ../../checks/212.other_inco
+Checking ../../checks/213.other_inco
+Checking ../../checks/214.improved_e
+Checking ../../checks/215.improved_f
+Checking ../../checks/216.improved_f
+Checking ../../checks/217.improved_f
+Checking ../../checks/218.improved_f
+Checking ../../checks/219.improved_f
+Checking ../../checks/220.improved_f
+Checking ../../checks/221.improved_f
+Checking ../../checks/222.improved_f
+Checking ../../checks/223.improved_f
+Checking ../../checks/224.improved_f
+Checking ../../checks/225.improved_f
+Checking ../../checks/226.improved_f
+Checking ../../checks/227.improved_f
+Checking ../../checks/228.improved_f
+Checking ../../checks/229.improved_c
+Checking ../../checks/230.improved_c
+Checking ../../checks/231.improved_m
+Checking ../../checks/232.improved_m
+Checking ../../checks/233.improved_c
+Checking ../../checks/234.improved_c
+Checking ../../checks/235.improved_c
+Checking ../../checks/236.improved_f
+Checking ../../checks/stackovf.test
+Stack soft limit set to 300K
+Pass
+
+Skipped checks were:
+  ../../checks/125.changeword ../../checks/126.changeword ../../checks/127.changeword ../../checks/128.changeword ../../checks/129.changeword ../../checks/130.changeword
+All checks successful
+make[3]: Leaving directory '/usr/oppai/base/m4-1.4.19/build/checks'
+make[2]: Leaving directory '/usr/oppai/base/m4-1.4.19/build/checks'
+Making check in po
+make[2]: Entering directory '/usr/oppai/base/m4-1.4.19/build/po'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/m4-1.4.19/build/po'
+Making check in tests
+make[2]: Entering directory '/usr/oppai/base/m4-1.4.19/build/tests'
+make  check-recursive
+make[3]: Entering directory '/usr/oppai/base/m4-1.4.19/build/tests'
+Making check in .
+make[4]: Entering directory '/usr/oppai/base/m4-1.4.19/build/tests'
+make  test-accept test-access test-alignof test-alloca-opt  test-arpa_inet test-array_list test-array_oset test-asyncsafe-spin1 test-asyncsafe-spin2 test-avltree_oset test-binary-io test-bind test-bitrotate test-btowc test-c-ctype test-c-stack test-c-strcasecmp test-c-strncasecmp test-calloc-gnu test-canonicalize-lgpl test-canonicalize test-chdir test-cloexec test-close test-closein test-connect test-creat  test-ctype  test-dirent test-dirname test-dup test-dup2 test-dynarray test-environ  test-errno test-execute-main test-execute-child test-execute-script test-explicit_bzero test-fchdir test-fclose  test-fcntl-h test-fcntl test-fdopen test-fdopendir test-fflush test-fflush2 test-fgetc test-filenamecat  test-float test-fopen-gnu test-fopen-safer test-fopen test-fpending test-fpurge test-fputc test-fread test-freadahead test-freading test-free test-freopen test-frexp-nolibm test-frexpl-nolibm test-fseek test-fseeko test-fseeko3 test-fseeko4 test-fstat test-fstatat test-ftell test-ftell3 test-ftello test-ftello3 test-ftello4 test-ftruncate test-fwrite test-getcwd-lgpl test-getcwd test-getdtablesize test-getopt-gnu test-getprogname test-getrandom test-gettimeofday test-hard-locale test-hash  test-iconv-h test-iconv test-ignore-value test-inet_pton test-intprops test-inttostr  test-inttypes test-ioctl test-isblank test-isnand-nolibm test-isnanf-nolibm test-isnanl-nolibm test-iswblank test-iswdigit test-iswxdigit  test-langinfo  test-limits-h test-link test-linked_list test-linkedhash_list test-listen  test-locale test-localeconv test-localename test-lseek test-lstat test-malloc-gnu test-malloca  test-math test-mbrtowc test-mbrtowc-w32 test-mbsinit test-mbsstr1 test-mbsstr2 test-mbsstr3 test-memchr test-memchr2 test-memrchr test-mkdir test-nanosleep test-netinet_in test-nl_langinfo test-nl_langinfo-mt test-open test-openat test-pathmax test-perror test-perror2 test-pipe test-pipe2 test-posix_spawn-open1 test-posix_spawn-open2 test-posix_spawn-inherit0 test-posix_spawn-inherit1 test-posix_spawn-script test-posix_spawn_file_actions_addchdir test-posix_spawn-chdir test-posix_spawn_file_actions_addclose test-posix_spawn_file_actions_adddup2 test-posix_spawn_file_actions_addopen test-posix_spawn-dup2-stdout test-posix_spawn-dup2-stdin test-posix_spawnp-script test-printf-frexp test-printf-frexpl  test-pthread test-pthread-thread test-pthread_sigmask1 test-pthread_sigmask2 test-quotearg-simple test-raise test-rawmemchr test-read-file test-readlink test-realloc-gnu test-reallocarray test-regex test-rename test-rmdir test-sched test-scratch-buffer test-select test-select-fd test-select-stdin test-setenv test-setlocale_null test-setlocale_null-mt-one test-setlocale_null-mt-all test-setlocale1 test-setlocale2 test-setsockopt test-sigaction  test-signal-h test-signbit test-sigpipe test-sigprocmask test-sigsegv-catch-segv1 test-sigsegv-catch-segv2 test-sigsegv-catch-stackoverflow1 test-sigsegv-catch-stackoverflow2 test-sleep test-snprintf test-sockets  test-spawn-pipe-main test-spawn-pipe-child test-spawn-pipe-script test-spawn test-stat test-stat-time test-stdalign  test-stdbool  test-stddef  test-stdint  test-stdio  test-stdlib test-strchrnul test-strerror test-strerror_r test-striconv  test-string test-strnlen test-strsignal test-strstr test-strtod test-strtod1 test-symlink  test-sys_ioctl  test-sys_random  test-sys_select  test-sys_socket  test-sys_stat  test-sys_time  test-sys_types test-sys_uio  test-sys_wait test-thread_self test-thread_create  test-time  test-dup-safer test-unistd test-u8-mbtoucr test-u8-uctomb test-uc_width test-uc_width2 test-unsetenv test-vasnprintf test-vasprintf-posix test-vasprintf test-verify test-version-etc  test-wchar test-wcrtomb test-wcrtomb-w32  test-wctype-h test-wcwidth test-write test-xalloc-die test-xvasprintf libtests.a
+make[5]: Entering directory '/usr/oppai/base/m4-1.4.19/build/tests'
+  CC       test-accept.o
+  CC       test-access.o
+  CC       test-alignof.o
+  CC       test-alloca-opt.o
+  CC       test-arpa_inet.o
+  CC       test-array_list.o
+  CC       test-array_oset.o
+  CC       test-asyncsafe-spin1.o
+  CC       test-asyncsafe-spin2.o
+  CC       test-avltree_oset.o
+  CC       test-binary-io.o
+  CC       test-bind.o
+  CC       test-bitrotate.o
+  CC       test-btowc.o
+  CC       test-c-ctype.o
+  CC       test-c-stack.o
+  CC       test-c-strncasecmp.o
+  CC       test-c-strcasecmp.o
+  CC       test-calloc-gnu.o
+  CC       test-canonicalize-lgpl.o
+  CC       test-canonicalize.o
+  CC       test-chdir.o
+  CC       test-cloexec.o
+  CC       test-close.o
+  CC       test-closein.o
+  CC       test-creat.o
+  CC       test-connect.o
+  CC       test-ctype.o
+  CC       test-dirent.o
+  CC       test-dirname.o
+  CC       test-dup.o
+  CC       test-dup2.o
+  CC       test-dynarray.o
+  CC       test-environ.o
+  CC       test-errno.o
+  CC       test-execute-main.o
+  CC       test-execute-child.o
+  CC       test_execute_script-test-execute-script.o
+  CC       test-explicit_bzero.o
+  CC       test-fchdir.o
+  CC       test-fclose.o
+  CC       test-fcntl-h.o
+  CC       test-fcntl.o
+  CC       test-fdopen.o
+  CC       test-fdopendir.o
+  CC       test-fflush.o
+  CC       test-fflush2.o
+  CC       test-fgetc.o
+  CC       test-filenamecat.o
+  CC       test-float.o
+  CC       test-fopen-gnu.o
+  CC       test-fopen-safer.o
+  CC       test-fopen.o
+  CC       test-fpending.o
+  CC       test-fpurge.o
+  CC       test-fputc.o
+  CC       test-fread.o
+  CC       test-freadahead.o
+  CC       test-freading.o
+  CC       test-free.o
+  CC       test-freopen.o
+  CC       test-frexp.o
+  CC       randomd.o
+  CC       test-frexpl.o
+  CC       randoml.o
+  CC       test-fseeko.o
+  CC       test-fseek.o
+  CC       test-fseeko3.o
+  CC       test-fseeko4.o
+  CC       test-fstat.o
+  CC       test-fstatat.o
+  CC       test-ftell.o
+  CC       test-ftell3.o
+  CC       test-ftello.o
+  CC       test-ftello3.o
+  CC       test-ftello4.o
+  CC       test-ftruncate.o
+  CC       test-fwrite.o
+  CC       test-getcwd-lgpl.o
+  CC       test-getcwd.o
+  CC       test-getdtablesize.o
+  CC       test-getopt-gnu.o
+  CC       test-getprogname.o
+  CC       test-getrandom.o
+  CC       test-gettimeofday.o
+  CC       test-hard-locale.o
+  CC       test-hash.o
+  CC       test-iconv-h.o
+  CC       test-iconv.o
+  CC       test-ignore-value.o
+  CC       test-inet_pton.o
+  CC       test-intprops.o
+  CC       test-inttostr.o
+  CC       test-inttypes.o
+  CC       test-ioctl.o
+  CC       test-isblank.o
+  CC       test-isnand-nolibm.o
+  CC       test-isnanl-nolibm.o
+  CC       test-isnanf-nolibm.o
+  CC       test-iswblank.o
+  CC       test-iswdigit.o
+  CC       test-iswxdigit.o
+  CC       test-langinfo.o
+  CC       test-limits-h.o
+  CC       test-link.o
+  CC       test-linked_list.o
+  CC       test-linkedhash_list.o
+  CC       test-listen.o
+  CC       test-locale.o
+  CC       test-localeconv.o
+  CC       test-localename.o
+  CC       test-lseek.o
+  CC       test-lstat.o
+  CC       test-malloc-gnu.o
+  CC       test-malloca.o
+  CC       test-math.o
+  CC       test-mbrtowc.o
+  CC       test-mbrtowc-w32.o
+  CC       test-mbsinit.o
+  CC       test-mbsstr1.o
+  CC       test-mbsstr2.o
+  CC       test-mbsstr3.o
+  CC       test-memchr.o
+  CC       test-memchr2.o
+  CC       test-memrchr.o
+  CC       test-mkdir.o
+  CC       test-nanosleep.o
+  CC       test-netinet_in.o
+  CC       test-nl_langinfo.o
+  CC       test-nl_langinfo-mt.o
+  CC       test-open.o
+  CC       test-openat.o
+  CC       test-perror.o
+  CC       test-pathmax.o
+  CC       test-perror2.o
+  CC       test-pipe.o
+  CC       test-pipe2.o
+  CC       test-posix_spawn-open1.o
+  CC       test-posix_spawn-open2.o
+  CC       test-posix_spawn-inherit0.o
+  CC       test-posix_spawn-inherit1.o
+  CC       test_posix_spawn_script-test-posix_spawn-script.o
+  CC       test-posix_spawn_file_actions_addchdir.o
+  CC       test-posix_spawn-chdir.o
+  CC       test-posix_spawn_file_actions_addclose.o
+  CC       test-posix_spawn_file_actions_adddup2.o
+  CC       test-posix_spawn_file_actions_addopen.o
+  CC       test-posix_spawn-dup2-stdout.o
+  CC       test-posix_spawn-dup2-stdin.o
+  CC       test_posix_spawnp_script-test-posix_spawnp-script.o
+  CC       test-printf-frexp.o
+  CC       test-printf-frexpl.o
+  CC       test-pthread.o
+  CC       test-pthread-thread.o
+  CC       test-pthread_sigmask1.o
+  CC       test-pthread_sigmask2.o
+  CC       test-quotearg-simple.o
+  CC       test-raise.o
+  CC       test-rawmemchr.o
+  CC       test-read-file.o
+  CC       test-readlink.o
+  CC       test-realloc-gnu.o
+  CC       test-reallocarray.o
+  CC       test-regex.o
+  CC       test-rename.o
+  CC       test-rmdir.o
+  CC       test-sched.o
+  CC       test-scratch-buffer.o
+  CC       test-select.o
+  CC       test-select-fd.o
+  CC       test-select-stdin.o
+  CC       test-setenv.o
+  CC       test-setlocale_null.o
+  CC       test-setlocale_null-mt-one.o
+  CC       test-setlocale_null-mt-all.o
+  CC       test-setlocale1.o
+  CC       test-setlocale2.o
+  CC       test-setsockopt.o
+  CC       test-signal-h.o
+  CC       test-sigaction.o
+  CC       test-signbit.o
+  CC       test-sigpipe.o
+  CC       test-sigprocmask.o
+  CC       test-sigsegv-catch-segv1.o
+  CC       test-sigsegv-catch-segv2.o
+  CC       test-sigsegv-catch-stackoverflow1.o
+  CC       test-sigsegv-catch-stackoverflow2.o
+  CC       test-sleep.o
+  CC       test-snprintf.o
+  CC       test-sockets.o
+  CC       test-spawn-pipe-main.o
+  CC       test-spawn-pipe-child.o
+  CC       test_spawn_pipe_script-test-spawn-pipe-script.o
+  CC       test-spawn.o
+  CC       test-stat.o
+  CC       test-stat-time.o
+  CC       test-stdalign.o
+  CC       test-stdbool.o
+  CC       test-stddef.o
+  CC       test-stdint.o
+  CC       test-stdio.o
+  CC       test-stdlib.o
+  CC       test-strchrnul.o
+  CC       test-strerror.o
+  CC       test-strerror_r.o
+  CC       test-striconv.o
+  CC       test-string.o
+  CC       test-strnlen.o
+  CC       test-strsignal.o
+  CC       test-strstr.o
+  CC       test-strtod.o
+  CC       test-strtod1.o
+  CC       test-symlink.o
+  CC       test-sys_ioctl.o
+  CC       test-sys_random.o
+  CC       test-sys_select.o
+  CC       test-sys_socket.o
+  CC       test-sys_stat.o
+  CC       test-sys_time.o
+  CC       test-sys_types.o
+  CC       test-sys_uio.o
+  CC       test-sys_wait.o
+  CC       test-thread_self.o
+  CC       test-thread_create.o
+  CC       test-time.o
+  CC       test-dup-safer.o
+  CC       test-unistd.o
+  CC       test-unsetenv.o
+  CC       test-vasnprintf.o
+  CC       test-vasprintf.o
+  CC       test-verify.o
+  CC       test-vasprintf-posix.o
+  CC       test-version-etc.o
+  CC       test-wchar.o
+  CC       test-wcrtomb.o
+  CC       test-wcrtomb-w32.o
+  CC       test-wctype-h.o
+  CC       test-wcwidth.o
+  CC       test-write.o
+  CC       test-xalloc-die.o
+make[5]: 'libtests.a' is up to date.
+  CC       test-xvasprintf.o
+  CCLD     test-accept
+  CCLD     test-access
+  CCLD     test-alloca-opt
+  CCLD     test-alignof
+  CCLD     test-arpa_inet
+  CCLD     test-array_list
+  CCLD     test-asyncsafe-spin1
+  CCLD     test-array_oset
+  CCLD     test-asyncsafe-spin2
+  CCLD     test-avltree_oset
+  CCLD     test-binary-io
+  CCLD     test-bind
+  CCLD     test-bitrotate
+  CCLD     test-btowc
+  CCLD     test-c-ctype
+  CCLD     test-c-stack
+  CCLD     test-c-strcasecmp
+  CCLD     test-c-strncasecmp
+  CCLD     test-calloc-gnu
+  CCLD     test-canonicalize-lgpl
+  CCLD     test-canonicalize
+  CCLD     test-chdir
+  CCLD     test-cloexec
+  CCLD     test-close
+  CCLD     test-closein
+  CCLD     test-creat
+  CCLD     test-connect
+  CCLD     test-ctype
+  CCLD     test-dirent
+  CCLD     test-dirname
+  CCLD     test-dup
+  CCLD     test-dup2
+  CCLD     test-dynarray
+  CCLD     test-environ
+  CCLD     test-execute-main
+  CCLD     test-errno
+  CCLD     test-execute-child
+  CCLD     test-execute-script
+  CCLD     test-explicit_bzero
+  CCLD     test-fchdir
+  CCLD     test-fclose
+  CCLD     test-fcntl-h
+  CCLD     test-fcntl
+  CCLD     test-fdopen
+  CCLD     test-fdopendir
+  CCLD     test-fflush
+  CCLD     test-fflush2
+  CCLD     test-fgetc
+  CCLD     test-filenamecat
+  CCLD     test-float
+  CCLD     test-fopen-gnu
+  CCLD     test-fopen-safer
+  CCLD     test-fopen
+  CCLD     test-fpending
+  CCLD     test-fpurge
+  CCLD     test-fputc
+  CCLD     test-fread
+  CCLD     test-freadahead
+  CCLD     test-freading
+  CCLD     test-free
+  CCLD     test-freopen
+  CCLD     test-frexp-nolibm
+  CCLD     test-frexpl-nolibm
+  CCLD     test-fseek
+  CCLD     test-fseeko
+  CCLD     test-fseeko3
+  CCLD     test-fseeko4
+  CCLD     test-fstat
+  CCLD     test-fstatat
+  CCLD     test-ftell3
+  CCLD     test-ftell
+  CCLD     test-ftello
+  CCLD     test-ftello3
+  CCLD     test-ftello4
+  CCLD     test-fwrite
+  CCLD     test-ftruncate
+  CCLD     test-getcwd-lgpl
+  CCLD     test-getcwd
+  CCLD     test-getdtablesize
+  CCLD     test-getprogname
+  CCLD     test-gettimeofday
+  CCLD     test-getrandom
+  CCLD     test-hard-locale
+  CCLD     test-hash
+  CCLD     test-iconv-h
+  CCLD     test-iconv
+  CCLD     test-ignore-value
+  CCLD     test-inet_pton
+  CCLD     test-intprops
+  CCLD     test-inttostr
+  CCLD     test-ioctl
+  CCLD     test-inttypes
+  CCLD     test-isblank
+  CCLD     test-isnand-nolibm
+  CCLD     test-isnanl-nolibm
+  CCLD     test-isnanf-nolibm
+  CCLD     test-iswblank
+  CCLD     test-iswdigit
+  CCLD     test-iswxdigit
+  CCLD     test-langinfo
+  CCLD     test-limits-h
+  CCLD     test-link
+  CCLD     test-linked_list
+  CCLD     test-linkedhash_list
+  CCLD     test-locale
+  CCLD     test-listen
+  CCLD     test-localeconv
+  CCLD     test-localename
+  CCLD     test-lseek
+  CCLD     test-lstat
+  CCLD     test-malloc-gnu
+  CCLD     test-malloca
+  CCLD     test-math
+  CCLD     test-mbrtowc
+  CCLD     test-mbrtowc-w32
+  CCLD     test-mbsinit
+  CCLD     test-mbsstr1
+  CCLD     test-mbsstr2
+  CCLD     test-mbsstr3
+  CCLD     test-memchr
+  CCLD     test-memchr2
+  CCLD     test-memrchr
+  CCLD     test-mkdir
+  CCLD     test-netinet_in
+  CCLD     test-nl_langinfo
+  CCLD     test-nanosleep
+  CCLD     test-nl_langinfo-mt
+  CCLD     test-openat
+  CCLD     test-pathmax
+  CCLD     test-perror
+  CCLD     test-open
+  CCLD     test-perror2
+  CCLD     test-pipe
+  CCLD     test-pipe2
+  CCLD     test-posix_spawn-open1
+  CCLD     test-posix_spawn-open2
+  CCLD     test-posix_spawn-inherit0
+  CCLD     test-posix_spawn-inherit1
+  CCLD     test-posix_spawn_file_actions_addchdir
+  CCLD     test-posix_spawn-script
+  CCLD     test-posix_spawn-chdir
+  CCLD     test-posix_spawn_file_actions_addclose
+  CCLD     test-posix_spawn_file_actions_adddup2
+  CCLD     test-posix_spawn_file_actions_addopen
+  CCLD     test-posix_spawn-dup2-stdout
+  CCLD     test-posix_spawn-dup2-stdin
+  CCLD     test-posix_spawnp-script
+  CCLD     test-printf-frexp
+  CCLD     test-pthread
+  CCLD     test-printf-frexpl
+  CCLD     test-pthread-thread
+  CCLD     test-pthread_sigmask1
+  CCLD     test-pthread_sigmask2
+  CCLD     test-quotearg-simple
+  CCLD     test-raise
+  CCLD     test-rawmemchr
+  CCLD     test-read-file
+  CCLD     test-readlink
+  CCLD     test-realloc-gnu
+  CCLD     test-reallocarray
+  CCLD     test-regex
+  CCLD     test-rename
+  CCLD     test-rmdir
+  CCLD     test-sched
+  CCLD     test-scratch-buffer
+  CCLD     test-select
+  CCLD     test-select-fd
+  CCLD     test-select-stdin
+  CCLD     test-setenv
+  CCLD     test-setlocale_null
+  CCLD     test-setlocale_null-mt-one
+  CCLD     test-setlocale_null-mt-all
+  CCLD     test-setlocale1
+  CCLD     test-setlocale2
+  CCLD     test-setsockopt
+  CCLD     test-sigaction
+  CCLD     test-signal-h
+  CCLD     test-sigpipe
+  CCLD     test-signbit
+  CCLD     test-sigprocmask
+  CCLD     test-sigsegv-catch-segv1
+  CCLD     test-sigsegv-catch-segv2
+  CCLD     test-sigsegv-catch-stackoverflow1
+  CCLD     test-sleep
+  CCLD     test-sigsegv-catch-stackoverflow2
+  CCLD     test-snprintf
+  CCLD     test-spawn-pipe-main
+  CCLD     test-sockets
+  CCLD     test-spawn-pipe-child
+  CCLD     test-spawn-pipe-script
+  CCLD     test-spawn
+  CCLD     test-stat
+  CCLD     test-stat-time
+  CCLD     test-stdalign
+  CCLD     test-stdbool
+  CCLD     test-stddef
+  CCLD     test-stdint
+  CCLD     test-stdio
+  CCLD     test-stdlib
+  CCLD     test-strerror
+  CCLD     test-strchrnul
+  CCLD     test-strerror_r
+  CCLD     test-striconv
+  CCLD     test-string
+  CCLD     test-strnlen
+  CCLD     test-strsignal
+  CCLD     test-strstr
+  CCLD     test-strtod
+  CCLD     test-strtod1
+  CCLD     test-symlink
+  CCLD     test-sys_ioctl
+  CCLD     test-sys_random
+  CCLD     test-sys_select
+  CCLD     test-sys_socket
+  CCLD     test-sys_stat
+  CCLD     test-sys_time
+  CCLD     test-sys_types
+  CCLD     test-sys_uio
+  CCLD     test-sys_wait
+  CCLD     test-thread_self
+  CCLD     test-thread_create
+  CCLD     test-time
+  CC       unistr/test-u8-mbtoucr.o
+  CCLD     test-unistd
+  CCLD     test-dup-safer
+  CC       unistr/test-u8-uctomb.o
+  CC       uniwidth/test-uc_width.o
+  CC       uniwidth/test-uc_width2.o
+  CCLD     test-unsetenv
+  CCLD     test-vasnprintf
+  CCLD     test-vasprintf
+  CCLD     test-verify
+  CCLD     test-version-etc
+  CCLD     test-wchar
+  CCLD     test-wcrtomb
+  CCLD     test-wcrtomb-w32
+  CCLD     test-wctype-h
+  CCLD     test-wcwidth
+  CCLD     test-write
+  CCLD     test-xalloc-die
+  CCLD     test-xvasprintf
+  CCLD     test-uc_width
+  CCLD     test-uc_width2
+  CCLD     test-u8-mbtoucr
+  CCLD     test-getopt-gnu
+  CCLD     test-u8-uctomb
+  CCLD     test-vasprintf-posix
+make[5]: Leaving directory '/usr/oppai/base/m4-1.4.19/build/tests'
+make  check-TESTS
+make[5]: Entering directory '/usr/oppai/base/m4-1.4.19/build/tests'
+make[6]: Entering directory '/usr/oppai/base/m4-1.4.19/build/tests'
+PASS: test-accept
+PASS: test-access
+PASS: test-alignof
+PASS: test-arpa_inet
+PASS: test-array_list
+PASS: test-asyncsafe-spin1
+PASS: test-alloca-opt
+SKIP: test-asyncsafe-spin2
+PASS: test-bind
+PASS: test-bitrotate
+SKIP: test-btowc1.sh
+SKIP: test-btowc2.sh
+PASS: test-binary-io.sh
+PASS: test-c-ctype
+PASS: test-calloc-gnu
+PASS: test-c-stack.sh
+PASS: test-canonicalize-lgpl
+PASS: test-c-strcase.sh
+PASS: test-chdir
+PASS: test-cloexec
+PASS: test-close
+PASS: test-canonicalize
+PASS: test-connect
+PASS: test-creat
+PASS: test-ctype
+PASS: test-dirent
+PASS: test-dirname
+PASS: test-dup
+PASS: test-dup2
+PASS: test-dynarray
+PASS: test-environ
+PASS: test-errno
+PASS: test-fchdir
+PASS: test-explicit_bzero
+PASS: test-fcntl-h
+PASS: test-fcntl
+PASS: test-fclose
+PASS: test-fdopen
+PASS: test-fdopendir
+PASS: test-fgetc
+PASS: test-filenamecat
+PASS: test-fflush2.sh
+PASS: test-float
+PASS: test-fopen-gnu
+PASS: test-fopen-safer
+PASS: test-execute-script
+PASS: test-array_oset
+PASS: test-fopen
+PASS: test-fpurge
+PASS: test-fpending.sh
+PASS: test-fputc
+PASS: test-fread
+PASS: test-fflush
+PASS: test-freading
+PASS: test-freopen
+PASS: test-freadahead.sh
+PASS: test-execute.sh
+PASS: test-frexp-nolibm
+PASS: test-closein.sh
+PASS: test-fseek.sh
+PASS: test-fseek2.sh
+PASS: test-fseeko2.sh
+PASS: test-fseeko.sh
+PASS: test-fseeko3.sh
+PASS: test-fseeko4.sh
+PASS: test-fstat
+PASS: test-frexpl-nolibm
+PASS: test-ftell.sh
+PASS: test-ftello2.sh
+PASS: test-fstatat
+PASS: test-ftello.sh
+PASS: test-ftello4.sh
+PASS: test-ftello3
+PASS: test-ftruncate.sh
+PASS: test-fwrite
+PASS: test-avltree_oset
+PASS: test-getdtablesize
+PASS: test-getcwd-lgpl
+PASS: test-ftell3
+PASS: test-getopt-gnu
+PASS: test-getprogname
+PASS: test-gettimeofday
+PASS: test-hard-locale
+PASS: test-ftell2.sh
+PASS: test-getrandom
+PASS: test-iconv
+PASS: test-iconv-h
+PASS: test-ignore-value
+PASS: test-inet_pton
+PASS: test-inttostr
+PASS: test-inttypes
+PASS: test-intprops
+PASS: test-ioctl
+PASS: test-isblank
+PASS: test-isnand-nolibm
+PASS: test-isnanf-nolibm
+PASS: test-isnanl-nolibm
+PASS: test-iswblank
+PASS: test-iswxdigit.sh
+PASS: test-iswdigit.sh
+PASS: test-limits-h
+PASS: test-langinfo
+PASS: test-link
+PASS: test-listen
+PASS: test-localeconv
+PASS: test-locale
+PASS: test-linked_list
+PASS: test-localename
+PASS: test-linkedhash_list
+PASS: test-malloc-gnu
+SKIP: test-mbrtowc1.sh
+PASS: test-math
+SKIP: test-mbrtowc2.sh
+PASS: test-lstat
+PASS: test-lseek.sh
+SKIP: test-mbrtowc3.sh
+SKIP: test-mbrtowc4.sh
+SKIP: test-mbrtowc-w32-2.sh
+PASS: test-mbrtowc5.sh
+SKIP: test-mbrtowc-w32-1.sh
+PASS: test-c-stack2.sh
+SKIP: test-mbrtowc-w32-3.sh
+SKIP: test-mbrtowc-w32-4.sh
+SKIP: test-mbrtowc-w32-5.sh
+SKIP: test-mbrtowc-w32-6.sh
+SKIP: test-mbsinit.sh
+SKIP: test-mbrtowc-w32-7.sh
+SKIP: test-mbsstr2.sh
+SKIP: test-mbsstr3.sh
+PASS: test-netinet_in
+PASS: test-nl_langinfo.sh
+PASS: test-open
+SKIP: test-nl_langinfo-mt
+PASS: test-memchr2
+PASS: test-pathmax
+PASS: test-memrchr
+PASS: test-mkdir
+PASS: test-perror2
+PASS: test-openat
+PASS: test-pipe
+PASS: test-pipe2
+PASS: test-posix_spawn-open1
+PASS: test-posix_spawn-open2
+PASS: test-posix_spawn-inherit0
+PASS: test-posix_spawn-inherit1
+PASS: test-posix_spawn_file_actions_adddup2
+PASS: test-posix_spawn_file_actions_addopen
+PASS: test-posix_spawn-script
+PASS: test-mbsstr1
+PASS: test-posix_spawn-dup2-stdin
+PASS: test-pthread
+PASS: test-pthread-thread
+SKIP: test-pthread_sigmask2
+PASS: test-quotearg-simple
+PASS: test-raise
+PASS: test-posix_spawn_file_actions_addchdir
+PASS: test-rawmemchr
+PASS: test-printf-frexpl
+PASS: test-printf-frexp
+PASS: test-posix_spawn_file_actions_addclose
+PASS: test-reallocarray
+PASS: test-realloc-gnu
+PASS: test-read-file
+PASS: test-posix_spawn-dup2-stdout
+PASS: test-posix_spawnp-script
+PASS: test-readlink
+PASS: test-sched
+PASS: test-perror.sh
+PASS: test-scratch-buffer
+PASS: test-select
+PASS: test-rename
+PASS: test-rmdir
+PASS: test-setenv
+PASS: test-setlocale_null
+PASS: test-free
+SKIP: test-setlocale_null-mt-all
+PASS: test-posix_spawn-chdir
+PASS: test-getcwd.sh
+SKIP: test-setlocale_null-mt-one
+SKIP: test-setlocale1.sh
+PASS: test-setsockopt
+PASS: test-signbit
+PASS: test-signal-h
+PASS: test-sigaction
+PASS: test-sigsegv-catch-segv1
+PASS: test-sigsegv-catch-segv2
+PASS: test-spawn
+PASS: test-sockets
+PASS: test-spawn-pipe-script
+PASS: test-stat
+PASS: test-stdalign
+PASS: test-stdint
+PASS: test-sigpipe.sh
+PASS: test-stdbool
+PASS: test-stdio
+PASS: test-stddef
+PASS: test-snprintf
+PASS: test-sigsegv-catch-stackoverflow1
+PASS: test-sigsegv-catch-stackoverflow2
+PASS: test-setlocale2.sh
+PASS: test-spawn-pipe.sh
+PASS: test-stdlib
+PASS: test-strerror_r
+PASS: test-strerror
+PASS: test-string
+PASS: test-strchrnul
+PASS: test-striconv
+PASS: test-strsignal
+SKIP: test-strtod1.sh
+PASS: test-sys_select
+PASS: test-sys_random
+PASS: test-symlink
+PASS: test-sys_ioctl
+PASS: test-sys_time
+PASS: test-sys_uio
+PASS: test-sys_socket
+PASS: test-sys_wait
+PASS: test-sys_types
+PASS: test-sys_stat
+PASS: test-strtod
+PASS: test-thread_self
+SKIP: test-thread_create
+PASS: test-time
+PASS: test-dup-safer
+PASS: test-unistd
+PASS: test-strstr
+PASS: test-u8-mbtoucr
+PASS: test-uc_width
+PASS: test-u8-uctomb
+PASS: test-unsetenv
+PASS: test-vasnprintf
+PASS: test-vasprintf
+PASS: test-strnlen
+PASS: test-wchar
+PASS: test-verify
+PASS: test-vasprintf-posix
+SKIP: test-wcrtomb-w32-1.sh
+PASS: test-wcrtomb.sh
+SKIP: test-wcrtomb-w32-2.sh
+SKIP: test-wcrtomb-w32-3.sh
+SKIP: test-wcrtomb-w32-4.sh
+SKIP: test-wcrtomb-w32-6.sh
+PASS: test-stat-time
+SKIP: test-wcrtomb-w32-7.sh
+PASS: test-wcwidth
+PASS: test-write
+PASS: test-wctype-h
+PASS: test-xvasprintf
+SKIP: test-wcrtomb-w32-5.sh
+SKIP: test-vc-list-files-cvs.sh
+SKIP: test-vc-list-files-git.sh
+PASS: test-init.sh
+PASS: uniwidth/test-uc_width2.sh
+PASS: test-version-etc.sh
+PASS: test-xalloc-die.sh
+PASS: test-update-copyright.sh
+PASS: test-hash
+PASS: test-malloca
+PASS: test-memchr
+PASS: test-verify.sh
+PASS: test-nanosleep
+PASS: test-select-out.sh
+PASS: test-pthread_sigmask1
+PASS: test-select-in.sh
+PASS: test-sigprocmask
+PASS: test-sleep
+PASS: test-regex
+============================================================================
+Testsuite summary for GNU M4 1.4.19
+============================================================================
+# TOTAL: 267
+# PASS:  234
+# SKIP:  33
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[6]: Leaving directory '/usr/oppai/base/m4-1.4.19/build/tests'
+make[5]: Leaving directory '/usr/oppai/base/m4-1.4.19/build/tests'
+make[4]: Leaving directory '/usr/oppai/base/m4-1.4.19/build/tests'
+make[3]: Leaving directory '/usr/oppai/base/m4-1.4.19/build/tests'
+make[2]: Leaving directory '/usr/oppai/base/m4-1.4.19/build/tests'
+make[1]: Leaving directory '/usr/oppai/base/m4-1.4.19/build'

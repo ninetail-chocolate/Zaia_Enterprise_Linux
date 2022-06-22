@@ -1,0 +1,17 @@
+[0/1] Running tests...
+Test project /usr/oppai/library/flac-1.3.4/build
+    Start 1: libFLAC
+1/9 Test #1: libFLAC ..........................***Failed    1.45 sec
+    Start 2: libFLAC++
+2/9 Test #2: libFLAC++ ........................***Failed    0.32 sec
+    Start 3: grabbag
+3/9 Test #3: grabbag ..........................   Passed    0.11 sec
+    Start 4: flac
+4/9 Test #4: flac .............................   Passed    4.32 sec
+    Start 5: metaflac
+5/9 Test #5: metaflac .........................   Passed    0.29 sec
+    Start 6: replaygain
+6/9 Test #6: replaygain .......................   Passed    0.42 sec
+    Start 7: seeking
+7/9 Test #7: seeking ..........................   Passed    0.41 sec
+    Start 8: streams

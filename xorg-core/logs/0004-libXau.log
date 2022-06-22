@@ -1,0 +1,28 @@
+Making check in man
+make[1]: Entering directory '/usr/oppai/xorg-core/libXau-1.0.9/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXau-1.0.9/man'
+make[1]: Entering directory '/usr/oppai/xorg-core/libXau-1.0.9'
+make  Autest
+make[2]: Entering directory '/usr/oppai/xorg-core/libXau-1.0.9'
+  CC       Autest.o
+  CCLD     Autest
+make[2]: Leaving directory '/usr/oppai/xorg-core/libXau-1.0.9'
+make  check-TESTS
+make[2]: Entering directory '/usr/oppai/xorg-core/libXau-1.0.9'
+make[3]: Entering directory '/usr/oppai/xorg-core/libXau-1.0.9'
+PASS: Autest
+============================================================================
+Testsuite summary for libXau 1.0.9
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/usr/oppai/xorg-core/libXau-1.0.9'
+make[2]: Leaving directory '/usr/oppai/xorg-core/libXau-1.0.9'
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXau-1.0.9'

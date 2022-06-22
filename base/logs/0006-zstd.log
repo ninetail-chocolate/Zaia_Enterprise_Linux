@@ -1,0 +1,868 @@
+make[1]: Entering directory '/usr/oppai/base/zstd-1.5.2/tests'
+make[2]: Entering directory '/usr/oppai/base/zstd-1.5.2/programs'
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/debug.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/entropy_common.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/error_private.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/fse_decompress.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/pool.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/threading.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/xxhash.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/zstd_common.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/fse_compress.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/hist.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/huf_compress.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/zstd_compress.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/zstd_compress_literals.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/zstd_compress_sequences.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/zstd_compress_superblock.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/zstd_double_fast.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/zstd_fast.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/zstd_lazy.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/zstd_ldm.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/zstd_opt.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/zstdmt_compress.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/huf_decompress.o
+AS obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/huf_decompress_amd64.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/zstd_ddict.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/zstd_decompress.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/zstd_decompress_block.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/cover.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/divsufsort.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/fastcover.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/zdict.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/zstd_v05.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/zstd_v06.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/zstd_v07.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/benchfn.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/benchzstd.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/datagen.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/dibio.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/fileio.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/timefn.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/util.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/zstdcli.o
+CC obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/zstdcli_trace.o
+==> building with threading support
+==> building zstd with .gz compression support
+==> building zstd with .xz/.lzma compression support
+==> no liblz4, building zstd without .lz4 support
+LINK obj/conf_86af33f4a2d932a0f3c6ae8462aef92c/zstd
+zstd build completed
+make[2]: Leaving directory '/usr/oppai/base/zstd-1.5.2/programs'
+../programs/zstd: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-musl-x86_64.so.1, with debug_info, not stripped
+
+Starting playTests.sh isWindows=false EXE_PREFIX='' ZSTD_BIN='../programs/zstd' DATAGEN_BIN='./datagen'
+
+===>  simple tests 
+*** zstd command line interface 64-bits v1.5.2, by Yann Collet ***
+Usage : 
+      zstd [args] [FILE(s)] [-o file] 
+
+FILE    : a filename 
+          with no FILE, or when FILE is - , read standard input
+Arguments : 
+ -#     : # compression level (1-19, default: 3) 
+ -d     : decompression 
+ -D DICT: use DICT as Dictionary for compression or decompression 
+ -o file: result stored into `file` (only 1 output file) 
+ -f     : disable input and output checks. Allows overwriting existing files,
+          input from console, output to stdout, operating on links,
+          block devices, etc.
+--rm    : remove source file(s) after successful de/compression 
+ -k     : preserve source file(s) (default) 
+ -h/-H  : display help/long help and exit 
+
+Advanced arguments : 
+ -V     : display Version number and exit 
+ -c     : write to standard output (even if it is the console) 
+ -v     : verbose mode; specify multiple times to increase verbosity 
+ -q     : suppress warnings; specify twice to suppress errors too 
+--[no-]progress : forcibly display, or never display the progress counter.
+                  note: any (de)compressed output to terminal will mix with progress counter text. 
+ -r     : operate recursively on directories 
+--filelist FILE : read list of files to operate upon from FILE 
+--output-dir-flat DIR : processed files are stored into DIR 
+--output-dir-mirror DIR : processed files are stored into DIR respecting original directory structure 
+--[no-]check : during compression, add XXH64 integrity checksum to frame (default: enabled). If specified with -d, decompressor will ignore/validate checksums in compressed frame (default: validate).
+--trace FILE : log tracing information to FILE.
+--      : All arguments after "--" are treated as files 
+
+Advanced compression arguments : 
+--ultra : enable levels beyond 19, up to 22 (requires more memory) 
+--long[=#]: enable long distance matching with given window log (default: 27) 
+--fast[=#]: switch to very fast compression levels (default: 1) 
+--adapt : dynamically adapt compression level to I/O conditions 
+--[no-]row-match-finder : force enable/disable usage of fast row-based matchfinder for greedy, lazy, and lazy2 strategies 
+--patch-from=FILE : specify the file to be used as a reference point for zstd's diff engine. 
+ -T#    : spawns # compression threads (default: 1, 0==# cores) 
+ -B#    : select size of each job (default: 0==automatic) 
+--single-thread : use a single thread for both I/O and compression (result slightly different than -T1) 
+--auto-threads={physical,logical} (default: physical} : use either physical cores or logical cores as default when specifying -T0 
+--rsyncable : compress using a rsync-friendly method (-B sets block size) 
+--exclude-compressed: only compress files that are not already compressed 
+--stream-size=# : specify size of streaming input from `stdin` 
+--size-hint=# optimize compression parameters for streaming input of approximately this size 
+--target-compressed-block-size=# : generate compressed block of approximately targeted size 
+--no-dictID : don't write dictID into header (dictionary compression only) 
+--[no-]compress-literals : force (un)compressed literals 
+--format=zstd : compress files to the .zst format (default) 
+--format=gzip : compress files to the .gz format 
+--format=xz : compress files to the .xz format 
+--format=lzma : compress files to the .lzma format 
+
+Advanced decompression arguments : 
+ -l     : print information about zstd compressed files 
+--test  : test compressed file integrity 
+ -M#    : Set a memory usage limit for decompression 
+--[no-]sparse : sparse mode (default: enabled on file, disabled on stdout) 
+
+Dictionary builder : 
+--train ## : create a dictionary from a training set of files 
+--train-cover[=k=#,d=#,steps=#,split=#,shrink[=#]] : use the cover algorithm with optional args 
+--train-fastcover[=k=#,d=#,f=#,steps=#,split=#,accel=#,shrink[=#]] : use the fast cover algorithm with optional args 
+--train-legacy[=s=#] : use the legacy algorithm with selectivity (default: 9) 
+ -o DICT : DICT is dictionary name (default: dictionary) 
+--maxdict=# : limit dictionary to specified size (default: 112640) 
+--dictID=# : force dictionary ID to specified value (default: random) 
+
+Benchmark arguments : 
+ -b#    : benchmark file(s), using # compression level (default: 3) 
+ -e#    : test all compression levels successively from -b# to -e# (default: 1) 
+ -i#    : minimum evaluation time in seconds (default: 3s) 
+ -B#    : cut file into independent blocks of size # (default: no block) 
+ -S     : output one benchmark result per input file (default: consolidated result) 
+--priority=rt : set process priority to real-time 
+*** zstd command line interface 64-bits v1.5.2, by Yann Collet ***
+Usage : 
+      zstd [args] [FILE(s)] [-o file] 
+
+FILE    : a filename 
+          with no FILE, or when FILE is - , read standard input
+Arguments : 
+ -#     : # compression level (1-19, default: 3) 
+ -d     : decompression 
+ -D DICT: use DICT as Dictionary for compression or decompression 
+ -o file: result stored into `file` (only 1 output file) 
+ -f     : disable input and output checks. Allows overwriting existing files,
+          input from console, output to stdout, operating on links,
+          block devices, etc.
+--rm    : remove source file(s) after successful de/compression 
+ -k     : preserve source file(s) (default) 
+ -h/-H  : display help/long help and exit 
+
+Advanced arguments : 
+ -V     : display Version number and exit 
+ -c     : write to standard output (even if it is the console) 
+ -v     : verbose mode; specify multiple times to increase verbosity 
+ -q     : suppress warnings; specify twice to suppress errors too 
+--[no-]progress : forcibly display, or never display the progress counter.
+                  note: any (de)compressed output to terminal will mix with progress counter text. 
+ -r     : operate recursively on directories 
+--filelist FILE : read list of files to operate upon from FILE 
+--output-dir-flat DIR : processed files are stored into DIR 
+--output-dir-mirror DIR : processed files are stored into DIR respecting original directory structure 
+--[no-]check : during compression, add XXH64 integrity checksum to frame (default: enabled). If specified with -d, decompressor will ignore/validate checksums in compressed frame (default: validate).
+--trace FILE : log tracing information to FILE.
+--      : All arguments after "--" are treated as files 
+
+Advanced compression arguments : 
+--ultra : enable levels beyond 19, up to 22 (requires more memory) 
+--long[=#]: enable long distance matching with given window log (default: 27) 
+--fast[=#]: switch to very fast compression levels (default: 1) 
+--adapt : dynamically adapt compression level to I/O conditions 
+--[no-]row-match-finder : force enable/disable usage of fast row-based matchfinder for greedy, lazy, and lazy2 strategies 
+--patch-from=FILE : specify the file to be used as a reference point for zstd's diff engine. 
+ -T#    : spawns # compression threads (default: 1, 0==# cores) 
+ -B#    : select size of each job (default: 0==automatic) 
+--single-thread : use a single thread for both I/O and compression (result slightly different than -T1) 
+--auto-threads={physical,logical} (default: physical} : use either physical cores or logical cores as default when specifying -T0 
+--rsyncable : compress using a rsync-friendly method (-B sets block size) 
+--exclude-compressed: only compress files that are not already compressed 
+--stream-size=# : specify size of streaming input from `stdin` 
+--size-hint=# optimize compression parameters for streaming input of approximately this size 
+--target-compressed-block-size=# : generate compressed block of approximately targeted size 
+--no-dictID : don't write dictID into header (dictionary compression only) 
+--[no-]compress-literals : force (un)compressed literals 
+--format=zstd : compress files to the .zst format (default) 
+--format=gzip : compress files to the .gz format 
+--format=xz : compress files to the .xz format 
+--format=lzma : compress files to the .lzma format 
+
+Advanced decompression arguments : 
+ -l     : print information about zstd compressed files 
+--test  : test compressed file integrity 
+ -M#    : Set a memory usage limit for decompression 
+--[no-]sparse : sparse mode (default: enabled on file, disabled on stdout) 
+
+Dictionary builder : 
+--train ## : create a dictionary from a training set of files 
+--train-cover[=k=#,d=#,steps=#,split=#,shrink[=#]] : use the cover algorithm with optional args 
+--train-fastcover[=k=#,d=#,f=#,steps=#,split=#,accel=#,shrink[=#]] : use the fast cover algorithm with optional args 
+--train-legacy[=s=#] : use the legacy algorithm with selectivity (default: 9) 
+ -o DICT : DICT is dictionary name (default: dictionary) 
+--maxdict=# : limit dictionary to specified size (default: 112640) 
+--dictID=# : force dictionary ID to specified value (default: random) 
+
+Benchmark arguments : 
+ -b#    : benchmark file(s), using # compression level (default: 3) 
+ -e#    : test all compression levels successively from -b# to -e# (default: 1) 
+ -i#    : minimum evaluation time in seconds (default: 3s) 
+ -B#    : cut file into independent blocks of size # (default: no block) 
+ -S     : output one benchmark result per input file (default: consolidated result) 
+--priority=rt : set process priority to real-time 
+*** zstd command line interface 64-bits v1.5.2, by Yann Collet ***
+test : basic compression 
+test : basic decompression
+test : too large compression level => auto-fix
+test : --fast aka negative compression levels
+test : too large numeric argument
+test : set compression level with environment variable ZSTD_CLEVEL
+test : override ZSTD_CLEVEL with command line option
+test : compress to stdout
+test : compress to named file
+test : force write, correct order
+test : forgotten argument
+test : implied stdout when input is stdin
+bob
+test : null-length file roundtrip
+-n 
+test : ensure small file doesn't add 3-bytes null block
+14
+14
+test : decompress file with wrong suffix (must fail)
+test : decompress into stdout
+test : decompress from stdin into stdout
+test : impose memory limitation (must fail)
+test : overwrite protection
+test : force overwrite
+test : overwrite readonly file
+test: --no-progress flag
+test: --progress flag
+/*stdin*\            : 0 B...     /*stdin*\           : 4 bytes 
+/*stdin*\            : 0 B...     /*stdin*\           : 4 bytes 
+/*stdin*\            : 0 B...                                                                                    /*stdin*\           : 4 bytes 
+test: overwrite input file (must fail)
+test: detect that input file does not exist
+test: --[no-]compress-literals
+Loading tmp...                                                                              |-tmp               :     65537 ->  |-tmp               :     65537 ->     22185 (x2.954),  304.9 MB/s  |-tmp               :     65537 ->     22185 (x2.954),  304.9 MB/s, 1648.9 MB/s /-tmp               :     65537 ->     22185 (x2.954),  304.9 MB/s, 1753.1 MB/s-1#
+Loading tmp...                                                                              |-tmp               :     65537 ->  |-tmp               :     65537 ->     21285 (x3.079),  127.1 MB/s  |-tmp               :     65537 ->     21285 (x3.079),  127.1 MB/s, 1583.8 MB/s /-tmp               :     65537 ->     21285 (x3.079),  163.6 MB/s  /-tmp               :     65537 ->     21285 (x3.079),  163.6 MB/s, 1583.8 MB/s 0#
+Loading tmp...                                                                              |-tmp               :     65537 ->  |-tmp               :     65537 ->     21510 (x3.047),  289.3 MB/s  |-tmp               :     65537 ->     21510 (x3.047),  289.3 MB/s, 1672.7 MB/s /-tmp               :     65537 ->     21510 (x3.047),  289.3 MB/s, 1672.7 MB/s 1#
+Loading tmp...                                                                              |-tmp               :     65537 ->  |-tmp               :     65537 ->     36714 (x1.785),  523.8 MB/s  |-tmp               :     65537 ->     36714 (x1.785),  523.8 MB/s, 3595.0 MB/s /-tmp               :     65537 ->     36714 (x1.785),  535.0 MB/s  /-tmp               :     65537 ->     36714 (x1.785),  535.0 MB/s, 3733.9 MB/s-1#
+Loading tmp...                                                                              |-tmp               :     65537 ->  |-tmp               :     65537 ->     34502 (x1.900),  206.1 MB/s  |-tmp               :     65537 ->     34502 (x1.900),  206.1 MB/s, 2924.7 MB/s /-tmp               :     65537 ->     34502 (x1.900),  206.1 MB/s, 3098.0 MB/s 0#
+Loading tmp...                                                                              |-tmp               :     65537 ->  |-tmp               :     65537 ->     35605 (x1.841),  457.5 MB/s  |-tmp               :     65537 ->     35605 (x1.841),  457.5 MB/s, 3766.9 MB/s /-tmp               :     65537 ->     35605 (x1.841),  473.8 MB/s  /-tmp               :     65537 ->     35605 (x1.841),  473.8 MB/s, 3871.1 MB/s 1#
+test: --no-check for decompression
+
+===> zstdgrep tests
+zstd: can't stat tmp_grep_bad.zst : No such file or directory -- ignored 
+zstd: can't stat tmp_grep_bad.zst : No such file or directory -- ignored 
+
+===>  --exclude-compressed flag
+Test is successful. input.5.zst is precompressed and therefore not compressed/modified again.
+Test completed
+
+===>  warning prompts should not occur if stdin is an input
+Test completed
+
+===>  recursive mode test 
+
+===>  file removal
+test : should quietly not remove non-regular file
+test : --rm on stdin
+test : -d -f do not delete destination when source is not present
+test : -f do not delete destination when source is not present
+
+===>  decompression only tests 
+Files tmp1 and tmp are identical
+
+===>  compress multiple files
+hello
+world
+
+===>  multiple files and shell completion 
+compress tmp* : 
+decompress tmp* : 
+compress tmp* into stdout > tmpall : 
+decompress tmpall* into stdout > tmpdec : 
+compress multiple files including a missing one (notHere) : 
+
+===>  zstd fifo named pipe test 
+Files tmp_original and tmp_decompressed are identical
+
+===>  zstd created file permissions tests
+test : copy 666 permissions in file -> file compression 
+test : copy 666 permissions in file -> file decompression 
+test : copy 400 permissions in file -> file compression (write to a read-only file) 
+test : copy 400 permissions in file -> file decompression (write to a read-only file) 
+test : check created permissions from stdin input in compression 
+test : check created permissions from stdin input in decompression 
+test : check created permissions from multiple inputs in compression 
+test : check created permissions from multiple inputs in decompression 
+test : check permissions on pre-existing output file in compression 
+test : check permissions on pre-existing output file in decompression 
+test : respect umask when copying permissions in file -> file compression 
+test : respect umask when copying permissions in file -> file decompression 
+test : respect umask when compressing from stdin input 
+test : respect umask when decompressing from stdin input 
+
+===>  zstd created file timestamp tests
+test : copy mtime in file -> file compression 
+MTIME 946684800 946684800
+test : copy mtime in file -> file decompression 
+MTIME 946684800 946684800
+
+===>  compress multiple files into an output directory, --output-dir-flat
+test : decompress multiple files into an output directory, --output-dir-flat
+
+===>  compress multiple files into an output directory and mirror input folder, --output-dir-mirror
+test: compress input dir will be ignored if it has '..'
+test: compress input dir should succeed with benign uses of '..'
+test : decompress multiple files into an output directory, --output-dir-mirror
+test: decompress input dir will be ignored if it has '..'
+test : compress multiple files reading them from a file, --filelist=FILE
+test : alternate syntax: --filelist FILE
+test : reading file list from a symlink, --filelist=FILE
+test : compress multiple files reading them from multiple files, --filelist=FILE
+test : decompress multiple files reading them from a file, --filelist=FILE
+test : decompress multiple files reading them from multiple files, --filelist=FILE
+test : survive the list of files with too long filenames (--filelist=FILE)
+test : survive a list of files which is text garbage (--filelist=FILE)
+test : survive a list of files which is binary garbage (--filelist=FILE)
+test : try to overflow internal list of files (--filelist=FILE)
+
+===> --[no-]content-size tests
+Decompressed Size: 64.0 KiB (65537 B)
+Decompressed Size: 64.0 KiB (65537 B)
+test : show-default-cparams regular
+test : show-default-cparams recursive
+test : show compression parameters in verbose mode
+
+===>  Advanced compression parameters 
+roundTripTest: datagen -g512K  | zstd -v | zstd -d
+roundTripTest: datagen -g512K  | zstd -v --zstd=mml=3,tlen=48,strat=6 | zstd -d --zstd=mml=3,tlen=48,strat=6
+roundTripTest: datagen -g512K  | zstd -v --zstd=strat=6,wlog=23,clog=23,hlog=22,slog=6 | zstd -d --zstd=strat=6,wlog=23,clog=23,hlog=22,slog=6
+roundTripTest: datagen -g512K  | zstd -v --zstd=windowLog=23,chainLog=23,hashLog=22,searchLog=6,minMatch=3,targetLength=48,strategy=6 | zstd -d --zstd=windowLog=23,chainLog=23,hashLog=22,searchLog=6,minMatch=3,targetLength=48,strategy=6
+roundTripTest: datagen -g512K  | zstd -v --single-thread --long --zstd=ldmHashLog=20,ldmMinMatch=64,ldmBucketSizeLog=1,ldmHashRateLog=7 | zstd -d --single-thread --long --zstd=ldmHashLog=20,ldmMinMatch=64,ldmBucketSizeLog=1,ldmHashRateLog=7
+roundTripTest: datagen -g512K  | zstd -v --single-thread --long --zstd=lhlog=20,lmml=64,lblog=1,lhrlog=7 | zstd -d --single-thread --long --zstd=lhlog=20,lmml=64,lblog=1,lhrlog=7
+roundTripTest: datagen -g64K  | zstd -v19 --zstd=strat=9 | zstd -d19 --zstd=strat=9
+
+===>  Pass-Through mode 
+Hello world 1!
+Hello world 2!
+Hello world 3!
+
+===>  frame concatenation 
+hello 
+world!
+frame concatenation without checksum
+testing zstdcat symlink
+testing zcat symlink
+frame concatenation tests completed
+
+**** flush write error test **** 
+println foo | zstd > /dev/full
+println foo | zstd | zstd -d > /dev/full
+
+===>  symbolic link test 
+
+===>  test sparse file support 
+Files tmpSparse and tmpSparseRegen are identical
+Files tmpSparse and tmpOutSparse are identical
+Files tmpSparse and tmpOutNoSparse are identical
+5120 -rw-r--r-- 1 root root 5242880 Apr  4 13:28 tmpSparse
+ 168 -rw-r--r-- 1 root root 5242880 Apr  4 13:28 tmpSparseRegen
+Files - and tmpSparseOdd are identical
+44 -rw-r--r-- 1 root root 1200007 Apr  4 13:28 tmpSparseOdd
+
+ Sparse Compatibility with Console :
+Hello World 1 !
+Hello World 2 !
+
+ Sparse Compatibility with Append :
+5120 -rw-r--r-- 1 root root 5242880 Apr  4 13:28 tmpSparse
+1024 -rw-r--r-- 1 root root 1048576 Apr  4 13:28 tmpSparse1M
+2048 -rw-r--r-- 1 root root 2097152 Apr  4 13:28 tmpSparse2M
+   4 -rw-r--r-- 1 root root      67 Apr  4 13:28 tmpSparseCompressed
+  44 -rw-r--r-- 1 root root 1200007 Apr  4 13:28 tmpSparseOdd
+ 168 -rw-r--r-- 1 root root 5242880 Apr  4 13:28 tmpSparseRegen
+1036 -rw-r--r-- 1 root root 2097152 Apr  4 13:28 tmpSparseRegenerated
+
+===>  stream-size mode
+test : basic file compression vs sized streaming compression
+test : sized streaming compression and decompression
+test : incorrect stream size
+
+===>  zstd zero weight dict test 
+
+===>  zstd (valid) zero weight dict test 
+
+===>  size-hint mode
+test : basic file compression vs hinted streaming compression
+test : hinted streaming compression and decompression
+test : hinted streaming compression with dictionary
+test : multiple file compression with hints and dictionary
+test : incorrect hinted stream sizes
+test : allows and interprets K,KB,KiB,M,MB and MiB suffix
+
+===>  dictionary tests 
+- Test high/low compressibility corpus training
+- Test with raw dict (content only) 
+- Create first dictionary 
+- Test dictionary compression with tmpDict as an input file and dictionary
+- Dictionary compression roundtrip
+- Dictionary compression with hlog < clog
+- Dictionary compression with btlazy2 strategy
+- Test rejecting irregular dictionary file
+- Test dictionary compression with multithreading 
+- Create second (different) dictionary 
+- Create dictionary with short dictID
+tmpDict tmpDict1 differ: char 5, line 1
+- Create dictionary with wrong dictID parameter order (must fail)
+- Create dictionary with size limit
+- Create dictionary with small size limit
+- Create dictionary with wrong parameter order (must fail)
+- Compress without dictID
+- Compress multiple files with dictionary
+dirTestDict/benchfn.c: OK
+dirTestDict/benchfn.h: OK
+dirTestDict/benchzstd.c: OK
+dirTestDict/benchzstd.h: OK
+dirTestDict/bigdict.c: OK
+dirTestDict/checkTag.c: OK
+dirTestDict/datagen.c: OK
+dirTestDict/datagen.h: OK
+dirTestDict/datagencli.c: OK
+dirTestDict/decodecorpus.c: OK
+dirTestDict/dibio.c: OK
+dirTestDict/dibio.h: OK
+dirTestDict/fileio.c: OK
+dirTestDict/fileio.h: OK
+dirTestDict/fullbench.c: OK
+dirTestDict/fuzzer.c: OK
+dirTestDict/invalidDictionaries.c: OK
+dirTestDict/legacy.c: OK
+dirTestDict/longmatch.c: OK
+dirTestDict/paramgrill.c: OK
+dirTestDict/platform.h: OK
+dirTestDict/poolTests.c: OK
+dirTestDict/roundTripCrash.c: OK
+dirTestDict/seqgen.c: OK
+dirTestDict/timefn.c: OK
+dirTestDict/timefn.h: OK
+dirTestDict/util.c: OK
+dirTestDict/util.h: OK
+dirTestDict/zstdcli.c: OK
+dirTestDict/zstdcli_trace.c: OK
+dirTestDict/zstdcli_trace.h: OK
+dirTestDict/zstreamtest.c: OK
+- dictionary builder on bogus input
+- Test -o before --train
+- Create dictionary with multithreading enabled
+- Test --memory for dictionary compression
+!  Warning : setting manual memory limit for dictionary training data at 5 MB 
+Training samples set too large (12 MB); training on 5 MB only...
+
+===>  fastCover dictionary builder : advanced options 
+- Create first dictionary
+- Create second (different) dictionary
+- Create dictionary with short dictID
+tmpDict tmpDict1 differ: char 5, line 1
+- Create dictionaries with shrink-dict flag enabled
+- Create dictionary with size limit
+- Create dictionary using all samples for both training and testing
+- Create dictionary using f=16
+- Create dictionary using accel=2
+- Create dictionary using accel=10
+- Create dictionary with multithreading
+- Test -o before --train-fastcover
+
+===>  legacy dictionary builder 
+- Create first dictionary
+- Create second (different) dictionary
+- Create dictionary with short dictID
+tmpDict tmpDict1 differ: char 5, line 1
+- Create dictionary with size limit
+- Test -o before --train-legacy
+
+===>  integrity tests 
+test one file (tmp1.zst) 
+test multiple files (*.zst) 
+test bad files (*) 
+test --rm and --test combined 
+
+===>  golden files tests 
+
+===>  benchmark mode tests 
+bench one file
+Loading tmp1...                                                                              |-tmp1              :     65537 ->  |-tmp1              :     65537 ->     21285 (x3.079),  112.2 MB/s  |-tmp1              :     65537 ->     21285 (x3.079),  112.2 MB/s, 1643.4 MB/s /-tmp1              :     65537 ->     21285 (x3.079),  112.2 MB/s  3#
+bench multiple levels
+Loading tmp1...                                                                              |-tmp1              :     65537 ->  |-tmp1              :     65537 ->     21285 (x3.079),  115.6 MB/s  |-tmp1              :     65537 ->     21285 (x3.079),  115.6 MB/s, 1567.1 MB/s /-tmp1              :     65537 ->     21285 (x3.079),  161.8 MB/s  /-tmp1              :     65537 ->     21285 (x3.079),  161.8 MB/s, 1567.1 MB/s 0#
+Loading tmp1...                                                                              |-tmp1              :     65537 ->  |-tmp1              :     65537 ->     21510 (x3.047),  289.2 MB/s  |-tmp1              :     65537 ->     21510 (x3.047),  289.2 MB/s, 1465.2 MB/s /-tmp1              :     65537 ->     21510 (x3.047),  289.2 MB/s, 1662.0 MB/s 1#
+Loading tmp1...                                                                              |-tmp1              :     65537 ->  |-tmp1              :     65537 ->     21406 (x3.062),  235.8 MB/s  |-tmp1              :     65537 ->     21406 (x3.062),  235.8 MB/s, 1500.0 MB/s /-tmp1              :     65537 ->     21406 (x3.062),  235.8 MB/s, 1593.5 MB/s 2#
+Loading tmp1...                                                                              |-tmp1              :     65537 ->  |-tmp1              :     65537 ->     21285 (x3.079),  125.3 MB/s  |-tmp1              :     65537 ->     21285 (x3.079),  125.3 MB/s, 1596.1 MB/s /-tmp1              :     65537 ->     21285 (x3.079),  162.9 MB/s  /-tmp1              :     65537 ->     21285 (x3.079),  162.9 MB/s, 1596.1 MB/s 3#
+bench negative level
+Loading tmp1...                                                                              |-tmp1              :     65537 ->  |-tmp1              :     65537 ->     36714 (x1.785),  529.9 MB/s  |-tmp1              :     65537 ->     36714 (x1.785),  529.9 MB/s, 3810.7 MB/s /-tmp1              :     65537 ->     36714 (x1.785),  534.5 MB/s -1#
+with recursive and quiet modes
+bench 1.5.2 : input 65537 bytes, 0 seconds, 0 KB blocks
+-1        21510 (3.047) 289.50 MB/s 1720.0 MB/s  tmp1
+bench 1.5.2 : input 65537 bytes, 0 seconds, 0 KB blocks
+-2        21406 (3.062) 208.53 MB/s 1592.8 MB/s  tmp1
+benchmark decompression only
+Loading tmp1.zst...                                                                              |-tmp1.zst          :     65537 ->  |-tmp1.zst          :     65537 ->     21289 (x3.078),   0.00 MB/s, 1355.5 MB/s /-tmp1.zst          :     65537 ->     21289 (x3.078),   0.00 MB/s, 1457.6 MB/s 3#
+
+===>  zstd compatibility tests 
+
+===>  gzip compatibility tests 
+*** zstd command line interface 64-bits v1.5.2, by Yann Collet ***
+gzip support detected
+gzip 1.11
+Copyright (C) 2018 Free Software Foundation, Inc.
+Copyright (C) 1993 Jean-loup Gailly.
+This is free software.  You may redistribute copies of it under the terms of
+the GNU General Public License <https://www.gnu.org/licenses/gpl.html>.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by Jean-loup Gailly.
+
+===>  gzip frame tests 
+
+===>  xz compatibility tests 
+*** zstd command line interface 64-bits v1.5.2, by Yann Collet ***
+xz support detected
+xz (XZ Utils) 5.3.2alpha
+liblzma 5.3.2alpha
+xz (XZ Utils) 5.3.2alpha
+liblzma 5.3.2alpha
+Testing zstd xz and lzma support
+Creating symlinks
+Testing xz and lzma symlinks
+Testing unxz and unlzma symlinks
+
+===>  xz frame tests 
+
+===>  lz4 compatibility tests 
+lz4 mode not supported
+
+lz4 mode not supported
+
+===> suffix list test
+
+===>  tar extension tests 
+
+===>  zstd round-trip tests 
+roundTripTest: datagen   | zstd -v | zstd -d
+roundTripTest: datagen -g15K  | zstd -v | zstd -d
+roundTripTest: datagen -g127K  | zstd -v | zstd -d
+roundTripTest: datagen -g255K  | zstd -v | zstd -d
+roundTripTest: datagen -g522K  | zstd -v | zstd -d
+roundTripTest: datagen -g519K  | zstd -v6 | zstd -d6
+roundTripTest: datagen -g517K  | zstd -v16 | zstd -d16
+roundTripTest: datagen -g516K  | zstd -v19 | zstd -d19
+fileRoundTripTest: datagen -g500K  > tmp && zstd -v -c tmp | zstd -d
+
+===>  zstd long distance matching round-trip tests 
+roundTripTest: datagen -g0  | zstd -v2 --single-thread --long | zstd -d2 --single-thread --long
+roundTripTest: datagen -g1000K  | zstd -v1 --single-thread --long | zstd -d1 --single-thread --long
+roundTripTest: datagen -g517K  | zstd -v6 --single-thread --long | zstd -d6 --single-thread --long
+roundTripTest: datagen -g516K  | zstd -v16 --single-thread --long | zstd -d16 --single-thread --long
+roundTripTest: datagen -g518K  | zstd -v19 --single-thread --long | zstd -d19 --single-thread --long
+roundTripTest: datagen -g2M  | zstd -v22 --single-thread --ultra --long | zstd -d22 --single-thread --ultra --long
+fileRoundTripTest: datagen -g5M  > tmp && zstd -v3 --single-thread --long -c tmp | zstd -d3 --single-thread --long
+roundTripTest: datagen -g96K  | zstd -v5 --single-thread | zstd -d5 --single-thread
+
+===>  zstdmt round-trip tests 
+roundTripTest: datagen -g4M  | zstd -v1 -T0 | zstd -d1 -T0
+roundTripTest: datagen -g4M  | zstd -v1 -T0 --auto-threads=physical | zstd -d1 -T0 --auto-threads=physical
+roundTripTest: datagen -g4M  | zstd -v1 -T0 --auto-threads=logical | zstd -d1 -T0 --auto-threads=logical
+roundTripTest: datagen -g8M  | zstd -v3 -T2 | zstd -d3 -T2
+roundTripTest: datagen -g8M  | zstd -v19 --long | zstd -d19 --long
+roundTripTest: datagen -g8000K  | zstd -v2 --threads=2 | zstd -d2 --threads=2
+fileRoundTripTest: datagen -g4M  > tmp && zstd -v19 -T2 -B1M -c tmp | zstd -d19 -T2 -B1M
+
+===>  zstdmt long distance matching round-trip tests 
+roundTripTest: datagen -g8M  | zstd -v3 --long=24 -T2 | zstd -d3 --long=24 -T2
+
+===>  zstdmt environment variable tests 
+
+===>  ovLog tests 
+
+===>  zstd --list/-l single frame tests 
+Frames  Skips  Compressed  Uncompressed  Ratio  Check  Filename
+     1      0      16   B         7   B  0.438   None  ./hello.zst
+     2      0      40   B        14   B  0.350  XXH64  ./helloworld.zst
+     1      0    20.8 KiB      64.0 KiB  3.078  XXH64  ./tmp1.zst
+     1      0    20.8 KiB      64.0 KiB  3.078  XXH64  ./tmp2.zst
+     1      0    20.8 KiB      64.0 KiB  3.078  XXH64  ./tmp3.zst
+     1      0      16   B         7   B  0.438   None  ./world.zst
+----------------------------------------------------------------- 
+     7      0    62.4 KiB       192 KiB  3.075         6 files
+Decompressed Size: 7 B (7 B)
+Decompressed Size: 14 B (14 B)
+Decompressed Size: 64.0 KiB (65537 B)
+Decompressed Size: 64.0 KiB (65537 B)
+Decompressed Size: 64.0 KiB (65537 B)
+Decompressed Size: 7 B (7 B)
+Frames  Skips  Compressed  Uncompressed  Ratio  Check  Filename
+     1      0      16   B         7   B  0.438   None  ./hello.zst
+     2      0      40   B        14   B  0.350  XXH64  ./helloworld.zst
+     1      0    20.8 KiB      64.0 KiB  3.078  XXH64  ./tmp1.zst
+     1      0    20.8 KiB      64.0 KiB  3.078  XXH64  ./tmp2.zst
+     1      0    20.8 KiB      64.0 KiB  3.078  XXH64  ./tmp3.zst
+     1      0      16   B         7   B  0.438   None  ./world.zst
+----------------------------------------------------------------- 
+     7      0    62.4 KiB       192 KiB  3.075         6 files
+./hello.zst 
+# Zstandard Frames: 1
+Window Size: 7 B (7 B)
+Compressed Size: 16 B (16 B)
+Decompressed Size: 7 B (7 B)
+Ratio: 0.4375
+Check: None
+
+./helloworld.zst 
+# Zstandard Frames: 2
+Window Size: 7 B (7 B)
+Compressed Size: 40 B (40 B)
+Decompressed Size: 14 B (14 B)
+Ratio: 0.3500
+Check: XXH64
+
+./tmp1.zst 
+# Zstandard Frames: 1
+Window Size: 64.0 KiB (65537 B)
+Compressed Size: 20.8 KiB (21289 B)
+Decompressed Size: 64.0 KiB (65537 B)
+Ratio: 3.0784
+Check: XXH64
+
+./tmp2.zst 
+# Zstandard Frames: 1
+Window Size: 64.0 KiB (65537 B)
+Compressed Size: 20.8 KiB (21289 B)
+Decompressed Size: 64.0 KiB (65537 B)
+Ratio: 3.0784
+Check: XXH64
+
+./tmp3.zst 
+# Zstandard Frames: 1
+Window Size: 64.0 KiB (65537 B)
+Compressed Size: 20.8 KiB (21289 B)
+Decompressed Size: 64.0 KiB (65537 B)
+Ratio: 3.0784
+Check: XXH64
+
+./world.zst 
+# Zstandard Frames: 1
+Window Size: 7 B (7 B)
+Compressed Size: 16 B (16 B)
+Decompressed Size: 7 B (7 B)
+Ratio: 0.4375
+Check: None
+
+
+===>  zstd --list/-l multiple frame tests 
+Frames  Skips  Compressed  Uncompressed  Ratio  Check  Filename
+     1      0      16   B         7   B  0.438   None  ./hello.zst
+     2      0      40   B        14   B  0.350  XXH64  ./helloworld.zst
+     1      0    20.8 KiB      64.0 KiB  3.078  XXH64  ./tmp1.zst
+     2      0    41.6 KiB       128 KiB  3.078  XXH64  ./tmp12.zst
+     3      0    62.4 KiB       192 KiB  3.078  XXH64  ./tmp123.zst
+     1      0    20.8 KiB      64.0 KiB  3.078  XXH64  ./tmp2.zst
+     1      0    20.8 KiB      64.0 KiB  3.078  XXH64  ./tmp3.zst
+     1      0      16   B         7   B  0.438   None  ./world.zst
+----------------------------------------------------------------- 
+    12      0     166 KiB       512 KiB  3.077         8 files
+./hello.zst 
+# Zstandard Frames: 1
+Window Size: 7 B (7 B)
+Compressed Size: 16 B (16 B)
+Decompressed Size: 7 B (7 B)
+Ratio: 0.4375
+Check: None
+
+./helloworld.zst 
+# Zstandard Frames: 2
+Window Size: 7 B (7 B)
+Compressed Size: 40 B (40 B)
+Decompressed Size: 14 B (14 B)
+Ratio: 0.3500
+Check: XXH64
+
+./tmp1.zst 
+# Zstandard Frames: 1
+Window Size: 64.0 KiB (65537 B)
+Compressed Size: 20.8 KiB (21289 B)
+Decompressed Size: 64.0 KiB (65537 B)
+Ratio: 3.0784
+Check: XXH64
+
+./tmp12.zst 
+# Zstandard Frames: 2
+Window Size: 64.0 KiB (65537 B)
+Compressed Size: 41.6 KiB (42578 B)
+Decompressed Size: 128 KiB (131074 B)
+Ratio: 3.0784
+Check: XXH64
+
+./tmp123.zst 
+# Zstandard Frames: 3
+Window Size: 64.0 KiB (65537 B)
+Compressed Size: 62.4 KiB (63867 B)
+Decompressed Size: 192 KiB (196611 B)
+Ratio: 3.0784
+Check: XXH64
+
+./tmp2.zst 
+# Zstandard Frames: 1
+Window Size: 64.0 KiB (65537 B)
+Compressed Size: 20.8 KiB (21289 B)
+Decompressed Size: 64.0 KiB (65537 B)
+Ratio: 3.0784
+Check: XXH64
+
+./tmp3.zst 
+# Zstandard Frames: 1
+Window Size: 64.0 KiB (65537 B)
+Compressed Size: 20.8 KiB (21289 B)
+Decompressed Size: 64.0 KiB (65537 B)
+Ratio: 3.0784
+Check: XXH64
+
+./world.zst 
+# Zstandard Frames: 1
+Window Size: 7 B (7 B)
+Compressed Size: 16 B (16 B)
+Decompressed Size: 7 B (7 B)
+Ratio: 0.4375
+Check: None
+
+
+===>  zstd --list/-l error detection tests 
+Frames  Skips  Compressed  Uncompressed  Ratio  Check  Filename
+File "tmp1" not compressed by zstd 
+     1      0    20.8 KiB      64.0 KiB  3.078  XXH64  tmp1.zst
+----------------------------------------------------------------- 
+     1      0    20.8 KiB      64.0 KiB  3.078  XXH64  1 files
+Frames  Skips  Compressed  Uncompressed  Ratio  Check  Filename
+File "tmp1" not compressed by zstd 
+     1      0    20.8 KiB      64.0 KiB  3.078  XXH64  tmp1.zst
+     2      0    41.6 KiB       128 KiB  3.078  XXH64  tmp12.zst
+     3      0    62.4 KiB       192 KiB  3.078  XXH64  tmp123.zst
+File "tmp2" not compressed by zstd 
+     1      0    20.8 KiB      64.0 KiB  3.078  XXH64  tmp2.zst
+File "tmp3" not compressed by zstd 
+     1      0    20.8 KiB      64.0 KiB  3.078  XXH64  tmp3.zst
+----------------------------------------------------------------- 
+     8      0     166 KiB       512 KiB  3.078  XXH64  5 files
+File "tmp1" not compressed by zstd 
+
+tmp1.zst 
+# Zstandard Frames: 1
+Window Size: 64.0 KiB (65537 B)
+Compressed Size: 20.8 KiB (21289 B)
+Decompressed Size: 64.0 KiB (65537 B)
+Ratio: 3.0784
+Check: XXH64
+
+tmp12.zst 
+# Zstandard Frames: 2
+Window Size: 64.0 KiB (65537 B)
+Compressed Size: 41.6 KiB (42578 B)
+Decompressed Size: 128 KiB (131074 B)
+Ratio: 3.0784
+Check: XXH64
+
+tmp123.zst 
+# Zstandard Frames: 3
+Window Size: 64.0 KiB (65537 B)
+Compressed Size: 62.4 KiB (63867 B)
+Decompressed Size: 192 KiB (196611 B)
+Ratio: 3.0784
+Check: XXH64
+
+File "tmp2" not compressed by zstd 
+
+tmp12.zst 
+# Zstandard Frames: 2
+Window Size: 64.0 KiB (65537 B)
+Compressed Size: 41.6 KiB (42578 B)
+Decompressed Size: 128 KiB (131074 B)
+Ratio: 3.0784
+Check: XXH64
+
+test : detect truncated compressed file 
+Frames  Skips  Compressed  Uncompressed  Ratio  Check  Filename
+File "truncated-input.txt.zst" is truncated 
+
+===>  zstd --list/-l errors when presented with stdin / no files
+Frames  Skips  Compressed  Uncompressed  Ratio  Check  Filename
+     1      0    20.8 KiB      64.0 KiB  3.078  XXH64  tmp1.zst
+
+===>  zstd --list/-l test with null files 
+Frames  Skips  Compressed  Uncompressed  Ratio  Check  Filename
+     1      0      13   B         0   B  0.000  XXH64  tmp5.zst
+Frames  Skips  Compressed  Uncompressed  Ratio  Check  Filename
+File "tmp5" not compressed by zstd 
+     1      0      13   B         0   B  0.000  XXH64  tmp5.zst
+----------------------------------------------------------------- 
+     1      0      13   B         0   B  0.000  XXH64  1 files
+Decompressed Size: 0 B (0 B)
+File "tmp5" not compressed by zstd 
+
+tmp5.zst 
+# Zstandard Frames: 1
+Window Size: 0 B (0 B)
+Compressed Size: 13 B (13 B)
+Decompressed Size: 0 B (0 B)
+Ratio: 0.0000
+Check: XXH64
+
+
+===>  zstd --list/-l test with no content size field 
+Frames  Skips  Compressed  Uncompressed  Ratio  Check  Filename
+     1      0     168 KiB                       XXH64  tmp6.zst
+
+===>   zstd --list/-l test with no checksum 
+Frames  Skips  Compressed  Uncompressed  Ratio  Check  Filename
+     1      0    20.8 KiB      64.0 KiB  3.079   None  tmp1.zst
+tmp1.zst 
+# Zstandard Frames: 1
+Window Size: 64.0 KiB (65537 B)
+Compressed Size: 20.8 KiB (21285 B)
+Decompressed Size: 64.0 KiB (65537 B)
+Ratio: 3.0790
+Check: None
+
+
+===>  zstd trace tests 
+Loading tmp1...                                                                              |-tmp1              :     65537 ->  |-tmp1              :     65537 ->     21510 (x3.047),  287.6 MB/s  |-tmp1              :     65537 ->     21510 (x3.047),  287.6 MB/s, 1613.4 MB/s /-tmp1              :     65537 ->     21510 (x3.047),  287.6 MB/s, 1650.7 MB/s 1#
+Loading tmp1...                                                                              |-tmp1              :     65537 ->  |-tmp1              :     65537 ->     21406 (x3.062),  227.6 MB/s  |-tmp1              :     65537 ->     21406 (x3.062),  227.6 MB/s, 1482.1 MB/s /-tmp1              :     65537 ->     21406 (x3.062),  227.6 MB/s, 1505.5 MB/s 2#
+Loading tmp1...                                                                              |-tmp1              :     65537 ->  |-tmp1              :     65537 ->     21285 (x3.079),  125.3 MB/s  |-tmp1              :     65537 ->     21285 (x3.079),  125.3 MB/s, 1511.8 MB/s /-tmp1              :     65537 ->     21285 (x3.079),  125.3 MB/s  /-tmp1              :     65537 ->     21285 (x3.079),  125.3 MB/s, 1511.8 MB/s 3#
+Loading tmp1...                                                                              |-tmp1              :     65537 ->  |-tmp1              :     65537 ->     22583 (x2.902),   91.3 MB/s  |-tmp1              :     65537 ->     22583 (x2.902),   91.3 MB/s,  934.5 MB/s /-tmp1              :     65537 ->     22583 (x2.902),  157.7 MB/s  /-tmp1              :     65537 ->     22583 (x2.902),  157.7 MB/s,  934.5 MB/s 4#
+Loading tmp1...                                                                              |-tmp1              :     65537 ->  |-tmp1              :     65537 ->     22117 (x2.963),   75.6 MB/s  |-tmp1              :     65537 ->     22117 (x2.963),   75.6 MB/s,  932.7 MB/s /-tmp1              :     65537 ->     22117 (x2.963),   93.5 MB/s  /-tmp1              :     65537 ->     22117 (x2.963),   93.5 MB/s,  932.7 MB/s 5#
+Loading tmp1...                                                                              |-tmp1              :     65537 ->  |-tmp1              :     65537 ->     22026 (x2.975),   67.1 MB/s  |-tmp1              :     65537 ->     22026 (x2.975),   67.1 MB/s,  953.5 MB/s /-tmp1              :     65537 ->     22026 (x2.975),   80.6 MB/s  /-tmp1              :     65537 ->     22026 (x2.975),   80.6 MB/s,  953.5 MB/s 6#
+Loading tmp1...                                                                              |-tmp1              :     65537 ->  |-tmp1              :     65537 ->     21987 (x2.981),   50.7 MB/s  |-tmp1              :     65537 ->     21987 (x2.981),   50.7 MB/s,  940.8 MB/s /-tmp1              :     65537 ->     21987 (x2.981),   50.7 MB/s,  940.8 MB/s 7#
+Loading tmp1...                                                                              |-tmp1              :     65537 ->  |-tmp1              :     65537 ->     21922 (x2.990),   53.6 MB/s  |-tmp1              :     65537 ->     21922 (x2.990),   53.6 MB/s,  962.5 MB/s /-tmp1              :     65537 ->     21922 (x2.990),   53.6 MB/s,  962.5 MB/s 8#
+Loading tmp1...                                                                              |-tmp1              :     65537 ->  |-tmp1              :     65537 ->     21889 (x2.994),   55.4 MB/s  |-tmp1              :     65537 ->     21889 (x2.994),   55.4 MB/s,  949.7 MB/s /-tmp1              :     65537 ->     21889 (x2.994),   55.4 MB/s,  959.8 MB/s 9#
+Loading tmp1...                                                                              |-tmp1              :     65537 ->  |-tmp1              :     65537 ->     21854 (x2.999),   48.7 MB/s  |-tmp1              :     65537 ->     21854 (x2.999),   48.7 MB/s,  969.7 MB/s10#
+Loading tmp1...       Loading tmp2...       Loading tmp3...                                                                              |- 3 files          :    196611 ->  |- 3 files          :    196611 ->     64530 (x3.047),  263.8 MB/s  |- 3 files          :    196611 ->     64530 (x3.047),  263.8 MB/s, 1657.9 MB/s /- 3 files          :    196611 ->     64530 (x3.047),  265.8 MB/s  /- 3 files          :    196611 ->     64530 (x3.047),  265.8 MB/s, 1657.9 MB/s 1#
+Loading tmp1...       Loading tmp2...       Loading tmp3...                                                                              |- 3 files          :    196611 ->  |- 3 files          :    196611 ->     64218 (x3.062),  210.8 MB/s  |- 3 files          :    196611 ->     64218 (x3.062),  210.8 MB/s,  171.8 MB/s /- 3 files          :    196611 ->     64218 (x3.062),  210.8 MB/s  2#
+Loading tmp1...       Loading tmp2...       Loading tmp3...                                                                              |- 3 files          :    196611 ->  |- 3 files          :    196611 ->     63855 (x3.079),  139.6 MB/s  |- 3 files          :    196611 ->     63855 (x3.079),  139.6 MB/s, 1539.8 MB/s /- 3 files          :    196611 ->     63855 (x3.079),  139.6 MB/s, 1560.1 MB/s 3#
+Loading tmp1...       Loading tmp2...       Loading tmp3...                                                                              |- 3 files          :    196611 ->  |- 3 files          :    196611 ->     67749 (x2.902),  131.0 MB/s  |- 3 files          :    196611 ->     67749 (x2.902),  131.0 MB/s,  926.5 MB/s 4#
+Loading tmp1...       Loading tmp2...       Loading tmp3...                                                                              |- 3 files          :    196611 ->  |- 3 files          :    196611 ->     66351 (x2.963),   79.8 MB/s  |- 3 files          :    196611 ->     66351 (x2.963),   79.8 MB/s,  913.0 MB/s 5#
+Loading tmp1...       Loading tmp2...       Loading tmp3...                                                                              |- 3 files          :    196611 ->  |- 3 files          :    196611 ->     66078 (x2.975),   70.6 MB/s  |- 3 files          :    196611 ->     66078 (x2.975),   70.6 MB/s,  323.3 MB/s 6#
+Loading tmp1...       Loading tmp2...       Loading tmp3...                                                                              |- 3 files          :    196611 ->  |- 3 files          :    196611 ->     65961 (x2.981),   69.2 MB/s  |- 3 files          :    196611 ->     65961 (x2.981),   69.2 MB/s,  953.3 MB/s 7#
+Loading tmp1...       Loading tmp2...       Loading tmp3...                                                                              |- 3 files          :    196611 ->  |- 3 files          :    196611 ->     65766 (x2.990),   64.3 MB/s  |- 3 files          :    196611 ->     65766 (x2.990),   64.3 MB/s,  931.8 MB/s 8#
+Loading tmp1...       Loading tmp2...       Loading tmp3...                                                                              |- 3 files          :    196611 ->  |- 3 files          :    196611 ->     65667 (x2.994),   62.6 MB/s  |- 3 files          :    196611 ->     65667 (x2.994),   62.6 MB/s,  901.0 MB/s 9#
+Loading tmp1...       Loading tmp2...       Loading tmp3...                                                                              |- 3 files          :    196611 ->  |- 3 files          :    196611 ->     65562 (x2.999),   34.7 MB/s  |- 3 files          :    196611 ->     65562 (x2.999),   34.7 MB/s,  954.7 MB/s10#
+
+===>   zstd long distance matching tests 
+roundTripTest: datagen -g0  | zstd -v --single-thread --long | zstd -d --single-thread --long
+roundTripTest: datagen -g9M  | zstd -v2 --single-thread --long | zstd -d2 --single-thread --long
+roundTripTest: datagen -g1M -P50 | zstd -v1 --single-thread --long=29 | zstd -d --memory=512MB
+roundTripTest: datagen -g1M -P50 | zstd -v1 --single-thread --long=29 --zstd=wlog=28 | zstd -d --memory=256MB
+roundTripTest: datagen -g1M -P50 | zstd -v1 --single-thread --long=29 | zstd -d --long=28 --memory=512MB
+roundTripTest: datagen -g1M -P50 | zstd -v1 --single-thread --long=29 | zstd -d --zstd=wlog=28 --memory=512MB
+
+===>  zstd long distance matching with optimal parser compressed size tests 
+Skipping large data tests
+make[1]: Leaving directory '/usr/oppai/base/zstd-1.5.2/tests'

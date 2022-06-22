@@ -1,0 +1,158 @@
+[0/1] Running tests...
+Test project /usr/oppai/library/libjpeg-turbo-2.1.3/build
+      Start  1: cjpeg-shared-rgb-islow
+ 1/76 Test  #1: cjpeg-shared-rgb-islow ............................   Passed    0.01 sec
+      Start  2: cjpeg-shared-rgb-islow-cmp
+ 2/76 Test  #2: cjpeg-shared-rgb-islow-cmp ........................   Passed    0.00 sec
+      Start  3: djpeg-shared-rgb-islow
+ 3/76 Test  #3: djpeg-shared-rgb-islow ............................   Passed    0.00 sec
+      Start  4: djpeg-shared-rgb-islow-cmp
+ 4/76 Test  #4: djpeg-shared-rgb-islow-cmp ........................   Passed    0.00 sec
+      Start  5: djpeg-shared-rgb-islow-icc-cmp
+ 5/76 Test  #5: djpeg-shared-rgb-islow-icc-cmp ....................   Passed    0.00 sec
+      Start  6: jpegtran-shared-icc
+ 6/76 Test  #6: jpegtran-shared-icc ...............................   Passed    0.00 sec
+      Start  7: jpegtran-shared-icc-cmp
+ 7/76 Test  #7: jpegtran-shared-icc-cmp ...........................   Passed    0.00 sec
+      Start  8: cjpeg-shared-422-ifast-opt
+ 8/76 Test  #8: cjpeg-shared-422-ifast-opt ........................   Passed    0.00 sec
+      Start  9: cjpeg-shared-422-ifast-opt-cmp
+ 9/76 Test  #9: cjpeg-shared-422-ifast-opt-cmp ....................   Passed    0.00 sec
+      Start 10: djpeg-shared-422-ifast
+10/76 Test #10: djpeg-shared-422-ifast ............................   Passed    0.00 sec
+      Start 11: djpeg-shared-422-ifast-cmp
+11/76 Test #11: djpeg-shared-422-ifast-cmp ........................   Passed    0.00 sec
+      Start 12: cjpeg-shared-440-islow
+12/76 Test #12: cjpeg-shared-440-islow ............................   Passed    0.00 sec
+      Start 13: cjpeg-shared-440-islow-cmp
+13/76 Test #13: cjpeg-shared-440-islow-cmp ........................   Passed    0.00 sec
+      Start 14: djpeg-shared-440-islow
+14/76 Test #14: djpeg-shared-440-islow ............................   Passed    0.00 sec
+      Start 15: djpeg-shared-440-islow-cmp
+15/76 Test #15: djpeg-shared-440-islow-cmp ........................   Passed    0.00 sec
+      Start 16: djpeg-shared-422m-ifast
+16/76 Test #16: djpeg-shared-422m-ifast ...........................   Passed    0.00 sec
+      Start 17: djpeg-shared-422m-ifast-cmp
+17/76 Test #17: djpeg-shared-422m-ifast-cmp .......................   Passed    0.00 sec
+      Start 18: cjpeg-shared-420-q100-ifast-prog
+18/76 Test #18: cjpeg-shared-420-q100-ifast-prog ..................   Passed    0.00 sec
+      Start 19: cjpeg-shared-420-q100-ifast-prog-cmp
+19/76 Test #19: cjpeg-shared-420-q100-ifast-prog-cmp ..............   Passed    0.00 sec
+      Start 20: djpeg-shared-420-q100-ifast-prog
+20/76 Test #20: djpeg-shared-420-q100-ifast-prog ..................   Passed    0.00 sec
+      Start 21: djpeg-shared-420-q100-ifast-prog-cmp
+21/76 Test #21: djpeg-shared-420-q100-ifast-prog-cmp ..............   Passed    0.00 sec
+      Start 22: djpeg-shared-420m-q100-ifast-prog
+22/76 Test #22: djpeg-shared-420m-q100-ifast-prog .................   Passed    0.00 sec
+      Start 23: djpeg-shared-420m-q100-ifast-prog-cmp
+23/76 Test #23: djpeg-shared-420m-q100-ifast-prog-cmp .............   Passed    0.00 sec
+      Start 24: cjpeg-shared-gray-islow
+24/76 Test #24: cjpeg-shared-gray-islow ...........................   Passed    0.00 sec
+      Start 25: cjpeg-shared-gray-islow-cmp
+25/76 Test #25: cjpeg-shared-gray-islow-cmp .......................   Passed    0.00 sec
+      Start 26: djpeg-shared-gray-islow
+26/76 Test #26: djpeg-shared-gray-islow ...........................   Passed    0.00 sec
+      Start 27: djpeg-shared-gray-islow-cmp
+27/76 Test #27: djpeg-shared-gray-islow-cmp .......................   Passed    0.00 sec
+      Start 28: djpeg-shared-gray-islow-rgb
+28/76 Test #28: djpeg-shared-gray-islow-rgb .......................   Passed    0.00 sec
+      Start 29: djpeg-shared-gray-islow-rgb-cmp
+29/76 Test #29: djpeg-shared-gray-islow-rgb-cmp ...................   Passed    0.00 sec
+      Start 30: cjpeg-shared-420s-ifast-opt
+30/76 Test #30: cjpeg-shared-420s-ifast-opt .......................   Passed    0.00 sec
+      Start 31: cjpeg-shared-420s-ifast-opt-cmp
+31/76 Test #31: cjpeg-shared-420s-ifast-opt-cmp ...................   Passed    0.00 sec
+      Start 32: cjpeg-shared-3x2-float-prog
+32/76 Test #32: cjpeg-shared-3x2-float-prog .......................   Passed    0.00 sec
+      Start 33: cjpeg-shared-3x2-float-prog-cmp
+33/76 Test #33: cjpeg-shared-3x2-float-prog-cmp ...................   Passed    0.00 sec
+      Start 34: djpeg-shared-3x2-float-prog
+34/76 Test #34: djpeg-shared-3x2-float-prog .......................   Passed    0.00 sec
+      Start 35: djpeg-shared-3x2-float-prog-cmp
+35/76 Test #35: djpeg-shared-3x2-float-prog-cmp ...................   Passed    0.00 sec
+      Start 36: cjpeg-shared-3x2-ifast-prog
+36/76 Test #36: cjpeg-shared-3x2-ifast-prog .......................   Passed    0.00 sec
+      Start 37: cjpeg-shared-3x2-ifast-prog-cmp
+37/76 Test #37: cjpeg-shared-3x2-ifast-prog-cmp ...................   Passed    0.00 sec
+      Start 38: djpeg-shared-3x2-ifast-prog
+38/76 Test #38: djpeg-shared-3x2-ifast-prog .......................   Passed    0.00 sec
+      Start 39: djpeg-shared-3x2-ifast-prog-cmp
+39/76 Test #39: djpeg-shared-3x2-ifast-prog-cmp ...................   Passed    0.00 sec
+      Start 40: djpeg-shared-420m-islow-2_1
+40/76 Test #40: djpeg-shared-420m-islow-2_1 .......................   Passed    0.00 sec
+      Start 41: djpeg-shared-420m-islow-2_1-cmp
+41/76 Test #41: djpeg-shared-420m-islow-2_1-cmp ...................   Passed    0.00 sec
+      Start 42: djpeg-shared-420m-islow-15_8
+42/76 Test #42: djpeg-shared-420m-islow-15_8 ......................   Passed    0.00 sec
+      Start 43: djpeg-shared-420m-islow-15_8-cmp
+43/76 Test #43: djpeg-shared-420m-islow-15_8-cmp ..................   Passed    0.00 sec
+      Start 44: djpeg-shared-420m-islow-13_8
+44/76 Test #44: djpeg-shared-420m-islow-13_8 ......................   Passed    0.00 sec
+      Start 45: djpeg-shared-420m-islow-13_8-cmp
+45/76 Test #45: djpeg-shared-420m-islow-13_8-cmp ..................   Passed    0.00 sec
+      Start 46: djpeg-shared-420m-islow-11_8
+46/76 Test #46: djpeg-shared-420m-islow-11_8 ......................   Passed    0.00 sec
+      Start 47: djpeg-shared-420m-islow-11_8-cmp
+47/76 Test #47: djpeg-shared-420m-islow-11_8-cmp ..................   Passed    0.00 sec
+      Start 48: djpeg-shared-420m-islow-9_8
+48/76 Test #48: djpeg-shared-420m-islow-9_8 .......................   Passed    0.00 sec
+      Start 49: djpeg-shared-420m-islow-9_8-cmp
+49/76 Test #49: djpeg-shared-420m-islow-9_8-cmp ...................   Passed    0.00 sec
+      Start 50: djpeg-shared-420m-islow-7_8
+50/76 Test #50: djpeg-shared-420m-islow-7_8 .......................   Passed    0.00 sec
+      Start 51: djpeg-shared-420m-islow-7_8-cmp
+51/76 Test #51: djpeg-shared-420m-islow-7_8-cmp ...................   Passed    0.00 sec
+      Start 52: djpeg-shared-420m-islow-3_4
+52/76 Test #52: djpeg-shared-420m-islow-3_4 .......................   Passed    0.00 sec
+      Start 53: djpeg-shared-420m-islow-3_4-cmp
+53/76 Test #53: djpeg-shared-420m-islow-3_4-cmp ...................   Passed    0.00 sec
+      Start 54: djpeg-shared-420m-islow-5_8
+54/76 Test #54: djpeg-shared-420m-islow-5_8 .......................   Passed    0.00 sec
+      Start 55: djpeg-shared-420m-islow-5_8-cmp
+55/76 Test #55: djpeg-shared-420m-islow-5_8-cmp ...................   Passed    0.00 sec
+      Start 56: djpeg-shared-420m-islow-1_2
+56/76 Test #56: djpeg-shared-420m-islow-1_2 .......................   Passed    0.00 sec
+      Start 57: djpeg-shared-420m-islow-1_2-cmp
+57/76 Test #57: djpeg-shared-420m-islow-1_2-cmp ...................   Passed    0.00 sec
+      Start 58: djpeg-shared-420m-islow-3_8
+58/76 Test #58: djpeg-shared-420m-islow-3_8 .......................   Passed    0.00 sec
+      Start 59: djpeg-shared-420m-islow-3_8-cmp
+59/76 Test #59: djpeg-shared-420m-islow-3_8-cmp ...................   Passed    0.00 sec
+      Start 60: djpeg-shared-420m-islow-1_4
+60/76 Test #60: djpeg-shared-420m-islow-1_4 .......................   Passed    0.00 sec
+      Start 61: djpeg-shared-420m-islow-1_4-cmp
+61/76 Test #61: djpeg-shared-420m-islow-1_4-cmp ...................   Passed    0.00 sec
+      Start 62: djpeg-shared-420m-islow-1_8
+62/76 Test #62: djpeg-shared-420m-islow-1_8 .......................   Passed    0.00 sec
+      Start 63: djpeg-shared-420m-islow-1_8-cmp
+63/76 Test #63: djpeg-shared-420m-islow-1_8-cmp ...................   Passed    0.00 sec
+      Start 64: djpeg-shared-420-islow-skip15_31
+64/76 Test #64: djpeg-shared-420-islow-skip15_31 ..................   Passed    0.00 sec
+      Start 65: djpeg-shared-420-islow-skip15_31-cmp
+65/76 Test #65: djpeg-shared-420-islow-skip15_31-cmp ..............   Passed    0.00 sec
+      Start 66: cjpeg-shared-420-islow-prog
+66/76 Test #66: cjpeg-shared-420-islow-prog .......................   Passed    0.00 sec
+      Start 67: djpeg-shared-420-islow-prog-crop62x62_71_71
+67/76 Test #67: djpeg-shared-420-islow-prog-crop62x62_71_71 .......   Passed    0.00 sec
+      Start 68: djpeg-shared-420-islow-prog-crop62x62_71_71-cmp
+68/76 Test #68: djpeg-shared-420-islow-prog-crop62x62_71_71-cmp ...   Passed    0.00 sec
+      Start 69: cjpeg-shared-444-islow
+69/76 Test #69: cjpeg-shared-444-islow ............................   Passed    0.00 sec
+      Start 70: djpeg-shared-444-islow-skip1_6
+70/76 Test #70: djpeg-shared-444-islow-skip1_6 ....................   Passed    0.00 sec
+      Start 71: djpeg-shared-444-islow-skip1_6-cmp
+71/76 Test #71: djpeg-shared-444-islow-skip1_6-cmp ................   Passed    0.00 sec
+      Start 72: cjpeg-shared-444-islow-prog
+72/76 Test #72: cjpeg-shared-444-islow-prog .......................   Passed    0.00 sec
+      Start 73: djpeg-shared-444-islow-prog-crop98x98_13_13
+73/76 Test #73: djpeg-shared-444-islow-prog-crop98x98_13_13 .......   Passed    0.00 sec
+      Start 74: djpeg-shared-444-islow-prog-crop98x98_13_13-cmp
+74/76 Test #74: djpeg-shared-444-islow-prog-crop98x98_13_13-cmp ...   Passed    0.00 sec
+      Start 75: jpegtran-shared-crop
+75/76 Test #75: jpegtran-shared-crop ..............................   Passed    0.00 sec
+      Start 76: jpegtran-shared-crop-cmp
+76/76 Test #76: jpegtran-shared-crop-cmp ..........................   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 76
+
+Total Test time (real) =   0.12 sec

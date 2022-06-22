@@ -1,0 +1,31 @@
+make  check-am
+make[1]: Entering directory '/usr/oppai/base/pcre-8.45/bld'
+make  
+make[2]: Entering directory '/usr/oppai/base/pcre-8.45/bld'
+make  all-am
+make[3]: Entering directory '/usr/oppai/base/pcre-8.45/bld'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/usr/oppai/base/pcre-8.45/bld'
+make[2]: Leaving directory '/usr/oppai/base/pcre-8.45/bld'
+make  check-TESTS
+make[2]: Entering directory '/usr/oppai/base/pcre-8.45/bld'
+make[3]: Entering directory '/usr/oppai/base/pcre-8.45/bld'
+PASS: pcre_scanner_unittest
+PASS: pcre_stringpiece_unittest
+PASS: pcrecpp_unittest
+PASS: RunGrepTest
+PASS: RunTest
+============================================================================
+Testsuite summary for PCRE 8.45
+============================================================================
+# TOTAL: 5
+# PASS:  5
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/usr/oppai/base/pcre-8.45/bld'
+make[2]: Leaving directory '/usr/oppai/base/pcre-8.45/bld'
+make[1]: Leaving directory '/usr/oppai/base/pcre-8.45/bld'

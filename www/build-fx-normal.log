@@ -1,0 +1,1263 @@
+created virtual environment CPython3.10.2.final.0-64 in 70ms
+  creator CPython3Posix(dest=/usr/oppai/www/firefox-98.0.2/firefox-build-dir/_virtualenvs/build, clear=False, no_vcs_ignore=False, global=False)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator
+ 0:01.62 /usr/oppai/www/firefox-98.0.2/firefox-build-dir/_virtualenvs/build/bin/python /usr/oppai/www/firefox-98.0.2/configure.py
+ 0:01.78 Using Python 3.10.2 from /usr/oppai/www/firefox-98.0.2/firefox-build-dir/_virtualenvs/build/bin/python
+ 0:01.90 Adding configure options from /usr/oppai/www/firefox-98.0.2/mozconfig
+ 0:01.90   --with-system-icu
+ 0:01.90   --with-system-libevent
+ 0:01.90   --with-system-libvpx
+ 0:01.90   --with-system-nspr
+ 0:01.90   --with-system-nss
+ 0:01.90   --with-system-webp
+ 0:01.90   --enable-official-branding
+ 0:01.90   --disable-debug-symbols
+ 0:01.90   --disable-elf-hack
+ 0:01.90   --prefix=/usr
+ 0:01.90   --enable-application=browser
+ 0:01.90   --disable-crashreporter
+ 0:01.90   --disable-updater
+ 0:01.90   --disable-tests
+ 0:01.90   --enable-system-ffi
+ 0:01.90   --enable-system-pixman
+ 0:01.90   --with-system-jpeg
+ 0:01.90   --with-system-png
+ 0:01.90   --with-system-zlib
+ 0:01.90   --without-wasm-sandboxed-libraries
+ 0:01.90   --with-libclang-path=/usr/lib
+ 0:01.90   --enable-linker=lld
+ 0:01.90   --disable-cargo-incremental
+ 0:01.90   --target=x86_64-unknown-linux-musl
+ 0:01.90   --host=x86_64-unknown-linux-musl
+ 0:01.90   --disable-jemalloc
+ 0:01.90   --disable-profiling
+ 0:01.90 checking for vcs source checkout... no
+ 0:01.97 checking for a shell... /usr/bin/sh
+ 0:01.98 checking for host system type... x86_64-unknown-linux-musl
+ 0:01.98 checking for target system type... x86_64-unknown-linux-musl
+ 0:02.60 checking whether cross compiling... no
+ 0:02.82 checking for Python 3... /usr/oppai/www/firefox-98.0.2/firefox-build-dir/_virtualenvs/build/bin/python (3.10.2)
+ 0:02.84 checking for wget... /usr/bin/wget
+ 0:02.85 checking for ccache... not found
+ 0:02.85 checking for the target C compiler... /usr/bin/clang
+ 0:02.89 checking whether the target C compiler can be used... yes
+ 0:02.89 checking the target C compiler version... 13.0.1
+ 0:02.91 checking the target C compiler works... yes
+ 0:02.91 checking for the target C++ compiler... /usr/bin/clang++
+ 0:02.96 checking whether the target C++ compiler can be used... yes
+ 0:02.96 checking the target C++ compiler version... 13.0.1
+ 0:02.97 checking the target C++ compiler works... yes
+ 0:02.98 checking for the host C compiler... /usr/bin/clang
+ 0:03.02 checking whether the host C compiler can be used... yes
+ 0:03.02 checking the host C compiler version... 13.0.1
+ 0:03.04 checking the host C compiler works... yes
+ 0:03.04 checking for the host C++ compiler... /usr/bin/clang++
+ 0:03.08 checking whether the host C++ compiler can be used... yes
+ 0:03.08 checking the host C++ compiler version... 13.0.1
+ 0:03.10 checking the host C++ compiler works... yes
+ 0:03.12 checking for linker... lld
+ 0:03.14 checking for 64-bit OS... yes
+ 0:03.17 checking for new enough STL headers from libstdc++... yes
+ 0:03.17 checking for the assembler... /usr/bin/clang
+ 0:03.19 checking for ar... /usr/bin/llvm-ar
+ 0:03.20 checking for nm... /usr/bin/llvm-nm
+ 0:03.21 checking for pkg_config... /usr/bin/pkg-config
+ 0:03.21 checking for pkg-config version... 0.29.2
+ 0:03.21 checking whether pkg-config is pkgconf... no
+ 0:03.25 checking for strndup... yes
+ 0:03.29 checking for posix_memalign... yes
+ 0:03.33 checking for memalign... yes
+ 0:03.38 checking for malloc_usable_size... yes
+ 0:03.39 checking for stdint.h... yes
+ 0:03.41 checking for inttypes.h... yes
+ 0:03.44 checking for malloc.h... yes
+ 0:03.45 checking for alloca.h... yes
+ 0:03.47 checking for sys/byteorder.h... no
+ 0:03.49 checking for getopt.h... yes
+ 0:03.51 checking for unistd.h... yes
+ 0:03.53 checking for nl_types.h... yes
+ 0:03.55 checking for cpuid.h... yes
+ 0:03.57 checking for fts.h... yes
+ 0:03.59 checking for sys/statvfs.h... yes
+ 0:03.61 checking for sys/statfs.h... yes
+ 0:03.63 checking for sys/vfs.h... yes
+ 0:03.65 checking for sys/mount.h... yes
+ 0:03.66 checking for sys/quota.h... no
+ 0:03.68 checking for linux/quota.h... yes
+ 0:03.71 checking for linux/if_addr.h... yes
+ 0:03.73 checking for linux/rtnetlink.h... yes
+ 0:03.75 checking for sys/queue.h... yes
+ 0:03.77 checking for sys/types.h... yes
+ 0:03.79 checking for netinet/in.h... yes
+ 0:03.81 checking for byteswap.h... yes
+ 0:03.83 checking for memfd_create in sys/mman.h... yes
+ 0:03.86 checking for linux/perf_event.h... yes
+ 0:03.87 checking for perf_event_open system call... yes
+ 0:03.89 checking whether the C compiler supports -Wbitfield-enum-conversion... yes
+ 0:03.91 checking whether the C++ compiler supports -Wbitfield-enum-conversion... yes
+ 0:03.93 checking whether the C++ compiler supports -Wdeprecated-this-capture... yes
+ 0:03.95 checking whether the C compiler supports -Wformat-type-confusion... yes
+ 0:03.97 checking whether the C++ compiler supports -Wformat-type-confusion... yes
+ 0:03.99 checking whether the C compiler supports -Wshadow-field-in-constructor-modified... yes
+ 0:04.01 checking whether the C++ compiler supports -Wshadow-field-in-constructor-modified... yes
+ 0:04.03 checking whether the C compiler supports -Wno-error=tautological-type-limit-compare... yes
+ 0:04.05 checking whether the C++ compiler supports -Wno-error=tautological-type-limit-compare... yes
+ 0:04.06 checking whether the C compiler supports -Wunreachable-code-return... yes
+ 0:04.08 checking whether the C++ compiler supports -Wunreachable-code-return... yes
+ 0:04.10 checking whether the C compiler supports -Wunused-but-set-parameter... yes
+ 0:04.12 checking whether the C++ compiler supports -Wunused-but-set-parameter... yes
+ 0:04.14 checking whether the C compiler supports -Wclass-varargs... yes
+ 0:04.16 checking whether the C++ compiler supports -Wclass-varargs... yes
+ 0:04.18 checking whether the C++ compiler supports -Wempty-init-stmt... yes
+ 0:04.20 checking whether the C compiler supports -Wfloat-overflow-conversion... yes
+ 0:04.21 checking whether the C++ compiler supports -Wfloat-overflow-conversion... yes
+ 0:04.23 checking whether the C compiler supports -Wfloat-zero-conversion... yes
+ 0:04.25 checking whether the C++ compiler supports -Wfloat-zero-conversion... yes
+ 0:04.27 checking whether the C compiler supports -Wloop-analysis... yes
+ 0:04.29 checking whether the C++ compiler supports -Wloop-analysis... yes
+ 0:04.31 checking whether the C compiler supports -Wno-range-loop-analysis... yes
+ 0:04.33 checking whether the C++ compiler supports -Wno-range-loop-analysis... yes
+ 0:04.35 checking whether the C++ compiler supports -Wc++2a-compat... yes
+ 0:04.36 checking whether the C++ compiler supports -Wcomma... yes
+ 0:04.38 checking whether the C compiler supports -Wduplicated-cond... no
+ 0:04.39 checking whether the C++ compiler supports -Wduplicated-cond... no
+ 0:04.41 checking whether the C compiler supports -Wenum-compare-conditional... yes
+ 0:04.43 checking whether the C++ compiler supports -Wenum-compare-conditional... yes
+ 0:04.45 checking whether the C++ compiler supports -Wimplicit-fallthrough... yes
+ 0:04.47 checking whether the C compiler supports -Wstring-conversion... yes
+ 0:04.49 checking whether the C++ compiler supports -Wstring-conversion... yes
+ 0:04.51 checking whether the C++ compiler supports -Wno-inline-new-delete... yes
+ 0:04.52 checking whether the C compiler supports -Wno-error=maybe-uninitialized... no
+ 0:04.54 checking whether the C++ compiler supports -Wno-error=maybe-uninitialized... no
+ 0:04.56 checking whether the C compiler supports -Wno-error=deprecated-declarations... yes
+ 0:04.58 checking whether the C++ compiler supports -Wno-error=deprecated-declarations... yes
+ 0:04.60 checking whether the C compiler supports -Wno-error=array-bounds... yes
+ 0:04.61 checking whether the C++ compiler supports -Wno-error=array-bounds... yes
+ 0:04.63 checking whether the C compiler supports -Wno-error=coverage-mismatch... no
+ 0:04.65 checking whether the C++ compiler supports -Wno-error=coverage-mismatch... no
+ 0:04.67 checking whether the C compiler supports -Wno-error=backend-plugin... yes
+ 0:04.69 checking whether the C++ compiler supports -Wno-error=backend-plugin... yes
+ 0:04.70 checking whether the C compiler supports -Wno-error=free-nonheap-object... yes
+ 0:04.72 checking whether the C++ compiler supports -Wno-error=free-nonheap-object... yes
+ 0:04.74 checking whether the C compiler supports -Wno-multistatement-macros... no
+ 0:04.76 checking whether the C++ compiler supports -Wno-multistatement-macros... no
+ 0:04.78 checking whether the C compiler supports -Wno-error=return-std-move... yes
+ 0:04.80 checking whether the C++ compiler supports -Wno-error=return-std-move... yes
+ 0:04.81 checking whether the C compiler supports -Wno-error=class-memaccess... no
+ 0:04.83 checking whether the C++ compiler supports -Wno-error=class-memaccess... no
+ 0:04.85 checking whether the C compiler supports -Wno-error=atomic-alignment... yes
+ 0:04.86 checking whether the C++ compiler supports -Wno-error=atomic-alignment... yes
+ 0:04.88 checking whether the C compiler supports -Wno-error=deprecated-copy... yes
+ 0:04.90 checking whether the C++ compiler supports -Wno-error=deprecated-copy... yes
+ 0:04.92 checking whether the C compiler supports -Wformat... yes
+ 0:04.94 checking whether the C++ compiler supports -Wformat... yes
+ 0:04.96 checking whether the C compiler supports -Wformat-security... yes
+ 0:04.98 checking whether the C++ compiler supports -Wformat-security... yes
+ 0:05.00 checking whether the C compiler supports -Wformat-overflow=2... no
+ 0:05.01 checking whether the C++ compiler supports -Wformat-overflow=2... no
+ 0:05.03 checking whether the C compiler supports -Wno-gnu-zero-variadic-macro-arguments... yes
+ 0:05.05 checking whether the C++ compiler supports -Wno-gnu-zero-variadic-macro-arguments... yes
+ 0:05.07 checking whether the C compiler supports -Werror=implicit-function-declaration... yes
+ 0:05.09 checking whether the C compiler supports -Wno-psabi... yes
+ 0:05.11 checking whether the C++ compiler supports -Wno-psabi... yes
+ 0:05.13 checking whether the C++ compiler supports -fno-sized-deallocation... yes
+ 0:05.15 checking whether the C++ compiler supports -fno-aligned-new... yes
+ 0:05.15 checking for llvm_profdata... /usr/bin/llvm-profdata
+ 0:05.17 checking for alsa... yes
+ 0:05.17 checking MOZ_ALSA_CFLAGS...
+ 0:05.17 checking MOZ_ALSA_LIBS... -lasound
+ 0:05.17 checking for libpulse... yes
+ 0:05.17 checking MOZ_PULSEAUDIO_CFLAGS... -D_REENTRANT
+ 0:05.17 checking MOZ_PULSEAUDIO_LIBS... -lpulse -pthread
+ 0:05.17 checking for nspr >= 4.32... yes
+ 0:05.17 checking NSPR_CFLAGS... -I/usr/include/nspr
+ 0:05.17 checking NSPR_LIBS... -lplds4 -lplc4 -lnspr4
+ 0:05.17 checking for rustc... /usr/bin/rustc
+ 0:05.18 checking for cargo... /usr/bin/cargo
+ 0:05.26 checking rustc version... 1.59.0
+ 0:05.27 checking cargo version... 1.59.0
+ 0:05.32 checking for rust host triplet... x86_64-unknown-linux-musl
+ 0:05.36 checking for rust target triplet... x86_64-unknown-linux-musl
+ 0:05.36 checking for rustdoc... /usr/bin/rustdoc
+ 0:05.36 checking for cbindgen... /usr/bin/cbindgen
+ 0:05.36 checking for rustfmt... /usr/bin/rustfmt
+ 0:05.36 checking for clang for bindgen... /usr/bin/clang++
+ 0:05.36 checking for libclang for bindgen... /usr/lib/libclang.so
+ 0:05.37 checking that libclang is new enough... yes
+ 0:05.37 checking bindgen cflags... -x c++ -fno-sized-deallocation -fno-aligned-new -DTRACING=1 -DIMPL_LIBXUL -DMOZILLA_INTERNAL_API -DRUST_BINDGEN -DOS_POSIX=1 -DOS_LINUX=1 -std=gnu++17
+ 0:05.38 checking for libffi > 3.0.9... yes
+ 0:05.38 checking MOZ_FFI_CFLAGS...
+ 0:05.38 checking MOZ_FFI_LIBS... -lffi
+ 0:05.38 checking for icu-i18n >= 70.1... yes
+ 0:05.38 checking MOZ_ICU_CFLAGS...
+ 0:05.38 checking MOZ_ICU_LIBS... -licui18n -licuuc -licudata
+ 0:05.40 checking for tm_zone and tm_gmtoff in struct tm... yes
+ 0:05.44 checking for getpagesize... yes
+ 0:05.48 checking for gmtime_r... yes
+ 0:05.53 checking for localtime_r... yes
+ 0:05.57 checking for gettid... yes
+ 0:05.61 checking for setpriority... yes
+ 0:05.65 checking for syscall... yes
+ 0:05.69 checking for getc_unlocked... yes
+ 0:05.73 checking for pthread_getname_np... no
+ 0:05.77 checking for pthread_get_name_np... no
+ 0:05.82 checking for strerror... yes
+ 0:05.86 checking for __cxa_demangle... yes
+ 0:05.88 checking for unwind.h... yes
+ 0:05.92 checking for _Unwind_Backtrace... yes
+ 0:05.96 checking for _getc_nolock... no
+ 0:06.00 checking for localeconv... yes
+ 0:06.01 checking for nodejs... /usr/bin/node (17.8.0)
+ 0:06.01 checking for gtk+-wayland-3.0 >= 3.14 xkbcommon >= 0.4.1 libdrm >= 2.4... yes
+ 0:06.02 checking MOZ_WAYLAND_CFLAGS... -pthread -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/json-glib-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libdrm
+ 0:06.02 checking MOZ_WAYLAND_LIBS... -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lxkbcommon -ldrm
+ 0:06.02 checking for pango >= 1.22.0... yes
+ 0:06.02 checking MOZ_PANGO_CFLAGS... -pthread -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/json-glib-1.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+ 0:06.02 checking MOZ_PANGO_LIBS... -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lharfbuzz
+ 0:06.03 checking for fontconfig >= 2.7.0... yes
+ 0:06.03 checking _FONTCONFIG_CFLAGS... -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+ 0:06.03 checking _FONTCONFIG_LIBS... -lfontconfig -lfreetype
+ 0:06.03 checking for freetype2 >= 9.10.3... yes
+ 0:06.03 checking _FT2_CFLAGS... -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+ 0:06.03 checking _FT2_LIBS... -lfreetype
+ 0:06.03 checking for tar... /usr/bin/tar
+ 0:06.04 checking for unzip... /usr/bin/unzip
+ 0:06.04 checking for gn... not found
+ 0:06.04 checking for the Mozilla API key... no
+ 0:06.04 checking for the Google Location Service API key... no
+ 0:06.04 checking for the Google Safebrowsing API key... no
+ 0:06.04 checking for the Bing API key... no
+ 0:06.04 checking for the Adjust SDK key... no
+ 0:06.04 checking for the Leanplum SDK key... no
+ 0:06.04 checking for the Pocket API key... no
+ 0:06.04 checking for libwebp >= 1.0.2 libwebpdemux >= 1.0.2... yes
+ 0:06.04 checking MOZ_WEBP_CFLAGS...
+ 0:06.04 checking MOZ_WEBP_LIBS... -lwebpdemux -lwebp
+ 0:06.04 checking for x11 xcb xcb-shm x11-xcb xext xrandr >= 1.4.0 xcomposite xcursor xdamage xfixes xi xtst... yes
+ 0:06.04 checking MOZ_X11_CFLAGS...
+ 0:06.05 checking MOZ_X11_LIBS... -lxcb-shm -lX11-xcb -lX11 -lxcb -lXext -lXrandr -lXcomposite -lXcursor -lXdamage -lXfixes -lXi -lXtst
+ 0:06.05 checking for ice sm... yes
+ 0:06.05 checking MOZ_X11_SM_CFLAGS...
+ 0:06.05 checking for vpx >= 1.8.0... yes
+ 0:06.05 checking MOZ_LIBVPX_CFLAGS...
+ 0:06.05 checking MOZ_LIBVPX_LIBS... -lvpx -lm
+ 0:06.07 checking for vpx/vpx_decoder.h... yes
+ 0:06.11 checking for vpx_codec_dec_init_ver... yes
+ 0:06.15 checking for jpeg_destroy_compress... yes
+ 0:06.18 checking for sufficient jpeg library version... yes
+ 0:06.20 checking for sufficient libjpeg-turbo JCS_EXTENSIONS... yes
+ 0:06.20 checking for libpng >= 1.6.35... yes
+ 0:06.20 checking MOZ_PNG_CFLAGS... -I/usr/include/libpng16
+ 0:06.20 checking MOZ_PNG_LIBS... -lpng16 -lz
+ 0:06.24 checking for png_get_acTL... yes
+ 0:06.25 checking for nasm... /usr/bin/nasm
+ 0:06.25 checking nasm version... 2.15.05
+ 0:06.25 checking for dump_syms... not found
+ 0:06.29 checking for getcontext... no
+ 0:06.29 checking for nss >= 3.75... yes
+ 0:06.29 checking NSS_CFLAGS... -I/usr/include/nss -I/usr/include/nspr
+ 0:06.30 checking NSS_LIBS... -lssl3 -lsmime3 -lnss3 -lnssutil3 -lplds4 -lplc4 -lnspr4
+ 0:06.30 checking for libevent... yes
+ 0:06.30 checking MOZ_LIBEVENT_CFLAGS...
+ 0:06.30 checking MOZ_LIBEVENT_LIBS... -levent
+ 0:06.30 checking for gtk+-3.0 >= 3.14.0 gtk+-unix-print-3.0 glib-2.0 gobject-2.0 gio-unix-2.0... yes
+ 0:06.31 checking MOZ_GTK3_CFLAGS... -pthread -I/usr/include/gtk-3.0/unix-print -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/json-glib-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/libdrm -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/gio-unix-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+ 0:06.31 checking MOZ_GTK3_LIBS... -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+ 0:06.31 checking for glib-2.0 >= 2.42 gobject-2.0... yes
+ 0:06.31 checking GLIB_CFLAGS... -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+ 0:06.31 checking GLIB_LIBS... -lgobject-2.0 -lglib-2.0
+ 0:06.31 checking for dbus-1 >= 0.60... yes
+ 0:06.31 checking MOZ_DBUS_CFLAGS... -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include
+ 0:06.32 checking MOZ_DBUS_LIBS... -ldbus-1
+ 0:06.32 checking for dbus-glib-1 >= 0.60... yes
+ 0:06.32 checking MOZ_DBUS_GLIB_CFLAGS... -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+ 0:06.32 checking MOZ_DBUS_GLIB_LIBS... -ldbus-glib-1 -ldbus-1 -lgobject-2.0 -lglib-2.0
+ 0:06.32 checking for pixman-1 >= 0.36.0... yes
+ 0:06.32 checking MOZ_PIXMAN_CFLAGS... -I/usr/include/pixman-1
+ 0:06.32 checking MOZ_PIXMAN_LIBS... -lpixman-1
+ 0:06.34 checking for sin_len in struct sockaddr_in... no
+ 0:06.36 checking for sin_len6 in struct sockaddr_in6... no
+ 0:06.38 checking for sa_len in struct sockaddr... no
+ 0:06.40 checking for pthread_cond_timedwait_monotonic_np... no
+ 0:06.42 checking for 32-bits ethtool_cmd.speed... yes
+ 0:06.44 checking for linux/joystick.h... yes
+ 0:06.48 checking for stat64... yes
+ 0:06.52 checking for lstat64... yes
+ 0:06.56 checking for truncate64... yes
+ 0:06.60 checking for statvfs64... yes
+ 0:06.64 checking for statvfs... yes
+ 0:06.68 checking for statfs64... yes
+ 0:06.72 checking for statfs... yes
+ 0:06.77 checking for lutimes... yes
+ 0:06.81 checking for posix_fadvise... yes
+ 0:06.85 checking for posix_fallocate... yes
+ 0:06.89 checking for arc4random... no
+ 0:06.93 checking for arc4random_buf... no
+ 0:06.97 checking for mallinfo... no
+ 0:06.97 checking for awk... /usr/bin/gawk
+ 0:06.97 checking for perl... /usr/bin/perl
+ 0:06.97 checking for minimum required perl version >= 5.006... 5.035009
+ 0:06.98 checking for full perl installation... yes
+ 0:06.98 checking for gmake... /usr/bin/make
+ 0:06.98 checking for watchman... not found
+ 0:06.98 checking for xargs... /usr/bin/xargs
+ 0:06.98 checking for rpmbuild... not found
+ 0:07.00 checking for llvm-objdump... /usr/bin/llvm-objdump
+ 0:07.02 checking for readelf... /usr/bin/llvm-readelf
+ 0:07.04 checking for objcopy... /usr/bin/llvm-objcopy
+ 0:07.07 checking for strip... /usr/bin/llvm-strip
+ 0:07.07 checking for zlib >= 1.2.3... yes
+ 0:07.07 checking MOZ_ZLIB_CFLAGS...
+ 0:07.07 checking MOZ_ZLIB_LIBS... -lz
+ 0:07.07 checking for m4... /usr/bin/m4
+ 0:07.09 creating cache ./config.cache
+ 0:07.10 checking host system type... x86_64-unknown-linux-musl
+ 0:07.11 checking target system type... x86_64-unknown-linux-musl
+ 0:07.12 checking build system type... x86_64-unknown-linux-musl
+ 0:07.14 checking for Cygwin environment... no
+ 0:07.15 checking for mingw32 environment... no
+ 0:07.20 checking for executable suffix... no
+ 0:07.20 checking for gcc... (cached) /usr/bin/clang -std=gnu99
+ 0:07.20 checking whether the C compiler (/usr/bin/clang -std=gnu99   -fuse-ld=lld) works... (cached) yes
+ 0:07.20 checking whether the C compiler (/usr/bin/clang -std=gnu99   -fuse-ld=lld) is a cross-compiler... no
+ 0:07.20 checking whether we are using GNU C... (cached) yes
+ 0:07.20 checking whether /usr/bin/clang -std=gnu99 accepts -g... (cached) yes
+ 0:07.20 checking for c++... (cached) /usr/bin/clang++ -std=gnu++17
+ 0:07.20 checking whether the C++ compiler (/usr/bin/clang++ -std=gnu++17   -fuse-ld=lld) works... (cached) yes
+ 0:07.20 checking whether the C++ compiler (/usr/bin/clang++ -std=gnu++17   -fuse-ld=lld) is a cross-compiler... no
+ 0:07.20 checking whether we are using GNU C++... (cached) yes
+ 0:07.20 checking whether /usr/bin/clang++ -std=gnu++17 accepts -g... (cached) yes
+ 0:07.20 checking for otool... no
+ 0:07.26 checking for --noexecstack option to as... yes
+ 0:07.30 checking for -z noexecstack option to ld... yes
+ 0:07.34 checking for -z text option to ld... yes
+ 0:07.39 checking for -z relro option to ld... yes
+ 0:07.43 checking for -z nocopyreloc option to ld... yes
+ 0:07.47 checking for -Bsymbolic-functions option to ld... yes
+ 0:07.51 checking for --build-id=sha1 option to ld... yes
+ 0:07.54 checking for --ignore-unresolved-symbol option to ld... no
+ 0:07.59 checking whether the linker supports Identical Code Folding... no
+ 0:07.80 checking whether removing dead symbols breaks debugging... no
+ 0:07.83 checking for working const... yes
+ 0:07.85 checking for mode_t... yes
+ 0:07.86 checking for off_t... yes
+ 0:07.88 checking for pid_t... yes
+ 0:07.90 checking for size_t... yes
+ 0:08.06 checking whether 64-bits std::atomic requires -latomic... no
+ 0:08.08 checking for dirent.h that defines DIR... yes
+ 0:08.12 checking for opendir in -ldir... no
+ 0:08.16 checking for gethostbyname_r in -lc_r... no
+ 0:08.20 checking for library containing dlopen... none required
+ 0:08.23 checking for dlfcn.h... yes
+ 0:08.27 checking for dladdr... yes
+ 0:08.32 checking for socket in -lsocket... no
+ 0:08.36 checking for pthread_create in -lpthreads... no
+ 0:08.40 checking for pthread_create in -lpthread... yes
+ 0:08.44 checking whether /usr/bin/clang -std=gnu99 accepts -pthread... yes
+ 0:08.47 checking for pthread.h... yes
+ 0:08.51 checking for clock_gettime(CLOCK_MONOTONIC)...
+ 0:08.56 checking for res_ninit()... no
+ 0:08.60 checking for __thread keyword for TLS variables... yes
+ 0:08.62 checking for malloc.h... yes
+ 0:08.64 checking whether malloc_usable_size definition can use const argument... no
+ 0:08.66 checking for valloc in malloc.h... yes
+ 0:08.67 checking for valloc in unistd.h... no
+ 0:08.69 checking for _aligned_malloc in malloc.h... no
+ 0:08.69 checking if app-specific confvars.sh exists... /usr/oppai/www/firefox-98.0.2/browser/confvars.sh
+ 0:08.71 checking for valid C compiler optimization flags... yes
+ 0:08.71 checking for -pipe support... yes
+ 0:08.76 checking what kind of list files are supported by the linker... linkerscript
+ 0:08.77 updating cache ./config.cache
+ 0:08.77 creating ./config.data
+ 0:08.78 js/src> Refreshing /usr/oppai/www/firefox-98.0.2/js/src/old-configure with /usr/oppai/www/firefox-98.0.2/build/autoconf/autoconf.sh
+ 0:08.82 js/src> loading cache ./config.cache
+ 0:08.83 js/src> checking host system type... x86_64-unknown-linux-musl
+ 0:08.84 js/src> checking target system type... x86_64-unknown-linux-musl
+ 0:08.84 js/src> checking build system type... x86_64-unknown-linux-musl
+ 0:08.85 js/src> checking for Cygwin environment... (cached) no
+ 0:08.85 js/src> checking for mingw32 environment... (cached) no
+ 0:08.85 js/src> checking for executable suffix... (cached) no
+ 0:08.85 js/src> checking for gcc... (cached) /usr/bin/clang -std=gnu99
+ 0:08.85 js/src> checking whether the C compiler (/usr/bin/clang -std=gnu99   -fuse-ld=lld) works... (cached) yes
+ 0:08.85 js/src> checking whether the C compiler (/usr/bin/clang -std=gnu99   -fuse-ld=lld) is a cross-compiler... no
+ 0:08.85 js/src> checking whether we are using GNU C... (cached) yes
+ 0:08.85 js/src> checking whether /usr/bin/clang -std=gnu99 accepts -g... (cached) yes
+ 0:08.85 js/src> checking for c++... (cached) /usr/bin/clang++ -std=gnu++17
+ 0:08.85 js/src> checking whether the C++ compiler (/usr/bin/clang++ -std=gnu++17   -fuse-ld=lld) works... (cached) yes
+ 0:08.85 js/src> checking whether the C++ compiler (/usr/bin/clang++ -std=gnu++17   -fuse-ld=lld) is a cross-compiler... no
+ 0:08.85 js/src> checking whether we are using GNU C++... (cached) yes
+ 0:08.85 js/src> checking whether /usr/bin/clang++ -std=gnu++17 accepts -g... (cached) yes
+ 0:08.91 js/src> checking for --noexecstack option to as... yes
+ 0:08.95 js/src> checking for -z noexecstack option to ld... yes
+ 0:08.99 js/src> checking for -z text option to ld... yes
+ 0:09.03 js/src> checking for -z relro option to ld... yes
+ 0:09.07 js/src> checking for -z nocopyreloc option to ld... yes
+ 0:09.11 js/src> checking for -Bsymbolic-functions option to ld... yes
+ 0:09.15 js/src> checking for --build-id=sha1 option to ld... yes
+ 0:09.20 js/src> checking whether the linker supports Identical Code Folding... no
+ 0:09.41 js/src> checking whether removing dead symbols breaks debugging... no
+ 0:09.41 js/src> checking for working const... (cached) yes
+ 0:09.41 js/src> checking for mode_t... (cached) yes
+ 0:09.41 js/src> checking for off_t... (cached) yes
+ 0:09.41 js/src> checking for pid_t... (cached) yes
+ 0:09.41 js/src> checking for size_t... (cached) yes
+ 0:09.44 js/src> checking for ssize_t... yes
+ 0:09.44 js/src> checking whether 64-bits std::atomic requires -latomic... (cached) no
+ 0:09.44 js/src> checking for dirent.h that defines DIR... (cached) yes
+ 0:09.44 js/src> checking for opendir in -ldir... (cached) no
+ 0:09.44 js/src> checking for gethostbyname_r in -lc_r... (cached) no
+ 0:09.44 js/src> checking for library containing dlopen... (cached) none required
+ 0:09.44 js/src> checking for dlfcn.h... (cached) yes
+ 0:09.45 js/src> checking for socket in -lsocket... (cached) no
+ 0:09.45 js/src> checking for pthread_create in -lpthreads... (cached) no
+ 0:09.45 js/src> checking for pthread_create in -lpthread... (cached) yes
+ 0:09.50 js/src> checking whether /usr/bin/clang -std=gnu99 accepts -pthread... yes
+ 0:09.50 js/src> checking for clock_gettime(CLOCK_MONOTONIC)... (cached)
+ 0:09.54 js/src> checking for sin in -lm... yes
+ 0:09.54 js/src> checking for res_ninit()... (cached) no
+ 0:09.59 js/src> checking for nl_langinfo and CODESET... yes
+ 0:09.59 js/src> checking for __thread keyword for TLS variables... (cached) yes
+ 0:09.61 js/src> checking for valid optimization flags... yes
+ 0:09.61 js/src> checking for -pipe support... yes
+ 0:09.66 js/src> checking what kind of list files are supported by the linker... linkerscript
+ 0:09.66 js/src> checking for malloc.h... (cached) yes
+ 0:09.68 js/src> checking whether malloc_usable_size definition can use const argument... no
+ 0:09.70 js/src> checking for valloc in malloc.h... yes
+ 0:09.72 js/src> checking for valloc in unistd.h... no
+ 0:09.73 js/src> checking for _aligned_malloc in malloc.h... no
+ 0:09.74 js/src> updating cache ./config.cache
+ 0:09.74 js/src> creating ./config.data
+ 0:09.75 Creating config.status
+ 0:10.08 Reticulating splines...
+ 0:10.63  0:00.60 File already read. Skipping: /usr/oppai/www/firefox-98.0.2/intl/components/moz.build
+ 0:10.98  0:00.95 File already read. Skipping: /usr/oppai/www/firefox-98.0.2/gfx/angle/targets/angle_common/moz.build
+ 0:21.52 Finished reading 1795 moz.build files in 3.47s
+ 0:21.52 Read 13 gyp files in parallel contributing 0.00s to total wall time
+ 0:21.52 Processed into 11407 build config descriptors in 2.76s
+ 0:21.52 RecursiveMake backend executed in 4.40s
+ 0:21.52   3780 total backend files; 3780 created; 0 updated; 0 unchanged; 0 deleted; 20 -> 1408 Makefile
+ 0:21.52 FasterMake backend executed in 0.50s
+ 0:21.52   13 total backend files; 13 created; 0 updated; 0 unchanged; 0 deleted
+ 0:21.52 Total wall time: 11.49s; CPU time: 11.48s; Efficiency: 100%; Untracked: 0.36s
+Creating global state directory from environment variable: /usr/oppai/www/firefox-98.0.2/mozbuild
+Configure complete!
+Be sure to run |mach build| to pick up any changes
+ 0:00.37 Clobber not needed.
+ 0:00.41 Adding make options from /usr/oppai/www/firefox-98.0.2/mozconfig
+    MOZ_OBJDIR=/usr/oppai/www/firefox-98.0.2/firefox-build-dir
+    OBJDIR=/usr/oppai/www/firefox-98.0.2/firefox-build-dir
+    FOUND_MOZCONFIG=/usr/oppai/www/firefox-98.0.2/mozconfig
+    export FOUND_MOZCONFIG
+ 0:00.41 /usr/bin/make -f client.mk -j16 -s
+ 0:00.58 Elapsed: 0.00s; From dist/private: Kept 0 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:00.59 Elapsed: 0.00s; From dist/public: Kept 0 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:00.59 Elapsed: 0.00s; From dist/xpi-stage: Kept 0 existing; Added/updated 5; Removed 0 files and 0 directories.
+ 0:00.66 Elapsed: 0.08s; From _tests: Kept 13 existing; Added/updated 599; Removed 0 files and 0 directories.
+ 0:00.76 Elapsed: 0.17s; From dist/bin: Kept 9 existing; Added/updated 2646; Removed 0 files and 0 directories.
+ 0:00.85 Elapsed: 0.26s; From dist/include: Kept 1775 existing; Added/updated 4169; Removed 0 files and 0 directories.
+ 0:01.03 ./mozilla-config.h.stub
+ 0:01.03 ./buildid.h.stub
+ 0:01.03 ./source-repo.h.stub
+ 0:01.26 ./stl.sentinel.stub
+ 0:01.26 ./application.ini.stub
+ 0:01.26 ./buildconfig.rs.stub
+ 0:01.26 ./UseCounterList.h.stub
+ 0:01.26 ./UseCounterWorkerList.h.stub
+ 0:01.26 ./ServoCSSPropList.py.stub
+ 0:01.26 ./cbindgen-metadata.json.stub
+ 0:01.26 ./encodingsgroups.properties.h.stub
+ 0:01.26 ./BaseChars.h.stub
+ 0:01.26 ./IsCombiningDiacritic.h.stub
+ 0:01.26 ./js-confdefs.h.stub
+ 0:01.26 ./js-config.h.stub
+ 0:01.26 ./ProfilingCategoryList.h.stub
+ 0:01.26 ./ReservedWordsGenerated.h.stub
+ 0:01.26 ./StatsPhasesGenerated.h.stub
+ 0:01.27 ./MIROpsGenerated.h.stub
+ 0:01.27 config
+ 0:01.53 ./LIROpsGenerated.h.stub
+ 0:01.55 ./CacheIROpsGenerated.h.stub
+ 0:01.55 ./AtomicOperationsGenerated.h.stub
+ 0:01.55 ./WasmIntrinsicGenerated.h.stub
+ 0:01.55 ./FrameIdList.h.stub
+ 0:01.55 ./FrameTypeList.h.stub
+ 0:01.55 ./CountedUnknownProperties.h.stub
+ 0:01.56 ./metrics.rs.stub
+ 0:01.57 ./GleanMetrics.h.stub
+ 0:01.58 ./GleanJSMetricsLookup.h.stub
+ 0:01.59 ./pings.rs.stub
+ 0:01.65 ./GleanPings.h.stub
+ 0:01.83 ./GleanJSPingsLookup.h.stub
+ 0:01.84 ./EventGIFFTMap.h.stub
+ 0:01.85 ./HistogramGIFFTMap.h.stub
+ 0:01.85 ./ScalarGIFFTMap.h.stub
+ 0:01.86 ./NimbusFeatureManifest.h.stub
+ 0:02.36 ./TelemetryScalarData.h.stub
+ 0:02.49 ./TelemetryScalarEnums.h.stub
+ 0:02.50 ./TelemetryEventData.h.stub
+ 0:02.59 ./TelemetryEventEnums.h.stub
+ 0:02.91 ./TelemetryProcessEnums.h.stub
+ 0:03.39 ./TelemetryProcessData.h.stub
+ 0:03.67 ./TelemetryUserInteractionData.h.stub
+ 0:03.67 ./TelemetryUserInteractionNameMap.h.stub
+ 0:03.70 ./CrashAnnotations.h.stub
+ 0:03.71 ./profiling_categories.rs.stub
+ 0:03.77 ./xpcom-config.h.stub
+ 0:03.96 ./ErrorList.h.stub
+ 0:03.98 ./ErrorNamesInternal.h.stub
+ 0:04.00 ./error_list.rs.stub
+ 0:04.02 ./Services.h.stub
+ 0:04.12 ./services.rs.stub
+ 0:04.21 ./GeckoProcessTypes.h.stub
+ 0:04.23 ./nsGkAtomList.h.stub
+ 0:04.28 ./nsGkAtomConsts.h.stub
+ 0:04.28 ./xpidl.stub.stub
+ 0:04.37 ./application.ini.h.stub
+ 0:04.39 ./selfhosted.out.h.stub
+ 0:04.39 config/nsinstall_real
+ 0:04.54 /usr/oppai/www/firefox-98.0.2/python/mozbuild/mozbuild/action/check_binary.py:13: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+ 0:04.54   from distutils.version import StrictVersion as Version
+ 0:04.71 /usr/bin/clang++ -std=gnu++17 -E -o self-hosting-preprocessed.pp -Qunused-arguments -DCROSS_COMPILE= -DHAVE_64BIT_BUILD=1 -DXP_UNIX=1 -DXP_LINUX=1 -DMOZ_BUILD_APP=browser -DRELEASE_OR_BETA=1 -DMOZILLA_VERSION="98.0.2" -DMOZILLA_VERSION_U=98.0.2 -DMOZILLA_UAVERSION="98.0" -DMOZ_UPDATE_CHANNEL=default -DHAVE_VISIBILITY_HIDDEN_ATTRIBUTE=1 -DHAVE_VISIBILITY_ATTRIBUTE=1 -DHAVE_STRNDUP=1 -DHAVE_POSIX_MEMALIGN=1 -DHAVE_MEMALIGN=1 -DHAVE_MALLOC_USABLE_SIZE=1 -DHAVE_STDINT_H=1 -DHAVE_INTTYPES_H=1 -DSTDC_HEADERS=1 -DHAVE_MALLOC_H=1 -DHAVE_ALLOCA_H=1 -DHAVE_GETOPT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_NL_TYPES_H=1 -DHAVE_CPUID_H=1 -DHAVE_FTS_H=1 -DHAVE_SYS_STATVFS_H=1 -DHAVE_SYS_STATFS_H=1 -DHAVE_SYS_VFS_H=1 -DHAVE_SYS_MOUNT_H=1 -DHAVE_LINUX_QUOTA_H=1 -DHAVE_LINUX_IF_ADDR_H=1 -DHAVE_LINUX_RTNETLINK_H=1 -DHAVE_SYS_QUEUE_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_NETINET_IN_H=1 -DHAVE_BYTESWAP_H=1 -DHAVE_MEMFD_CREATE=1 -DHAVE_LINUX_PERF_EVENT_H=1 -DMOZ_DLL_PREFIX="lib" -DMOZ_DLL_SUFFIX=".so" -DMOZ_GECKO_PROFILER=1 -DMOZ_GECKO_PROFILER_PARSE_ELF=1 -DMOZ_PROFILER_MEMORY=1 -DMOZ_PULSEAUDIO=1 -DJS_64BIT=1 -DJS_PUNBOX64=1 -DSTATIC_JS_API=1 -DMOZ_STATIC_JS=1 -DJS_CODEGEN_X64=1 -DMOZ_AARCH64_JSCVT=0 -DBUILD_CTYPES=1 -DJS_HAS_CTYPES=1 -DENABLE_SHARED_MEMORY=1 -DENABLE_WASM_SIMD=1 -DENABLE_WASM_SIMD_WORMHOLE=1 -DJS_DEFAULT_JITREPORT_GRANULARITY=3 -DMOZ_SYSTEM_ICU=1 -DJS_HAS_INTL_API=1 -DU_USING_ICU_NAMESPACE=0 -DMOZJS_MAJOR_VERSION=98 -DMOZJS_MINOR_VERSION=0 -DHAVE_TM_ZONE_TM_GMTOFF=1 -DHAVE_GETPAGESIZE=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_GETTID=1 -DHAVE_SETPRIORITY=1 -DHAVE_SYSCALL=1 -DHAVE_GETC_UNLOCKED=1 -DHAVE_STRERROR=1 -DHAVE_UNWIND_H=1 -DHAVE__UNWIND_BACKTRACE=1 -DHAVE_LOCALECONV=1 -DMOZ_WIDGET_GTK=1 -DMOZ_WAYLAND=1 -DGL_PROVIDER_EGL=1 -DMOZ_PDF_PRINTING=1 -DMOZ_INSTRUMENT_EVENT_LOOP=1 -DUSE_FC_FREETYPE=1 -DMOZ_HAVE_FREETYPE2=1 -DMOZ_FFMPEG=1 -DMOZ_DAV1D_ASM=1 -DMOZ_AV1=1 -DMOZ_FMP4=1 -DMOZ_SAMPLE_TYPE_FLOAT32=1 -DMOZ_VORBIS=1 -DMOZ_PLACES=1 -DMOZ_SERVICES_HEALTHREPORT=1 -DMOZ_NORMANDY=1 -DMOZ_DEDICATED_PROFILES=1 -DMOZ_BLOCK_PROFILE_DOWNGRADE=1 -DNS_PRINTING=1 -DNS_PRINT_PREVIEW=1 -DMOZ_WEBSPEECH=1 -DMOZ_WEBSPEECH_TEST_BACKEND=1 -DENABLE_WEBDRIVER=1 -DMOZ_WEBRTC=1 -DMOZ_SCTP=1 -DMOZ_SRTP=1 -DMOZ_WEBRTC_SIGNALING=1 -DMOZ_PEERCONNECTION=1 -DMOZ_WEBRTC_ASSERT_ALWAYS=1 -DMOZ_RAW=1 -DMOZ_X11=1 -DMOZ_PROXY_DIRECT_FAILOVER=1 -DACCESSIBILITY=1 -DMOZ_REQUIRE_SIGNING=1 -DMOZ_BUNDLED_FONTS=1 -DHAVE_VPX_VPX_DECODER_H=1 -DMOZ_LIBAV_FFT=1 -DMOZ_FFVPX=1 -DMOZ_HAS_REMOTE=1 -DMOZ_ENABLE_FORKSERVER=1 -DMOZ_VERIFY_MAR_SIGNATURE=1 -DMOZ_OXIDIZED_BREAKPAD=1 -DGDK_VERSION_MIN_REQUIRED=GDK_VERSION_3_14 -DGDK_VERSION_MAX_ALLOWED=GDK_VERSION_3_14 -DGLIB_VERSION_MIN_REQUIRED=GLIB_VERSION_2_42 -DGLIB_VERSION_MAX_ALLOWED=GLIB_VERSION_2_42 -DMOZ_ACCESSIBILITY_ATK=1 -DMOZ_ENABLE_DBUS=1 -DNECKO_WIFI=1 -DMOZ_LOGGING=1 -DFORCE_PR_LOG=1 -DMOZ_AUTH_EXTENSION=1 -DMOZ_SANDBOX=1 -DENABLE_SYSTEM_EXTENSION_DIRS=1 -DMOZ_USER_DIR=".mozilla" -DHAVE_LINUX_JOYSTICK_H=1 -DHAVE_STAT64=1 -DHAVE_LSTAT64=1 -DHAVE_TRUNCATE64=1 -DHAVE_STATVFS64=1 -DHAVE_STATVFS=1 -DHAVE_STATFS64=1 -DHAVE_STATFS=1 -DHAVE_LUTIMES=1 -DHAVE_POSIX_FADVISE=1 -DHAVE_POSIX_FALLOCATE=1 -DHAVE_DIRENT_H=1 -DHAVE_DLOPEN=1 -DHAVE_DLADDR=1 -D_REENTRANT=1 -DHAVE_PTHREAD_H=1 -DHAVE_CLOCK_MONOTONIC=1 -DHAVE_THREAD_TLS_KEYWORD=1 -DMALLOC_H=<malloc.h> -DMALLOC_USABLE_SIZE_CONST_PTR= -DHAVE_VALLOC=1 -DTARGET_XPCOM_ABI="x86_64-gcc3" -DMOZ_OFFICIAL_BRANDING=1 -DMOZ_DISTRIBUTION_ID="org.mozilla" -DMOZ_GLUE_IN_PROGRAM=1 -DMOZ_MACBUNDLE_ID=org.mozilla.firefox -DMOZ_APP_UA_NAME="" -DMOZ_APP_UA_VERSION="98.0.2" -DBROWSER_CHROME_URL=chrome://browser/content/browser.xhtml -DBROWSER_CHROME_URL_QUOTED="chrome://browser/content/browser.xhtml" -DMOZ_DATA_REPORTING=1 -DNO_NSPR_10_SUPPORT=1 -DNDEBUG=1 -DTRIMMED=1 self-hosting-cpp-input.cpp
+ 0:04.91 ./audioipc2_client_ffi_generated.h.stub
+ 0:04.91 ./audioipc2_server_ffi_generated.h.stub
+ 0:04.91 ./audioipc_client_ffi_generated.h.stub
+ 0:04.91 ./audioipc_server_ffi_generated.h.stub
+ 0:04.91 ./midir_impl_ffi_generated.h.stub
+ 0:04.91 ./webrender_ffi_generated.h.stub
+ 0:04.91 ./wgpu_ffi_generated.h.stub
+ 0:04.91 ./mapped_hyph.h.stub
+ 0:04.91 ./fluent_ffi_generated.h.stub
+ 0:04.91 ./l10nregistry_ffi_generated.h.stub
+ 0:04.91 ./localization_ffi_generated.h.stub
+ 0:04.91 ./fluent_langneg_ffi_generated.h.stub
+ 0:04.91 ./unic_langid_ffi_generated.h.stub
+ 0:04.91 ./ServoStyleConsts.h.stub
+ 0:04.91 ./mp4parse_ffi_generated.h.stub
+ 0:05.22 ./MozURL_ffi.h.stub
+ 0:05.23 ./rust_helper.h.stub
+ 0:05.24 ./neqo_glue_ffi_generated.h.stub
+ 0:05.27 ./fog_ffi_generated.h.stub
+ 0:05.28 ./profiler_ffi_generated.h.stub
+ 0:05.29 ./gk_rust_utils_ffi_generated.h.stub
+ 0:05.33 config/system-header.sentinel.stub
+ 0:05.71 accessible/xpcom/xpcAccEvents.h.stub
+ 0:05.73 modules/libpref/StaticPrefListAll.h.stub
+ 0:05.77 xpcom/components/Components.h.stub
+ 0:05.77 WARNING: mkdir -dot- requested by /usr/bin/make -C /usr/oppai/www/firefox-98.0.2/firefox-build-dir/config/makefiles/xpidl xpidl
+ 0:05.77 config/makefiles/xpidl/Bits.xpt
+ 0:05.78 config/makefiles/xpidl/accessibility.xpt
+ 0:05.99 config/makefiles/xpidl/alerts.xpt
+ 0:06.03 config/makefiles/xpidl/appshell.xpt
+ 0:06.05 config/makefiles/xpidl/appstartup.xpt
+ 0:06.11 config/makefiles/xpidl/autocomplete.xpt
+ 0:06.12 config/makefiles/xpidl/autoplay.xpt
+ 0:06.25 config/makefiles/xpidl/backgroundhangmonitor.xpt
+ 0:06.26 config/makefiles/xpidl/browser-element.xpt
+ 0:06.26 config/makefiles/xpidl/browser-newtab.xpt
+ 0:06.28 config/makefiles/xpidl/browsercompsbase.xpt
+ 0:06.50 config/makefiles/xpidl/caps.xpt
+ 0:06.50 config/makefiles/xpidl/captivedetect.xpt
+ 0:06.56 config/makefiles/xpidl/cascade_bindings.xpt
+ 0:06.59 config/makefiles/xpidl/chrome.xpt
+ 0:06.62 config/makefiles/xpidl/commandhandler.xpt
+ 0:06.63 config/makefiles/xpidl/commandlines.xpt
+ 0:06.63 config/makefiles/xpidl/composer.xpt
+ 0:06.68 config/makefiles/xpidl/content_events.xpt
+ 0:06.70 config/makefiles/xpidl/content_geckomediaplugins.xpt
+ 0:06.79 config/makefiles/xpidl/content_html.xpt
+ 0:06.81 config/makefiles/xpidl/docshell.xpt
+ 0:06.88 config/makefiles/xpidl/dom.xpt
+ 0:06.97 config/makefiles/xpidl/dom_audiochannel.xpt
+ 0:06.99 config/makefiles/xpidl/dom_base.xpt
+ 0:07.04 config/makefiles/xpidl/dom_bindings.xpt
+ 0:07.07 config/makefiles/xpidl/dom_events.xpt
+ 0:07.11 config/makefiles/xpidl/dom_geolocation.xpt
+ 0:07.15 config/makefiles/xpidl/dom_html.xpt
+ 0:07.15 config/makefiles/xpidl/dom_indexeddb.xpt
+ 0:07.16 config/makefiles/xpidl/dom_localstorage.xpt
+ 0:07.18 config/makefiles/xpidl/dom_media.xpt
+ 0:07.18 config/makefiles/xpidl/dom_network.xpt
+ 0:07.20 config/makefiles/xpidl/dom_notification.xpt
+ 0:07.27 config/makefiles/xpidl/dom_payments.xpt
+ 0:07.37 config/makefiles/xpidl/dom_power.xpt
+ 0:07.48 config/makefiles/xpidl/dom_push.xpt
+ 0:07.49 config/makefiles/xpidl/dom_quota.xpt
+ 0:07.53 config/makefiles/xpidl/dom_security.xpt
+ 0:07.54 config/makefiles/xpidl/dom_serializers.xpt
+ 0:07.56 config/makefiles/xpidl/dom_sidebar.xpt
+ 0:07.60 config/makefiles/xpidl/dom_simpledb.xpt
+ 0:07.60 config/makefiles/xpidl/dom_storage.xpt
+ 0:07.65 config/makefiles/xpidl/dom_system.xpt
+ 0:07.66 config/makefiles/xpidl/dom_webauthn.xpt
+ 0:07.75 config/makefiles/xpidl/dom_webspeechrecognition.xpt
+ 0:07.81 config/makefiles/xpidl/dom_webspeechsynth.xpt
+ 0:07.90 config/makefiles/xpidl/dom_workers.xpt
+ 0:07.94 config/makefiles/xpidl/dom_xslt.xpt
+ 0:07.97 config/makefiles/xpidl/dom_xul.xpt
+ 0:07.99 config/makefiles/xpidl/downloads.xpt
+ 0:07.99 config/makefiles/xpidl/editor.xpt
+ 0:08.00 config/makefiles/xpidl/enterprisepolicies.xpt
+ 0:08.04 config/makefiles/xpidl/extensions.xpt
+ 0:08.06 config/makefiles/xpidl/exthandler.xpt
+ 0:08.09 config/makefiles/xpidl/fastfind.xpt
+ 0:08.14 config/makefiles/xpidl/fog.xpt
+ 0:08.15 config/makefiles/xpidl/gfx.xpt
+ 0:08.18 config/makefiles/xpidl/html5.xpt
+ 0:08.22 config/makefiles/xpidl/htmlparser.xpt
+ 0:08.27 config/makefiles/xpidl/http-sfv.xpt
+ 0:08.33 config/makefiles/xpidl/imglib2.xpt
+ 0:08.35 config/makefiles/xpidl/inspector.xpt
+ 0:08.36 config/makefiles/xpidl/intl.xpt
+ 0:08.41 config/makefiles/xpidl/jar.xpt
+ 0:08.45 config/makefiles/xpidl/jsdebugger.xpt
+ 0:08.48 config/makefiles/xpidl/jsinspector.xpt
+ 0:08.53 config/makefiles/xpidl/kvstore.xpt
+ 0:08.55 config/makefiles/xpidl/layout_base.xpt
+ 0:08.58 config/makefiles/xpidl/layout_xul_tree.xpt
+ 0:08.61 config/makefiles/xpidl/locale.xpt
+ 0:08.64 config/makefiles/xpidl/loginmgr.xpt
+ 0:08.67 config/makefiles/xpidl/migration.xpt
+ 0:08.69 config/makefiles/xpidl/mimetype.xpt
+ 0:08.70 config/makefiles/xpidl/mozfind.xpt
+ 0:08.76 config/makefiles/xpidl/mozintl.xpt
+ 0:08.76 config/makefiles/xpidl/necko.xpt
+ 0:08.84 config/makefiles/xpidl/necko_about.xpt
+ 0:08.85 config/makefiles/xpidl/necko_cache2.xpt
+ 0:08.93 config/makefiles/xpidl/necko_cookie.xpt
+ 0:08.93 ./CSS2Properties.webidl.stub
+ 0:08.93 ./nsCSSPropertyID.h.stub
+ 0:08.99 config/makefiles/xpidl/necko_dns.xpt
+ 0:09.01 config/makefiles/xpidl/necko_file.xpt
+ 0:09.04 config/makefiles/xpidl/necko_http.xpt
+ 0:09.05 config/makefiles/xpidl/necko_res.xpt
+ 0:09.06 config/makefiles/xpidl/necko_socket.xpt
+ 0:09.09 config/makefiles/xpidl/necko_strconv.xpt
+ 0:09.10 config/makefiles/xpidl/necko_viewsource.xpt
+ 0:09.15 config/makefiles/xpidl/necko_websocket.xpt
+ 0:09.19 config/makefiles/xpidl/necko_wifi.xpt
+ 0:09.20 config/makefiles/xpidl/parentalcontrols.xpt
+ 0:09.23 ./ServoCSSPropList.h.stub
+ 0:09.24 ./CompositorAnimatableProperties.h.stub
+ 0:09.25 config/makefiles/xpidl/peerconnection.xpt
+ 0:09.46 config/makefiles/xpidl/pipnss.xpt
+ 0:09.46 config/makefiles/xpidl/places.xpt
+ 0:09.49 config/makefiles/xpidl/plugin.xpt
+ 0:09.50 config/makefiles/xpidl/pref.xpt
+ 0:09.53 ./TelemetryHistogramEnums.h.stub
+ 0:09.54 ./TelemetryHistogramNameMap.h.stub
+ 0:09.59 config/makefiles/xpidl/prefetch.xpt
+ 0:09.60 config/makefiles/xpidl/profiler.xpt
+ 0:09.64 config/makefiles/xpidl/remote.xpt
+ 0:09.65 config/makefiles/xpidl/reputationservice.xpt
+ 0:09.66 config/makefiles/xpidl/sandbox.xpt
+ 0:09.68 config/makefiles/xpidl/satchel.xpt
+ 0:09.89 config/makefiles/xpidl/services.xpt
+ 0:09.96 config/makefiles/xpidl/sessionstore.xpt
+ 0:10.00 config/makefiles/xpidl/shellservice.xpt
+ 0:10.02 config/makefiles/xpidl/shistory.xpt
+ 0:10.05 config/makefiles/xpidl/spellchecker.xpt
+ 0:10.06 config/makefiles/xpidl/startupcache.xpt
+ 0:10.10 config/makefiles/xpidl/storage.xpt
+ 0:10.11 config/makefiles/xpidl/telemetry.xpt
+ 0:10.15 config/makefiles/xpidl/thumbnails.xpt
+ 0:10.25 config/makefiles/xpidl/toolkit_antitracking.xpt
+ 0:10.28 config/makefiles/xpidl/toolkit_asyncshutdown.xpt
+ 0:10.31 config/makefiles/xpidl/toolkit_backgroundtasks.xpt
+ 0:10.41 config/makefiles/xpidl/toolkit_cleardata.xpt
+ 0:10.42 config/makefiles/xpidl/toolkit_crashservice.xpt
+ 0:10.45 config/makefiles/xpidl/toolkit_filewatcher.xpt
+ 0:10.46 config/makefiles/xpidl/toolkit_finalizationwitness.xpt
+ 0:10.46 config/makefiles/xpidl/toolkit_modules.xpt
+ 0:10.56 config/makefiles/xpidl/toolkit_osfile.xpt
+ 0:10.61 config/makefiles/xpidl/toolkit_processtools.xpt
+ 0:10.63 config/makefiles/xpidl/toolkit_search.xpt
+ 0:10.71 config/makefiles/xpidl/toolkit_shell.xpt
+ 0:10.73 config/makefiles/xpidl/toolkit_xulstore.xpt
+ 0:10.78 config/makefiles/xpidl/toolkitprofile.xpt
+ 0:10.80 config/makefiles/xpidl/txmgr.xpt
+ 0:10.82 config/makefiles/xpidl/txtsvc.xpt
+ 0:10.85 config/makefiles/xpidl/uconv.xpt
+ 0:10.86 config/makefiles/xpidl/update.xpt
+ 0:10.97 config/makefiles/xpidl/uriloader.xpt
+ 0:10.98 config/makefiles/xpidl/url-classifier.xpt
+ 0:10.98 config/makefiles/xpidl/urlformatter.xpt
+ 0:10.99 config/makefiles/xpidl/viaduct.xpt
+ 0:11.01 config/makefiles/xpidl/webBrowser_core.xpt
+ 0:11.09 config/makefiles/xpidl/webbrowserpersist.xpt
+ 0:11.15 config/makefiles/xpidl/webextensions.xpt
+ 0:11.18 config/makefiles/xpidl/webextensions-storage.xpt
+ 0:11.24 config/makefiles/xpidl/webvtt.xpt
+ 0:11.26 config/makefiles/xpidl/widget.xpt
+ 0:11.28 config/makefiles/xpidl/windowcreator.xpt
+ 0:11.28 config/makefiles/xpidl/windowwatcher.xpt
+ 0:11.36 config/makefiles/xpidl/xpcom_base.xpt
+ 0:11.38 config/makefiles/xpidl/xpcom_components.xpt
+ 0:11.38 config/makefiles/xpidl/xpcom_ds.xpt
+ 0:11.58 config/makefiles/xpidl/xpcom_io.xpt
+ 0:11.63 config/makefiles/xpidl/xpcom_system.xpt
+ 0:11.63 config/makefiles/xpidl/xpcom_threads.xpt
+ 0:11.63 config/makefiles/xpidl/xpconnect.xpt
+ 0:11.65 config/makefiles/xpidl/xul.xpt
+ 0:11.66 config/makefiles/xpidl/xulapp.xpt
+ 0:11.69 config/makefiles/xpidl/zipwriter.xpt
+ 0:12.56 config/makefiles/xpidl/xptdata.stub
+ 0:32.39 toolkit/library/rust/force-cargo-library-build
+ 0:32.39 accessible/aom
+ 0:32.39 accessible/generic
+ 0:32.39 accessible/html
+ 0:32.39 accessible/base
+ 0:32.39 accessible/ipc/other
+ 0:32.39 accessible/ipc
+ 0:32.39 accessible/xul
+ 0:32.39 memory/mozalloc
+ 0:32.39 accessible/xpcom
+ 0:32.39 memory/build
+ 0:32.39 accessible/basetypes
+ 0:32.39 accessible/atk
+ 0:32.39 mozglue/baseprofiler
+ 0:32.39 mfbt
+ 0:32.40 browser/app
+ 0:32.47 mozglue/build
+ 0:32.58 mozglue/misc
+ 0:33.10 xpcom/glue/standalone
+ 0:36.92 browser/components/about
+ 0:37.44 browser/components/shell
+ 0:37.46    Compiling proc-macro2 v1.0.36
+ 0:38.99    Compiling unicode-xid v0.2.2
+ 0:39.10    Compiling syn v1.0.85
+ 0:39.17    Compiling libc v0.2.112
+ 0:40.30    Compiling cfg-if v1.0.0
+ 0:40.36    Compiling serde v1.0.133
+ 0:40.46    Compiling serde_derive v1.0.133
+ 0:40.50 caps
+ 0:41.50    Compiling autocfg v1.0.1 (/usr/oppai/www/firefox-98.0.2/third_party/rust/autocfg)
+ 0:41.58    Compiling bitflags v1.3.2
+ 0:41.59 chrome
+ 0:41.64    Compiling log v0.4.14
+ 0:41.94    Compiling cfg-if v0.1.10
+ 0:42.00    Compiling lazy_static v1.4.0
+ 0:42.08    Compiling mozbuild v0.1.0 (/usr/oppai/www/firefox-98.0.2/build/rust/mozbuild)
+ 0:42.49    Compiling cc v1.0.72
+ 0:45.05    Compiling getrandom v0.1.16
+ 0:45.58    Compiling pkg-config v0.3.24
+ 0:47.62 /usr/oppai/www/firefox-98.0.2/browser/components/shell/nsGNOMEShellService.cpp:497:22: warning: 'gdk_color_parse' is deprecated: Use 'gdk_rgba_parse' instead [-Wdeprecated-declarations]
+ 0:47.62   gboolean success = gdk_color_parse(background.get(), &color);
+ 0:47.62                      ^
+ 0:47.62 /usr/include/gtk-3.0/gdk/deprecated/gdkcolor.h:78:1: note: 'gdk_color_parse' has been explicitly marked deprecated here
+ 0:47.62 GDK_DEPRECATED_IN_3_14_FOR(gdk_rgba_parse)
+ 0:47.62 ^
+ 0:47.62 /usr/include/gtk-3.0/gdk/gdkversionmacros.h:357:47: note: expanded from macro 'GDK_DEPRECATED_IN_3_14_FOR'
+ 0:47.62 # define GDK_DEPRECATED_IN_3_14_FOR(f)        GDK_DEPRECATED_FOR(f)
+ 0:47.62                                               ^
+ 0:47.62 /usr/include/gtk-3.0/gdk/gdkversionmacros.h:49:31: note: expanded from macro 'GDK_DEPRECATED_FOR'
+ 0:47.62 #define GDK_DEPRECATED_FOR(f) G_DEPRECATED_FOR(f) _GDK_EXTERN
+ 0:47.62                               ^
+ 0:47.62 /usr/include/glib-2.0/glib/gmacros.h:1112:44: note: expanded from macro 'G_DEPRECATED_FOR'
+ 0:47.62 #define G_DEPRECATED_FOR(f) __attribute__((__deprecated__("Use '" #f "' instead")))
+ 0:47.62                                            ^
+ 0:48.20 1 warning generated.
+ 0:48.24 config/external/rlbox
+ 0:48.62 devtools/platform
+ 0:49.08 devtools/shared/heapsnapshot
+ 0:49.26 docshell/base
+ 0:49.54 docshell/base/timeline
+ 0:50.15 docshell/build
+ 0:50.90 docshell/shistory
+ 0:50.97    Compiling byteorder v1.4.3
+ 0:51.55    Compiling once_cell v1.9.0
+ 0:52.30 dom/abort
+ 0:52.53 dom/animation
+ 0:53.70    Compiling encoding_rs v0.8.22
+ 0:53.85    Compiling ahash v0.4.7
+ 0:54.17 dom/audiochannel
+ 0:54.26    Compiling memchr v2.4.1
+ 0:54.93 dom/base
+ 0:54.97    Compiling itoa v0.4.8
+ 0:55.18    Compiling matches v0.1.9
+ 0:55.84    Compiling version_check v0.9.4
+ 0:57.04    Compiling thin-vec v0.2.4
+ 0:57.25 dom/battery
+ 0:57.45 dom/bindings
+ 0:57.52 dom/broadcastchannel
+ 0:57.66    Compiling ppv-lite86 v0.2.16
+ 0:58.60    Compiling unicode-bidi v0.3.7
+ 0:59.11    Compiling serde_json v1.0.72
+ 1:00.02 dom/cache
+ 1:00.14    Compiling slab v0.4.5
+ 1:00.43    Compiling scopeguard v1.1.0
+ 1:00.55    Compiling ryu v1.0.9
+ 1:01.28    Compiling threadbound v0.1.2
+ 1:01.29 dom/canvas
+ 1:01.36    Compiling unicode-normalization v0.1.7
+ 1:01.63    Compiling crossbeam-utils v0.8.6
+ 1:02.05    Compiling percent-encoding v2.1.0
+ 1:02.64    Compiling glob v0.3.0
+ 1:03.02 dom/clients/api
+ 1:03.50 dom/clients/manager
+ 1:04.44    Compiling proc-macro-hack v0.5.19
+ 1:05.56    Compiling bindgen v0.56.0
+ 1:06.39    Compiling regex-syntax v0.6.25
+ 1:06.88    Compiling futures-task v0.3.19
+ 1:07.11 dom/commandhandler
+ 1:09.21 dom/console
+ 1:11.71 dom/credentialmanagement
+ 1:14.39 dom/crypto
+ 1:16.45 dom/debugger
+ 1:19.38 dom/encoding
+ 1:19.55 /usr/oppai/www/firefox-98.0.2/accessible/atk/UtilInterface.cpp:236:23: warning: 'gtk_key_snooper_install' is deprecated [-Wdeprecated-declarations]
+ 1:19.55     sKey_snooper_id = gtk_key_snooper_install(mai_key_snooper, data);
+ 1:19.55                       ^
+ 1:19.55 /usr/include/gtk-3.0/gtk/gtkmain.h:184:1: note: 'gtk_key_snooper_install' has been explicitly marked deprecated here
+ 1:19.55 GDK_DEPRECATED_IN_3_4
+ 1:19.55 ^
+ 1:19.55 /usr/include/gtk-3.0/gdk/gdkversionmacros.h:286:47: note: expanded from macro 'GDK_DEPRECATED_IN_3_4'
+ 1:19.55 # define GDK_DEPRECATED_IN_3_4                GDK_DEPRECATED
+ 1:19.55                                               ^
+ 1:19.55 /usr/include/gtk-3.0/gdk/gdkversionmacros.h:48:24: note: expanded from macro 'GDK_DEPRECATED'
+ 1:19.55 #define GDK_DEPRECATED G_DEPRECATED _GDK_EXTERN
+ 1:19.55                        ^
+ 1:19.55 /usr/include/glib-2.0/glib/gmacros.h:1102:37: note: expanded from macro 'G_DEPRECATED'
+ 1:19.55 #define G_DEPRECATED __attribute__((__deprecated__))
+ 1:19.55                                     ^
+ 1:19.55 /usr/oppai/www/firefox-98.0.2/accessible/atk/UtilInterface.cpp:256:5: warning: 'gtk_key_snooper_remove' is deprecated [-Wdeprecated-declarations]
+ 1:19.55     gtk_key_snooper_remove(sKey_snooper_id);
+ 1:19.55     ^
+ 1:19.55 /usr/include/gtk-3.0/gtk/gtkmain.h:187:1: note: 'gtk_key_snooper_remove' has been explicitly marked deprecated here
+ 1:19.55 GDK_DEPRECATED_IN_3_4
+ 1:19.55 ^
+ 1:19.55 /usr/include/gtk-3.0/gdk/gdkversionmacros.h:286:47: note: expanded from macro 'GDK_DEPRECATED_IN_3_4'
+ 1:19.55 # define GDK_DEPRECATED_IN_3_4                GDK_DEPRECATED
+ 1:19.55                                               ^
+ 1:19.55 /usr/include/gtk-3.0/gdk/gdkversionmacros.h:48:24: note: expanded from macro 'GDK_DEPRECATED'
+ 1:19.55 #define GDK_DEPRECATED G_DEPRECATED _GDK_EXTERN
+ 1:19.55                        ^
+ 1:19.55 /usr/include/glib-2.0/glib/gmacros.h:1102:37: note: expanded from macro 'G_DEPRECATED'
+ 1:19.55 #define G_DEPRECATED __attribute__((__deprecated__))
+ 1:19.55                                     ^
+ 1:19.79 2 warnings generated.
+ 1:20.91 dom/events
+ 1:22.49 dom/fetch
+ 1:24.67 dom/file/ipc
+ 1:25.43 dom/file
+ 1:27.75    Compiling peeking_take_while v0.1.2
+ 1:27.84    Compiling rustc-hash v1.1.0
+ 1:27.87 dom/file/uri
+ 1:27.94    Compiling lazycell v1.3.0
+ 1:27.98 dom/filehandle
+ 1:28.07    Compiling shlex v0.1.1
+ 1:28.76    Compiling termcolor v1.1.2
+ 1:29.30 dom/filesystem/compat
+ 1:30.24    Compiling futures v0.1.31
+ 1:34.38    Compiling strsim v0.10.0
+ 1:34.64    Compiling ident_case v1.0.1
+ 1:35.69    Compiling fnv v1.0.7
+ 1:35.78    Compiling anyhow v1.0.52
+ 1:36.93 dom/filesystem
+ 1:37.00    Compiling tinystr v0.3.4
+ 1:37.30    Compiling siphasher v0.3.8
+ 1:37.98    Compiling cmake v0.1.999 (/usr/oppai/www/firefox-98.0.2/build/rust/cmake)
+ 1:38.03    Compiling humantime v2.1.0
+ 1:38.04    Compiling stable_deref_trait v1.2.0
+ 1:38.11    Compiling futures-core v0.3.19
+ 1:38.50    Compiling futures-channel v0.3.19
+ 1:38.88    Compiling maybe-uninit v2.0.0
+ 1:39.23    Compiling async-task v4.0.3 (https://github.com/smol-rs/async-task?rev=f6488e35beccb26eb6e85847b02aa78a42cd3d0e#f6488e35)
+ 1:39.71    Compiling arrayref v0.3.6
+ 1:39.79    Compiling futures-sink v0.3.19
+ 1:39.89    Compiling khronos_api v3.1.0
+ 1:40.33 dom/flex
+ 1:40.44    Compiling futures-util v0.3.19
+ 1:40.66    Compiling typenum v1.15.0
+ 1:40.83    Compiling crossbeam-epoch v0.9.6
+ 1:41.20    Compiling fallible-iterator v0.2.0
+ 1:42.14    Compiling fallible-streaming-iterator v0.1.9
+ 1:42.37    Compiling id-arena v2.2.1
+ 1:42.60    Compiling atomic_refcell v0.1.8
+ 1:42.76    Compiling futures-io v0.3.19
+ 1:43.17    Compiling pin-utils v0.1.0
+ 1:43.25    Compiling smallbitvec v2.5.1
+ 1:43.53 dom/fs
+ 1:43.73    Compiling dtoa v0.4.8
+ 1:43.94    Compiling void v1.0.2
+ 1:44.03    Compiling pin-project-lite v0.2.7
+ 1:44.04    Compiling rayon-core v1.9.1
+ 1:44.10    Compiling crc32fast v1.3.0
+ 1:44.23    Compiling nss_build_common v0.1.0 (https://github.com/mozilla/application-services?rev=c51b63595a27a6ef45161012323e0261475c10c9#c51b6359)
+ 1:44.44 dom/gamepad
+ 1:44.75 dom/geolocation
+ 1:45.17    Compiling xml-rs v0.8.4
+ 1:45.28    Compiling neqo-common v0.5.7 (https://github.com/mozilla/neqo?tag=v0.5.7#f3de275b)
+ 1:45.41 dom/grid
+ 1:45.78    Compiling self_cell v0.10.2
+ 1:45.86    Compiling async-trait v0.1.52
+ 1:46.57 dom/html/input
+ 1:46.83    Compiling base64 v0.12.3
+ 1:47.71    Compiling adler v1.0.2
+ 1:48.00    Compiling either v1.6.1
+ 1:48.01 dom/html
+ 1:48.21    Compiling semver-parser v0.7.0
+ 1:48.96 dom/indexedDB
+ 1:49.11 dom/ipc/jsactor
+ 1:51.34    Compiling byte-tools v0.3.1
+ 1:51.40    Compiling remove_dir_all v0.5.3
+ 1:51.46    Compiling interrupt-support v0.1.0 (https://github.com/mozilla/application-services?rev=c51b63595a27a6ef45161012323e0261475c10c9#c51b6359)
+ 1:51.57    Compiling error-chain v0.11.0
+ 1:52.25    Compiling bit-vec v0.6.3
+ 1:52.60 dom/ipc
+ 1:52.87    Compiling khronos-egl v4.1.0
+ 1:53.04    Compiling arrayvec v0.5.2
+ 1:53.75    Compiling chunky-vec v0.1.0
+ 1:53.92    Compiling data-encoding v2.3.2
+ 1:54.65 dom/jsurl
+ 1:55.23 dom/l10n
+ 1:55.71    Compiling same-file v1.0.6
+ 1:56.07    Compiling base64 v0.13.0
+ 1:56.95    Compiling unicode-width v0.1.9
+ 1:57.06    Compiling ash v0.35.0+1.2.203
+ 1:57.24    Compiling static_assertions v1.1.0
+ 1:57.29    Compiling nix v0.15.0
+ 1:57.47    Compiling precomputed-hash v0.1.1
+ 1:57.52    Compiling opaque-debug v0.2.3
+ 1:57.58    Compiling fake-simd v0.1.2
+ 1:57.67    Compiling hexf-parse v0.2.1
+ 1:58.01    Compiling cty v0.2.2
+ 1:58.06    Compiling replace_with v0.1.7
+ 1:58.16    Compiling cfg_aliases v0.1.1
+ 1:58.21    Compiling target-lexicon v0.9.0
+ 2:00.06    Compiling encoding_c v0.9.8
+ 2:00.39    Compiling bytes v1.1.0
+ 2:02.42    Compiling renderdoc-sys v0.7.1
+ 2:02.43    Compiling binary-space-partition v0.1.2
+ 2:02.54    Compiling profiling v1.0.5
+ 2:02.61    Compiling plain v0.2.3
+ 2:02.68    Compiling cose v0.1.4
+ 2:02.73    Compiling svg_fmt v0.4.1
+ 2:03.48    Compiling encoding_c_mem v0.2.6
+ 2:03.83    Compiling glow v0.11.2
+ 2:04.03 dom/localstorage
+ 2:04.94    Compiling murmurhash3 v0.0.5
+ 2:05.14    Compiling inplace_it v0.3.3
+ 2:07.16    Compiling error-support v0.1.0 (https://github.com/mozilla/application-services?rev=c51b63595a27a6ef45161012323e0261475c10c9#c51b6359)
+ 2:07.25    Compiling qcms v0.2.0 (/usr/oppai/www/firefox-98.0.2/gfx/qcms)
+ 2:07.41 dom/locks
+ 2:07.77    Compiling quick-error v1.2.3
+ 2:07.88    Compiling cache-padded v1.2.0
+ 2:07.97    Compiling new_debug_unreachable v1.0.4
+ 2:08.02    Compiling unicode-segmentation v1.8.0
+ 2:08.64 dom/mathml
+ 2:09.66    Compiling moz_cbor v0.1.2
+ 2:11.50    Compiling authenticator v0.3.1
+ 2:11.68    Compiling tracy-rs v0.1.2
+ 2:11.77    Compiling copyless v0.1.5
+ 2:11.89    Compiling memalloc v0.1.0
+ 2:12.09    Compiling rustc-demangle v0.1.21
+ 2:12.30    Compiling runloop v0.1.0
+ 2:12.64    Compiling mozilla-central-workspace-hack v0.1.0 (/usr/oppai/www/firefox-98.0.2/build/workspace-hack)
+ 2:12.71 dom/media/autoplay
+ 2:12.71    Compiling prefs_parser v0.0.1 (/usr/oppai/www/firefox-98.0.2/modules/libpref/parser)
+ 2:13.17 dom/media/bridge
+ 2:13.90    Compiling instant v0.1.12
+ 2:14.00    Compiling libloading v0.7.2
+ 2:14.47    Compiling bitreader v0.3.5
+ 2:15.33    Compiling gpu-alloc-types v0.2.0
+ 2:15.36    Compiling gpu-descriptor-types v0.1.1
+ 2:15.59    Compiling crossbeam-utils v0.6.6
+ 2:15.80    Compiling num-traits v0.2.14
+ 2:16.03    Compiling indexmap v1.6.2
+ 2:16.25    Compiling crossbeam-utils v0.7.2
+ 2:16.48    Compiling num-integer v0.1.44
+ 2:16.69    Compiling memoffset v0.5.6
+ 2:16.90    Compiling memoffset v0.6.5
+ 2:17.15    Compiling crossbeam-epoch v0.8.2
+ 2:17.28    Compiling miniz_oxide v0.4.4
+ 2:17.40    Compiling rayon v1.5.1
+ 2:17.55    Compiling libdbus-sys v0.2.2
+ 2:17.61    Compiling alsa-sys v0.3.1
+ 2:17.80 dom/media/doctor
+ 2:17.89    Compiling fxhash v0.2.1
+ 2:18.05    Compiling base64 v0.10.1
+ 2:18.64    Compiling hashbrown v0.9.1
+ 2:18.90    Compiling lmdb-rkv-sys v0.11.2
+ 2:19.45    Compiling libsqlite3-sys v0.20.1
+ 2:19.83    Compiling glslopt v0.1.9
+ 2:19.91    Compiling whatsys v0.1.2
+ 2:20.47    Compiling audioipc v0.2.5 (https://github.com/mozilla/audioipc-2?rev=515bb210a93f520642fd3a60f391652680b3e988#515bb210)
+ 2:20.57 dom/media/eme
+ 2:20.84    Compiling audioipc2 v0.5.0 (https://github.com/kinetiknz/audioipc-2?rev=f04cfa6a9463232e0468436b0482a698bb12b1ec#f04cfa6a)
+ 2:20.91    Compiling nom v5.1.2
+ 2:21.18    Compiling lock_api v0.4.5
+ 2:21.26    Compiling idna v0.2.1
+ 2:21.45 dom/media/encoder
+ 2:21.75    Compiling clang-sys v1.3.0
+ 2:22.80    Compiling unic-langid-impl v0.9.0
+ 2:23.28 dom/media/fake-cdm
+ 2:25.26    Compiling type-map v0.4.0
+ 2:25.63    Compiling phf_shared v0.8.0
+ 2:26.20    Compiling cubeb-sys v0.9.1
+ 2:26.43    Compiling servo_arc v0.1.1 (/usr/oppai/www/firefox-98.0.2/servo/components/servo_arc)
+ 2:26.86    Compiling owning_ref v0.4.1
+ 2:27.88    Compiling dtoa-short v0.3.3
+ 2:28.19    Compiling sql-support v0.1.0 (https://github.com/mozilla/application-services?rev=c51b63595a27a6ef45161012323e0261475c10c9#c51b6359)
+ 2:28.38    Compiling webext-storage v0.1.0 (https://github.com/mozilla/application-services?rev=c51b63595a27a6ef45161012323e0261475c10c9#c51b6359)
+ 2:28.62    Compiling itertools v0.8.2
+ 2:29.07 dom/media/flac
+ 2:29.85 dom/media/gmp-plugin-openh264
+ 2:30.51 dom/media/gmp
+ 2:31.13    Compiling semver v0.9.0
+ 2:31.20 dom/media/gmp/widevine-adapter
+ 2:33.67    Compiling block-padding v0.1.5
+ 2:33.91    Compiling itertools v0.10.3
+ 2:35.62 dom/media/imagecapture
+ 2:36.18    Compiling bit-set v0.5.2
+ 2:36.46    Compiling uluru v1.1.1
+ 2:36.58    Compiling walkdir v2.3.2
+ 2:38.63    Compiling codespan-reporting v0.11.1
+ 2:38.74 dom/media/ipc
+ 2:38.90 dom/media/mediacapabilities
+ 2:39.55    Compiling raw-window-handle v0.4.2
+ 2:39.88    Compiling wgpu-core v0.12.0 (https://github.com/gfx-rs/wgpu?rev=6bc896f#6bc896fe)
+ 2:42.16    Compiling dns-parser v0.8.0
+ 2:43.69    Compiling ringbuf v0.2.6
+ 2:44.16 dom/media/mediacontrol
+ 2:44.29 dom/media/mediasession
+ 2:50.10    Compiling gpu-alloc v0.5.2
+ 2:51.81 dom/media/mediasink
+ 2:52.29    Compiling crossbeam-queue v0.1.2
+ 2:53.71 dom/media/mediasource
+ 3:01.44 dom/media/mp3
+ 3:05.76 dom/media/mp4
+ 3:05.84 dom/media/ogg
+ 3:06.43    Compiling hashlink v0.6.0
+ 3:07.19    Compiling fallible_collections v0.4.2
+ 3:07.89    Compiling gpu-descriptor v0.2.1
+ 3:11.19 dom/media/platforms/agnostic/bytestreams
+ 3:11.31 dom/media/platforms/agnostic/eme
+ 3:15.20 dom/media/platforms/agnostic/gmp
+ 3:16.64 dom/media/platforms/ffmpeg/ffmpeg57
+ 3:19.21 dom/media/platforms/ffmpeg/ffmpeg58
+ 3:20.83 dom/media/platforms/ffmpeg/ffvpx
+ 3:21.93 dom/media/platforms/ffmpeg/libav53
+ 3:22.10 dom/media/platforms/ffmpeg/libav54
+ 3:22.97 dom/media/platforms/ffmpeg/libav55
+ 3:25.20    Compiling unic-langid v0.9.0
+ 3:26.15 dom/media/platforms/ffmpeg
+ 3:28.06 dom/media/platforms/omx
+ 3:29.27    Compiling rustc_version v0.2.3
+ 3:30.28 dom/media/platforms
+ 3:30.43 dom/media/systemservices
+ 3:30.73 dom/media
+ 3:31.27 dom/media/utils
+ 3:31.65 In file included from Unified_cpp_dom_ipc0.cpp:119:
+ 3:31.65 /usr/oppai/www/firefox-98.0.2/dom/ipc/ContentParent.cpp:1272:3: warning: 'gdk_pointer_ungrab' is deprecated: Use 'gdk_device_ungrab' instead [-Wdeprecated-declarations]
+ 3:31.65   gdk_pointer_ungrab(aTime);
+ 3:31.65   ^
+ 3:31.65 /usr/include/gtk-3.0/gdk/gdkmain.h:99:1: note: 'gdk_pointer_ungrab' has been explicitly marked deprecated here
+ 3:31.65 GDK_DEPRECATED_IN_3_0_FOR(gdk_device_ungrab)
+ 3:31.65 ^
+ 3:31.65 /usr/include/gtk-3.0/gdk/gdkversionmacros.h:259:47: note: expanded from macro 'GDK_DEPRECATED_IN_3_0_FOR'
+ 3:31.65 # define GDK_DEPRECATED_IN_3_0_FOR(f)         GDK_DEPRECATED_FOR(f)
+ 3:31.65                                               ^
+ 3:31.65 /usr/include/gtk-3.0/gdk/gdkversionmacros.h:49:31: note: expanded from macro 'GDK_DEPRECATED_FOR'
+ 3:31.65 #define GDK_DEPRECATED_FOR(f) G_DEPRECATED_FOR(f) _GDK_EXTERN
+ 3:31.65                               ^
+ 3:31.65 /usr/include/glib-2.0/glib/gmacros.h:1112:44: note: expanded from macro 'G_DEPRECATED_FOR'
+ 3:31.65 #define G_DEPRECATED_FOR(f) __attribute__((__deprecated__("Use '" #f "' instead")))
+ 3:31.65                                            ^
+ 3:32.06 dom/media/wave
+ 3:33.15 dom/media/webaudio/blink
+ 3:38.69 dom/media/webaudio
+ 3:39.10 dom/media/webm
+ 3:40.69 dom/media/webrtc/common
+ 3:41.22 dom/media/webrtc/jsapi
+ 3:42.42 dom/media/webrtc/jsep
+ 3:43.53 dom/media/webrtc/libwebrtcglue
+ 3:44.53 dom/media/webrtc/sdp
+ 3:51.54 dom/media/webrtc
+ 3:57.53 dom/media/webrtc/transport/build
+ 4:01.18 1 warning generated.
+ 4:03.56 dom/media/webrtc/transport/ipc
+ 4:14.28 dom/media/webrtc/transport/third_party/nICEr
+ 4:16.75 dom/media/webrtc/transport/third_party/nrappkit
+ 4:16.81 In file included from Unified_c_nrappkit0.c:2:
+ 4:16.81 In file included from /usr/oppai/www/firefox-98.0.2/dom/media/webrtc/transport/third_party/nrappkit/src/log/r_log.c:57:
+ 4:16.81 In file included from /usr/oppai/www/firefox-98.0.2/dom/media/webrtc/transport/third_party/nrappkit/src/share/nr_common.h:58:
+ 4:16.81 In file included from /usr/oppai/www/firefox-98.0.2/firefox-build-dir/dist/system_wrappers/sys/errno.h:3:
+ 4:16.81 /usr/include/sys/errno.h:1:2: warning: redirecting incorrect #include <sys/errno.h> to <errno.h> [-W#warnings]
+ 4:16.81 #warning redirecting incorrect #include <sys/errno.h> to <errno.h>
+ 4:16.81  ^
+ 4:17.15 In file included from Unified_c_third_party_nICEr1.c:20:
+ 4:17.15 In file included from /usr/oppai/www/firefox-98.0.2/dom/media/webrtc/transport/third_party/nICEr/src/stun/addrs-netlink.c:49:
+ 4:17.15 In file included from /usr/oppai/www/firefox-98.0.2/firefox-build-dir/dist/system_wrappers/net/if.h:3:
+ 4:17.15 /usr/include/net/if.h:64:8: error: redefinition of 'ifmap'
+ 4:17.15 struct ifmap {
+ 4:17.15        ^
+ 4:17.15 /usr/include/linux/if.h:194:8: note: previous definition is here
+ 4:17.15 struct ifmap {
+ 4:17.15        ^
+ 4:17.15 In file included from Unified_c_third_party_nICEr1.c:20:
+ 4:17.15 In file included from /usr/oppai/www/firefox-98.0.2/dom/media/webrtc/transport/third_party/nICEr/src/stun/addrs-netlink.c:49:
+ 4:17.15 In file included from /usr/oppai/www/firefox-98.0.2/firefox-build-dir/dist/system_wrappers/net/if.h:3:
+ 4:17.15 /usr/include/net/if.h:76:8: error: redefinition of 'ifreq'
+ 4:17.15 struct ifreq {
+ 4:17.15        ^
+ 4:17.15 /usr/include/linux/if.h:232:8: note: previous definition is here
+ 4:17.15 struct ifreq {
+ 4:17.15        ^
+ 4:17.16 In file included from Unified_c_third_party_nICEr1.c:20:
+ 4:17.16 In file included from /usr/oppai/www/firefox-98.0.2/dom/media/webrtc/transport/third_party/nICEr/src/stun/addrs-netlink.c:49:
+ 4:17.16 In file included from /usr/oppai/www/firefox-98.0.2/firefox-build-dir/dist/system_wrappers/net/if.h:3:
+ 4:17.16 /usr/include/net/if.h:116:8: error: redefinition of 'ifconf'
+ 4:17.16 struct ifconf {
+ 4:17.16        ^
+ 4:17.16 /usr/include/linux/if.h:284:8: note: previous definition is here
+ 4:17.16 struct ifconf  {
+ 4:17.16        ^
+ 4:17.28 3 errors generated.
+ 4:17.28 make[4]: *** [/usr/oppai/www/firefox-98.0.2/config/rules.mk:580: Unified_c_third_party_nICEr1.o] Error 1
+ 4:17.28 make[3]: *** [/usr/oppai/www/firefox-98.0.2/config/recurse.mk:72: dom/media/webrtc/transport/third_party/nICEr/nicer_nicer/target-objects] Error 2
+ 4:17.28 make[3]: *** Waiting for unfinished jobs....
+ 4:18.64 1 warning generated.
+ 4:26.14    Compiling quote v1.0.14
+ 4:29.50    Compiling time v0.1.43
+ 4:32.05    Compiling iovec v0.1.4
+ 4:32.27    Compiling num_cpus v1.13.1
+ 4:34.42    Compiling atty v0.2.14
+ 4:34.54    Compiling net2 v0.2.37
+ 4:36.19    Compiling memmap2 v0.2.3
+ 4:36.72    Compiling zeitstempel v0.1.1
+ 4:39.19    Compiling pulse-ffi v0.1.0 (https://github.com/mozilla/cubeb-pulse-rs?rev=f2456201dbfdc467b80f0ff6bbb1b8a6faf7df02#f2456201)
+ 4:40.19    Compiling dirs-sys v0.3.5
+ 4:40.45    Compiling freetype v0.7.0
+ 4:41.73    Compiling memmap2 v0.3.1
+ 4:41.81    Compiling libudev-sys v0.1.3 (/usr/oppai/www/firefox-98.0.2/dom/webauthn/libudev-sys)
+ 4:42.26    Compiling socket2 v0.3.19
+ 4:44.33    Compiling ffi-support v0.4.4
+ 4:45.41    Compiling mio v0.8.0
+ 4:48.00    Compiling dogear v0.4.0
+ 4:50.98    Compiling static_prefs v0.1.0 (/usr/oppai/www/firefox-98.0.2/modules/libpref/init/static_prefs)
+ 4:51.03    Compiling moz_asserts v0.1.0 (/usr/oppai/www/firefox-98.0.2/mozglue/static/rust/moz_asserts)
+ 4:58.72    Compiling jobserver v0.1.24
+ 4:58.91    Compiling aho-corasick v0.7.18
+ 5:01.21    Compiling nsstring v0.1.0 (/usr/oppai/www/firefox-98.0.2/xpcom/rust/nsstring)
+ 5:02.51    Compiling xmldecl v0.2.0
+ 5:02.83    Compiling chardetng v0.1.9 (https://github.com/hsivonen/chardetng?rev=3484d3e3ebdc8931493aa5df4d7ee9360a90e76b#3484d3e3)
+ 5:08.13    Compiling crossbeam-channel v0.5.2
+ 5:08.53    Compiling paste-impl v0.1.18
+ 5:13.24    Compiling fluent-langneg v0.13.0
+ 5:13.94    Compiling intl-memoizer v0.5.1
+ 5:14.22    Compiling intl_pluralrules v7.0.1
+ 5:14.78    Compiling gl_generator v0.14.0
+ 5:15.22    Compiling generic-array v0.12.4
+ 5:15.29    Compiling mozglue-static v0.1.0 (/usr/oppai/www/firefox-98.0.2/mozglue/static/rust)
+ 5:15.90    Compiling cose-c v0.1.5
+ 5:16.51    Compiling cstr v0.2.9
+ 5:16.94    Compiling rand_core v0.5.1
+ 5:17.53    Compiling bytes v0.4.12
+ 5:18.52    Compiling futures-cpupool v0.1.8
+ 5:19.64    Compiling mio v0.6.23 (/usr/oppai/www/firefox-98.0.2/third_party/rust/mio-0.6.23)
+ 5:21.00    Compiling mapped_hyph v0.4.3 (https://github.com/jfkthame/mapped_hyph.git?rev=746743227485a83123784df0c53227ab466612ed#74674322)
+ 5:24.88    Compiling pulse v0.3.0 (https://github.com/mozilla/cubeb-pulse-rs?rev=f2456201dbfdc467b80f0ff6bbb1b8a6faf7df02#f2456201)
+ 5:24.93    Compiling dirs v2.0.2
+ 5:25.26    Compiling libudev v0.2.0
+ 5:26.73    Compiling ordered-float v1.1.1
+ 5:27.14    Compiling spirv v0.2.0+1.5.4
+ 5:27.52    Compiling tokio-executor v0.1.10
+ 5:29.96    Compiling dbus v0.6.5
+ 5:30.79    Compiling alsa v0.4.3
+ 5:33.13    Compiling flate2 v1.0.22
+ 5:35.58    Compiling build-parallel v0.1.2
+ 5:35.85    Compiling regex v1.5.4
+ 5:39.98    Compiling nserror v0.1.0 (/usr/oppai/www/firefox-98.0.2/xpcom/rust/nserror)
+ 5:40.37    Compiling gkrust_utils v0.1.0 (/usr/oppai/www/firefox-98.0.2/xpcom/rust/gkrust_utils)
+ 5:40.53    Compiling chardetng_c v0.1.2 (https://github.com/hsivonen/chardetng_c?rev=ed8a4c6f900a90d4dbc1d64b856e61490a1c3570#ed8a4c6f)
+ 5:40.57    Compiling lmdb-rkv v0.14.0
+ 5:41.94    Compiling cexpr v0.4.0
+ 5:42.09    Compiling glsl v4.1.1
+ 5:49.84    Compiling paste v0.1.18
+ 5:49.94    Compiling cubeb-core v0.9.0
+ 5:51.43    Compiling block-buffer v0.7.3
+ 5:51.58    Compiling digest v0.8.1
+ 5:51.99    Compiling rand_chacha v0.2.2
+ 5:53.81    Compiling tokio-io v0.1.13
+ 5:54.86    Compiling mio-uds v0.6.8
+ 5:55.61    Compiling gleam v0.13.1
+ 5:55.67    Compiling tokio-timer v0.2.13
+ 5:58.17    Compiling tokio-current-thread v0.1.7
+ 5:59.67    Compiling crossbeam-deque v0.7.4
+ 6:00.14    Compiling synstructure v0.12.6
+ 6:01.10    Compiling darling_core v0.13.1
+ 6:07.16    Compiling crossbeam-deque v0.8.1
+ 6:07.61    Compiling midir v0.7.0 (https://github.com/mozilla/midir.git?rev=4c11f0ffb5d6a10de4aff40a7b81218b33b94e6f#4c11f0ff)
+ 6:11.72    Compiling rand_pcg v0.2.1
+ 6:12.02    Compiling env_logger v0.8.4
+ 6:12.62    Compiling fluent-pseudo v0.3.1
+ 6:14.45    Compiling netwerk_helper v0.0.1 (/usr/oppai/www/firefox-98.0.2/netwerk/base/rust-helper)
+ 6:16.15    Compiling encoding_glue v0.1.0 (/usr/oppai/www/firefox-98.0.2/intl/encoding_glue)
+ 6:17.91    Compiling glsl-to-cxx v0.1.0 (/usr/oppai/www/firefox-98.0.2/gfx/wr/glsl-to-cxx)
+ 6:19.72    Compiling cubeb v0.9.0
+ 6:19.81    Compiling cubeb-backend v0.9.0
+ 6:19.91    Compiling sha2 v0.8.2
+ 6:20.00    Compiling rand v0.7.3
+ 6:20.25    Compiling audio_thread_priority v0.23.4
+ 6:21.48    Compiling tokio-reactor v0.1.3
+ 6:22.50    Compiling tokio-codec v0.1.2
+ 6:23.12    Compiling tokio-threadpool v0.1.17
+ 6:24.69    Compiling mp4parse v0.13.0 (https://github.com/mozilla/mp4parse-rust?rev=3bfc47d9a571d0842676043ba60716318e946c06#3bfc47d9)
+ 6:28.87    Compiling cubeb-pulse v0.3.0 (https://github.com/mozilla/cubeb-pulse-rs?rev=f2456201dbfdc467b80f0ff6bbb1b8a6faf7df02#f2456201)
+ 6:28.94    Compiling jsrust_shared v0.1.0 (/usr/oppai/www/firefox-98.0.2/js/src/rust/shared)
+ 6:29.04    Compiling rust_cascade v0.6.0
+ 6:29.41    Compiling tokio-tcp v0.1.4
+ 6:29.70    Compiling uuid v0.8.1
+ 6:30.98    Compiling tempfile v3.1.0
+ 6:33.01    Compiling tokio-udp v0.1.6
+ 6:33.08    Compiling tokio-uds v0.2.7
+ 6:33.64    Compiling tokio-fs v0.1.7
+ 6:35.70    Compiling phf_generator v0.8.0
+ 6:35.82    Compiling mp4parse_capi v0.13.0 (https://github.com/mozilla/mp4parse-rust?rev=3bfc47d9a571d0842676043ba60716318e946c06#3bfc47d9)
+ 6:42.15    Compiling midir_impl v0.1.0 (/usr/oppai/www/firefox-98.0.2/dom/midi/midir_impl)
+ 6:43.54    Compiling tokio v0.1.14
+ 6:43.70    Compiling phf_codegen v0.8.0
+ 6:43.87    Compiling selectors v0.22.0 (/usr/oppai/www/firefox-98.0.2/servo/components/selectors)
+ 7:00.04    Compiling gecko-profiler v0.1.0 (/usr/oppai/www/firefox-98.0.2/tools/profiler/rust-api)
+ 7:01.22 error: failed to run custom build command for `gecko-profiler v0.1.0 (/usr/oppai/www/firefox-98.0.2/tools/profiler/rust-api)`
+ 7:01.22 Caused by:
+ 7:01.22   process didn't exit successfully: `/usr/oppai/www/firefox-98.0.2/firefox-build-dir/release/build/gecko-profiler-5f45b6142740db8d/build-script-build` (exit status: 101)
+ 7:01.22   --- stdout
+ 7:01.22   cargo:rerun-if-changed=build.rs
+ 7:01.22   cargo:out_dir=/usr/oppai/www/firefox-98.0.2/firefox-build-dir/x86_64-unknown-linux-musl/release/build/gecko-profiler-68bf74939b1f994c/out
+ 7:01.22   cargo:rerun-if-changed=/usr/oppai/www/firefox-98.0.2/firefox-build-dir/dist/include/mozilla-config.h
+ 7:01.22   cargo:rerun-if-changed=/usr/oppai/www/firefox-98.0.2/firefox-build-dir/tools/profiler/rust-api/extra-bindgen-flags
+ 7:01.22   cargo:rerun-if-changed=/usr/oppai/www/firefox-98.0.2/firefox-build-dir/dist/include/GeckoProfiler.h
+ 7:01.22   cargo:rerun-if-changed=/usr/oppai/www/firefox-98.0.2/firefox-build-dir/dist/include/ProfilerBindings.h
+ 7:01.22   --- stderr
+ 7:01.22   thread 'main' panicked at 'Unable to find libclang: "the `libclang` shared library at /usr/lib/libclang.so.13.0.1 could not be opened: Dynamic loading not supported"', /usr/oppai/www/firefox-98.0.2/third_party/rust/bindgen/src/lib.rs:1922:31
+ 7:01.22   stack backtrace:
+ 7:01.22      0:     0x7f82276c2626 - <std::sys_common::backtrace::_print::DisplayBacktrace as core::fmt::Display>::fmt::h200e6d4ee579728d
+ 7:01.22      1:     0x7f8227701e6c - core::fmt::write::he534f80879fb14f4
+ 7:01.22      2:     0x7f82276b6c05 - std::io::Write::write_fmt::hb8e12f252b0eeff6
+ 7:01.22      3:     0x7f82276be431 - std::panicking::default_hook::{{closure}}::h02dfcadd1b271cd7
+ 7:01.22      4:     0x7f82276be031 - std::panicking::default_hook::hc15c82b84848b5cf
+ 7:01.22      5:     0x7f82276bea11 - std::panicking::rust_panic_with_hook::h63cfa66f834af17c
+ 7:01.22      6:     0x7f82276c2e60 - std::panicking::begin_panic_handler::{{closure}}::h1ef5ef609c95c7f6
+ 7:01.22      7:     0x7f82276c2754 - std::sys_common::backtrace::__rust_end_short_backtrace::h8acc30ddf20430f1
+ 7:01.22      8:     0x7f82276be5a2 - rust_begin_unwind
+ 7:01.22      9:     0x7f82277051e1 - core::panicking::panic_fmt::h616bcf7106e72ed6
+ 7:01.22     10:     0x7f8227705483 - core::result::unwrap_failed::h5c51b967edc7eb3b
+ 7:01.22     11:     0x7f8227526562 - std::sync::once::Once::call_once::{{closure}}::hf9dc0049aef69f3d
+ 7:01.22     12:     0x7f82276bd79f - std::sync::once::Once::call_inner::h7a26e385bb4c3897
+ 7:01.22     13:     0x7f8227524756 - bindgen::ensure_libclang_is_loaded::hc6ade61581523b82
+ 7:01.22     14:     0x7f8227521b3f - bindgen::Builder::generate::h365942894a7326d8
+ 7:01.22     15:     0x7f822750f1b6 - build_script_build::main::h53a8d535ca6affbf
+ 7:01.22     16:     0x7f8227511643 - std::sys_common::backtrace::__rust_begin_short_backtrace::ha3ebf3bbe42d1586
+ 7:01.22     17:     0x7f8227511639 - std::rt::lang_start::{{closure}}::hc26b49ae7967e851
+ 7:01.22     18:     0x7f82276b2ba1 - std::rt::lang_start_internal::h4d599de7d3aef9aa
+ 7:01.22     19:     0x7f822750f822 - main
+ 7:01.22 warning: build failed, waiting for other jobs to finish...
+ 7:07.25 error: build failed
+ 7:07.26 make[4]: *** [/usr/oppai/www/firefox-98.0.2/config/makefiles/rust.mk:424: force-cargo-library-build] Error 101
+ 7:07.26 make[3]: *** [/usr/oppai/www/firefox-98.0.2/config/recurse.mk:72: toolkit/library/rust/target] Error 2
+ 7:17.79 make[2]: *** [/usr/oppai/www/firefox-98.0.2/config/recurse.mk:34: compile] Error 2
+ 7:17.79 make[1]: *** [/usr/oppai/www/firefox-98.0.2/config/rules.mk:352: default] Error 2
+ 7:17.79 make: *** [client.mk:63: build] Error 2
+ 7:17.82 5 compiler warnings present.
+ 7:17.85 /usr/bin/notify-send --app-name=Mozilla Build System Mozilla Build System Build failed

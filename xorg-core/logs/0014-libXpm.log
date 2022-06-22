@@ -1,0 +1,27 @@
+Making check in doc
+make[1]: Entering directory '/usr/oppai/xorg-core/libXpm-3.5.13/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXpm-3.5.13/doc'
+Making check in include
+make[1]: Entering directory '/usr/oppai/xorg-core/libXpm-3.5.13/include'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXpm-3.5.13/include'
+Making check in man
+make[1]: Entering directory '/usr/oppai/xorg-core/libXpm-3.5.13/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXpm-3.5.13/man'
+Making check in src
+make[1]: Entering directory '/usr/oppai/xorg-core/libXpm-3.5.13/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXpm-3.5.13/src'
+Making check in sxpm
+make[1]: Entering directory '/usr/oppai/xorg-core/libXpm-3.5.13/sxpm'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXpm-3.5.13/sxpm'
+Making check in cxpm
+make[1]: Entering directory '/usr/oppai/xorg-core/libXpm-3.5.13/cxpm'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXpm-3.5.13/cxpm'
+make[1]: Entering directory '/usr/oppai/xorg-core/libXpm-3.5.13'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXpm-3.5.13'

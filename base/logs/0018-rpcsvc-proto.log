@@ -1,0 +1,81 @@
+Making check in rpcgen
+make[1]: Entering directory '/usr/oppai/base/rpcsvc-proto-1.4.3/build/rpcgen'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/rpcsvc-proto-1.4.3/build/rpcgen'
+Making check in rpcsvc
+make[1]: Entering directory '/usr/oppai/base/rpcsvc-proto-1.4.3/build/rpcsvc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/rpcsvc-proto-1.4.3/build/rpcsvc'
+Making check in po
+make[1]: Entering directory '/usr/oppai/base/rpcsvc-proto-1.4.3/build/po'
+make rpcsvc-proto.pot-update
+make[2]: Entering directory '/usr/oppai/base/rpcsvc-proto-1.4.3/build/po'
+package_gnu=""; \
+test -n "$package_gnu" || { \
+  if { if (LC_ALL=C find --version) 2>/dev/null | grep GNU >/dev/null; then \
+         LC_ALL=C find -L ../.. -maxdepth 1 -type f -size -10000000c -exec grep -i 'GNU rpcsvc-proto' /dev/null '{}' ';' 2>/dev/null; \
+       else \
+         LC_ALL=C grep -i 'GNU rpcsvc-proto' ../../* 2>/dev/null; \
+       fi; \
+     } | grep -v 'libtool:' >/dev/null; then \
+     package_gnu=yes; \
+   else \
+     package_gnu=no; \
+   fi; \
+}; \
+if test "$package_gnu" = "yes"; then \
+  package_prefix='GNU '; \
+else \
+  package_prefix=''; \
+fi; \
+if test -n '' || test 'kukuk@thkukuk.de' = '@'PACKAGE_BUGREPORT'@'; then \
+  msgid_bugs_address=''; \
+else \
+  msgid_bugs_address='kukuk@thkukuk.de'; \
+fi; \
+case `/usr/bin/xgettext --version | sed 1q | sed -e 's,^[^0-9]*,,'` in \
+  '' | 0.[0-9] | 0.[0-9].* | 0.1[0-5] | 0.1[0-5].* | 0.16 | 0.16.[0-1]*) \
+    /usr/bin/xgettext --default-domain=rpcsvc-proto --directory=../.. \
+      --add-comments=TRANSLATORS: \
+      --files-from=../../po/POTFILES.in \
+      --copyright-holder='Free Software Foundation, Inc.' \
+      --msgid-bugs-address="$msgid_bugs_address" \
+      --keyword=_ --keyword=N_  \
+    ;; \
+  *) \
+    /usr/bin/xgettext --default-domain=rpcsvc-proto --directory=../.. \
+      --add-comments=TRANSLATORS: \
+      --files-from=../../po/POTFILES.in \
+      --copyright-holder='Free Software Foundation, Inc.' \
+      --package-name="${package_prefix}rpcsvc-proto" \
+      --package-version='1.4.3' \
+      --msgid-bugs-address="$msgid_bugs_address" \
+      --keyword=_ --keyword=N_  \
+    ;; \
+esac
+test ! -f rpcsvc-proto.po || { \
+  if test -f ../../po/rpcsvc-proto.pot-header; then \
+    sed -e '1,/^#$/d' < rpcsvc-proto.po > rpcsvc-proto.1po && \
+    cat ../../po/rpcsvc-proto.pot-header rpcsvc-proto.1po > rpcsvc-proto.po && \
+    rm -f rpcsvc-proto.1po \
+    || exit 1; \
+  fi; \
+  if test -f ../../po/rpcsvc-proto.pot; then \
+    sed -f remove-potcdate.sed < ../../po/rpcsvc-proto.pot > rpcsvc-proto.1po && \
+    sed -f remove-potcdate.sed < rpcsvc-proto.po > rpcsvc-proto.2po && \
+    if cmp rpcsvc-proto.1po rpcsvc-proto.2po >/dev/null 2>&1; then \
+      rm -f rpcsvc-proto.1po rpcsvc-proto.2po rpcsvc-proto.po; \
+    else \
+      rm -f rpcsvc-proto.1po rpcsvc-proto.2po ../../po/rpcsvc-proto.pot && \
+      mv rpcsvc-proto.po ../../po/rpcsvc-proto.pot; \
+    fi; \
+  else \
+    mv rpcsvc-proto.po ../../po/rpcsvc-proto.pot; \
+  fi; \
+}
+make[2]: Leaving directory '/usr/oppai/base/rpcsvc-proto-1.4.3/build/po'
+test ! -f ../../po/rpcsvc-proto.pot || \
+  test -z "" || make 
+make[1]: Leaving directory '/usr/oppai/base/rpcsvc-proto-1.4.3/build/po'
+make[1]: Entering directory '/usr/oppai/base/rpcsvc-proto-1.4.3/build'
+make[1]: Leaving directory '/usr/oppai/base/rpcsvc-proto-1.4.3/build'

@@ -1,0 +1,19 @@
+Making check in include
+make[1]: Entering directory '/usr/oppai/xorg-core/libXaw-1.0.14/include'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXaw-1.0.14/include'
+Making check in src
+make[1]: Entering directory '/usr/oppai/xorg-core/libXaw-1.0.14/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXaw-1.0.14/src'
+Making check in man
+make[1]: Entering directory '/usr/oppai/xorg-core/libXaw-1.0.14/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXaw-1.0.14/man'
+Making check in specs
+make[1]: Entering directory '/usr/oppai/xorg-core/libXaw-1.0.14/specs'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXaw-1.0.14/specs'
+make[1]: Entering directory '/usr/oppai/xorg-core/libXaw-1.0.14'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXaw-1.0.14'

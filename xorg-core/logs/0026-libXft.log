@@ -1,0 +1,11 @@
+Making check in man
+make[1]: Entering directory '/usr/oppai/xorg-core/libXft-2.3.4/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXft-2.3.4/man'
+Making check in src
+make[1]: Entering directory '/usr/oppai/xorg-core/libXft-2.3.4/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXft-2.3.4/src'
+make[1]: Entering directory '/usr/oppai/xorg-core/libXft-2.3.4'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXft-2.3.4'

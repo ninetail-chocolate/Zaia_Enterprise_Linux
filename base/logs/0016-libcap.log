@@ -1,0 +1,117 @@
+make -C libcap test
+make[1]: Entering directory '/usr/oppai/base/libcap-2.63/libcap'
+gcc -O2  -Wall -Wwrite-strings -Wpointer-arith -Wcast-qual -Wcast-align -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wshadow -Wunreachable-code -fPIC -Dlinux -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/oppai/base/libcap-2.63/libcap/../libcap/include/uapi -I/usr/oppai/base/libcap-2.63/libcap/../libcap/include  cap_test.c cap_alloc.o cap_proc.o cap_extint.o cap_flag.o cap_text.o cap_file.o -o cap_test
+./cap_test
+test_cap_bits: being called
+test_cap_flags: being called
+test_short_bits: being called
+test_alloc: being called
+test_alloc
+test_alloc: drop_launcher
+test_alloc: drop_iab
+test_alloc: drop_cap
+tested
+cap_test PASS
+make libcapsotest
+make[2]: Entering directory '/usr/oppai/base/libcap-2.63/libcap'
+./libcap.so
+./libcap.so is the shared library version: libcap-2.63.
+See the License file for distribution information.
+More information on this library is available from:
+
+    https://sites.google.com/site/fullycapable/
+./libcap.so --usage
+./libcap.so is the shared library version: libcap-2.63.
+See the License file for distribution information.
+More information on this library is available from:
+
+    https://sites.google.com/site/fullycapable/
+
+usage: libcap.so [--help|--usage|--summary]
+./libcap.so --help
+./libcap.so is the shared library version: libcap-2.63.
+See the License file for distribution information.
+More information on this library is available from:
+
+    https://sites.google.com/site/fullycapable/
+
+usage: libcap.so [--help|--usage|--summary]
+./libcap.so --summary
+./libcap.so is the shared library version: libcap-2.63.
+See the License file for distribution information.
+More information on this library is available from:
+
+    https://sites.google.com/site/fullycapable/
+
+Current mode: HYBRID
+Number of cap values known to: this libcap=41, running kernel=41
+
+make[2]: Leaving directory '/usr/oppai/base/libcap-2.63/libcap'
+make libpsxsotest
+make[2]: Entering directory '/usr/oppai/base/libcap-2.63/libcap'
+./libpsx.so
+./libpsx.so is the shared library version: libpsx-2.63.
+See the License file for distribution information.
+More information on this library is available from:
+
+    https://sites.google.com/site/fullycapable/
+make[2]: Leaving directory '/usr/oppai/base/libcap-2.63/libcap'
+make[1]: Leaving directory '/usr/oppai/base/libcap-2.63/libcap'
+make -C tests test
+make[1]: Entering directory '/usr/oppai/base/libcap-2.63/tests'
+make run_psx_test run_libcap_psx_test
+make[2]: Entering directory '/usr/oppai/base/libcap-2.63/tests'
+gcc -O2  -Wall -Wwrite-strings -Wpointer-arith -Wcast-qual -Wcast-align -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wshadow -Wunreachable-code -Dlinux -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/oppai/base/libcap-2.63/tests/../libcap/include/uapi -I/usr/oppai/base/libcap-2.63/tests/../libcap/include  psx_test.c -o psx_test -Wl,-rpath,../libcap -L/usr/oppai/base/libcap-2.63/tests/../libcap -lpsx -lpthread -Wl,-wrap,pthread_create
+gcc -O2  -Wall -Wwrite-strings -Wpointer-arith -Wcast-qual -Wcast-align -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wshadow -Wunreachable-code -Dlinux -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/oppai/base/libcap-2.63/tests/../libcap/include/uapi -I/usr/oppai/base/libcap-2.63/tests/../libcap/include  libcap_psx_test.c -o libcap_psx_test -Wl,-rpath,../libcap -L/usr/oppai/base/libcap-2.63/tests/../libcap -lcap -L/usr/oppai/base/libcap-2.63/tests/../libcap -lpsx -lpthread -Wl,-wrap,pthread_create
+./libcap_psx_test
+hello libcap and libpsx .......... PASSED
+./psx_test
+iteration [580457]: 0
+hello [580457], main<0> 7f6b0c43c6e8 (keepcaps=1 vs. want=1)
+pid=580457 forked -> 580458
+[580457] started=0 vs 1
+[580457] started=1 vs 1
+iteration [580457]: 1
+hello [580457], main<1> 7f6b0c43c6e8 (keepcaps=0 vs. want=0)
+hello [580457], thread<0> 7f6b0c382b38 (keepcaps=0 vs. want=0)
+[580457] started=1 vs 2
+[580457] started=2 vs 2
+iteration [580457]: 2
+hello [580457], main<2> 7f6b0c43c6e8 (keepcaps=1 vs. want=1)
+hello [580457], thread<0> 7f6b0c35fb38 (keepcaps=1 vs. want=1)
+hello [580457], thread<1> 7f6b0c382b38 (keepcaps=1 vs. want=1)
+[580457] started=2 vs 3
+[580457] started=3 vs 3
+iteration [580457]: 3
+hello [580457], main<3> 7f6b0c43c6e8 (keepcaps=0 vs. want=0)
+hello [580457], thread<0> 7f6b0c33cb38 (keepcaps=0 vs. want=0)
+hello [580457], thread<2> 7f6b0c382b38 (keepcaps=0 vs. want=0)
+hello [580457], thread<1> 7f6b0c35fb38 (keepcaps=0 vs. want=0)
+iteration [580457]: 4
+hello [580457], main<4> 7f6b0c43c6e8 (keepcaps=1 vs. want=1)
+hello [580457], thread<2> 7f6b0c35fb38 (keepcaps=1 vs. want=1)
+hello [580457], threadchild 580458 starting
+child 580458 exiting
+<1> 7f6b0c33cb38 (keepcaps=1 vs. want=1)
+iteration [580457]: 5
+hello [580457], main<5> 7f6b0c43c6e8 (keepcaps=0 vs. want=0)
+hello [580457], thread<2> 7f6b0c33cb38 (keepcaps=0 vs. want=0)
+iteration [580457]: 6
+hello [580457], main<6> 7f6b0c43c6e8 (keepcaps=1 vs. want=1)
+iteration [580457]: 7
+hello [580457], main<7> 7f6b0c43c6e8 (keepcaps=0 vs. want=0)
+iteration [580457]: 8
+hello [580457], main<8> 7f6b0c43c6e8 (keepcaps=1 vs. want=1)
+iteration [580457]: 9
+hello [580457], main<9> 7f6b0c43c6e8 (keepcaps=0 vs. want=0)
+./psx_test PASSED
+make[2]: Leaving directory '/usr/oppai/base/libcap-2.63/tests'
+make[1]: Leaving directory '/usr/oppai/base/libcap-2.63/tests'
+make -C progs test
+make[1]: Entering directory '/usr/oppai/base/libcap-2.63/progs'
+no program tests without privilege, try 'make sudotest'
+make[1]: Leaving directory '/usr/oppai/base/libcap-2.63/progs'
+make -C doc test
+make[1]: Entering directory '/usr/oppai/base/libcap-2.63/doc'
+no doc tests available
+make[1]: Leaving directory '/usr/oppai/base/libcap-2.63/doc'

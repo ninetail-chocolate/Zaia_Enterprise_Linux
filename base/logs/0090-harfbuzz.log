@@ -1,0 +1,414 @@
+[0/1] Running all tests.
+  1/403 harfbuzz:src / test-algs                                 OK               0.04s
+  2/403 harfbuzz:src / test-array                                OK               0.04s
+  3/403 harfbuzz:src / test-bimap                                OK               0.03s
+  4/403 harfbuzz:src / test-iter                                 OK               0.03s
+  5/403 harfbuzz:src / test-machinery                            OK               0.03s
+  6/403 harfbuzz:src / test-map                                  OK               0.03s
+  7/403 harfbuzz:src / test-number                               OK               0.03s
+  8/403 harfbuzz:src / test-ot-tag                               OK               0.03s
+  9/403 harfbuzz:src / test-priority-queue                       OK               0.02s
+ 10/403 harfbuzz:src / test-repacker                             OK               0.02s
+ 11/403 harfbuzz:src / test-serialize                            OK               0.02s
+ 12/403 harfbuzz:src / test-set                                  OK               0.02s
+ 13/403 harfbuzz:src / test-unicode-ranges                       OK               0.02s
+ 14/403 harfbuzz:src / test-vector                               OK               0.02s
+ 15/403 harfbuzz:src / check-c-linkage-decls                     OK               0.06s
+ 16/403 harfbuzz:src / check-externs                             OK               0.06s
+ 17/403 harfbuzz:api / test-aat-layout                           OK               0.04s
+ 18/403 harfbuzz:api / test-baseline                             OK               0.04s
+ 19/403 harfbuzz:api / test-blob                                 OK               0.03s
+ 20/403 harfbuzz:api / test-buffer                               OK               0.03s
+ 21/403 harfbuzz:api / test-c                                    OK               0.03s
+ 22/403 harfbuzz:api / test-collect-unicodes                     OK               0.03s
+ 23/403 harfbuzz:api / test-cplusplus                            OK               0.02s
+ 24/403 harfbuzz:api / test-common                               OK               0.02s
+ 25/403 harfbuzz:api / test-draw                                 OK               0.02s
+ 26/403 harfbuzz:src / check-libstdc++                           OK               0.08s
+ 27/403 harfbuzz:src / check-header-guards                       OK               0.09s
+ 28/403 harfbuzz:api / test-font                                 OK               0.04s
+ 29/403 harfbuzz:src / check-includes                            OK               0.09s
+ 30/403 harfbuzz:src / check-symbols                             OK               0.09s
+ 31/403 harfbuzz:api / test-font-scale                           OK               0.05s
+ 32/403 harfbuzz:api / test-map                                  OK               0.05s
+ 33/403 harfbuzz:api / test-object                               OK               0.04s
+ 34/403 harfbuzz:api / test-ot-alternates                        OK               0.04s
+ 35/403 harfbuzz:api / test-ot-collect-glyphs                    OK               0.04s
+ 36/403 harfbuzz:api / test-ot-color                             OK               0.04s
+ 37/403 harfbuzz:api / test-ot-face                              OK               0.03s
+ 38/403 harfbuzz:api / test-ot-glyphname                         OK               0.03s
+ 39/403 harfbuzz:api / test-ot-layout                            OK               0.03s
+ 40/403 harfbuzz:api / test-ot-ligature-carets                   OK               0.03s
+ 41/403 harfbuzz:api / test-ot-name                              OK               0.05s
+ 42/403 harfbuzz:api / test-ot-meta                              OK               0.05s
+ 43/403 harfbuzz:api / test-ot-metrics                           OK               0.04s
+ 44/403 harfbuzz:api / test-ot-tag                               OK               0.04s
+ 45/403 harfbuzz:api / test-ot-extents-cff                       OK               0.05s
+ 46/403 harfbuzz:api / test-ot-metrics-tt-var                    OK               0.05s
+ 47/403 harfbuzz:api / test-set                                  OK               0.05s
+ 48/403 harfbuzz:api / test-shape                                OK               0.04s
+ 49/403 harfbuzz:api / test-style                                OK               0.04s
+ 50/403 harfbuzz:api+subset / test-subset                        OK               0.04s
+ 51/403 harfbuzz:api+subset / test-subset-drop-tables            OK               0.04s
+ 52/403 harfbuzz:api+subset / test-subset-cmap                   OK               0.05s
+ 53/403 harfbuzz:api+subset / test-subset-glyf                   OK               0.05s
+ 54/403 harfbuzz:api+subset / test-subset-hdmx                   OK               0.04s
+ 55/403 harfbuzz:api+subset / test-subset-hmtx                   OK               0.04s
+ 56/403 harfbuzz:api+subset / test-subset-nameids                OK               0.05s
+ 57/403 harfbuzz:api+subset / test-subset-os2                    OK               0.05s
+ 58/403 harfbuzz:api+subset / test-subset-post                   OK               0.05s
+ 59/403 harfbuzz:api+subset / test-subset-vmtx                   OK               0.04s
+ 60/403 harfbuzz:api+subset / test-subset-cff1                   OK               0.06s
+ 61/403 harfbuzz:api+subset / test-subset-cff2                   OK               0.06s
+ 62/403 harfbuzz:api+subset / test-subset-gvar                   OK               0.06s
+ 63/403 harfbuzz:api+subset / test-subset-hvar                   OK               0.06s
+ 64/403 harfbuzz:api+subset / test-subset-vvar                   OK               0.06s
+ 65/403 harfbuzz:api+subset / test-subset-sbix                   OK               0.05s
+ 66/403 harfbuzz:api+subset / test-subset-gpos                   OK               0.05s
+ 67/403 harfbuzz:api / test-var-coords                           OK               0.04s
+ 68/403 harfbuzz:api+subset / test-subset-colr                   OK               0.06s
+ 69/403 harfbuzz:api+subset / test-subset-cbdt                   OK               0.06s
+ 70/403 harfbuzz:api / test-unicode                              OK               0.07s
+ 71/403 harfbuzz:src / check-static-inits                        OK               0.24s
+ 72/403 harfbuzz:api / test-version                              OK               0.07s
+ 73/403 harfbuzz:api / test-ot-math                              OK               0.07s
+ 74/403 harfbuzz:api / test-multithread                          OK               0.06s
+ 75/403 harfbuzz:shaping+in-house / aat-morx                     OK               0.07s
+ 76/403 harfbuzz:shaping+in-house / aat-trak                     OK               0.07s
+ 77/403 harfbuzz:shaping+in-house / arabic-fallback-shaping      OK               0.07s
+ 78/403 harfbuzz:shaping+in-house / arabic-feature-order         OK               0.08s
+ 79/403 harfbuzz:shaping+in-house / arabic-like-joining          OK               0.08s
+ 80/403 harfbuzz:shaping+in-house / arabic-mark-attach           OK               0.08s
+ 81/403 harfbuzz:shaping+in-house / arabic-stch                  OK               0.08s
+ 82/403 harfbuzz:shaping+in-house / arabic-mark-order            OK               0.09s
+ 83/403 harfbuzz:shaping+in-house / automatic-fractions          OK               0.08s
+ 84/403 harfbuzz:shaping+in-house / cluster                      OK               0.08s
+ 85/403 harfbuzz:shaping+in-house / collections                  OK               0.07s
+ 86/403 harfbuzz:shaping+in-house / arabic-normalization         OK               0.09s
+ 87/403 harfbuzz:shaping+in-house / color-fonts                  OK               0.08s
+ 88/403 harfbuzz:shaping+in-house / context-matching             OK               0.09s
+ 89/403 harfbuzz:shaping+in-house / cursive-positioning          OK               0.08s
+ 90/403 harfbuzz:shaping+in-house / default-ignorables           OK               0.08s
+ 91/403 harfbuzz:shaping+in-house / emoji                        OK               0.08s
+ 92/403 harfbuzz:shaping+in-house / digits                       OK               0.09s
+ 93/403 harfbuzz:shaping+in-house / fallback-positioning         OK               0.08s
+ 94/403 harfbuzz:shaping+in-house / hangul-jamo                  OK               0.07s
+ 95/403 harfbuzz:shaping+in-house / glyph-props-no-gdef          OK               0.08s
+ 96/403 harfbuzz:shaping+in-house / hyphens                      OK               0.08s
+ 97/403 harfbuzz:shaping+in-house / indic-consonant-with-stacker OK               0.08s
+ 98/403 harfbuzz:shaping+in-house / indic-decompose              OK               0.08s
+ 99/403 harfbuzz:shaping+in-house / indic-init                   OK               0.09s
+100/403 harfbuzz:shaping+in-house / indic-joiner-candrabindu     OK               0.08s
+101/403 harfbuzz:shaping+in-house / indic-joiners                OK               0.09s
+102/403 harfbuzz:shaping+in-house / indic-old-spec               OK               0.09s
+103/403 harfbuzz:shaping+in-house / indic-pref-blocking          OK               0.09s
+104/403 harfbuzz:shaping+in-house / indic-script-extensions      OK               0.09s
+105/403 harfbuzz:shaping+in-house / indic-special-cases          OK               0.09s
+106/403 harfbuzz:shaping+in-house / indic-syllable               OK               0.09s
+107/403 harfbuzz:shaping+in-house / item-context                 OK               0.08s
+108/403 harfbuzz:shaping+in-house / indic-vowel-letter-spoofing  OK               0.10s
+109/403 harfbuzz:shaping+in-house / kern-format2                 OK               0.09s
+110/403 harfbuzz:shaping+in-house / khmer-mark-order             OK               0.09s
+111/403 harfbuzz:shaping+in-house / macos                        SKIP             0.07s   exit status 77
+112/403 harfbuzz:shaping+in-house / language-tags                OK               0.09s
+113/403 harfbuzz:shaping+in-house / mark-attachment              OK               0.08s
+114/403 harfbuzz:shaping+in-house / khmer-misc                   OK               0.11s
+115/403 harfbuzz:shaping+in-house / mark-filtering-sets          OK               0.09s
+116/403 harfbuzz:shaping+in-house / myanmar-misc                 OK               0.08s
+117/403 harfbuzz:shaping+in-house / mongolian-variation-selector OK               0.08s
+118/403 harfbuzz:shaping+in-house / ligature-id                  OK               0.11s
+119/403 harfbuzz:shaping+in-house / myanmar-syllable             OK               0.09s
+120/403 harfbuzz:shaping+in-house / myanmar-zawgyi               OK               0.09s
+121/403 harfbuzz:shaping+in-house / nested-mark-filtering-sets   OK               0.09s
+122/403 harfbuzz:shaping+in-house / none-directional             OK               0.09s
+123/403 harfbuzz:shaping+in-house / positioning-features         OK               0.08s
+124/403 harfbuzz:shaping+in-house / rand                         OK               0.08s
+125/403 harfbuzz:shaping+in-house / reverse-sub                  OK               0.08s
+126/403 harfbuzz:shaping+in-house / rotation                     OK               0.08s
+127/403 harfbuzz:shaping+in-house / simple                       OK               0.08s
+128/403 harfbuzz:shaping+in-house / sinhala                      OK               0.08s
+129/403 harfbuzz:shaping+in-house / spaces                       OK               0.09s
+130/403 harfbuzz:shaping+in-house / tibetan-vowels               OK               0.08s
+131/403 harfbuzz:shaping+in-house / tibetan-contractions-1       OK               0.09s
+132/403 harfbuzz:shaping+in-house / tt-kern-gpos                 OK               0.08s
+133/403 harfbuzz:shaping+in-house / tibetan-contractions-2       OK               0.10s
+134/403 harfbuzz:shaping+in-house / unsafe-to-concat             OK               0.09s
+135/403 harfbuzz:shaping+in-house / use-indic3                   OK               0.09s
+136/403 harfbuzz:shaping+in-house / use-marchen                  OK               0.10s
+137/403 harfbuzz:shaping+in-house / use-syllable                 OK               0.10s
+138/403 harfbuzz:shaping+in-house / use                          OK               0.09s
+139/403 harfbuzz:shaping+in-house / variations                   OK               0.09s
+140/403 harfbuzz:shaping+in-house / use-vowel-letter-spoofing    OK               0.10s
+141/403 harfbuzz:shaping+in-house / emoji-clusters               OK               0.37s
+142/403 harfbuzz:shaping+in-house / vertical                     OK               0.10s
+143/403 harfbuzz:shaping+in-house / zero-width-marks             OK               0.09s
+144/403 harfbuzz:shaping+in-house / variations-rvrn              OK               0.11s
+145/403 harfbuzz:shaping+aots / classdef1_empty                  OK               0.10s
+146/403 harfbuzz:shaping+aots / classdef1_multiple               OK               0.09s
+147/403 harfbuzz:shaping+aots / classdef1                        OK               0.09s
+148/403 harfbuzz:shaping+aots / classdef1_single                 OK               0.10s
+149/403 harfbuzz:shaping+aots / classdef2_multiple               OK               0.09s
+150/403 harfbuzz:shaping+aots / classdef2_empty                  OK               0.09s
+151/403 harfbuzz:shaping+aots / classdef2_single                 OK               0.08s
+152/403 harfbuzz:shaping+aots / classdef2                        OK               0.08s
+153/403 harfbuzz:shaping+aots / cmap0                            OK               0.08s
+154/403 harfbuzz:shaping+aots / cmap10                           OK               0.08s
+155/403 harfbuzz:shaping+aots / cmap2                            SKIP             0.07s   exit status 77
+156/403 harfbuzz:shaping+aots / cmap12                           OK               0.08s
+157/403 harfbuzz:shaping+aots / cmap4                            OK               0.07s
+158/403 harfbuzz:shaping+aots / cmap8                            SKIP             0.07s   exit status 77
+159/403 harfbuzz:shaping+aots / cmap6                            OK               0.08s
+160/403 harfbuzz:shaping+aots / gpos_chaining1_boundary          OK               0.08s
+161/403 harfbuzz:shaping+aots / gpos_chaining1_lookupflag        OK               0.08s
+162/403 harfbuzz:shaping+aots / gpos_chaining1_multiple_subrules OK               0.08s
+163/403 harfbuzz:shaping+aots / gpos_chaining1_next_glyph        OK               0.08s
+164/403 harfbuzz:shaping+aots / gpos_chaining1_simple            OK               0.09s
+165/403 harfbuzz:shaping+aots / gpos_chaining1_successive        OK               0.08s
+166/403 harfbuzz:shaping+aots / gpos_chaining2_boundary          OK               0.08s
+167/403 harfbuzz:shaping+aots / gpos_chaining2_lookupflag        OK               0.08s
+168/403 harfbuzz:shaping+aots / gpos_chaining2_multiple_subrules OK               0.08s
+169/403 harfbuzz:shaping+aots / gpos_chaining2_next_glyph        OK               0.08s
+170/403 harfbuzz:shaping+aots / gpos_chaining2_simple            OK               0.09s
+171/403 harfbuzz:shaping+aots / gpos_chaining3_lookupflag        OK               0.08s
+172/403 harfbuzz:shaping+aots / gpos_chaining2_successive        OK               0.08s
+173/403 harfbuzz:shaping+aots / gpos_chaining3_boundary          OK               0.09s
+174/403 harfbuzz:shaping+aots / gpos_chaining3_simple            OK               0.08s
+175/403 harfbuzz:shaping+aots / gpos_chaining3_next_glyph        OK               0.08s
+176/403 harfbuzz:shaping+aots / gpos_chaining3_successive        OK               0.08s
+177/403 harfbuzz:shaping+aots / gpos_context1_boundary           OK               0.09s
+178/403 harfbuzz:shaping+aots / gpos_context1_expansion          OK               0.09s
+179/403 harfbuzz:shaping+aots / gpos_context1_lookupflag         OK               0.08s
+180/403 harfbuzz:shaping+aots / gpos_context1_multiple_subrules  OK               0.09s
+181/403 harfbuzz:shaping+aots / gpos_context1_next_glyph         OK               0.08s
+182/403 harfbuzz:shaping+aots / gpos_context1_simple             OK               0.08s
+183/403 harfbuzz:shaping+aots / gpos_context1_successive         OK               0.09s
+184/403 harfbuzz:shaping+aots / gpos_context2_boundary           OK               0.09s
+185/403 harfbuzz:shaping+aots / gpos_context2_classes            OK               0.09s
+186/403 harfbuzz:shaping+aots / gpos_context2_expansion          OK               0.09s
+187/403 harfbuzz:shaping+aots / gpos_context2_lookupflag         OK               0.09s
+188/403 harfbuzz:shaping+aots / gpos_context2_multiple_subrules  OK               0.09s
+189/403 harfbuzz:shaping+aots / gpos_context2_next_glyph         OK               0.08s
+190/403 harfbuzz:shaping+aots / gpos_context2_simple             OK               0.08s
+191/403 harfbuzz:shaping+aots / gpos_context2_successive         OK               0.08s
+192/403 harfbuzz:shaping+aots / gpos_context3_lookupflag         OK               0.08s
+193/403 harfbuzz:shaping+aots / gpos_context3_boundary           OK               0.08s
+194/403 harfbuzz:shaping+aots / gpos_context3_next_glyph         OK               0.08s
+195/403 harfbuzz:shaping+aots / gpos_context3_successive         OK               0.08s
+196/403 harfbuzz:shaping+aots / gpos_context3_simple             OK               0.08s
+197/403 harfbuzz:shaping+aots / gpos1_1_lookupflag               OK               0.08s
+198/403 harfbuzz:shaping+aots / gpos1_1_simple                   OK               0.08s
+199/403 harfbuzz:shaping+aots / gpos1_2_lookupflag               OK               0.07s
+200/403 harfbuzz:shaping+aots / gpos1_2                          OK               0.07s
+201/403 harfbuzz:shaping+aots / gpos2_1_lookupflag               OK               0.07s
+202/403 harfbuzz:shaping+aots / gpos2_1_next_glyph               OK               0.08s
+203/403 harfbuzz:shaping+aots / gpos2_1_simple                   OK               0.08s
+204/403 harfbuzz:shaping+aots / gpos2_1                          OK               0.08s
+205/403 harfbuzz:shaping+aots / gpos3_lookupflag                 SKIP             0.07s   exit status 77
+206/403 harfbuzz:shaping+aots / gpos2_2                          OK               0.09s
+207/403 harfbuzz:shaping+aots / gpos3                            OK               0.09s
+208/403 harfbuzz:shaping+aots / gpos4_multiple_anchors           SKIP             0.08s   exit status 77
+209/403 harfbuzz:shaping+aots / gpos4_lookupflag                 OK               0.09s
+210/403 harfbuzz:shaping+aots / gpos4_simple                     OK               0.09s
+211/403 harfbuzz:shaping+aots / gpos5                            OK               0.09s
+212/403 harfbuzz:shaping+aots / gpos6                            OK               0.08s
+213/403 harfbuzz:shaping+aots / gpos7_1                          OK               0.08s
+214/403 harfbuzz:shaping+aots / gpos9                            OK               0.08s
+215/403 harfbuzz:shaping+aots / gsub_chaining1_lookupflag        OK               0.08s
+216/403 harfbuzz:shaping+aots / gsub_chaining1_multiple_subrules OK               0.08s
+217/403 harfbuzz:shaping+aots / gsub_chaining1_boundary          OK               0.10s
+218/403 harfbuzz:shaping+aots / gsub_chaining1_next_glyph        OK               0.09s
+219/403 harfbuzz:shaping+aots / gsub_chaining1_successive        OK               0.08s
+220/403 harfbuzz:shaping+aots / gsub_chaining2_boundary          OK               0.08s
+221/403 harfbuzz:shaping+aots / gsub_chaining1_simple            OK               0.08s
+222/403 harfbuzz:shaping+aots / gsub_chaining2_lookupflag        OK               0.08s
+223/403 harfbuzz:shaping+aots / gsub_chaining2_multiple_subrules OK               0.08s
+224/403 harfbuzz:shaping+aots / gsub_chaining2_next_glyph        OK               0.08s
+225/403 harfbuzz:shaping+aots / gsub_chaining2_simple            OK               0.08s
+226/403 harfbuzz:shaping+aots / gsub_chaining2_successive        OK               0.08s
+227/403 harfbuzz:shaping+aots / gsub_chaining3_lookupflag        OK               0.08s
+228/403 harfbuzz:shaping+aots / gsub_chaining3_boundary          OK               0.08s
+229/403 harfbuzz:shaping+aots / gsub_chaining3_next_glyph        OK               0.09s
+230/403 harfbuzz:shaping+aots / gsub_chaining3_simple            OK               0.08s
+231/403 harfbuzz:shaping+aots / gsub_chaining3_successive        OK               0.07s
+232/403 harfbuzz:shaping+aots / gsub_context1_boundary           OK               0.08s
+233/403 harfbuzz:shaping+aots / gsub_context1_expansion          OK               0.08s
+234/403 harfbuzz:shaping+aots / gsub_context1_lookupflag         OK               0.08s
+235/403 harfbuzz:shaping+aots / gsub_context1_multiple_subrules  OK               0.08s
+236/403 harfbuzz:shaping+aots / gsub_context1_next_glyph         OK               0.09s
+237/403 harfbuzz:shaping+aots / gsub_context1_successive         OK               0.08s
+238/403 harfbuzz:shaping+aots / gsub_context1_simple             OK               0.09s
+239/403 harfbuzz:shaping+aots / gsub_context2_boundary           OK               0.09s
+240/403 harfbuzz:shaping+aots / gsub_context2_classes            OK               0.08s
+241/403 harfbuzz:shaping+aots / gsub_context2_expansion          OK               0.08s
+242/403 harfbuzz:shaping+aots / gsub_context2_lookupflag         OK               0.08s
+243/403 harfbuzz:shaping+aots / gsub_context2_next_glyph         OK               0.08s
+244/403 harfbuzz:shaping+aots / gsub_context2_multiple_subrules  OK               0.08s
+245/403 harfbuzz:shaping+aots / gsub_context2_simple             OK               0.08s
+246/403 harfbuzz:shaping+aots / gsub_context2_successive         OK               0.08s
+247/403 harfbuzz:shaping+aots / gsub_context3_boundary           OK               0.08s
+248/403 harfbuzz:shaping+aots / gsub_context3_lookupflag         OK               0.08s
+249/403 harfbuzz:shaping+aots / gsub_context3_next_glyph         OK               0.08s
+250/403 harfbuzz:shaping+aots / gsub_context3_simple             OK               0.07s
+251/403 harfbuzz:shaping+aots / gsub_context3_successive         OK               0.07s
+252/403 harfbuzz:shaping+aots / gsub1_1_simple                   OK               0.07s
+253/403 harfbuzz:shaping+aots / gsub1_1_lookupflag               OK               0.08s
+254/403 harfbuzz:shaping+aots / gsub1_1_modulo                   OK               0.08s
+255/403 harfbuzz:shaping+aots / gsub1_2_lookupflag               OK               0.08s
+256/403 harfbuzz:shaping+aots / gsub1_2_simple                   OK               0.08s
+257/403 harfbuzz:shaping+aots / gsub2_1_multiple_sequences       OK               0.07s
+258/403 harfbuzz:shaping+aots / gsub2_1_lookupflag               OK               0.08s
+259/403 harfbuzz:shaping+aots / gsub3_1_lookupflag               OK               0.08s
+260/403 harfbuzz:shaping+aots / gsub2_1_simple                   OK               0.08s
+261/403 harfbuzz:shaping+aots / gsub3_1_multiple                 OK               0.08s
+262/403 harfbuzz:shaping+aots / gsub3_1_simple                   OK               0.08s
+263/403 harfbuzz:shaping+aots / gsub4_1_lookupflag               OK               0.08s
+264/403 harfbuzz:shaping+aots / gsub4_1_multiple_ligatures       OK               0.07s
+265/403 harfbuzz:shaping+aots / gsub4_1_multiple_ligsets         OK               0.08s
+266/403 harfbuzz:shaping+aots / gsub4_1_simple                   OK               0.08s
+267/403 harfbuzz:shaping+aots / gsub7                            OK               0.08s
+268/403 harfbuzz:shaping+aots / lookupflag_ignore_attach         OK               0.07s
+269/403 harfbuzz:shaping+aots / lookupflag_ignore_base           OK               0.09s
+270/403 harfbuzz:shaping+aots / lookupflag_ignore_combination    OK               0.09s
+271/403 harfbuzz:shaping+aots / lookupflag_ignore_ligatures      OK               0.09s
+272/403 harfbuzz:shaping+aots / lookupflag_ignore_marks          OK               0.08s
+273/403 harfbuzz:shaping+text-rendering-tests / AVAR-1           OK               0.10s
+274/403 harfbuzz:shaping+text-rendering-tests / CFF2-1           OK               0.09s
+275/403 harfbuzz:shaping+text-rendering-tests / CMAP-1           OK               0.09s
+276/403 harfbuzz:shaping+text-rendering-tests / CMAP-2           OK               0.08s
+277/403 harfbuzz:shaping+text-rendering-tests / CVAR-1           OK               0.08s
+278/403 harfbuzz:shaping+text-rendering-tests / CFF-1            OK               0.12s
+279/403 harfbuzz:shaping+text-rendering-tests / CVAR-2           OK               0.09s
+280/403 harfbuzz:shaping+text-rendering-tests / GLYF-1           OK               0.08s
+281/403 harfbuzz:shaping+text-rendering-tests / GPOS-2           OK               0.08s
+282/403 harfbuzz:shaping+text-rendering-tests / CFF-2            OK               0.13s
+283/403 harfbuzz:shaping+text-rendering-tests / GPOS-1           OK               0.10s
+284/403 harfbuzz:shaping+text-rendering-tests / GPOS-3           OK               0.09s
+285/403 harfbuzz:shaping+text-rendering-tests / GPOS-4           OK               0.09s
+286/403 harfbuzz:shaping+text-rendering-tests / GPOS-5           OK               0.08s
+287/403 harfbuzz:shaping+text-rendering-tests / GSUB-1           OK               0.08s
+288/403 harfbuzz:shaping+text-rendering-tests / GSUB-2           OK               0.09s
+289/403 harfbuzz:shaping+text-rendering-tests / GVAR-1           OK               0.08s
+290/403 harfbuzz:shaping+text-rendering-tests / GSUB-3           OK               0.08s
+291/403 harfbuzz:shaping+text-rendering-tests / GVAR-2           OK               0.09s
+292/403 harfbuzz:shaping+text-rendering-tests / GVAR-3           OK               0.08s
+293/403 harfbuzz:shaping+text-rendering-tests / GVAR-5           OK               0.08s
+294/403 harfbuzz:shaping+text-rendering-tests / GVAR-4           OK               0.09s
+295/403 harfbuzz:shaping+text-rendering-tests / GVAR-7           OK               0.09s
+296/403 harfbuzz:shaping+text-rendering-tests / GVAR-6           OK               0.09s
+297/403 harfbuzz:shaping+text-rendering-tests / GVAR-9           OK               0.08s
+298/403 harfbuzz:shaping+text-rendering-tests / GVAR-8           OK               0.09s
+299/403 harfbuzz:shaping+text-rendering-tests / HVAR-1           OK               0.08s
+300/403 harfbuzz:shaping+text-rendering-tests / KERN-1           OK               0.08s
+301/403 harfbuzz:shaping+text-rendering-tests / HVAR-2           OK               0.09s
+302/403 harfbuzz:shaping+text-rendering-tests / KERN-2           OK               0.08s
+303/403 harfbuzz:shaping+text-rendering-tests / MORX-1           OK               0.09s
+304/403 harfbuzz:shaping+text-rendering-tests / MORX-10          OK               0.08s
+305/403 harfbuzz:shaping+text-rendering-tests / MORX-11          OK               0.08s
+306/403 harfbuzz:shaping+text-rendering-tests / MORX-12          OK               0.08s
+307/403 harfbuzz:shaping+text-rendering-tests / MORX-13          OK               0.08s
+308/403 harfbuzz:shaping+text-rendering-tests / MORX-14          OK               0.07s
+309/403 harfbuzz:shaping+text-rendering-tests / MORX-16          OK               0.08s
+310/403 harfbuzz:shaping+text-rendering-tests / MORX-17          OK               0.07s
+311/403 harfbuzz:shaping+text-rendering-tests / MORX-18          OK               0.08s
+312/403 harfbuzz:shaping+text-rendering-tests / MORX-19          OK               0.08s
+313/403 harfbuzz:shaping+text-rendering-tests / MORX-2           OK               0.08s
+314/403 harfbuzz:shaping+text-rendering-tests / MORX-20          OK               0.09s
+315/403 harfbuzz:shaping+text-rendering-tests / MORX-21          OK               0.08s
+316/403 harfbuzz:shaping+text-rendering-tests / MORX-23          OK               0.07s
+317/403 harfbuzz:shaping+text-rendering-tests / MORX-22          OK               0.08s
+318/403 harfbuzz:shaping+text-rendering-tests / MORX-24          OK               0.07s
+319/403 harfbuzz:shaping+text-rendering-tests / MORX-25          OK               0.09s
+320/403 harfbuzz:shaping+text-rendering-tests / MORX-26          OK               0.08s
+321/403 harfbuzz:shaping+text-rendering-tests / MORX-27          OK               0.09s
+322/403 harfbuzz:shaping+text-rendering-tests / MORX-28          OK               0.08s
+323/403 harfbuzz:shaping+text-rendering-tests / MORX-29          OK               0.08s
+324/403 harfbuzz:shaping+text-rendering-tests / MORX-3           OK               0.09s
+325/403 harfbuzz:shaping+text-rendering-tests / MORX-30          OK               0.08s
+326/403 harfbuzz:shaping+text-rendering-tests / MORX-32          OK               0.08s
+327/403 harfbuzz:shaping+text-rendering-tests / MORX-31          OK               0.10s
+328/403 harfbuzz:shaping+text-rendering-tests / MORX-33          OK               0.09s
+329/403 harfbuzz:shaping+text-rendering-tests / MORX-35          OK               0.08s
+330/403 harfbuzz:shaping+text-rendering-tests / MORX-37          OK               0.08s
+331/403 harfbuzz:shaping+text-rendering-tests / MORX-39          OK               0.07s
+332/403 harfbuzz:shaping+text-rendering-tests / MORX-38          OK               0.09s
+333/403 harfbuzz:shaping+text-rendering-tests / MORX-34          OK               0.11s
+334/403 harfbuzz:shaping+text-rendering-tests / MORX-40          OK               0.08s
+335/403 harfbuzz:shaping+text-rendering-tests / MORX-4           OK               0.08s
+336/403 harfbuzz:shaping+text-rendering-tests / MORX-41          OK               0.08s
+337/403 harfbuzz:shaping+text-rendering-tests / MORX-6           OK               0.08s
+338/403 harfbuzz:shaping+text-rendering-tests / MORX-5           OK               0.09s
+339/403 harfbuzz:shaping+text-rendering-tests / MORX-7           OK               0.09s
+340/403 harfbuzz:shaping+text-rendering-tests / MORX-8           OK               0.09s
+341/403 harfbuzz:shaping+text-rendering-tests / MORX-9           OK               0.08s
+342/403 harfbuzz:shaping+text-rendering-tests / SFNT-2           OK               0.08s
+343/403 harfbuzz:shaping+text-rendering-tests / SFNT-1           OK               0.09s
+344/403 harfbuzz:shaping+text-rendering-tests / SHBALI-3         OK               0.11s
+345/403 harfbuzz:shaping+text-rendering-tests / SHKNDA-1         OK               0.11s
+346/403 harfbuzz:subset / full-font                              OK               0.11s
+347/403 harfbuzz:subset / cff.notoserifmyanmar                   OK               0.09s
+348/403 harfbuzz:subset / glyf_bug_3131                          OK               0.09s
+349/403 harfbuzz:subset / japanese                               OK               0.11s
+350/403 harfbuzz:subset / layout                                 OK               0.10s
+351/403 harfbuzz:subset / layout.gpos                            OK               0.11s
+352/403 harfbuzz:subset / layout.gpos3                           OK               0.10s
+353/403 harfbuzz:subset / cff-full-font                          OK               0.16s
+354/403 harfbuzz:subset / layout.gpos4                           OK               0.10s
+355/403 harfbuzz:subset / layout.gpos5                           OK               0.10s
+356/403 harfbuzz:subset / layout.gpos2                           OK               0.13s
+357/403 harfbuzz:subset / layout.gpos6                           OK               0.11s
+358/403 harfbuzz:subset / layout.gpos9                           OK               0.09s
+359/403 harfbuzz:subset / layout.gpos8                           OK               0.12s
+360/403 harfbuzz:subset / layout.gsub5_format2                   OK               0.08s
+361/403 harfbuzz:subset / layout.gsub3                           OK               0.11s
+362/403 harfbuzz:subset / layout.gpos8.amiri                     OK               0.13s
+363/403 harfbuzz:subset / layout.gsub5                           OK               0.11s
+364/403 harfbuzz:subset / layout.gsub6                           OK               0.11s
+365/403 harfbuzz:subset / layout.gdef                            OK               0.09s
+366/403 harfbuzz:subset / layout.khmer                           OK               0.09s
+367/403 harfbuzz:subset / layout.gdef.glyphset                   OK               0.11s
+368/403 harfbuzz:subset / layout.gsub8                           OK               0.14s
+369/403 harfbuzz:subset / layout.context                         OK               0.13s
+370/403 harfbuzz:subset / layout.context_format2                 OK               0.12s
+371/403 harfbuzz:subset / layout.gdef-varstore                   OK               0.11s
+372/403 harfbuzz:subset / layout.gdef-attachlist                 OK               0.10s
+373/403 harfbuzz:subset / layout.duplicate_features              OK               0.11s
+374/403 harfbuzz:subset / basics                                 OK               0.36s
+375/403 harfbuzz:subset / layout.drop_feature                    OK               0.10s
+376/403 harfbuzz:subset / layout.default_features                OK               0.09s
+377/403 harfbuzz:subset / layout.unsorted_featurelist            OK               0.10s
+378/403 harfbuzz:subset / layout.tinos                           OK               0.16s
+379/403 harfbuzz:subset / sbix                                   OK               0.09s
+380/403 harfbuzz:subset / cmap                                   OK               0.14s
+381/403 harfbuzz:subset / colr_glyphs                            OK               0.10s
+382/403 harfbuzz:subset / colr                                   OK               0.12s
+383/403 harfbuzz:subset / colr_with_components                   OK               0.10s
+384/403 harfbuzz:subset / cmap14                                 OK               0.18s
+385/403 harfbuzz:subset / math_coverage_offset                   OK               0.13s
+386/403 harfbuzz:subset / variable                               OK               0.09s
+387/403 harfbuzz:subset / cff-japanese                           OK               0.45s
+388/403 harfbuzz:subset / colrv1                                 OK               0.11s
+389/403 harfbuzz:subset+repack / basic                           SKIP             0.09s   exit status 77
+390/403 harfbuzz:subset+repack / prioritization                  SKIP             0.07s   exit status 77
+391/403 harfbuzz:subset / glyph_names                            OK               0.10s
+392/403 harfbuzz:subset+repack / table_duplication               SKIP             0.07s   exit status 77
+393/403 harfbuzz:subset / cbdt                                   OK               0.14s
+394/403 harfbuzz:subset / post                                   OK               0.11s
+395/403 harfbuzz:subset+repack / isolation                       SKIP             0.07s   exit status 77
+396/403 harfbuzz:subset+repack / advanced_prioritization         SKIP             0.06s   exit status 77
+397/403 harfbuzz:subset+repack / space_splitting                 SKIP             0.05s   exit status 77
+398/403 harfbuzz:subset / math                                   OK               0.19s
+399/403 harfbuzz:fuzzing / draw_fuzzer                           OK               0.06s
+400/403 harfbuzz:shaping+text-rendering-tests / MORX-36          OK               0.74s
+401/403 harfbuzz:fuzzing+slow / subset_fuzzer                    OK               0.47s
+402/403 harfbuzz:subset / layout.notonastaliqurdu                OK               2.02s
+403/403 harfbuzz:fuzzing+slow / shape_fuzzer                     OK               1.89s
+
+
+Ok:                 392 
+Expected Fail:      0   
+Fail:               0   
+Unexpected Pass:    0   
+Skipped:            11  
+Timeout:            0   
+
+Full log written to /usr/oppai/base/harfbuzz-3.4.0/build/meson-logs/testlog.txt

@@ -1,0 +1,104 @@
+  GEN      public-submodule-commit
+make  check-recursive
+make[1]: Entering directory '/usr/oppai/base/sed-4.8/build'
+Making check in po
+make[2]: Entering directory '/usr/oppai/base/sed-4.8/build/po'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/sed-4.8/build/po'
+Making check in .
+make[2]: Entering directory '/usr/oppai/base/sed-4.8/build'
+make  testsuite/get-mb-cur-max testsuite/test-mbrtowc
+make[3]: Entering directory '/usr/oppai/base/sed-4.8/build'
+  CC       testsuite/get-mb-cur-max.o
+  CC       testsuite/test-mbrtowc.o
+  CCLD     testsuite/get-mb-cur-max
+  CCLD     testsuite/test-mbrtowc
+make[3]: Leaving directory '/usr/oppai/base/sed-4.8/build'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/sed-4.8/build'
+make[4]: Entering directory '/usr/oppai/base/sed-4.8/build'
+SKIP: testsuite/bug32271-2.sh
+PASS: testsuite/cmd-R.sh
+SKIP: testsuite/invalid-mb-seq-UMR.sh
+SKIP: testsuite/bug32082.sh
+PASS: testsuite/cmd-l.sh
+PASS: testsuite/bug32271-1.sh
+PASS: testsuite/in-place-suffix-backup.sh
+SKIP: testsuite/mb-charclass-non-utf8.sh
+ERROR: testsuite/inplace-selinux.sh
+PASS: testsuite/convert-number.sh
+PASS: testsuite/in-place-hyphen.sh
+PASS: testsuite/colon-with-no-label.sh
+PASS: testsuite/help-version.sh
+PASS: testsuite/comment-n.sh
+PASS: testsuite/mb-match-slash.sh
+SKIP: testsuite/newline-dfa-bug.sh
+PASS: testsuite/missing-filename.sh
+SKIP: testsuite/obinary.sh
+PASS: testsuite/posix-mode-bad-ref.sh
+PASS: testsuite/mb-bad-delim.sh
+PASS: testsuite/normalize-text.sh
+SKIP: testsuite/regex-max-int.sh
+PASS: testsuite/range-overlap.sh
+PASS: testsuite/posix-char-class.sh
+PASS: testsuite/regex-errors.sh
+PASS: testsuite/recursive-escape-c.sh
+PASS: testsuite/posix-mode-ERE.sh
+PASS: testsuite/stdin-prog.sh
+PASS: testsuite/posix-mode-N.sh
+PASS: testsuite/posix-mode-addr.sh
+PASS: testsuite/compile-tests.sh
+SKIP: testsuite/title-case.sh
+PASS: testsuite/posix-mode-s.sh
+FAIL: testsuite/panic-tests.sh
+PASS: testsuite/unbuffered.sh
+PASS: testsuite/mb-y-translate.sh
+PASS: testsuite/subst-mb-incomplete.sh
+PASS: testsuite/nulldata.sh
+PASS: testsuite/follow-symlinks-stdin.sh
+PASS: testsuite/sandbox.sh
+PASS: testsuite/temp-file-cleanup.sh
+PASS: testsuite/subst-options.sh
+PASS: testsuite/8to7.sh
+PASS: testsuite/8bit.sh
+PASS: testsuite/distrib.sh
+PASS: testsuite/badenc.sh
+PASS: testsuite/follow-symlinks.sh
+PASS: testsuite/execute-tests.sh
+PASS: testsuite/command-endings.sh
+PASS: testsuite/help.sh
+PASS: testsuite/inplace-hold.sh
+PASS: testsuite/mac-mf.sh
+PASS: testsuite/subst-replacement.sh
+PASS: testsuite/eval.sh
+PASS: testsuite/newjis.sh
+PASS: testsuite/word-delim.sh
+PASS: testsuite/stdin.sh
+PASS: testsuite/xemacs.sh
+PASS: testsuite/compile-errors.sh
+PASS: testsuite/utf8-ru.sh
+PASS: testsuite/uniq.sh
+PASS: testsuite/misc.pl
+PASS: testsuite/madding.sh
+PASS: testsuite/binary.sh
+PASS: testsuite/bsd-wrapper.sh
+PASS: testsuite/debug.pl
+PASS: testsuite/dc.sh
+============================================================================
+Testsuite summary for GNU sed 4.8
+============================================================================
+# TOTAL: 67
+# PASS:  57
+# SKIP:  8
+# XFAIL: 0
+# FAIL:  1
+# XPASS: 0
+# ERROR: 1
+============================================================================
+See ./test-suite.log
+Please report to bug-sed@gnu.org
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/sed-4.8/build'
+make[3]: Leaving directory '/usr/oppai/base/sed-4.8/build'
+make[2]: Leaving directory '/usr/oppai/base/sed-4.8/build'
+make[1]: Leaving directory '/usr/oppai/base/sed-4.8/build'

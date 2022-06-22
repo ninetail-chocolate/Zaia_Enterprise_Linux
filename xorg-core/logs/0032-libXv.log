@@ -1,0 +1,26 @@
+Making check in src
+make[1]: Entering directory '/usr/oppai/xorg-core/libXv-1.0.11/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXv-1.0.11/src'
+Making check in man
+make[1]: Entering directory '/usr/oppai/xorg-core/libXv-1.0.11/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXv-1.0.11/man'
+Making check in include
+make[1]: Entering directory '/usr/oppai/xorg-core/libXv-1.0.11/include'
+Making check in X11
+make[2]: Entering directory '/usr/oppai/xorg-core/libXv-1.0.11/include/X11'
+Making check in extensions
+make[3]: Entering directory '/usr/oppai/xorg-core/libXv-1.0.11/include/X11/extensions'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/oppai/xorg-core/libXv-1.0.11/include/X11/extensions'
+make[3]: Entering directory '/usr/oppai/xorg-core/libXv-1.0.11/include/X11'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/oppai/xorg-core/libXv-1.0.11/include/X11'
+make[2]: Leaving directory '/usr/oppai/xorg-core/libXv-1.0.11/include/X11'
+make[2]: Entering directory '/usr/oppai/xorg-core/libXv-1.0.11/include'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/oppai/xorg-core/libXv-1.0.11/include'
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXv-1.0.11/include'
+make[1]: Entering directory '/usr/oppai/xorg-core/libXv-1.0.11'
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXv-1.0.11'

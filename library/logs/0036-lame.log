@@ -1,0 +1,5 @@
+time frontend/lame --nores ../testcase.wav testcase.new.mp3 || rm -f testcase.new.mp3
+
+The following output has value only for a LAME-developer, do not make _any_
+assumptions about what this number means. You do not need to care about it.
+0

@@ -1,0 +1,2174 @@
+Making check in gl
+make[1]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/gl'
+make  check-recursive
+make[2]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/gl'
+make[3]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/gl'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/gl'
+make[2]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/gl'
+make[1]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/gl'
+Making check in lib
+make[1]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/lib'
+make  check-recursive
+make[2]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/lib'
+Making check in includes
+make[3]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/lib/includes'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/lib/includes'
+Making check in x509
+make[3]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/lib/x509'
+make  check-am
+make[4]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/lib/x509'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/lib/x509'
+make[3]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/lib/x509'
+Making check in auth
+make[3]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/lib/auth'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/lib/auth'
+Making check in ext
+make[3]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/lib/ext'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/lib/ext'
+Making check in algorithms
+make[3]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/lib/algorithms'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/lib/algorithms'
+Making check in extras
+make[3]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/lib/extras'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/lib/extras'
+Making check in accelerated
+make[3]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/lib/accelerated'
+Making check in x86
+make[4]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/lib/accelerated/x86'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/lib/accelerated/x86'
+make[4]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/lib/accelerated'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/lib/accelerated'
+make[3]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/lib/accelerated'
+Making check in nettle
+make[3]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/lib/nettle'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/lib/nettle'
+make[3]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/lib'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/lib'
+make[2]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/lib'
+make[1]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/lib'
+Making check in extra
+make[1]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/extra'
+Making check in includes
+make[2]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/extra/includes'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/extra/includes'
+make[2]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/extra'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/extra'
+make[1]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/extra'
+Making check in python
+make[1]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/python'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/python'
+Making check in po
+make[1]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/po'
+Making check in src/gl
+make[1]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/src/gl'
+make  check-recursive
+make[2]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/src/gl'
+Making check in .
+make[3]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/src/gl'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/src/gl'
+Making check in tests
+make[3]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/src/gl/tests'
+make  check-recursive
+make[4]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/src/gl/tests'
+Making check in .
+make[5]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/src/gl/tests'
+make  test-accept test-alloca-opt test-arpa_inet test-array_list test-binary-io test-bind test-bitrotate test-byteswap test-c-ctype test-c-strcasecmp test-c-strncasecmp test-calloc-gnu test-cloexec test-close test-connect test-ctype test-dup2 test-environ test-errno test-explicit_bzero test-fcntl-h test-fcntl test-fdopen test-fgetc test-float test-fopen-gnu test-fopen test-fpending test-fputc test-fread test-free test-fseek test-fseeko test-fseeko3 test-fseeko4 test-fstat test-ftell test-ftell3 test-ftello test-ftello3 test-ftello4 test-ftruncate test-func test-fwrite test-getaddrinfo test-getcwd-lgpl test-getdelim test-getdtablesize test-getline test-getpeername test-getprogname test-gettimeofday test-hash test-ignore-value test-inet_ntop test-inet_pton test-intprops test-inttostr test-inttypes test-ioctl test-isblank test-langinfo test-limits-h test-linked_list test-listen test-locale test-localename test-rwlock1 test-lock test-once1 test-once2 test-lseek test-lstat test-malloc-gnu test-malloca test-memchr test-nanosleep test-netdb test-netinet_in test-nstrftime test-open test-parse-datetime test-pathmax test-perror test-perror2 test-pipe test-pthread test-pthread-thread test-pthread_sigmask1 test-pthread_sigmask2 test-raise test-read-file test-realloc-gnu test-reallocarray test-recv test-recvfrom test-sched test-select test-select-fd test-select-stdin test-send test-sendto test-setenv test-setlocale_null test-setlocale_null-mt-one test-setlocale_null-mt-all test-setlocale1 test-setlocale2 test-setsockopt test-shutdown test-sigaction test-signal-h test-sigprocmask test-sleep test-snprintf test-sockets test-stat test-stat-time test-stdalign test-stdbool test-stddef test-stdint test-stdio test-stdlib test-strerror test-strerror_r test-string test-strings test-strnlen test-strtoll test-strverscmp test-symlink test-sys_ioctl test-sys_select test-sys_socket test-sys_stat test-sys_time test-sys_types test-sys_uio test-thread_self test-thread_create test-time test-timespec test-unistd test-unsetenv test-usleep test-vasnprintf test-vasprintf test-verify test-vsnprintf test-wchar test-xalloc-die libtests.a
+make[6]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/src/gl/tests'
+  CC       test-accept.o
+  CC       gl_array_list.o
+  CC       binary-io.o
+  CC       dtotimespec.o
+  CC       imaxtostr.o
+  CC       hash-pjw.o
+  CC       inttostr.o
+  CC       offtostr.o
+  CC       uinttostr.o
+  CC       umaxtostr.o
+  CC       localename-table.o
+  CC       localename.o
+  CC       setlocale_null.o
+  CC       sig-handler.o
+  CC       timespec-add.o
+  CC       timespec-sub.o
+  CC       vma-iter.o
+  CC       nanosleep.o
+  CC       setlocale.o
+  CC       setlocale-lock.o
+  CC       test-alloca-opt.o
+  CC       test-arpa_inet.o
+  CC       test-array_list.o
+  CC       test-binary-io.o
+  CC       test-bind.o
+  CC       test-bitrotate.o
+  CC       test-byteswap.o
+  CC       test-c-ctype.o
+  CC       test-c-strcasecmp.o
+  CC       test-c-strncasecmp.o
+  CC       test-calloc-gnu.o
+  CC       test-cloexec.o
+  CC       test-close.o
+  CC       test-connect.o
+  CC       test-ctype.o
+  CC       test-dup2.o
+  CC       test-errno.o
+  CC       test-environ.o
+  CC       test-explicit_bzero.o
+  CC       test-fcntl-h.o
+  CC       test-fcntl.o
+  CC       test-fdopen.o
+  CC       test-fgetc.o
+  CC       test-float.o
+  CC       test-fopen-gnu.o
+  CC       test-fopen.o
+  CC       test-fpending.o
+  CC       test-fputc.o
+  CC       test-fread.o
+  CC       test-free.o
+  CC       test-fseek.o
+  CC       test-fseeko.o
+  CC       test-fseeko3.o
+  CC       test-fseeko4.o
+  CC       test-fstat.o
+  CC       test-ftell.o
+  CC       test-ftell3.o
+  CC       test-ftello.o
+  CC       test-ftello3.o
+  CC       test-ftello4.o
+  CC       test-ftruncate.o
+  CC       test-func.o
+  CC       test-fwrite.o
+  CC       test-getcwd-lgpl.o
+  CC       test-getaddrinfo.o
+  CC       test-getdelim.o
+  CC       test-getdtablesize.o
+  CC       test-getline.o
+  CC       test-getpeername.o
+  CC       test-getprogname.o
+  CC       test-gettimeofday.o
+  CC       test-hash.o
+  CC       test-ignore-value.o
+  CC       test-inet_ntop.o
+  CC       test-inet_pton.o
+  CC       test-intprops.o
+  CC       test-inttostr.o
+  CC       test-inttypes.o
+  CC       test-ioctl.o
+  CC       test-isblank.o
+  CC       test-langinfo.o
+  CC       test-limits-h.o
+  CC       test-linked_list.o
+  CC       test-listen.o
+  CC       test-locale.o
+  CC       test-localename.o
+  CC       test-rwlock1.o
+  CC       test-lock.o
+  CC       test-once.o
+  CC       test-lseek.o
+  CC       test-malloc-gnu.o
+  CC       test-malloca.o
+  CC       test-lstat.o
+  CC       test-memchr.o
+  CC       test-nanosleep.o
+  CC       test-netdb.o
+  CC       test-netinet_in.o
+  CC       test-nstrftime.o
+  CC       test-open.o
+  CC       test-parse-datetime.o
+  CC       test-pathmax.o
+  CC       test-perror.o
+  CC       test-perror2.o
+  CC       test-pipe.o
+  CC       test-pthread.o
+  CC       test-pthread-thread.o
+  CC       test-pthread_sigmask1.o
+  CC       test-pthread_sigmask2.o
+  CC       test-raise.o
+  CC       test-read-file.o
+  CC       test-realloc-gnu.o
+  CC       test-reallocarray.o
+  CC       test-recv.o
+  CC       test-recvfrom.o
+  CC       test-sched.o
+  CC       test-select.o
+  CC       test-select-fd.o
+  CC       test-select-stdin.o
+  CC       test-send.o
+  CC       test-sendto.o
+  CC       test-setenv.o
+  CC       test-setlocale_null.o
+  CC       test-setlocale_null-mt-one.o
+  CC       test-setlocale_null-mt-all.o
+  CC       test-setlocale1.o
+  CC       test-setlocale2.o
+  CC       test-setsockopt.o
+  CC       test-shutdown.o
+  CC       test-sigaction.o
+  CC       test-signal-h.o
+  CC       test-sigprocmask.o
+  CC       test-sleep.o
+  CC       test-snprintf.o
+  CC       test-sockets.o
+  CC       test-stat.o
+  CC       test-stat-time.o
+  CC       test-stdalign.o
+  CC       test-stdbool.o
+  CC       test-stddef.o
+  CC       test-stdint.o
+  CC       test-stdio.o
+  CC       test-stdlib.o
+  CC       test-strerror.o
+  CC       test-strerror_r.o
+  CC       test-string.o
+  CC       test-strings.o
+  CC       test-strnlen.o
+  CC       test-strtoll.o
+  CC       test-strverscmp.o
+  CC       test-symlink.o
+  CC       test-sys_ioctl.o
+  CC       test-sys_select.o
+  CC       test-sys_socket.o
+  CC       test-sys_stat.o
+  CC       test-sys_time.o
+  CC       test-sys_types.o
+  CC       test-sys_uio.o
+  CC       test-thread_self.o
+  CC       test-thread_create.o
+  CC       test-time.o
+  CC       test-timespec.o
+  CC       test-unistd.o
+  CC       test-unsetenv.o
+  CC       test-usleep.o
+  CC       test-vasnprintf.o
+  CC       test-vasprintf.o
+  CC       test-verify.o
+  CC       test-vsnprintf.o
+  CC       test-wchar.o
+  CC       test-xalloc-die.o
+  CC       glthread/thread.o
+  AR       libtests.a
+  CCLD     test-accept
+  CCLD     test-alloca-opt
+  CCLD     test-arpa_inet
+  CCLD     test-array_list
+  CCLD     test-bind
+  CCLD     test-binary-io
+  CCLD     test-bitrotate
+  CCLD     test-byteswap
+  CCLD     test-c-ctype
+  CCLD     test-c-strcasecmp
+  CCLD     test-c-strncasecmp
+  CCLD     test-calloc-gnu
+  CCLD     test-cloexec
+  CCLD     test-close
+  CCLD     test-ctype
+  CCLD     test-dup2
+  CCLD     test-connect
+  CCLD     test-environ
+  CCLD     test-errno
+  CCLD     test-explicit_bzero
+  CCLD     test-fcntl-h
+  CCLD     test-fcntl
+  CCLD     test-fdopen
+  CCLD     test-fgetc
+  CCLD     test-float
+  CCLD     test-fopen-gnu
+  CCLD     test-fopen
+  CCLD     test-fpending
+  CCLD     test-fputc
+  CCLD     test-fread
+  CCLD     test-free
+  CCLD     test-fseek
+  CCLD     test-fseeko
+  CCLD     test-fseeko3
+  CCLD     test-fseeko4
+  CCLD     test-ftell
+  CCLD     test-fstat
+  CCLD     test-ftell3
+  CCLD     test-ftello
+  CCLD     test-ftello3
+  CCLD     test-ftello4
+  CCLD     test-ftruncate
+  CCLD     test-func
+  CCLD     test-fwrite
+  CCLD     test-getaddrinfo
+  CCLD     test-getcwd-lgpl
+  CCLD     test-getdelim
+  CCLD     test-getdtablesize
+  CCLD     test-getline
+  CCLD     test-getpeername
+  CCLD     test-getprogname
+  CCLD     test-gettimeofday
+  CCLD     test-hash
+  CCLD     test-ignore-value
+  CCLD     test-inet_ntop
+  CCLD     test-inet_pton
+  CCLD     test-inttostr
+  CCLD     test-inttypes
+  CCLD     test-ioctl
+  CCLD     test-isblank
+  CCLD     test-langinfo
+  CCLD     test-limits-h
+  CCLD     test-linked_list
+  CCLD     test-listen
+  CCLD     test-locale
+  CCLD     test-localename
+  CCLD     test-rwlock1
+  CCLD     test-lock
+  CCLD     test-once1
+  CCLD     test-once2
+  CCLD     test-lseek
+  CCLD     test-lstat
+  CCLD     test-malloc-gnu
+  CCLD     test-malloca
+  CCLD     test-memchr
+  CCLD     test-nanosleep
+  CCLD     test-netdb
+  CCLD     test-netinet_in
+  CCLD     test-nstrftime
+  CCLD     test-open
+  CCLD     test-parse-datetime
+  CCLD     test-pathmax
+  CCLD     test-perror
+  CCLD     test-perror2
+  CCLD     test-pipe
+  CCLD     test-pthread
+  CCLD     test-pthread-thread
+  CCLD     test-pthread_sigmask1
+  CCLD     test-pthread_sigmask2
+  CCLD     test-raise
+  CCLD     test-read-file
+  CCLD     test-realloc-gnu
+  CCLD     test-reallocarray
+  CCLD     test-recv
+  CCLD     test-recvfrom
+  CCLD     test-sched
+  CCLD     test-select
+  CCLD     test-select-fd
+  CCLD     test-select-stdin
+  CCLD     test-send
+  CCLD     test-sendto
+  CCLD     test-setenv
+  CCLD     test-setlocale_null
+  CCLD     test-setlocale_null-mt-one
+  CCLD     test-setlocale_null-mt-all
+  CCLD     test-setlocale1
+  CCLD     test-setlocale2
+  CCLD     test-setsockopt
+  CCLD     test-shutdown
+  CCLD     test-sigaction
+  CCLD     test-signal-h
+  CCLD     test-sigprocmask
+  CCLD     test-sleep
+  CCLD     test-snprintf
+  CCLD     test-sockets
+  CCLD     test-stat
+  CCLD     test-stat-time
+  CCLD     test-stdalign
+  CCLD     test-stdbool
+  CCLD     test-stdint
+  CCLD     test-stddef
+  CCLD     test-stdio
+  CCLD     test-stdlib
+  CCLD     test-strerror
+  CCLD     test-strerror_r
+  CCLD     test-string
+  CCLD     test-strings
+  CCLD     test-strnlen
+  CCLD     test-strtoll
+  CCLD     test-strverscmp
+  CCLD     test-symlink
+  CCLD     test-sys_ioctl
+  CCLD     test-sys_select
+  CCLD     test-sys_socket
+  CCLD     test-sys_stat
+  CCLD     test-sys_time
+  CCLD     test-sys_types
+  CCLD     test-sys_uio
+  CCLD     test-thread_self
+  CCLD     test-thread_create
+  CCLD     test-time
+  CCLD     test-timespec
+  CCLD     test-unistd
+  CCLD     test-unsetenv
+  CCLD     test-usleep
+  CCLD     test-vasnprintf
+  CCLD     test-vasprintf
+  CCLD     test-verify
+  CCLD     test-vsnprintf
+  CCLD     test-wchar
+make[6]: 'libtests.a' is up to date.
+  CCLD     test-xalloc-die
+  CCLD     test-intprops
+make[6]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/src/gl/tests'
+make  check-TESTS
+make[6]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/src/gl/tests'
+make[7]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/src/gl/tests'
+PASS: test-accept
+PASS: test-arpa_inet
+PASS: test-alloca-opt
+PASS: test-bind
+PASS: test-array_list
+PASS: test-bitrotate
+PASS: test-byteswap
+PASS: test-c-ctype
+PASS: test-calloc-gnu
+PASS: test-binary-io.sh
+PASS: test-cloexec
+PASS: test-close
+PASS: test-c-strcase.sh
+PASS: test-connect
+PASS: test-ctype
+PASS: test-dup2
+PASS: test-environ
+PASS: test-explicit_bzero
+PASS: test-errno
+PASS: test-fcntl
+PASS: test-fcntl-h
+PASS: test-fdopen
+PASS: test-fgetc
+PASS: test-float
+PASS: test-fopen-gnu
+PASS: test-fopen
+PASS: test-fread
+PASS: test-fputc
+PASS: test-fpending.sh
+PASS: test-fseek2.sh
+PASS: test-fseek.sh
+PASS: test-fseeko2.sh
+PASS: test-fstat
+PASS: test-fseeko3.sh
+PASS: test-fseeko.sh
+PASS: test-fseeko4.sh
+PASS: test-ftell3
+PASS: test-ftell.sh
+PASS: test-ftell2.sh
+PASS: test-ftello3
+PASS: test-ftello2.sh
+PASS: test-ftello.sh
+PASS: test-ftruncate.sh
+PASS: test-ftello4.sh
+PASS: test-func
+PASS: test-fwrite
+PASS: test-getcwd-lgpl
+PASS: test-getdelim
+PASS: test-getpeername
+PASS: test-getprogname
+PASS: test-gettimeofday
+PASS: test-ignore-value
+PASS: test-getdtablesize
+PASS: test-getline
+PASS: test-inet_ntop
+PASS: test-inet_pton
+PASS: test-intprops
+PASS: test-inttypes
+PASS: test-inttostr
+PASS: test-ioctl
+PASS: test-isblank
+PASS: test-langinfo
+PASS: test-limits-h
+PASS: test-listen
+PASS: test-locale
+PASS: test-linked_list
+PASS: test-localename
+PASS: test-once1
+PASS: test-once2
+PASS: test-malloc-gnu
+PASS: test-nstrftime
+PASS: test-netinet_in
+PASS: test-open
+PASS: test-lstat
+PASS: test-netdb
+PASS: test-lseek.sh
+PASS: test-pathmax
+PASS: test-perror2
+PASS: test-parse-datetime
+PASS: test-pthread
+PASS: test-pipe
+PASS: test-raise
+PASS: test-read-file
+PASS: test-reallocarray
+PASS: test-recv
+PASS: test-recvfrom
+PASS: test-sched
+PASS: test-select
+PASS: test-realloc-gnu
+PASS: test-pthread-thread
+PASS: test-send
+PASS: test-free
+PASS: test-sendto
+PASS: test-setenv
+PASS: test-setlocale_null
+SKIP: test-setlocale1.sh
+PASS: test-signal-h
+PASS: test-setsockopt
+PASS: test-shutdown
+PASS: test-sigaction
+PASS: test-perror.sh
+PASS: test-setlocale2.sh
+PASS: test-sockets
+PASS: test-stdalign
+PASS: test-snprintf
+PASS: test-stddef
+PASS: test-stat
+PASS: test-stdio
+PASS: test-stdlib
+PASS: test-strerror_r
+PASS: test-stdbool
+PASS: test-stdint
+PASS: test-strverscmp
+PASS: test-symlink
+PASS: test-strings
+PASS: test-string
+PASS: test-strtoll
+PASS: test-strerror
+PASS: test-strnlen
+PASS: test-sys_socket
+PASS: test-stat-time
+PASS: test-sys_time
+PASS: test-sys_select
+PASS: test-sys_uio
+PASS: test-sys_types
+PASS: test-sys_stat
+PASS: test-thread_self
+PASS: test-thread_create
+PASS: test-time
+PASS: test-unsetenv
+PASS: test-sys_ioctl
+PASS: test-wchar
+PASS: test-rwlock1
+PASS: test-vsnprintf
+PASS: test-vasnprintf
+PASS: test-timespec
+PASS: test-unistd
+PASS: test-verify
+PASS: test-vasprintf
+PASS: test-init.sh
+PASS: test-xalloc-die.sh
+PASS: test-getaddrinfo
+PASS: test-hash
+PASS: test-memchr
+PASS: test-malloca
+PASS: test-verify.sh
+PASS: test-nanosleep
+PASS: test-select-out.sh
+PASS: test-usleep
+PASS: test-pthread_sigmask2
+PASS: test-select-in.sh
+PASS: test-pthread_sigmask1
+PASS: test-sleep
+PASS: test-sigprocmask
+PASS: test-setlocale_null-mt-one
+PASS: test-lock
+PASS: test-setlocale_null-mt-all
+============================================================================
+Testsuite summary for GnuTLS 3.7.3
+============================================================================
+# TOTAL: 157
+# PASS:  156
+# SKIP:  1
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[7]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/src/gl/tests'
+make[6]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/src/gl/tests'
+make[5]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/src/gl/tests'
+make[4]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/src/gl/tests'
+make[3]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/src/gl/tests'
+make[2]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/src/gl'
+make[1]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/src/gl'
+Making check in src
+make[1]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/src'
+make  check-am
+make[2]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/src'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/src'
+make[1]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/src'
+Making check in tests
+make[1]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/tests'
+Making check in .
+make[2]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/tests'
+make   tls13/supported_versions tls13/tls12-no-tls13-exts tls13/post-handshake-with-cert tls13/post-handshake-without-cert tls13/cookie tls13/key_share tls13/prf tls13/prf-early tls13/post-handshake-with-cert-ticket tls12-rollback-detection tls11-rollback-detection tls12-check-rollback-val tls11-check-rollback-val tls13/post-handshake-with-psk tls13/post-handshake-with-cert-auto tls13/anti_replay tls13/hello_retry_request tls13/hello_retry_request_resume tls13/psk-ext tls13/key_update tls13/key_update_multiple tls13/key_limits tls13/multi-ocsp tls13/ocsp-client tls13/change_cipher_spec tls13-cipher-neg tls13/no-psk-exts tls13/psk-dumbfw tls13-early-start tls13/no-auto-send-ticket mini-record-2 simple gnutls_hmac_fast set_pkcs12_cred cert certuniqueid tls-neg-ext-key mpi certificate_set_x509_crl dn parse_ca x509-dn x509-dn-decode record-sizes hostname-check cve-2008-4989 pkcs12_s2k chainverify missingissuer missingissuer_aia record-sizes-range crq_key_id x509sign-verify sign-verify cve-2009-1415 cve-2009-1416 tls10-server-kx-neg tls11-server-kx-neg tls12-server-kx-neg ssl30-server-kx-neg tls12-cipher-neg tls11-cipher-neg tls10-cipher-neg ssl30-cipher-neg crq_apis init_roundtrip pkcs12_s2k_pem dn2 tls12-rehandshake-cert-3 nul-in-x509-names x509_altname pkcs12_encode mini-x509 gnutls_session_set_id rng-fork mini-eagain-dtls resume-dtls empty_retrieve_function tls13-rehandshake-cert gnutls_ext_raw_parse handshake-large-cert x509cert x509cert-tl x509cert-ct infoaccess mini-dtls-hello-verify sign-verify-ed25519-rfc8080 trustdb-tofu dtls-rehandshake-anon mini-alpn mini-dtls-large mini-termination mini-x509-cas mini-x509-2 pkcs12_simple tls-pthread mini-emsgsize-dtls chainverify-unsorted mini-overhead tls12-ffdhe mini-dtls-heartbeat mini-x509-callbacks key-openssl priorities priorities-groups gnutls_x509_privkey_import gnutls_x509_crt_list_import time x509-server-verify sign-verify-ext4 tls-neg-ext4-key resume-lifetime mini-dtls-srtp rsa-encrypt-decrypt mini-loss-time gnutls-strcodes mini-record mini-dtls-record handshake-timeout mini-record-range cert-status fips-mode-pthread rsa-psk global-init sec-params sign-verify-data fips-test fips-override-test mini-global-load name-constraints x509-extensions long-session-id mini-x509-callbacks-intr mini-dtls-lowmtu set_x509_key_file-late crlverify mini-dtls-discard mini-record-failure openconnect-dtls12 tls12-rehandshake-cert-2 custom-urls set_x509_key_mem set_x509_key_file tls12-rehandshake-cert-auto tls12-rehandshake-set-prio mini-chain-unsorted x509-verify-with-crl mini-dtls-mtu privkey-verify-broken mini-dtls-record-asym key-import-export priority-set priority-set2 pubkey-import-export sign-is-secure spki spki-abstract rsa-rsa-pss mini-dtls-fork dtls-pthread mini-key-material x509cert-invalid tls-ext-register tls-supplemental mini-dtls0-9 duplicate-extensions record-retvals mini-server-name tls-etm tls-force-etm x509-cert-callback alerts client-sign-md5-rep tls12-invalid-key-exchanges session-rdn-read tls13-cert-key-exchange x509-cert-callback-ocsp gnutls_ocsp_resp_list_import2 server-sign-md5-rep privkey-keygen mini-tls-nonblock no-signal pkcs7-gen dtls-etm x509sign-verify-rsa x509sign-verify-ecdsa x509sign-verify-gost cipher-alignment oids atfork prf psk-file priority-init2 post-client-hello-change-prio status-request status-request-ok rfc7633-missing sign-verify-ext fallback-scsv pkcs8-key-decode urls dtls-rehandshake-cert rfc7633-ok key-usage-rsa key-usage-ecdhe-rsa mini-session-verify-function auto-verify record-timeouts mini-dtls-hello-verify-48 set-default-prio tls12-anon-upgrade tlsext-decoding rsa-psk-cb gnutls-ids rehandshake-switch-cert rehandshake-switch-cert-allow rehandshake-switch-cert-client rehandshake-switch-cert-client-allow handshake-versions dtls-handshake-versions dtls-max-record tls12-max-record alpn-server-prec ocsp-filename-memleak dh-params rehandshake-ext-secret pcert-list session-export-funcs handshake-false-start version-checks key-material-dtls key-material-set-dtls name-constraints-merge crl-basic crq-basic send-client-cert custom-urls-override hex rehandshake-switch-psk-id rehandshake-switch-srp-id base64 srpbase64 pkcs1-digest-info set_x509_key set_x509_key_file_der set_x509_pkcs12_key crt_apis tls12-cert-key-exchange tls11-cert-key-exchange tls10-cert-key-exchange ssl30-cert-key-exchange dtls12-cert-key-exchange dtls10-cert-key-exchange x509-cert-callback-legacy keylog-env ssl2-hello tlsfeature-ext dtls-rehandshake-cert-2 dtls-session-ticket-lost tlsfeature-crt dtls-rehandshake-cert-3 resume-with-false-start set_x509_key_file_ocsp client-fastopen rng-sigint srp rng-pthread safe-renegotiation/srn0 safe-renegotiation/srn1 safe-renegotiation/srn2 safe-renegotiation/srn3 safe-renegotiation/srn4 safe-renegotiation/srn5 rsa-illegal-import set_x509_ocsp_multi_invalid set_key set_x509_key_file_ocsp_multi2 set_x509_ocsp_multi_unknown set_x509_ocsp_multi_pem tls-ext-not-in-dtls set_key_utf8 set_x509_key_utf8 insecure_key handshake-large-packet client_dsa_key server_ecdsa_key tls-session-ext-register tls-session-supplemental multi-alerts naked-alerts pkcs7-cat-parse set_known_dh_params_x509 set_known_dh_params_anon set_known_dh_params_psk session-tickets-ok session-tickets-missing set_x509_key_file_legacy status-request-ext gnutls_x509_crt_sign gnutls_x509_crq_sign dtls-repro-20170915 rng-no-onload dtls1-2-mtu-check crl_apis cert_verify_inv_utf8 no-extensions hostname-check-utf8 pkcs8-key-decode-encrypted priority-mix pkcs7 send-data-before-handshake recv-data-before-handshake crt_inv_write x509sign-verify-error rng-op-nonce rng-op-random rng-op-key x509-dn-decode-compat ip-check mini-x509-ipaddr trust-store base64-raw random-art dhex509self dss-sig-val sign-pk-api tls-session-ext-override record-pad tls13-server-kx-neg gnutls_ext_raw_parse_dtls key-export-pkcs8 null_retrieve_function tls-record-size-limit tls-crt_type-neg resume-with-stek-expiration resume-with-previous-stek rawpk-api tls-record-size-limit-asym dh-compute ecdh-compute sign-verify-data-newapi sign-verify-newapi sign-verify-deterministic iov aead-cipher-vec tls13-without-timeout-func buffer status-request-revoked set_x509_ocsp_multi_cli kdf-api keylog-func handshake-write x509cert-dntypes id-on-xmppAddr tls13-compat-mode tls-channel-binding  strict-der system-prio-file  pkcs11-cert-import-url-exts pkcs11-get-exts pkcs11-get-raw-issuer-exts pkcs11-cert-import-url4-exts pkcs11/pkcs11-chainverify pkcs11/pkcs11-get-issuer pkcs11/pkcs11-is-known pkcs11/pkcs11-combo pkcs11/pkcs11-privkey pkcs11/pkcs11-pubkey-import-rsa pkcs11/pkcs11-pubkey-import-ecdsa pkcs11-import-url-privkey pkcs11-privkey-fork pkcs11/pkcs11-ec-privkey-test pkcs11-privkey-always-auth pkcs11-privkey-export pkcs11/pkcs11-import-with-pin pkcs11/pkcs11-privkey-pthread pkcs11/pkcs11-pin-func pkcs11/pkcs11-obj-import pkcs11-privkey-fork-reinit pkcs11-mechanisms pkcs11-privkey-safenet-always-auth pkcs11/pkcs11-rsa-pss-privkey-test pkcs11/tls-neg-pkcs11-key pkcs11/pkcs11-privkey-generate pkcs11/gnutls_x509_crt_list_import_url pkcs11/gnutls_pcert_list_import_x509_file pkcs11/pkcs11-eddsa-privkey-test pkcs11-token-raw pkcs11-obj-raw pkcs11-import-url-privkey-caps ocsp   x509self x509dn anonself pskself pskself2 dhepskself setcredcrash tls12-resume-x509 tls12-resume-psk tls12-resume-anon tls13-resume-x509 tls13-resume-psk tls13-early-data tls13-early-data-neg tls13-early-data-neg2 resume-with-record-size-limit  tls13/post-handshake-with-cert-pkcs11 pkcs11/tls-neg-pkcs11-no-key global-init-override  system-override-hash system-override-sig system-override-sig-tls dtls-stress system-override-curves-allowlist protocol-set-allowlist pkcs11/list-tokens pkcs11/list-objects datefudge-check \
+  rfc2253-escape-test.sh rsa-md5-collision/rsa-md5-collision.sh systemkey.sh  dtls/dtls.sh dtls/dtls-resume.sh fastopen.sh pkgconfig.sh starttls.sh starttls-ftp.sh starttls-smtp.sh starttls-lmtp.sh starttls-pop3.sh starttls-xmpp.sh starttls-nntp.sh starttls-sieve.sh ocsp-tests/ocsp-tls-connection.sh ocsp-tests/ocsp-must-staple-connection.sh ocsp-tests/ocsp-test.sh cipher-listings.sh sni-hostname.sh server-multi-keys.sh psktool.sh ocsp-tests/ocsp-load-chain.sh gnutls-cli-save-data.sh gnutls-cli-debug.sh sni-resume.sh ocsp-tests/ocsptool.sh cert-reencoding.sh pkcs7-cat.sh long-crl.sh serv-udp.sh logfile-option.sh gnutls-cli-resume.sh profile-tests.sh server-weak-keys.sh ocsp-tests/ocsp-signer-verify.sh cfg-test.sh system-override-sig.sh system-override-hash.sh system-override-versions.sh system-override-invalid.sh system-override-curves.sh system-override-profiles.sh system-override-tls.sh system-override-kx.sh system-override-default-priority-string.sh system-override-sig-tls.sh system-override-hash-filters-prf.sh system-override-sig-allowlist.sh system-override-hash-allowlist.sh system-override-versions-allowlist.sh system-override-curves-allowlist.sh system-override-special-allowlist.sh protocol-set-allowlist.sh gnutls-cli-self-signed.sh gnutls-cli-invalid-crl.sh gnutls-cli-rawpk.sh dh-fips-approved.sh p11-kit-trust.sh testpkcs11.sh certtool-pkcs11.sh p11-kit-load.sh  
+make[3]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/tests'
+  CC       tls13-cipher-neg.o
+  CC       tls13-early-start.o
+  CC       mini-record-2.o
+  CC       simple.o
+  CC       gnutls_hmac_fast.o
+  CC       set_pkcs12_cred.o
+  CC       cert.o
+  CC       tls-neg-ext-key.o
+  CC       mpi-mpi.o
+  CC       certificate_set_x509_crl.o
+  CC       certuniqueid.o
+  CC       dn.o
+  CC       parse_ca.o
+  CC       x509-dn.o
+  CC       x509-dn-decode.o
+  CC       record-sizes.o
+  CC       hostname-check.o
+  CC       cve-2008-4989.o
+  CC       pkcs12_s2k-pkcs12_s2k.o
+  CC       chainverify.o
+  CC       missingissuer.o
+  CC       missingissuer_aia.o
+  CC       record-sizes-range.o
+  CC       crq_key_id.o
+  CC       x509sign-verify.o
+  CC       sign-verify.o
+  CC       cve-2009-1415.o
+  CC       cve-2009-1416.o
+  CC       tls10-server-kx-neg.o
+  CC       tls11-server-kx-neg.o
+  CC       tls12-server-kx-neg.o
+  CC       ssl30-server-kx-neg.o
+  CC       tls12-cipher-neg.o
+  CC       tls11-cipher-neg.o
+  CC       tls10-cipher-neg.o
+  CC       ssl30-cipher-neg.o
+  CC       crq_apis.o
+  CC       init_roundtrip.o
+  CC       pkcs12_s2k_pem.o
+  CC       dn2.o
+  CC       tls12-rehandshake-cert-3.o
+  CC       nul-in-x509-names.o
+  CC       x509_altname.o
+  CC       pkcs12_encode.o
+  CC       mini-x509.o
+  CC       gnutls_session_set_id.o
+  CC       rng-fork.o
+  CC       resume-dtls.o
+  CC       empty_retrieve_function.o
+  CC       mini-eagain-dtls.o
+  CC       gnutls_ext_raw_parse.o
+  CC       tls13-rehandshake-cert.o
+  CC       handshake-large-cert.o
+  CC       x509cert-tl.o
+  CC       x509cert.o
+  CC       x509cert-ct.o
+  CC       infoaccess.o
+  CC       mini-dtls-hello-verify.o
+  CC       sign-verify-ed25519-rfc8080.o
+  CC       trustdb-tofu.o
+  CC       dtls-rehandshake-anon.o
+  CC       mini-alpn.o
+  CC       mini-dtls-large.o
+  CC       mini-termination.o
+  CC       mini-x509-cas.o
+  CC       mini-x509-2.o
+  CC       pkcs12_simple.o
+  CC       tls-pthread.o
+  CC       mini-emsgsize-dtls.o
+  CC       mini-overhead.o
+  CC       chainverify-unsorted.o
+  CC       tls12-ffdhe.o
+  CC       mini-dtls-heartbeat.o
+  CC       mini-x509-callbacks.o
+  CC       key-openssl.o
+  CC       priorities.o
+  CC       priorities-groups.o
+  CC       gnutls_x509_privkey_import.o
+  CC       gnutls_x509_crt_list_import.o
+  CC       time.o
+  CC       x509-server-verify.o
+  CC       sign-verify-ext4.o
+  CC       tls-neg-ext4-key.o
+  CC       resume-lifetime.o
+  CC       mini-dtls-srtp.o
+  CC       rsa-encrypt-decrypt.o
+  CC       gnutls-strcodes.o
+  CC       mini-loss-time.o
+  CC       mini-record.o
+  CC       mini-dtls-record.o
+  CC       handshake-timeout.o
+  CC       mini-record-range.o
+  CC       cert-status.o
+  CC       fips-mode-pthread.o
+  CC       rsa-psk.o
+  CC       global-init.o
+  CC       sec-params.o
+  CC       sign-verify-data.o
+  CC       fips-test.o
+  CC       fips-override-test.o
+  CC       mini-global-load.o
+  CC       name-constraints.o
+  CC       x509-extensions.o
+  CC       long-session-id.o
+  CC       mini-x509-callbacks-intr.o
+  CC       mini-dtls-lowmtu.o
+  CC       set_x509_key_file-late.o
+  CC       crlverify.o
+  CC       mini-dtls-discard.o
+  CC       mini-record-failure.o
+  CC       openconnect-dtls12.o
+  CC       tls12-rehandshake-cert-2.o
+  CC       custom-urls.o
+  CC       set_x509_key_mem.o
+  CC       set_x509_key_file.o
+  CC       tls12-rehandshake-cert-auto.o
+  CC       tls12-rehandshake-set-prio.o
+  CC       mini-chain-unsorted.o
+  CC       x509-verify-with-crl.o
+  CC       mini-dtls-mtu.o
+  CC       privkey-verify-broken.o
+  CC       mini-dtls-record-asym.o
+  CC       key-import-export.o
+  CC       priority-set.o
+  CC       priority-set2.o
+  CC       pubkey-import-export.o
+  CC       sign-is-secure.o
+  CC       spki.o
+  CC       spki-abstract.o
+  CC       rsa-rsa-pss.o
+  CC       mini-dtls-fork.o
+  CC       dtls-pthread.o
+  CC       mini-key-material.o
+  CC       x509cert-invalid.o
+  CC       tls-ext-register.o
+  CC       tls-supplemental.o
+  CC       mini-dtls0-9.o
+  CC       duplicate-extensions.o
+  CC       record-retvals.o
+  CC       mini-server-name.o
+  CC       tls-etm.o
+  CC       tls-force-etm.o
+  CC       x509-cert-callback.o
+  CC       alerts.o
+  CC       client-sign-md5-rep.o
+  CC       tls12-invalid-key-exchanges.o
+  CC       session-rdn-read.o
+  CC       common-cert-key-exchange.o
+  CC       tls13-cert-key-exchange.o
+  CC       x509-cert-callback-ocsp.o
+  CC       gnutls_ocsp_resp_list_import2.o
+  CC       server-sign-md5-rep.o
+  CC       privkey-keygen.o
+  CC       mini-tls-nonblock.o
+  CC       no-signal.o
+  CC       pkcs7-gen.o
+  CC       dtls-etm.o
+  CC       x509sign-verify-rsa.o
+  CC       x509sign-verify-ecdsa.o
+  CC       x509sign-verify-gost.o
+  CC       cipher_alignment-cipher-alignment.o
+  CC       oids.o
+  CC       atfork-atfork.o
+  CC       prf.o
+  CC       psk-file.o
+  CC       priority-init2.o
+  CC       post-client-hello-change-prio.o
+  CC       status-request.o
+  CC       status-request-ok.o
+  CC       rfc7633-missing.o
+  CC       sign-verify-ext.o
+  CC       fallback-scsv.o
+  CC       pkcs8-key-decode.o
+  CC       urls.o
+  CC       dtls-rehandshake-cert.o
+  CC       rfc7633-ok.o
+  CC       key-usage-rsa.o
+  CC       key-usage-ecdhe-rsa.o
+  CC       mini-session-verify-function.o
+  CC       auto-verify.o
+  CC       record-timeouts.o
+  CC       mini-dtls-hello-verify-48.o
+  CC       set-default-prio.o
+  CC       tls12-anon-upgrade.o
+  CC       tlsext-decoding.o
+  CC       rsa-psk-cb.o
+  CC       gnutls-ids.o
+  CC       rehandshake-switch-cert.o
+  CC       rehandshake-switch-cert-allow.o
+  CC       rehandshake-switch-cert-client.o
+  CC       rehandshake-switch-cert-client-allow.o
+  CC       handshake-versions.o
+  CC       dtls-handshake-versions.o
+  CC       dtls-max-record.o
+  CC       tls12-max-record.o
+  CC       alpn-server-prec.o
+  CC       ocsp-filename-memleak.o
+  CC       dh-params.o
+  CC       rehandshake-ext-secret.o
+  CC       pcert-list.o
+  CC       session-export-funcs.o
+  CC       handshake-false-start.o
+  CC       version-checks.o
+  CC       key-material-dtls.o
+  CC       key-material-set-dtls.o
+  CC       name_constraints_merge-name-constraints-merge.o
+  CC       crl-basic.o
+  CC       crq-basic.o
+  CC       send-client-cert.o
+  CC       custom-urls-override.o
+  CC       rehandshake-switch-psk-id.o
+  CC       hex.o
+  CC       rehandshake-switch-srp-id.o
+  CC       base64.o
+  CC       srpbase64.o
+  CC       pkcs1-digest-info.o
+  CC       set_x509_key.o
+  CC       set_x509_key_file_der.o
+  CC       set_x509_pkcs12_key.o
+  CC       crt_apis.o
+  CC       tls12-cert-key-exchange.o
+  CC       tls11-cert-key-exchange.o
+  CC       tls10-cert-key-exchange.o
+  CC       ssl30-cert-key-exchange.o
+  CC       dtls12-cert-key-exchange.o
+  CC       dtls10-cert-key-exchange.o
+  CC       x509-cert-callback-legacy.o
+  CC       keylog-env.o
+  CC       ssl2-hello.o
+  CC       tlsfeature-ext.o
+  CC       dtls-session-ticket-lost.o
+  CC       dtls-rehandshake-cert-2.o
+  CC       tlsfeature-crt.o
+  CC       dtls-rehandshake-cert-3.o
+  CC       resume-with-false-start.o
+  CC       set_x509_key_file_ocsp.o
+  CC       client-fastopen.o
+  CC       rng-sigint.o
+  CC       srp.o
+  CC       rng-pthread.o
+  CC       rsa_illegal_import-rsa-illegal-import.o
+  CC       set_x509_ocsp_multi_invalid.o
+  CC       set_key.o
+  CC       set_x509_key_file_ocsp_multi2.o
+  CC       set_x509_ocsp_multi_unknown.o
+  CC       set_x509_ocsp_multi_pem.o
+  CC       tls-ext-not-in-dtls.o
+  CC       set_key_utf8.o
+  CC       set_x509_key_utf8.o
+  CC       insecure_key.o
+  CC       handshake-large-packet.o
+  CC       client_dsa_key.o
+  CC       server_ecdsa_key.o
+  CC       tls-session-ext-register.o
+  CC       tls-session-supplemental.o
+  CC       multi-alerts.o
+  CC       naked-alerts.o
+  CC       pkcs7-cat-parse.o
+  CC       set_known_dh_params_x509.o
+  CC       set_known_dh_params_anon.o
+  CC       set_known_dh_params_psk.o
+  CC       session-tickets-ok.o
+  CC       session-tickets-missing.o
+  CC       set_x509_key_file_legacy.o
+  CC       status-request-ext.o
+  CC       gnutls_x509_crt_sign.o
+  CC       gnutls_x509_crq_sign.o
+  CC       dtls-repro-20170915.o
+  CC       rng-no-onload.o
+  CC       dtls1-2-mtu-check.o
+  CC       crl_apis.o
+  CC       cert_verify_inv_utf8.o
+  CC       no-extensions.o
+  CC       hostname-check-utf8.o
+  CC       pkcs8-key-decode-encrypted.o
+  CC       priority-mix.o
+  CC       pkcs7.o
+  CC       send-data-before-handshake.o
+  CC       recv-data-before-handshake.o
+  CC       crt_inv_write.o
+  CC       x509sign-verify-error.o
+  CC       rng-op-nonce.o
+  CC       rng-op-random.o
+  CC       rng-op-key.o
+  CC       x509-dn-decode-compat.o
+  CC       ip-check.o
+  CC       mini-x509-ipaddr.o
+  CC       trust-store.o
+  CC       base64-raw.o
+  CC       random-art.o
+  CC       dhex509self.o
+  CC       dss-sig-val.o
+  CC       sign-pk-api.o
+  CC       tls-session-ext-override.o
+  CC       record-pad.o
+  CC       tls13-server-kx-neg.o
+  CC       gnutls_ext_raw_parse_dtls.o
+  CC       key-export-pkcs8.o
+  CC       null_retrieve_function.o
+  CC       tls-record-size-limit.o
+  CC       tls-crt_type-neg.o
+  CC       resume-with-previous-stek.o
+  CC       resume-with-stek-expiration.o
+  CC       tls-record-size-limit-asym.o
+  CC       rawpk-api.o
+  CC       dh-compute.o
+  CC       ecdh-compute.o
+  CC       sign-verify-newapi.o
+  CC       sign-verify-data-newapi.o
+  CC       sign-verify-deterministic.o
+  CC       iov-iov.o
+  CC       aead-cipher-vec.o
+  CC       tls13-without-timeout-func.o
+  CC       buffer-buffer.o
+  CC       status-request-revoked.o
+  CC       set_x509_ocsp_multi_cli.o
+  CC       kdf-api.o
+  CC       keylog-func.o
+  CC       handshake-write.o
+  CC       x509cert-dntypes.o
+  CC       id-on-xmppAddr.o
+  CC       tls13-compat-mode.o
+  CC       tls-channel-binding.o
+  CC       strict-der.o
+  CC       system-prio-file.o
+  CC       pkcs11/pkcs11-cert-import-url-exts.o
+  CC       pkcs11/pkcs11-get-exts.o
+  CC       pkcs11/pkcs11-get-raw-issuer-exts.o
+  CC       pkcs11/pkcs11-cert-import-url4-exts.o
+  CC       pkcs11/pkcs11-chainverify.o
+  CC       pkcs11/pkcs11-get-issuer.o
+  CC       pkcs11/pkcs11-is-known.o
+  CC       pkcs11/pkcs11-combo.o
+  CC       pkcs11/pkcs11-privkey.o
+  CC       pkcs11/pkcs11-pubkey-import-rsa.o
+  CC       pkcs11/pkcs11-pubkey-import-ecdsa.o
+  CC       pkcs11/pkcs11-import-url-privkey.o
+  CC       pkcs11/pkcs11-privkey-fork.o
+  CC       pkcs11/pkcs11-ec-privkey-test.o
+  CC       pkcs11/pkcs11-privkey-always-auth.o
+  CC       pkcs11/pkcs11-privkey-export.o
+  CC       pkcs11/pkcs11-import-with-pin.o
+  CC       pkcs11/pkcs11-privkey-pthread.o
+  CC       pkcs11/pkcs11-pin-func.o
+  CC       pkcs11/pkcs11-obj-import.o
+  CC       pkcs11/pkcs11-privkey-fork-reinit.o
+  CC       pkcs11/pkcs11-mechanisms.o
+  CC       pkcs11/pkcs11-privkey-safenet-always-auth.o
+  CC       pkcs11/pkcs11-rsa-pss-privkey-test.o
+  CC       pkcs11/tls-neg-pkcs11-key.o
+  CC       pkcs11/pkcs11-privkey-generate.o
+  CC       pkcs11/gnutls_x509_crt_list_import_url.o
+  CC       pkcs11/gnutls_pcert_list_import_x509_file.o
+  CC       pkcs11/pkcs11-eddsa-privkey-test.o
+  CC       pkcs11/pkcs11-token-raw.o
+  CC       pkcs11/pkcs11-obj-raw.o
+  CC       pkcs11/import_url_privkey_caps-pkcs11-import-url-privkey.o
+  CC       ocsp.o
+  CC       x509self.o
+  CC       x509dn.o
+  CC       anonself.o
+  CC       pskself.o
+  CC       pskself2.o
+  CC       dhepskself.o
+  CC       setcredcrash.o
+  CC       tls12_resume_x509-resume.o
+  CC       tls12_resume_psk-resume.o
+  CC       tls12_resume_anon-resume.o
+  CC       tls13_resume_x509-resume.o
+  CC       tls13_resume_psk-resume.o
+  CC       tls13-early-data.o
+  CC       tls13-early-data-neg.o
+  CC       tls13-early-data-neg2.o
+  CC       resume-with-record-size-limit.o
+  CC       tls13/post-handshake-with-cert-pkcs11.o
+  CC       global-init-override.o
+  CC       pkcs11/tls-neg-pkcs11-no-key.o
+  CC       system-override-hash.o
+  CC       system-override-sig.o
+  CC       system-override-sig-tls.o
+  CC       system-override-curves-allowlist.o
+  CC       protocol-set-allowlist.o
+  CC       pkcs11/list-tokens.o
+make[3]: 'datefudge-check' is up to date.
+make[3]: Nothing to be done for '../../tests/rfc2253-escape-test.sh'.
+make[3]: Nothing to be done for '../../tests/rsa-md5-collision/rsa-md5-collision.sh'.
+make[3]: Nothing to be done for '../../tests/systemkey.sh'.
+make[3]: Nothing to be done for '../../tests/dtls/dtls.sh'.
+make[3]: Nothing to be done for '../../tests/dtls/dtls-resume.sh'.
+make[3]: Nothing to be done for '../../tests/fastopen.sh'.
+make[3]: Nothing to be done for '../../tests/pkgconfig.sh'.
+make[3]: Nothing to be done for '../../tests/starttls.sh'.
+make[3]: Nothing to be done for '../../tests/starttls-ftp.sh'.
+make[3]: Nothing to be done for '../../tests/starttls-smtp.sh'.
+make[3]: Nothing to be done for '../../tests/starttls-lmtp.sh'.
+make[3]: Nothing to be done for '../../tests/starttls-pop3.sh'.
+make[3]: Nothing to be done for '../../tests/starttls-xmpp.sh'.
+make[3]: Nothing to be done for '../../tests/starttls-nntp.sh'.
+make[3]: Nothing to be done for '../../tests/starttls-sieve.sh'.
+make[3]: Nothing to be done for '../../tests/ocsp-tests/ocsp-tls-connection.sh'.
+make[3]: Nothing to be done for '../../tests/ocsp-tests/ocsp-must-staple-connection.sh'.
+make[3]: Nothing to be done for '../../tests/ocsp-tests/ocsp-test.sh'.
+make[3]: Nothing to be done for '../../tests/cipher-listings.sh'.
+make[3]: Nothing to be done for '../../tests/sni-hostname.sh'.
+make[3]: Nothing to be done for '../../tests/server-multi-keys.sh'.
+make[3]: Nothing to be done for '../../tests/psktool.sh'.
+make[3]: Nothing to be done for '../../tests/ocsp-tests/ocsp-load-chain.sh'.
+make[3]: Nothing to be done for '../../tests/gnutls-cli-save-data.sh'.
+make[3]: Nothing to be done for '../../tests/gnutls-cli-debug.sh'.
+make[3]: Nothing to be done for '../../tests/sni-resume.sh'.
+make[3]: Nothing to be done for '../../tests/ocsp-tests/ocsptool.sh'.
+make[3]: Nothing to be done for '../../tests/cert-reencoding.sh'.
+make[3]: Nothing to be done for '../../tests/pkcs7-cat.sh'.
+make[3]: Nothing to be done for '../../tests/long-crl.sh'.
+make[3]: Nothing to be done for '../../tests/serv-udp.sh'.
+make[3]: Nothing to be done for '../../tests/logfile-option.sh'.
+make[3]: Nothing to be done for '../../tests/gnutls-cli-resume.sh'.
+make[3]: Nothing to be done for '../../tests/profile-tests.sh'.
+make[3]: Nothing to be done for '../../tests/server-weak-keys.sh'.
+make[3]: Nothing to be done for '../../tests/ocsp-tests/ocsp-signer-verify.sh'.
+make[3]: Nothing to be done for '../../tests/cfg-test.sh'.
+make[3]: Nothing to be done for '../../tests/system-override-sig.sh'.
+make[3]: Nothing to be done for '../../tests/system-override-hash.sh'.
+make[3]: Nothing to be done for '../../tests/system-override-versions.sh'.
+make[3]: Nothing to be done for '../../tests/system-override-invalid.sh'.
+make[3]: Nothing to be done for '../../tests/system-override-curves.sh'.
+make[3]: Nothing to be done for '../../tests/system-override-profiles.sh'.
+make[3]: Nothing to be done for '../../tests/system-override-tls.sh'.
+make[3]: Nothing to be done for '../../tests/system-override-kx.sh'.
+make[3]: Nothing to be done for '../../tests/system-override-default-priority-string.sh'.
+make[3]: Nothing to be done for '../../tests/system-override-sig-tls.sh'.
+make[3]: Nothing to be done for '../../tests/system-override-hash-filters-prf.sh'.
+make[3]: Nothing to be done for '../../tests/system-override-sig-allowlist.sh'.
+make[3]: Nothing to be done for '../../tests/system-override-hash-allowlist.sh'.
+make[3]: Nothing to be done for '../../tests/system-override-versions-allowlist.sh'.
+make[3]: Nothing to be done for '../../tests/system-override-curves-allowlist.sh'.
+make[3]: Nothing to be done for '../../tests/system-override-special-allowlist.sh'.
+make[3]: Nothing to be done for '../../tests/protocol-set-allowlist.sh'.
+make[3]: Nothing to be done for '../../tests/gnutls-cli-self-signed.sh'.
+make[3]: Nothing to be done for '../../tests/gnutls-cli-invalid-crl.sh'.
+make[3]: Nothing to be done for '../../tests/gnutls-cli-rawpk.sh'.
+make[3]: Nothing to be done for '../../tests/dh-fips-approved.sh'.
+make[3]: Nothing to be done for '../../tests/p11-kit-trust.sh'.
+make[3]: Nothing to be done for '../../tests/testpkcs11.sh'.
+make[3]: Nothing to be done for '../../tests/certtool-pkcs11.sh'.
+make[3]: Nothing to be done for '../../tests/p11-kit-load.sh'.
+  CC       pkcs11/list-objects.o
+  CC       tls13/supported_versions.o
+  CC       tls13/tls12-no-tls13-exts.o
+  CC       tls13/post-handshake-with-cert.o
+  CC       tls13/post-handshake-without-cert.o
+  CC       tls13/cookie.o
+  CC       tls13/key_share.o
+  CC       tls13/prf.o
+  CC       tls13/prf-early.o
+  CC       tls13/post-handshake-with-cert-ticket.o
+  CC       tls13/tls12_rollback_detection-rnd-rollback-detection.o
+  CC       tls13/tls11_rollback_detection-rnd-rollback-detection.o
+  CC       tls13/tls12_check_rollback_val-rnd-check-rollback-val.o
+  CC       tls13/tls11_check_rollback_val-rnd-check-rollback-val.o
+  CC       tls13/post-handshake-with-psk.o
+  CC       tls13/post-handshake-with-cert-auto.o
+  CC       tls13/anti_replay-anti_replay.o
+  CC       tls13/hello_retry_request.o
+  CC       tls13/hello_retry_request_resume.o
+  CC       tls13/psk-ext.o
+  CC       tls13/key_update.o
+  CC       tls13/key_update_multiple.o
+  CC       tls13/key_limits.o
+  CC       tls13/multi-ocsp.o
+  CC       tls13/ocsp-client.o
+  CC       tls13/change_cipher_spec.o
+  CCLD     tls13-cipher-neg
+  CC       tls13/no-psk-exts.o
+  CC       tls13/psk-dumbfw.o
+  CCLD     tls13-early-start
+  CC       tls13/no-auto-send-ticket.o
+  CCLD     mini-record-2
+  CCLD     simple
+  CCLD     gnutls_hmac_fast
+  CCLD     set_pkcs12_cred
+  CCLD     cert
+  CCLD     certuniqueid
+  CCLD     tls-neg-ext-key
+  CCLD     mpi
+  CCLD     certificate_set_x509_crl
+  CCLD     dn
+  CCLD     x509-dn
+  CCLD     parse_ca
+  CCLD     x509-dn-decode
+  CCLD     record-sizes
+  CCLD     hostname-check
+  CCLD     cve-2008-4989
+  CCLD     pkcs12_s2k
+  CCLD     chainverify
+  CCLD     missingissuer
+  CCLD     missingissuer_aia
+  CCLD     record-sizes-range
+  CCLD     crq_key_id
+  CCLD     x509sign-verify
+  CCLD     sign-verify
+  CCLD     cve-2009-1415
+  CCLD     cve-2009-1416
+  CCLD     tls10-server-kx-neg
+  CCLD     tls11-server-kx-neg
+  CCLD     tls12-server-kx-neg
+  CCLD     ssl30-server-kx-neg
+  CCLD     tls12-cipher-neg
+  CCLD     tls11-cipher-neg
+  CCLD     tls10-cipher-neg
+  CCLD     ssl30-cipher-neg
+  CCLD     crq_apis
+  CCLD     init_roundtrip
+  CCLD     pkcs12_s2k_pem
+  CCLD     dn2
+  CCLD     tls12-rehandshake-cert-3
+  CCLD     nul-in-x509-names
+  CCLD     x509_altname
+  CCLD     pkcs12_encode
+  CCLD     mini-x509
+  CCLD     gnutls_session_set_id
+  CCLD     rng-fork
+  CCLD     resume-dtls
+  CCLD     mini-eagain-dtls
+  CCLD     empty_retrieve_function
+  CCLD     tls13-rehandshake-cert
+  CCLD     gnutls_ext_raw_parse
+  CCLD     handshake-large-cert
+  CCLD     x509cert
+  CCLD     x509cert-tl
+  CCLD     x509cert-ct
+  CCLD     infoaccess
+  CCLD     mini-dtls-hello-verify
+  CCLD     sign-verify-ed25519-rfc8080
+  CCLD     trustdb-tofu
+  CCLD     dtls-rehandshake-anon
+  CCLD     mini-alpn
+  CCLD     mini-dtls-large
+  CCLD     mini-termination
+  CCLD     mini-x509-cas
+  CCLD     mini-x509-2
+  CCLD     pkcs12_simple
+  CCLD     tls-pthread
+  CCLD     mini-emsgsize-dtls
+  CCLD     chainverify-unsorted
+  CCLD     mini-overhead
+  CCLD     tls12-ffdhe
+  CCLD     mini-dtls-heartbeat
+  CCLD     mini-x509-callbacks
+  CCLD     key-openssl
+  CCLD     priorities
+  CCLD     gnutls_x509_privkey_import
+  CCLD     priorities-groups
+  CCLD     gnutls_x509_crt_list_import
+  CCLD     time
+  CCLD     x509-server-verify
+  CCLD     sign-verify-ext4
+  CCLD     tls-neg-ext4-key
+  CCLD     resume-lifetime
+  CCLD     mini-dtls-srtp
+  CCLD     rsa-encrypt-decrypt
+  CCLD     mini-loss-time
+  CCLD     gnutls-strcodes
+  CCLD     mini-record
+  CCLD     mini-dtls-record
+  CCLD     handshake-timeout
+  CCLD     mini-record-range
+  CCLD     cert-status
+  CCLD     fips-mode-pthread
+  CCLD     rsa-psk
+  CCLD     global-init
+  CCLD     sec-params
+  CCLD     sign-verify-data
+  CCLD     fips-test
+  CCLD     fips-override-test
+  CCLD     mini-global-load
+  CCLD     name-constraints
+  CCLD     x509-extensions
+  CCLD     long-session-id
+  CCLD     mini-x509-callbacks-intr
+  CCLD     mini-dtls-lowmtu
+  CCLD     set_x509_key_file-late
+  CCLD     crlverify
+  CCLD     mini-dtls-discard
+  CCLD     mini-record-failure
+  CCLD     openconnect-dtls12
+  CCLD     tls12-rehandshake-cert-2
+  CCLD     custom-urls
+  CCLD     set_x509_key_mem
+  CCLD     set_x509_key_file
+  CCLD     tls12-rehandshake-cert-auto
+  CCLD     tls12-rehandshake-set-prio
+  CCLD     mini-chain-unsorted
+  CCLD     x509-verify-with-crl
+  CCLD     mini-dtls-mtu
+  CCLD     privkey-verify-broken
+  CCLD     mini-dtls-record-asym
+  CCLD     key-import-export
+  CCLD     priority-set
+  CCLD     priority-set2
+  CCLD     pubkey-import-export
+  CCLD     sign-is-secure
+  CCLD     spki
+  CCLD     spki-abstract
+  CCLD     rsa-rsa-pss
+  CCLD     mini-dtls-fork
+  CCLD     dtls-pthread
+  CCLD     mini-key-material
+  CCLD     x509cert-invalid
+  CCLD     tls-ext-register
+  CCLD     tls-supplemental
+  CCLD     mini-dtls0-9
+  CCLD     duplicate-extensions
+  CCLD     record-retvals
+  CCLD     tls-etm
+  CCLD     mini-server-name
+  CCLD     tls-force-etm
+  CCLD     x509-cert-callback
+  CCLD     alerts
+  CCLD     client-sign-md5-rep
+  CCLD     tls12-invalid-key-exchanges
+  CCLD     session-rdn-read
+  CCLD     tls13-cert-key-exchange
+  CCLD     x509-cert-callback-ocsp
+  CCLD     gnutls_ocsp_resp_list_import2
+  CCLD     server-sign-md5-rep
+  CCLD     privkey-keygen
+  CCLD     mini-tls-nonblock
+  CCLD     no-signal
+  CCLD     pkcs7-gen
+  CCLD     dtls-etm
+  CCLD     x509sign-verify-rsa
+  CCLD     x509sign-verify-ecdsa
+  CCLD     x509sign-verify-gost
+  CCLD     cipher-alignment
+  CCLD     oids
+  CCLD     atfork
+  CCLD     prf
+  CCLD     psk-file
+  CCLD     priority-init2
+  CCLD     post-client-hello-change-prio
+  CCLD     status-request
+  CCLD     status-request-ok
+  CCLD     rfc7633-missing
+  CCLD     sign-verify-ext
+  CCLD     fallback-scsv
+  CCLD     pkcs8-key-decode
+  CCLD     urls
+  CCLD     dtls-rehandshake-cert
+  CCLD     rfc7633-ok
+  CCLD     key-usage-rsa
+  CCLD     key-usage-ecdhe-rsa
+  CCLD     mini-session-verify-function
+  CCLD     auto-verify
+  CCLD     record-timeouts
+  CCLD     mini-dtls-hello-verify-48
+  CCLD     set-default-prio
+  CCLD     tls12-anon-upgrade
+  CCLD     tlsext-decoding
+  CCLD     rsa-psk-cb
+  CCLD     gnutls-ids
+  CCLD     rehandshake-switch-cert
+  CCLD     rehandshake-switch-cert-allow
+  CCLD     rehandshake-switch-cert-client-allow
+  CCLD     rehandshake-switch-cert-client
+  CCLD     handshake-versions
+  CCLD     dtls-handshake-versions
+  CCLD     dtls-max-record
+  CCLD     tls12-max-record
+  CCLD     alpn-server-prec
+  CCLD     ocsp-filename-memleak
+  CCLD     dh-params
+  CCLD     rehandshake-ext-secret
+  CCLD     pcert-list
+  CCLD     session-export-funcs
+  CCLD     handshake-false-start
+  CCLD     version-checks
+  CCLD     key-material-set-dtls
+  CCLD     key-material-dtls
+  CCLD     name-constraints-merge
+  CCLD     crl-basic
+  CCLD     crq-basic
+  CCLD     send-client-cert
+  CCLD     custom-urls-override
+  CCLD     hex
+  CCLD     rehandshake-switch-psk-id
+  CCLD     rehandshake-switch-srp-id
+  CCLD     base64
+  CCLD     srpbase64
+  CCLD     pkcs1-digest-info
+  CCLD     set_x509_key
+  CCLD     set_x509_key_file_der
+  CCLD     set_x509_pkcs12_key
+  CCLD     crt_apis
+  CCLD     tls12-cert-key-exchange
+  CCLD     tls11-cert-key-exchange
+  CCLD     tls10-cert-key-exchange
+  CCLD     ssl30-cert-key-exchange
+  CCLD     dtls12-cert-key-exchange
+  CCLD     dtls10-cert-key-exchange
+  CCLD     x509-cert-callback-legacy
+  CCLD     keylog-env
+  CCLD     ssl2-hello
+  CCLD     tlsfeature-ext
+  CCLD     dtls-rehandshake-cert-2
+  CCLD     dtls-session-ticket-lost
+  CCLD     tlsfeature-crt
+  CCLD     dtls-rehandshake-cert-3
+  CCLD     resume-with-false-start
+  CCLD     set_x509_key_file_ocsp
+  CCLD     client-fastopen
+  CCLD     rng-sigint
+  CCLD     srp
+  CCLD     rng-pthread
+  CC       safe-renegotiation/srn0.o
+  CC       safe-renegotiation/srn1.o
+  CC       safe-renegotiation/srn2.o
+  CC       safe-renegotiation/srn3.o
+  CC       safe-renegotiation/srn4.o
+  CC       safe-renegotiation/srn5.o
+  CCLD     rsa-illegal-import
+  CCLD     set_x509_ocsp_multi_invalid
+  CCLD     set_key
+  CCLD     set_x509_key_file_ocsp_multi2
+  CCLD     set_x509_ocsp_multi_unknown
+  CCLD     set_x509_ocsp_multi_pem
+  CCLD     tls-ext-not-in-dtls
+  CCLD     set_x509_key_utf8
+  CCLD     set_key_utf8
+  CCLD     insecure_key
+  CCLD     handshake-large-packet
+  CCLD     client_dsa_key
+  CCLD     tls-session-ext-register
+  CCLD     server_ecdsa_key
+  CCLD     multi-alerts
+  CCLD     tls-session-supplemental
+  CCLD     naked-alerts
+  CCLD     pkcs7-cat-parse
+  CCLD     set_known_dh_params_x509
+  CCLD     set_known_dh_params_anon
+  CCLD     set_known_dh_params_psk
+  CCLD     session-tickets-ok
+  CCLD     session-tickets-missing
+  CCLD     set_x509_key_file_legacy
+  CCLD     status-request-ext
+  CCLD     gnutls_x509_crt_sign
+  CCLD     gnutls_x509_crq_sign
+  CCLD     dtls-repro-20170915
+  CCLD     rng-no-onload
+  CCLD     dtls1-2-mtu-check
+  CCLD     crl_apis
+  CCLD     cert_verify_inv_utf8
+  CCLD     no-extensions
+  CCLD     hostname-check-utf8
+  CCLD     pkcs8-key-decode-encrypted
+  CCLD     priority-mix
+  CCLD     pkcs7
+  CCLD     send-data-before-handshake
+  CCLD     recv-data-before-handshake
+  CCLD     crt_inv_write
+  CCLD     x509sign-verify-error
+  CCLD     rng-op-nonce
+  CCLD     rng-op-random
+  CCLD     rng-op-key
+  CCLD     x509-dn-decode-compat
+  CCLD     ip-check
+  CCLD     mini-x509-ipaddr
+  CCLD     trust-store
+  CCLD     base64-raw
+  CCLD     random-art
+  CCLD     dhex509self
+  CCLD     dss-sig-val
+  CCLD     sign-pk-api
+  CCLD     tls-session-ext-override
+  CCLD     record-pad
+  CCLD     tls13-server-kx-neg
+  CCLD     gnutls_ext_raw_parse_dtls
+  CCLD     key-export-pkcs8
+  CCLD     null_retrieve_function
+  CCLD     tls-record-size-limit
+  CCLD     tls-crt_type-neg
+  CCLD     resume-with-stek-expiration
+  CCLD     resume-with-previous-stek
+  CCLD     rawpk-api
+  CCLD     tls-record-size-limit-asym
+  CCLD     dh-compute
+  CCLD     ecdh-compute
+  CCLD     sign-verify-data-newapi
+  CCLD     sign-verify-newapi
+  CCLD     sign-verify-deterministic
+  CCLD     iov
+  CCLD     aead-cipher-vec
+  CCLD     tls13-without-timeout-func
+  CCLD     buffer
+  CCLD     status-request-revoked
+  CCLD     set_x509_ocsp_multi_cli
+  CCLD     keylog-func
+  CCLD     kdf-api
+  CCLD     handshake-write
+  CCLD     x509cert-dntypes
+  CCLD     id-on-xmppAddr
+  CCLD     tls13-compat-mode
+  CCLD     tls-channel-binding
+  CCLD     strict-der
+  CCLD     system-prio-file
+  CCLD     pkcs11-cert-import-url-exts
+  CCLD     pkcs11-get-exts
+  CCLD     pkcs11-get-raw-issuer-exts
+  CCLD     pkcs11-cert-import-url4-exts
+  CCLD     pkcs11/pkcs11-chainverify
+  CCLD     pkcs11/pkcs11-get-issuer
+  CCLD     pkcs11/pkcs11-is-known
+  CCLD     pkcs11/pkcs11-combo
+  CCLD     pkcs11/pkcs11-privkey
+  CCLD     pkcs11/pkcs11-pubkey-import-rsa
+  CCLD     pkcs11/pkcs11-pubkey-import-ecdsa
+  CCLD     pkcs11-import-url-privkey
+  CCLD     pkcs11-privkey-fork
+  CCLD     pkcs11/pkcs11-ec-privkey-test
+  CCLD     pkcs11-privkey-always-auth
+  CCLD     pkcs11-privkey-export
+  CCLD     pkcs11/pkcs11-import-with-pin
+  CCLD     pkcs11/pkcs11-privkey-pthread
+  CCLD     pkcs11/pkcs11-pin-func
+  CCLD     pkcs11/pkcs11-obj-import
+  CCLD     pkcs11-privkey-fork-reinit
+  CCLD     pkcs11-mechanisms
+  CCLD     pkcs11-privkey-safenet-always-auth
+  CCLD     pkcs11/pkcs11-rsa-pss-privkey-test
+  CCLD     pkcs11/tls-neg-pkcs11-key
+  CCLD     pkcs11/pkcs11-privkey-generate
+  CCLD     pkcs11/gnutls_x509_crt_list_import_url
+  CCLD     pkcs11/gnutls_pcert_list_import_x509_file
+  CCLD     pkcs11/pkcs11-eddsa-privkey-test
+  CCLD     pkcs11-token-raw
+  CCLD     pkcs11-obj-raw
+  CCLD     pkcs11-import-url-privkey-caps
+  CCLD     ocsp
+  CCLD     x509self
+  CCLD     x509dn
+  CCLD     anonself
+  CCLD     pskself
+  CCLD     pskself2
+  CCLD     dhepskself
+  CCLD     setcredcrash
+  CCLD     tls12-resume-x509
+  CCLD     tls12-resume-psk
+  CCLD     tls12-resume-anon
+  CCLD     tls13-resume-x509
+  CCLD     tls13-resume-psk
+  CCLD     tls13-early-data
+  CCLD     tls13-early-data-neg
+  CCLD     tls13-early-data-neg2
+  CCLD     resume-with-record-size-limit
+  CCLD     tls13/post-handshake-with-cert-pkcs11
+  CCLD     global-init-override
+  CCLD     pkcs11/tls-neg-pkcs11-no-key
+  CCLD     system-override-hash
+  CCLD     system-override-sig
+  CCLD     system-override-sig-tls
+  CC       dtls/dtls-stress.o
+  CCLD     system-override-curves-allowlist
+  CCLD     protocol-set-allowlist
+  CCLD     pkcs11/list-tokens
+  CCLD     pkcs11/list-objects
+  CCLD     tls13/supported_versions
+  CCLD     tls13/tls12-no-tls13-exts
+  CCLD     tls13/post-handshake-with-cert
+  CCLD     tls13/post-handshake-without-cert
+  CCLD     tls13/cookie
+  CCLD     tls13/key_share
+  CCLD     tls13/prf
+  CCLD     tls13/prf-early
+  CCLD     tls13/post-handshake-with-cert-ticket
+  CCLD     tls12-rollback-detection
+  CCLD     tls11-rollback-detection
+  CCLD     tls12-check-rollback-val
+  CCLD     tls11-check-rollback-val
+  CCLD     tls13/post-handshake-with-psk
+  CCLD     tls13/post-handshake-with-cert-auto
+  CCLD     tls13/anti_replay
+  CCLD     tls13/hello_retry_request
+  CCLD     tls13/hello_retry_request_resume
+  CCLD     tls13/psk-ext
+  CCLD     tls13/key_update
+  CCLD     tls13/key_update_multiple
+  CCLD     tls13/key_limits
+  CCLD     tls13/multi-ocsp
+  CCLD     tls13/ocsp-client
+  CCLD     tls13/change_cipher_spec
+  CCLD     tls13/no-psk-exts
+  CCLD     tls13/psk-dumbfw
+  CCLD     tls13/no-auto-send-ticket
+  CCLD     safe-renegotiation/srn0
+  CCLD     safe-renegotiation/srn1
+  CCLD     safe-renegotiation/srn2
+  CCLD     safe-renegotiation/srn3
+  CCLD     safe-renegotiation/srn4
+  CCLD     safe-renegotiation/srn5
+  CCLD     dtls-stress
+make[3]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/tests'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/tests'
+make[4]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/tests'
+PASS: tls13/supported_versions
+PASS: tls13/post-handshake-without-cert
+PASS: tls13/cookie
+PASS: tls13/prf
+PASS: tls12-rollback-detection
+PASS: tls11-rollback-detection
+PASS: tls13/prf-early
+PASS: tls13/tls12-no-tls13-exts
+PASS: tls12-check-rollback-val
+PASS: tls11-check-rollback-val
+PASS: tls13/anti_replay
+PASS: tls13/psk-ext
+PASS: tls13/hello_retry_request
+PASS: tls13/hello_retry_request_resume
+PASS: tls13/no-psk-exts
+PASS: simple
+PASS: tls13/psk-dumbfw
+PASS: certuniqueid
+PASS: tls13/change_cipher_spec
+PASS: tls13/ocsp-client
+PASS: tls13/post-handshake-with-psk
+PASS: dn
+PASS: tls13/post-handshake-with-cert
+PASS: tls13/key_update_multiple
+PASS: tls13/multi-ocsp
+PASS: gnutls_hmac_fast
+PASS: tls13/post-handshake-with-cert-auto
+PASS: certificate_set_x509_crl
+PASS: parse_ca
+PASS: cert
+PASS: mpi
+PASS: x509-dn
+PASS: x509-dn-decode
+PASS: hostname-check
+PASS: cve-2008-4989
+PASS: pkcs12_s2k
+PASS: set_pkcs12_cred
+PASS: missingissuer_aia
+PASS: tls13/post-handshake-with-cert-ticket
+PASS: tls13/no-auto-send-ticket
+PASS: cve-2009-1415
+PASS: record-sizes-range
+PASS: cve-2009-1416
+PASS: x509sign-verify
+PASS: tls-neg-ext-key
+SKIP: ssl30-cipher-neg
+SKIP: ssl30-server-kx-neg
+PASS: init_roundtrip
+PASS: crq_apis
+PASS: sign-verify
+PASS: dn2
+PASS: tls13-early-start
+PASS: nul-in-x509-names
+PASS: pkcs12_s2k_pem
+PASS: rng-fork
+PASS: x509_altname
+PASS: mini-eagain-dtls
+PASS: gnutls_session_set_id
+PASS: x509cert
+PASS: tls12-rehandshake-cert-3
+PASS: x509cert-tl
+PASS: infoaccess
+PASS: gnutls_ext_raw_parse
+PASS: x509cert-ct
+PASS: mini-x509
+PASS: empty_retrieve_function
+PASS: handshake-large-cert
+PASS: trustdb-tofu
+PASS: chainverify
+PASS: sign-verify-ed25519-rfc8080
+PASS: missingissuer
+PASS: mini-alpn
+PASS: tls13/key_share
+PASS: pkcs12_simple
+PASS: priorities
+PASS: priorities-groups
+PASS: mini-x509-callbacks
+PASS: key-openssl
+PASS: mini-termination
+PASS: tls11-cipher-neg
+PASS: gnutls_x509_crt_list_import
+PASS: gnutls_x509_privkey_import
+PASS: chainverify-unsorted
+PASS: time
+PASS: tls10-cipher-neg
+PASS: rsa-encrypt-decrypt
+PASS: mini-x509-2
+PASS: gnutls-strcodes
+PASS: resume-lifetime
+PASS: sign-verify-ext4
+PASS: mini-record-range
+PASS: mini-x509-cas
+SKIP: fips-mode-pthread
+PASS: tls13-rehandshake-cert
+PASS: sec-params
+PASS: rsa-psk
+PASS: global-init
+PASS: x509-server-verify
+PASS: record-sizes
+PASS: mini-dtls-hello-verify
+PASS: sign-verify-data
+SKIP: fips-override-test
+PASS: name-constraints
+SKIP: fips-test
+PASS: x509-extensions
+PASS: mini-global-load
+PASS: mini-x509-callbacks-intr
+PASS: crlverify
+PASS: tls-neg-ext4-key
+PASS: mini-dtls-large
+PASS: custom-urls
+PASS: tls10-server-kx-neg
+PASS: tls12-rehandshake-cert-2
+PASS: tls11-server-kx-neg
+PASS: crq_key_id
+PASS: cert-status
+PASS: tls12-rehandshake-cert-auto
+PASS: set_x509_key_mem
+PASS: mini-chain-unsorted
+PASS: x509-verify-with-crl
+PASS: key-import-export
+PASS: tls13-cipher-neg
+PASS: privkey-verify-broken
+PASS: set_x509_key_file
+PASS: priority-set
+PASS: set_x509_key_file-late
+PASS: pubkey-import-export
+PASS: priority-set2
+PASS: sign-is-secure
+PASS: spki-abstract
+PASS: x509cert-invalid
+PASS: tls12-cipher-neg
+PASS: tls13/key_limits
+PASS: tls-ext-register
+PASS: mini-key-material
+PASS: tls12-rehandshake-set-prio
+PASS: duplicate-extensions
+PASS: mini-record-failure
+PASS: mini-dtls-record
+PASS: tls-supplemental
+PASS: tls-etm
+PASS: alerts
+PASS: spki
+PASS: client-sign-md5-rep
+PASS: tls12-invalid-key-exchanges
+PASS: tls-force-etm
+PASS: gnutls_ocsp_resp_list_import2
+PASS: session-rdn-read
+PASS: server-sign-md5-rep
+PASS: tls12-server-kx-neg
+PASS: x509-cert-callback
+PASS: pkcs7-gen
+PASS: mini-dtls-lowmtu
+PASS: mini-server-name
+PASS: x509-cert-callback-ocsp
+PASS: rsa-rsa-pss
+PASS: cipher-alignment
+PASS: mini-dtls-heartbeat
+PASS: oids
+PASS: atfork
+PASS: prf
+PASS: mini-dtls-srtp
+PASS: priority-init2
+PASS: post-client-hello-change-prio
+PASS: status-request-ok
+PASS: status-request
+PASS: mini-dtls0-9
+PASS: rfc7633-missing
+PASS: sign-verify-ext
+PASS: pkcs8-key-decode
+PASS: urls
+PASS: mini-tls-nonblock
+PASS: mini-dtls-mtu
+PASS: key-usage-ecdhe-rsa
+PASS: key-usage-rsa
+PASS: mini-dtls-discard
+PASS: fallback-scsv
+PASS: mini-overhead
+PASS: rfc7633-ok
+PASS: mini-session-verify-function
+PASS: openconnect-dtls12
+PASS: set-default-prio
+PASS: auto-verify
+PASS: rsa-psk-cb
+PASS: gnutls-ids
+PASS: tls12-anon-upgrade
+PASS: tlsext-decoding
+PASS: rehandshake-switch-cert
+PASS: privkey-keygen
+PASS: mini-dtls-record-asym
+PASS: rehandshake-switch-cert-client-allow
+PASS: handshake-versions
+PASS: rehandshake-switch-cert-allow
+PASS: ocsp-filename-memleak
+PASS: rehandshake-switch-cert-client
+PASS: dtls-handshake-versions
+PASS: dtls-max-record
+PASS: dh-params
+PASS: tls12-max-record
+PASS: pcert-list
+PASS: rehandshake-ext-secret
+PASS: alpn-server-prec
+PASS: session-export-funcs
+PASS: name-constraints-merge
+PASS: crq-basic
+PASS: crl-basic
+PASS: dtls-etm
+PASS: version-checks
+PASS: hex
+PASS: custom-urls-override
+PASS: base64
+PASS: srpbase64
+PASS: pkcs1-digest-info
+PASS: rehandshake-switch-srp-id
+PASS: set_x509_key
+PASS: set_x509_key_file_der
+PASS: crt_apis
+PASS: set_x509_pkcs12_key
+PASS: handshake-timeout
+PASS: rehandshake-switch-psk-id
+PASS: key-material-dtls
+PASS: key-material-set-dtls
+SKIP: ssl30-cert-key-exchange
+PASS: x509sign-verify-gost
+PASS: keylog-env
+PASS: x509-cert-callback-legacy
+PASS: pkcs12_encode
+PASS: tlsfeature-ext
+PASS: ssl2-hello
+PASS: tlsfeature-crt
+PASS: send-client-cert
+PASS: resume-with-false-start
+PASS: tls11-cert-key-exchange
+PASS: set_x509_key_file_ocsp
+PASS: tls10-cert-key-exchange
+PASS: record-timeouts
+PASS: safe-renegotiation/srn0
+PASS: resume-dtls
+PASS: rng-pthread
+PASS: safe-renegotiation/srn1
+PASS: safe-renegotiation/srn2
+PASS: safe-renegotiation/srn3
+PASS: dtls10-cert-key-exchange
+PASS: dtls12-cert-key-exchange
+PASS: safe-renegotiation/srn4
+PASS: safe-renegotiation/srn5
+PASS: rsa-illegal-import
+PASS: psk-file
+PASS: set_x509_key_file_ocsp_multi2
+PASS: set_x509_ocsp_multi_invalid
+PASS: set_x509_ocsp_multi_unknown
+PASS: tls13-cert-key-exchange
+PASS: set_x509_ocsp_multi_pem
+SKIP: set_key_utf8
+SKIP: set_x509_key_utf8
+PASS: set_key
+PASS: insecure_key
+PASS: x509sign-verify-ecdsa
+PASS: server_ecdsa_key
+PASS: client_dsa_key
+PASS: multi-alerts
+PASS: pkcs7-cat-parse
+PASS: naked-alerts
+PASS: handshake-large-packet
+PASS: tls-session-supplemental
+PASS: tls-session-ext-register
+PASS: session-tickets-ok
+PASS: gnutls_x509_crt_sign
+PASS: session-tickets-missing
+PASS: gnutls_x509_crq_sign
+PASS: set_x509_key_file_legacy
+PASS: status-request-ext
+PASS: rng-no-onload
+SKIP: cert_verify_inv_utf8
+PASS: crl_apis
+PASS: no-extensions
+SKIP: hostname-check-utf8
+PASS: pkcs8-key-decode-encrypted
+PASS: priority-mix
+PASS: pkcs7
+PASS: tls12-cert-key-exchange
+PASS: crt_inv_write
+PASS: send-data-before-handshake
+PASS: recv-data-before-handshake
+PASS: x509sign-verify-error
+PASS: tls-ext-not-in-dtls
+PASS: x509-dn-decode-compat
+PASS: ip-check
+PASS: mini-dtls-fork
+PASS: mini-x509-ipaddr
+PASS: base64-raw
+PASS: dtls1-2-mtu-check
+PASS: random-art
+PASS: trust-store
+PASS: sign-pk-api
+PASS: dss-sig-val
+PASS: tls-session-ext-override
+PASS: dhex509self
+PASS: record-pad
+PASS: srp
+PASS: key-export-pkcs8
+PASS: dtls-repro-20170915
+PASS: mini-emsgsize-dtls
+PASS: null_retrieve_function
+PASS: handshake-false-start
+PASS: dtls-rehandshake-cert-3
+PASS: rawpk-api
+PASS: resume-with-stek-expiration
+PASS: dh-compute
+PASS: ecdh-compute
+PASS: resume-with-previous-stek
+PASS: sign-verify-data-newapi
+PASS: iov
+PASS: sign-verify-deterministic
+PASS: long-session-id
+PASS: tls-record-size-limit-asym
+PASS: tls-record-size-limit
+PASS: sign-verify-newapi
+PASS: set_known_dh_params_psk
+PASS: buffer
+PASS: tls13-server-kx-neg
+PASS: kdf-api
+PASS: keylog-func
+PASS: aead-cipher-vec
+PASS: tls13-without-timeout-func
+PASS: set_known_dh_params_anon
+PASS: id-on-xmppAddr
+PASS: status-request-revoked
+PASS: gnutls_ext_raw_parse_dtls
+PASS: set_x509_ocsp_multi_cli
+PASS: dtls-session-ticket-lost
+PASS: x509cert-dntypes
+PASS: strict-der
+PASS: pkcs11-get-exts
+PASS: system-prio-file
+PASS: pkcs11-get-raw-issuer-exts
+PASS: pkcs11-cert-import-url-exts
+PASS: pkcs11-cert-import-url4-exts
+SKIP: pkcs11/pkcs11-get-issuer
+SKIP: pkcs11/pkcs11-chainverify
+PASS: handshake-write
+SKIP: pkcs11/pkcs11-is-known
+SKIP: pkcs11/pkcs11-combo
+PASS: pkcs11-import-url-privkey
+PASS: pkcs11-privkey-always-auth
+SKIP: pkcs11/pkcs11-pubkey-import-rsa
+SKIP: pkcs11/pkcs11-privkey
+PASS: tls13-compat-mode
+PASS: pkcs11-privkey-export
+SKIP: pkcs11/pkcs11-import-with-pin
+SKIP: pkcs11/pkcs11-ec-privkey-test
+SKIP: pkcs11-privkey-fork-reinit
+SKIP: pkcs11/pkcs11-pubkey-import-ecdsa
+SKIP: pkcs11/pkcs11-privkey-pthread
+SKIP: pkcs11-privkey-fork
+SKIP: pkcs11-mechanisms
+PASS: pkcs11-privkey-safenet-always-auth
+SKIP: pkcs11/pkcs11-obj-import
+PASS: pkcs11/pkcs11-pin-func
+SKIP: pkcs11/tls-neg-pkcs11-key
+SKIP: pkcs11/gnutls_pcert_list_import_x509_file
+SKIP: pkcs11/pkcs11-privkey-generate
+SKIP: pkcs11/gnutls_x509_crt_list_import_url
+SKIP: pkcs11-obj-raw
+SKIP: pkcs11-token-raw
+SKIP: pkcs11/pkcs11-rsa-pss-privkey-test
+SKIP: pkcs11/pkcs11-eddsa-privkey-test
+PASS: pkcs11-import-url-privkey-caps
+PASS: ocsp
+PASS: x509sign-verify-rsa
+PASS: setcredcrash
+PASS: dhepskself
+PASS: x509self
+PASS: x509dn
+PASS: tls13-early-data-neg
+PASS: anonself
+PASS: tls12-resume-psk
+PASS: tls13-resume-psk
+PASS: pskself
+PASS: tls13-early-data-neg2
+PASS: tls12-resume-anon
+PASS: tls13-early-data
+PASS: resume-with-record-size-limit
+SKIP: tls13/post-handshake-with-cert-pkcs11
+SKIP: pkcs11/tls-neg-pkcs11-no-key
+PASS: global-init-override
+PASS: set_known_dh_params_x509
+PASS: pskself2
+PASS: rfc2253-escape-test.sh
+PASS: tls13-resume-x509
+SKIP: rsa-md5-collision/rsa-md5-collision.sh
+SKIP: starttls-ftp.sh
+SKIP: starttls.sh
+PASS: systemkey.sh
+SKIP: starttls-smtp.sh
+SKIP: starttls-lmtp.sh
+SKIP: starttls-nntp.sh
+SKIP: starttls-xmpp.sh
+SKIP: starttls-pop3.sh
+SKIP: starttls-sieve.sh
+SKIP: server-multi-keys.sh
+SKIP: ocsp-tests/ocsp-test.sh
+SKIP: ocsp-tests/ocsp-tls-connection.sh
+SKIP: ocsp-tests/ocsp-must-staple-connection.sh
+SKIP: gnutls-cli-debug.sh
+SKIP: ocsp-tests/ocsp-load-chain.sh
+PASS: client-fastopen
+SKIP: cert-reencoding.sh
+SKIP: pkcs7-cat.sh
+PASS: tls12-resume-x509
+PASS: tls-crt_type-neg
+PASS: psktool.sh
+PASS: ocsp-tests/ocsptool.sh
+SKIP: server-weak-keys.sh
+SKIP: ocsp-tests/ocsp-signer-verify.sh
+PASS: pkgconfig.sh
+PASS: tls-channel-binding
+PASS: system-override-hash.sh
+PASS: system-override-sig.sh
+PASS: cipher-listings.sh
+PASS: system-override-invalid.sh
+SKIP: system-override-profiles.sh
+PASS: cfg-test.sh
+SKIP: system-override-tls.sh
+PASS: fastopen.sh
+PASS: system-override-sig-tls.sh
+PASS: system-override-hash-filters-prf.sh
+PASS: system-override-sig-allowlist.sh
+PASS: system-override-hash-allowlist.sh
+PASS: long-crl.sh
+PASS: sni-hostname.sh
+PASS: sni-resume.sh
+PASS: gnutls-cli-save-data.sh
+SKIP: gnutls-cli-self-signed.sh
+SKIP: gnutls-cli-invalid-crl.sh
+PASS: gnutls-cli-resume.sh
+PASS: system-override-special-allowlist.sh
+PASS: p11-kit-trust.sh
+SKIP: testpkcs11.sh
+SKIP: certtool-pkcs11.sh
+SKIP: p11-kit-load.sh
+PASS: mini-record
+PASS: tls12-ffdhe
+PASS: system-override-curves.sh
+PASS: system-override-versions.sh
+PASS: system-override-kx.sh
+PASS: no-signal
+PASS: rng-sigint
+PASS: system-override-versions-allowlist.sh
+PASS: system-override-curves-allowlist.sh
+PASS: record-retvals
+PASS: system-override-default-priority-string.sh
+PASS: profile-tests.sh
+PASS: dtls-pthread
+PASS: tls-pthread
+PASS: logfile-option.sh
+PASS: protocol-set-allowlist.sh
+PASS: gnutls-cli-rawpk.sh
+PASS: mini-record-2
+PASS: rng-op-random
+PASS: rng-op-nonce
+PASS: rng-op-key
+PASS: serv-udp.sh
+PASS: tls13/key_update
+PASS: dh-fips-approved.sh
+PASS: mini-dtls-hello-verify-48
+PASS: dtls/dtls-resume.sh
+PASS: mini-loss-time
+PASS: dtls-rehandshake-anon
+PASS: dtls-rehandshake-cert
+PASS: dtls-rehandshake-cert-2
+PASS: dtls/dtls.sh
+============================================================================
+Testsuite summary for GnuTLS 3.7.3
+============================================================================
+# TOTAL: 472
+# PASS:  412
+# SKIP:  60
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/tests'
+make[3]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/tests'
+make[2]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/tests'
+Making check in cert-tests
+make[2]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/tests/cert-tests'
+make  pathlen.sh aki.sh invalid-sig.sh email.sh pkcs7.sh pkcs7-broken-sigs.sh privkey-import.sh name-constraints.sh certtool-long-cn.sh crl.sh provable-privkey.sh provable-dh.sh userid.sh sha2-test.sh sha2-dsa-test.sh provable-privkey-dsa2048.sh provable-privkey-rsa2048.sh provable-privkey-gen-default.sh pkcs7-constraints.sh pkcs7-constraints2.sh certtool-long-oids.sh pkcs7-cat.sh cert-sanity.sh cert-critical.sh pkcs12.sh certtool-crl-decoding.sh pkcs12-encode.sh pkcs12-corner-cases.sh inhibit-anypolicy.sh smime.sh cert-time.sh alt-chain.sh pkcs7-list-sign.sh pkcs7-eddsa.sh certtool-ecdsa.sh key-id.sh pkcs8.sh pkcs8-decode.sh ecdsa.sh illegal-rsa.sh pkcs8-invalid.sh key-invalid.sh pkcs8-eddsa.sh certtool-subca.sh certtool-verify-profiles.sh x509-duplicate-ext.sh x25519-and-x448.sh key-id.sh ecdsa.sh pkcs8-invalid.sh key-invalid.sh pkcs8-decode.sh pkcs8.sh pkcs8-eddsa.sh certtool-utf8.sh crq.sh cert-non-digits-time.sh reject-invalid-time.sh   template-test.sh pem-decoding.sh othername-test.sh krb5-test.sh sha3-test.sh md5-test.sh tlsfeature-test.sh template-exts-test.sh pkcs1-pad.sh pkcs12-utf8.sh rsa-pss-pad.sh dsa.sh certtool.sh template-policy-test.sh  gost.sh pkcs12-gost.sh pkcs8-gost.sh certtool-rsa-pss.sh certtool-eddsa.sh
+make[3]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/tests/cert-tests'
+make[3]: Nothing to be done for '../../../tests/cert-tests/pathlen.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/aki.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/invalid-sig.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/email.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/pkcs7.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/pkcs7-broken-sigs.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/privkey-import.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/name-constraints.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/certtool-long-cn.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/crl.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/provable-privkey.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/provable-dh.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/userid.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/sha2-test.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/sha2-dsa-test.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/provable-privkey-dsa2048.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/provable-privkey-rsa2048.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/provable-privkey-gen-default.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/pkcs7-constraints.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/pkcs7-constraints2.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/certtool-long-oids.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/pkcs7-cat.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/cert-sanity.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/cert-critical.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/pkcs12.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/certtool-crl-decoding.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/pkcs12-encode.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/pkcs12-corner-cases.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/inhibit-anypolicy.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/smime.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/cert-time.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/alt-chain.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/pkcs7-list-sign.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/pkcs7-eddsa.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/certtool-ecdsa.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/key-id.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/pkcs8.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/pkcs8-decode.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/ecdsa.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/illegal-rsa.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/pkcs8-invalid.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/key-invalid.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/pkcs8-eddsa.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/certtool-subca.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/certtool-verify-profiles.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/x509-duplicate-ext.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/x25519-and-x448.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/key-id.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/ecdsa.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/pkcs8-invalid.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/key-invalid.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/pkcs8-decode.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/pkcs8.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/pkcs8-eddsa.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/certtool-utf8.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/crq.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/cert-non-digits-time.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/reject-invalid-time.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/template-test.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/pem-decoding.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/othername-test.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/krb5-test.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/sha3-test.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/md5-test.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/tlsfeature-test.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/template-exts-test.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/pkcs1-pad.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/pkcs12-utf8.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/rsa-pss-pad.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/dsa.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/certtool.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/template-policy-test.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/gost.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/pkcs12-gost.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/pkcs8-gost.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/certtool-rsa-pss.sh'.
+make[3]: Nothing to be done for '../../../tests/cert-tests/certtool-eddsa.sh'.
+make[3]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/tests/cert-tests'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/tests/cert-tests'
+make[4]: Entering directory '/usr/oppai/library/gnutls-3.7.3/build/tests/cert-tests'
+SKIP: pkcs7.sh
+SKIP: name-constraints.sh
+SKIP: pkcs7-constraints2.sh
+SKIP: pkcs7-constraints.sh
+PASS: aki.sh
+SKIP: alt-chain.sh
+PASS: userid.sh
+SKIP: cert-critical.sh
+SKIP: pkcs7-cat.sh
+SKIP: inhibit-anypolicy.sh
+SKIP: pkcs7-list-sign.sh
+PASS: pathlen.sh
+SKIP: pkcs7-eddsa.sh
+SKIP: smime.sh
+SKIP: certtool-verify-profiles.sh
+PASS: pkcs8-eddsa.sh
+PASS: certtool-long-cn.sh
+PASS: certtool-utf8.sh
+PASS: certtool-long-oids.sh
+PASS: cert-non-digits-time.sh
+PASS: pkcs7-broken-sigs.sh
+SKIP: crq.sh
+SKIP: template-test.sh
+SKIP: othername-test.sh
+PASS: x509-duplicate-ext.sh
+SKIP: krb5-test.sh
+PASS: reject-invalid-time.sh
+SKIP: sha3-test.sh
+PASS: key-id.sh
+SKIP: template-exts-test.sh
+SKIP: tlsfeature-test.sh
+PASS: cert-sanity.sh
+SKIP: md5-test.sh
+PASS: sha2-dsa-test.sh
+PASS: privkey-import.sh
+SKIP: rsa-pss-pad.sh
+SKIP: pkcs1-pad.sh
+SKIP: template-policy-test.sh
+PASS: pkcs12-corner-cases.sh
+PASS: certtool-crl-decoding.sh
+PASS: certtool-subca.sh
+PASS: cert-time.sh
+PASS: invalid-sig.sh
+PASS: sha2-test.sh
+PASS: key-invalid.sh
+SKIP: crl.sh
+PASS: pkcs8-decode.sh
+PASS: certtool-ecdsa.sh
+PASS: ecdsa.sh
+PASS: email.sh
+PASS: illegal-rsa.sh
+PASS: pkcs8-invalid.sh
+PASS: pkcs8-gost.sh
+SKIP: certtool-eddsa.sh
+PASS: x25519-and-x448.sh
+PASS: pem-decoding.sh
+PASS: pkcs8.sh
+PASS: gost.sh
+FAIL: certtool.sh
+PASS: pkcs12.sh
+PASS: pkcs12-utf8.sh
+PASS: provable-privkey-gen-default.sh
+PASS: provable-privkey-rsa2048.sh
+SKIP: certtool-rsa-pss.sh
+PASS: pkcs12-encode.sh
+PASS: provable-privkey.sh
+PASS: dsa.sh
+PASS: provable-dh.sh
+PASS: provable-privkey-dsa2048.sh
+PASS: pkcs12-gost.sh
+============================================================================
+Testsuite summary for GnuTLS 3.7.3
+============================================================================
+# TOTAL: 77
+# PASS:  50
+# SKIP:  26
+# XFAIL: 0
+# FAIL:  1
+# XPASS: 0
+# ERROR: 0
+============================================================================
+See tests/cert-tests/test-suite.log
+Please report to bugs@gnutls.org
+============================================================================
+make[4]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/tests/cert-tests'
+make[3]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/tests/cert-tests'
+make[2]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/tests/cert-tests'
+make[1]: Leaving directory '/usr/oppai/library/gnutls-3.7.3/build/tests'

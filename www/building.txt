@@ -1,0 +1,6 @@
+ RUSTFLAGS=-Ctarget-feature=-crt-static
+
+../mach configure --prefix=/usr --disable-cargo-incremental               --disable-crashreporter          --disable-install-strip                 --disable-jemalloc              --disable-profiling              --disable-strip                 --disable-tests                 --disable-updater --enable-alsa          --enable-dbus           --enable-default-toolkit=cairo-gtk3-wayland             --enable-ffmpeg          --enable-hardening              --enable-linker=lld             --enable-necko-wifi             --enable-official-branding --enable-pulseaudio           --enable-release                --enable-system-ffi              --enable-system-pixman --with-distribution-id=org.alpinelinux           --with-libclang-path=/usr/lib            --with-system-ffi               --with-system-icu               --with-system-jpeg               --with-system-libevent          --with-system-libvpx            --with-system-nspr               --with-system-nss               --with-system-pixman            --with-system-png               --with-system-webp               --with-system-zlib              --with-unsigned-addon-scopes=app,system --without-wasm-sandboxed-libraries --disable-webrtc --with-system-nss --with-system-nspr
+
+
+91.7.1

@@ -1,0 +1,403 @@
+ 0:00.71 /usr/bin/python3 /usr/oppai/www/firefox-91.7.1/configure.py
+ 0:00.86 Creating Python 3 environment
+ 0:01.22 created virtual environment CPython3.10.2.final.0-64 in 138ms
+ 0:01.22   creator CPython3Posix(dest=/usr/oppai/www/firefox-91.7.1/firefox-build-dir/_virtualenvs/common, clear=False, no_vcs_ignore=False, global=False)
+ 0:01.22   seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/root/.local/share/virtualenv)
+ 0:01.22     added seed packages: pip==20.3.1, setuptools==51.0.0, wheel==0.36.1
+ 0:01.22   activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+ 0:01.32 /usr/oppai/www/firefox-91.7.1/python/mozbuild/mozbuild/virtualenv.py:648: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+ 0:01.32   from distutils.version import LooseVersion
+ 0:01.33 /usr/oppai/www/firefox-91.7.1/python/mozbuild/mozbuild/virtualenv.py:303: DeprecationWarning: The distutils.sysconfig module is deprecated, use sysconfig instead
+ 0:01.33   import distutils.sysconfig
+ 0:01.34 Re-executing in the virtualenv
+ 0:01.62 Adding configure options from /usr/oppai/www/firefox-91.7.1/mozconfig
+ 0:01.62   --with-system-icu
+ 0:01.62   --with-system-libevent
+ 0:01.62   --with-system-libvpx
+ 0:01.62   --with-system-nspr
+ 0:01.62   --with-system-nss
+ 0:01.62   --with-system-webp
+ 0:01.62   --enable-official-branding
+ 0:01.62   --disable-debug-symbols
+ 0:01.62   --disable-elf-hack
+ 0:01.62   --prefix=/usr
+ 0:01.62   --enable-application=browser
+ 0:01.62   --disable-crashreporter
+ 0:01.62   --disable-updater
+ 0:01.62   --disable-tests
+ 0:01.62   --enable-system-ffi
+ 0:01.62   --enable-system-pixman
+ 0:01.62   --with-system-jpeg
+ 0:01.62   --with-system-png
+ 0:01.62   --with-system-zlib
+ 0:01.62   --target=x86_64-unknown-linux-musl
+ 0:01.62   --host=x86_64-unknown-linux-musl
+ 0:01.62 checking for vcs source checkout... no
+ 0:01.68 checking for a shell... /usr/bin/sh
+ 0:01.68 checking for host system type... x86_64-unknown-linux-musl
+ 0:01.69 checking for target system type... x86_64-unknown-linux-musl
+ 0:02.20 checking whether cross compiling... no
+ 0:02.34 checking for Python 3... /usr/oppai/www/firefox-91.7.1/firefox-build-dir/_virtualenvs/common/bin/python (3.10.2)
+ 0:02.37 checking for wget... /usr/bin/wget
+ 0:02.37 checking for ccache... not found
+ 0:02.37 checking for the target C compiler... /usr/bin/clang
+ 0:02.41 checking whether the target C compiler can be used... yes
+ 0:02.41 checking the target C compiler version... 13.0.1
+ 0:02.43 checking the target C compiler works... yes
+ 0:02.43 checking for the target C++ compiler... /usr/bin/clang++
+ 0:02.47 checking whether the target C++ compiler can be used... yes
+ 0:02.47 checking the target C++ compiler version... 13.0.1
+ 0:02.49 checking the target C++ compiler works... yes
+ 0:02.49 checking for the host C compiler... /usr/bin/clang
+ 0:02.53 checking whether the host C compiler can be used... yes
+ 0:02.53 checking the host C compiler version... 13.0.1
+ 0:02.54 checking the host C compiler works... yes
+ 0:02.55 checking for the host C++ compiler... /usr/bin/clang++
+ 0:02.58 checking whether the host C++ compiler can be used... yes
+ 0:02.58 checking the host C++ compiler version... 13.0.1
+ 0:02.60 checking the host C++ compiler works... yes
+ 0:02.62 checking for 64-bit OS... yes
+ 0:02.64 checking for new enough STL headers from libstdc++... yes
+ 0:02.67 checking for linker... lld
+ 0:02.67 checking for the assembler... /usr/bin/clang
+ 0:02.68 checking for ar... /usr/bin/llvm-ar
+ 0:02.70 checking for nm... /usr/bin/llvm-nm
+ 0:02.70 checking for pkg_config... /usr/bin/pkg-config
+ 0:02.70 checking for pkg-config version... 0.29.2
+ 0:02.72 checking for stdint.h... yes
+ 0:02.74 checking for inttypes.h... yes
+ 0:02.75 checking for malloc.h... yes
+ 0:02.77 checking for alloca.h... yes
+ 0:02.79 checking for sys/byteorder.h... no
+ 0:02.81 checking for getopt.h... yes
+ 0:02.82 checking for unistd.h... yes
+ 0:02.84 checking for nl_types.h... yes
+ 0:02.86 checking for cpuid.h... yes
+ 0:02.88 checking for fts.h... yes
+ 0:02.90 checking for sys/statvfs.h... yes
+ 0:02.91 checking for sys/statfs.h... yes
+ 0:02.93 checking for sys/vfs.h... yes
+ 0:02.95 checking for sys/mount.h... yes
+ 0:02.97 checking for sys/quota.h... no
+ 0:02.99 checking for linux/quota.h... yes
+ 0:03.01 checking for linux/if_addr.h... yes
+ 0:03.03 checking for linux/rtnetlink.h... yes
+ 0:03.05 checking for sys/queue.h... yes
+ 0:03.07 checking for sys/types.h... yes
+ 0:03.10 checking for netinet/in.h... yes
+ 0:03.11 checking for byteswap.h... yes
+ 0:03.13 checking for memfd_create in sys/mman.h... yes
+ 0:03.15 checking for linux/perf_event.h... yes
+ 0:03.17 checking for perf_event_open system call... yes
+ 0:03.19 checking whether the C compiler supports -Wbitfield-enum-conversion... yes
+ 0:03.21 checking whether the C++ compiler supports -Wbitfield-enum-conversion... yes
+ 0:03.23 checking whether the C++ compiler supports -Wdeprecated-this-capture... yes
+ 0:03.24 checking whether the C compiler supports -Wformat-type-confusion... yes
+ 0:03.26 checking whether the C++ compiler supports -Wformat-type-confusion... yes
+ 0:03.28 checking whether the C compiler supports -Wshadow-field-in-constructor-modified... yes
+ 0:03.30 checking whether the C++ compiler supports -Wshadow-field-in-constructor-modified... yes
+ 0:03.31 checking whether the C++ compiler supports -Wshadow-uncaptured-local... yes
+ 0:03.34 checking whether the C compiler supports -Wno-error=tautological-type-limit-compare... yes
+ 0:03.35 checking whether the C++ compiler supports -Wno-error=tautological-type-limit-compare... yes
+ 0:03.37 checking whether the C compiler supports -Wunreachable-code-return... yes
+ 0:03.39 checking whether the C++ compiler supports -Wunreachable-code-return... yes
+ 0:03.41 checking whether the C compiler supports -Wclass-varargs... yes
+ 0:03.43 checking whether the C++ compiler supports -Wclass-varargs... yes
+ 0:03.44 checking whether the C++ compiler supports -Wempty-init-stmt... yes
+ 0:03.46 checking whether the C compiler supports -Wfloat-overflow-conversion... yes
+ 0:03.48 checking whether the C++ compiler supports -Wfloat-overflow-conversion... yes
+ 0:03.50 checking whether the C compiler supports -Wfloat-zero-conversion... yes
+ 0:03.51 checking whether the C++ compiler supports -Wfloat-zero-conversion... yes
+ 0:03.53 checking whether the C compiler supports -Wloop-analysis... yes
+ 0:03.55 checking whether the C++ compiler supports -Wloop-analysis... yes
+ 0:03.57 checking whether the C compiler supports -Wno-range-loop-analysis... yes
+ 0:03.58 checking whether the C++ compiler supports -Wno-range-loop-analysis... yes
+ 0:03.60 checking whether the C++ compiler supports -Wc++2a-compat... yes
+ 0:03.62 checking whether the C++ compiler supports -Wcomma... yes
+ 0:03.63 checking whether the C compiler supports -Wduplicated-cond... no
+ 0:03.65 checking whether the C++ compiler supports -Wduplicated-cond... no
+ 0:03.67 checking whether the C compiler supports -Wenum-compare-conditional... yes
+ 0:03.68 checking whether the C++ compiler supports -Wenum-compare-conditional... yes
+ 0:03.70 checking whether the C++ compiler supports -Wimplicit-fallthrough... yes
+ 0:03.72 checking whether the C compiler supports -Wstring-conversion... yes
+ 0:03.74 checking whether the C++ compiler supports -Wstring-conversion... yes
+ 0:03.75 checking whether the C++ compiler supports -Wno-inline-new-delete... yes
+ 0:03.77 checking whether the C compiler supports -Wno-error=maybe-uninitialized... no
+ 0:03.78 checking whether the C++ compiler supports -Wno-error=maybe-uninitialized... no
+ 0:03.80 checking whether the C compiler supports -Wno-error=deprecated-declarations... yes
+ 0:03.82 checking whether the C++ compiler supports -Wno-error=deprecated-declarations... yes
+ 0:03.84 checking whether the C compiler supports -Wno-error=array-bounds... yes
+ 0:03.85 checking whether the C++ compiler supports -Wno-error=array-bounds... yes
+ 0:03.87 checking whether the C compiler supports -Wno-error=coverage-mismatch... no
+ 0:03.88 checking whether the C++ compiler supports -Wno-error=coverage-mismatch... no
+ 0:03.90 checking whether the C compiler supports -Wno-error=backend-plugin... yes
+ 0:03.92 checking whether the C++ compiler supports -Wno-error=backend-plugin... yes
+ 0:03.93 checking whether the C compiler supports -Wno-error=free-nonheap-object... yes
+ 0:03.95 checking whether the C++ compiler supports -Wno-error=free-nonheap-object... yes
+ 0:03.97 checking whether the C compiler supports -Wno-multistatement-macros... no
+ 0:03.98 checking whether the C++ compiler supports -Wno-multistatement-macros... no
+ 0:04.00 checking whether the C compiler supports -Wno-error=return-std-move... yes
+ 0:04.02 checking whether the C++ compiler supports -Wno-error=return-std-move... yes
+ 0:04.03 checking whether the C compiler supports -Wno-error=class-memaccess... no
+ 0:04.05 checking whether the C++ compiler supports -Wno-error=class-memaccess... no
+ 0:04.06 checking whether the C compiler supports -Wno-error=atomic-alignment... yes
+ 0:04.08 checking whether the C++ compiler supports -Wno-error=atomic-alignment... yes
+ 0:04.10 checking whether the C compiler supports -Wno-error=deprecated-copy... yes
+ 0:04.12 checking whether the C++ compiler supports -Wno-error=deprecated-copy... yes
+ 0:04.13 checking whether the C compiler supports -Wno-error=unused-but-set-variable... yes
+ 0:04.15 checking whether the C++ compiler supports -Wno-error=unused-but-set-variable... yes
+ 0:04.17 checking whether the C compiler supports -Wformat... yes
+ 0:04.19 checking whether the C++ compiler supports -Wformat... yes
+ 0:04.20 checking whether the C compiler supports -Wformat-security... yes
+ 0:04.22 checking whether the C++ compiler supports -Wformat-security... yes
+ 0:04.24 checking whether the C compiler supports -Wformat-overflow=2... no
+ 0:04.25 checking whether the C++ compiler supports -Wformat-overflow=2... no
+ 0:04.27 checking whether the C compiler supports -Wno-gnu-zero-variadic-macro-arguments... yes
+ 0:04.29 checking whether the C++ compiler supports -Wno-gnu-zero-variadic-macro-arguments... yes
+ 0:04.31 checking whether the C compiler supports -Werror=implicit-function-declaration... yes
+ 0:04.32 checking whether the C compiler supports -Wno-psabi... yes
+ 0:04.34 checking whether the C++ compiler supports -Wno-psabi... yes
+ 0:04.36 checking whether the C++ compiler supports -fno-sized-deallocation... yes
+ 0:04.38 checking whether the C++ compiler supports -fno-aligned-new... yes
+ 0:04.38 checking for llvm_profdata... /usr/bin/llvm-profdata
+ 0:04.39 checking for libpulse... yes
+ 0:04.40 checking MOZ_PULSEAUDIO_CFLAGS... -D_REENTRANT
+ 0:04.40 checking MOZ_PULSEAUDIO_LIBS... -lpulse -pthread
+ 0:04.40 checking for nspr >= 4.32... yes
+ 0:04.40 checking NSPR_CFLAGS... -I/usr/include/nspr
+ 0:04.40 checking NSPR_LIBS... -lplds4 -lplc4 -lnspr4
+ 0:04.40 checking for rustc... /usr/bin/rustc
+ 0:04.40 checking for cargo... /usr/bin/cargo
+ 0:04.49 checking rustc version... 1.59.0
+ 0:04.50 checking cargo version... 1.59.0
+ 0:04.67 checking for rust host triplet... x86_64-unknown-linux-musl
+ 0:04.71 checking for rust target triplet... x86_64-unknown-linux-musl
+ 0:04.71 checking for rustdoc... /usr/bin/rustdoc
+ 0:04.71 checking for cbindgen... no
+ 0:04.71 ERROR: Cannot find cbindgen. Please run `mach bootstrap`,
+ 0:04.71 `cargo install cbindgen`, ensure that `cbindgen` is on your PATH,
+ 0:04.71 or point at an executable with `CBINDGEN`.
+ 0:04.71 
+Error running mach:
+
+    ['configure']
+
+The error occurred in code that was called by the mach command. This is either
+a bug in the called code itself or in the way that mach is calling it.
+You can invoke |./mach busted| to check if this issue is already on file. If it
+isn't, please use |./mach busted file configure| to report it. If |./mach busted| is
+misbehaving, you can also inspect the dependencies of bug 1543241.
+
+If filing a bug, please include the full output of mach, including this error
+message.
+
+The details of the failure are as follows:
+
+Exception: Process executed with non-0 exit code 1: ['/usr/bin/python3', '/usr/oppai/www/firefox-91.7.1/configure.py']
+
+  File "/usr/oppai/www/firefox-91.7.1/python/mozbuild/mozbuild/build_commands.py", line 185, in configure
+    return driver.configure(
+  File "/usr/oppai/www/firefox-91.7.1/python/mozbuild/mozbuild/controller/building.py", line 1528, in configure
+    status = self._run_command_in_objdir(
+  File "/usr/oppai/www/firefox-91.7.1/python/mozbuild/mozbuild/base.py", line 845, in _run_command_in_objdir
+    return self.run_process(cwd=self.topobjdir, **args)
+  File "/usr/oppai/www/firefox-91.7.1/python/mach/mach/mixin/process.py", line 176, in run_process
+    raise Exception(
+ 0:00.36 Clobber not needed.
+ 0:00.36 /usr/bin/python3 /usr/oppai/www/firefox-91.7.1/configure.py
+ 0:00.55 Re-executing in the virtualenv
+ 0:00.82 Adding configure options from /usr/oppai/www/firefox-91.7.1/mozconfig
+ 0:00.82   --with-system-icu
+ 0:00.82   --with-system-libevent
+ 0:00.82   --with-system-libvpx
+ 0:00.82   --with-system-nspr
+ 0:00.82   --with-system-nss
+ 0:00.82   --with-system-webp
+ 0:00.82   --enable-official-branding
+ 0:00.82   --disable-debug-symbols
+ 0:00.83   --disable-elf-hack
+ 0:00.83   --prefix=/usr
+ 0:00.83   --enable-application=browser
+ 0:00.83   --disable-crashreporter
+ 0:00.83   --disable-updater
+ 0:00.83   --disable-tests
+ 0:00.83   --enable-system-ffi
+ 0:00.83   --enable-system-pixman
+ 0:00.83   --with-system-jpeg
+ 0:00.83   --with-system-png
+ 0:00.83   --with-system-zlib
+ 0:00.83   --target=x86_64-unknown-linux-musl
+ 0:00.83   --host=x86_64-unknown-linux-musl
+ 0:00.83 checking for vcs source checkout... no
+ 0:00.88 checking for a shell... /usr/bin/sh
+ 0:00.89 checking for host system type... x86_64-unknown-linux-musl
+ 0:00.89 checking for target system type... x86_64-unknown-linux-musl
+ 0:01.40 checking whether cross compiling... no
+ 0:01.54 checking for Python 3... /usr/oppai/www/firefox-91.7.1/firefox-build-dir/_virtualenvs/common/bin/python (3.10.2)
+ 0:01.57 checking for wget... /usr/bin/wget
+ 0:01.58 checking for ccache... not found
+ 0:01.58 checking for the target C compiler... /usr/bin/clang
+ 0:01.62 checking whether the target C compiler can be used... yes
+ 0:01.62 checking the target C compiler version... 13.0.1
+ 0:01.64 checking the target C compiler works... yes
+ 0:01.64 checking for the target C++ compiler... /usr/bin/clang++
+ 0:01.68 checking whether the target C++ compiler can be used... yes
+ 0:01.68 checking the target C++ compiler version... 13.0.1
+ 0:01.69 checking the target C++ compiler works... yes
+ 0:01.69 checking for the host C compiler... /usr/bin/clang
+ 0:01.73 checking whether the host C compiler can be used... yes
+ 0:01.73 checking the host C compiler version... 13.0.1
+ 0:01.75 checking the host C compiler works... yes
+ 0:01.75 checking for the host C++ compiler... /usr/bin/clang++
+ 0:01.79 checking whether the host C++ compiler can be used... yes
+ 0:01.79 checking the host C++ compiler version... 13.0.1
+ 0:01.80 checking the host C++ compiler works... yes
+ 0:01.82 checking for 64-bit OS... yes
+ 0:01.85 checking for new enough STL headers from libstdc++... yes
+ 0:01.87 checking for linker... lld
+ 0:01.87 checking for the assembler... /usr/bin/clang
+ 0:01.89 checking for ar... /usr/bin/llvm-ar
+ 0:01.90 checking for nm... /usr/bin/llvm-nm
+ 0:01.90 checking for pkg_config... /usr/bin/pkg-config
+ 0:01.90 checking for pkg-config version... 0.29.2
+ 0:01.92 checking for stdint.h... yes
+ 0:01.94 checking for inttypes.h... yes
+ 0:01.96 checking for malloc.h... yes
+ 0:01.98 checking for alloca.h... yes
+ 0:01.99 checking for sys/byteorder.h... no
+ 0:02.01 checking for getopt.h... yes
+ 0:02.03 checking for unistd.h... yes
+ 0:02.04 checking for nl_types.h... yes
+ 0:02.06 checking for cpuid.h... yes
+ 0:02.08 checking for fts.h... yes
+ 0:02.10 checking for sys/statvfs.h... yes
+ 0:02.12 checking for sys/statfs.h... yes
+ 0:02.14 checking for sys/vfs.h... yes
+ 0:02.15 checking for sys/mount.h... yes
+ 0:02.17 checking for sys/quota.h... no
+ 0:02.19 checking for linux/quota.h... yes
+ 0:02.21 checking for linux/if_addr.h... yes
+ 0:02.23 checking for linux/rtnetlink.h... yes
+ 0:02.25 checking for sys/queue.h... yes
+ 0:02.27 checking for sys/types.h... yes
+ 0:02.29 checking for netinet/in.h... yes
+ 0:02.31 checking for byteswap.h... yes
+ 0:02.33 checking for memfd_create in sys/mman.h... yes
+ 0:02.35 checking for linux/perf_event.h... yes
+ 0:02.37 checking for perf_event_open system call... yes
+ 0:02.39 checking whether the C compiler supports -Wbitfield-enum-conversion... yes
+ 0:02.40 checking whether the C++ compiler supports -Wbitfield-enum-conversion... yes
+ 0:02.42 checking whether the C++ compiler supports -Wdeprecated-this-capture... yes
+ 0:02.44 checking whether the C compiler supports -Wformat-type-confusion... yes
+ 0:02.45 checking whether the C++ compiler supports -Wformat-type-confusion... yes
+ 0:02.47 checking whether the C compiler supports -Wshadow-field-in-constructor-modified... yes
+ 0:02.49 checking whether the C++ compiler supports -Wshadow-field-in-constructor-modified... yes
+ 0:02.51 checking whether the C++ compiler supports -Wshadow-uncaptured-local... yes
+ 0:02.52 checking whether the C compiler supports -Wno-error=tautological-type-limit-compare... yes
+ 0:02.54 checking whether the C++ compiler supports -Wno-error=tautological-type-limit-compare... yes
+ 0:02.56 checking whether the C compiler supports -Wunreachable-code-return... yes
+ 0:02.58 checking whether the C++ compiler supports -Wunreachable-code-return... yes
+ 0:02.60 checking whether the C compiler supports -Wclass-varargs... yes
+ 0:02.61 checking whether the C++ compiler supports -Wclass-varargs... yes
+ 0:02.63 checking whether the C++ compiler supports -Wempty-init-stmt... yes
+ 0:02.65 checking whether the C compiler supports -Wfloat-overflow-conversion... yes
+ 0:02.67 checking whether the C++ compiler supports -Wfloat-overflow-conversion... yes
+ 0:02.68 checking whether the C compiler supports -Wfloat-zero-conversion... yes
+ 0:02.70 checking whether the C++ compiler supports -Wfloat-zero-conversion... yes
+ 0:02.72 checking whether the C compiler supports -Wloop-analysis... yes
+ 0:02.74 checking whether the C++ compiler supports -Wloop-analysis... yes
+ 0:02.75 checking whether the C compiler supports -Wno-range-loop-analysis... yes
+ 0:02.77 checking whether the C++ compiler supports -Wno-range-loop-analysis... yes
+ 0:02.79 checking whether the C++ compiler supports -Wc++2a-compat... yes
+ 0:02.81 checking whether the C++ compiler supports -Wcomma... yes
+ 0:02.82 checking whether the C compiler supports -Wduplicated-cond... no
+ 0:02.84 checking whether the C++ compiler supports -Wduplicated-cond... no
+ 0:02.85 checking whether the C compiler supports -Wenum-compare-conditional... yes
+ 0:02.87 checking whether the C++ compiler supports -Wenum-compare-conditional... yes
+ 0:02.89 checking whether the C++ compiler supports -Wimplicit-fallthrough... yes
+ 0:02.91 checking whether the C compiler supports -Wstring-conversion... yes
+ 0:02.92 checking whether the C++ compiler supports -Wstring-conversion... yes
+ 0:02.94 checking whether the C++ compiler supports -Wno-inline-new-delete... yes
+ 0:02.96 checking whether the C compiler supports -Wno-error=maybe-uninitialized... no
+ 0:02.97 checking whether the C++ compiler supports -Wno-error=maybe-uninitialized... no
+ 0:02.99 checking whether the C compiler supports -Wno-error=deprecated-declarations... yes
+ 0:03.01 checking whether the C++ compiler supports -Wno-error=deprecated-declarations... yes
+ 0:03.02 checking whether the C compiler supports -Wno-error=array-bounds... yes
+ 0:03.04 checking whether the C++ compiler supports -Wno-error=array-bounds... yes
+ 0:03.06 checking whether the C compiler supports -Wno-error=coverage-mismatch... no
+ 0:03.07 checking whether the C++ compiler supports -Wno-error=coverage-mismatch... no
+ 0:03.09 checking whether the C compiler supports -Wno-error=backend-plugin... yes
+ 0:03.11 checking whether the C++ compiler supports -Wno-error=backend-plugin... yes
+ 0:03.12 checking whether the C compiler supports -Wno-error=free-nonheap-object... yes
+ 0:03.14 checking whether the C++ compiler supports -Wno-error=free-nonheap-object... yes
+ 0:03.15 checking whether the C compiler supports -Wno-multistatement-macros... no
+ 0:03.17 checking whether the C++ compiler supports -Wno-multistatement-macros... no
+ 0:03.19 checking whether the C compiler supports -Wno-error=return-std-move... yes
+ 0:03.20 checking whether the C++ compiler supports -Wno-error=return-std-move... yes
+ 0:03.22 checking whether the C compiler supports -Wno-error=class-memaccess... no
+ 0:03.23 checking whether the C++ compiler supports -Wno-error=class-memaccess... no
+ 0:03.25 checking whether the C compiler supports -Wno-error=atomic-alignment... yes
+ 0:03.27 checking whether the C++ compiler supports -Wno-error=atomic-alignment... yes
+ 0:03.29 checking whether the C compiler supports -Wno-error=deprecated-copy... yes
+ 0:03.30 checking whether the C++ compiler supports -Wno-error=deprecated-copy... yes
+ 0:03.32 checking whether the C compiler supports -Wno-error=unused-but-set-variable... yes
+ 0:03.34 checking whether the C++ compiler supports -Wno-error=unused-but-set-variable... yes
+ 0:03.36 checking whether the C compiler supports -Wformat... yes
+ 0:03.37 checking whether the C++ compiler supports -Wformat... yes
+ 0:03.39 checking whether the C compiler supports -Wformat-security... yes
+ 0:03.41 checking whether the C++ compiler supports -Wformat-security... yes
+ 0:03.42 checking whether the C compiler supports -Wformat-overflow=2... no
+ 0:03.44 checking whether the C++ compiler supports -Wformat-overflow=2... no
+ 0:03.46 checking whether the C compiler supports -Wno-gnu-zero-variadic-macro-arguments... yes
+ 0:03.48 checking whether the C++ compiler supports -Wno-gnu-zero-variadic-macro-arguments... yes
+ 0:03.49 checking whether the C compiler supports -Werror=implicit-function-declaration... yes
+ 0:03.51 checking whether the C compiler supports -Wno-psabi... yes
+ 0:03.53 checking whether the C++ compiler supports -Wno-psabi... yes
+ 0:03.55 checking whether the C++ compiler supports -fno-sized-deallocation... yes
+ 0:03.56 checking whether the C++ compiler supports -fno-aligned-new... yes
+ 0:03.57 checking for llvm_profdata... /usr/bin/llvm-profdata
+ 0:03.58 checking for libpulse... yes
+ 0:03.58 checking MOZ_PULSEAUDIO_CFLAGS... -D_REENTRANT
+ 0:03.58 checking MOZ_PULSEAUDIO_LIBS... -lpulse -pthread
+ 0:03.58 checking for nspr >= 4.32... yes
+ 0:03.58 checking NSPR_CFLAGS... -I/usr/include/nspr
+ 0:03.58 checking NSPR_LIBS... -lplds4 -lplc4 -lnspr4
+ 0:03.59 checking for rustc... /usr/bin/rustc
+ 0:03.59 checking for cargo... /usr/bin/cargo
+ 0:03.68 checking rustc version... 1.59.0
+ 0:03.68 checking cargo version... 1.59.0
+ 0:03.73 checking for rust host triplet... x86_64-unknown-linux-musl
+ 0:03.77 checking for rust target triplet... x86_64-unknown-linux-musl
+ 0:03.77 checking for rustdoc... /usr/bin/rustdoc
+ 0:03.77 checking for cbindgen... no
+ 0:03.77 ERROR: Cannot find cbindgen. Please run `mach bootstrap`,
+ 0:03.77 `cargo install cbindgen`, ensure that `cbindgen` is on your PATH,
+ 0:03.77 or point at an executable with `CBINDGEN`.
+ Config object not found by mach.
+Error running mach:
+
+    ['build']
+
+The error occurred in code that was called by the mach command. This is either
+a bug in the called code itself or in the way that mach is calling it.
+You can invoke |./mach busted| to check if this issue is already on file. If it
+isn't, please use |./mach busted file build| to report it. If |./mach busted| is
+misbehaving, you can also inspect the dependencies of bug 1543241.
+
+If filing a bug, please include the full output of mach, including this error
+message.
+
+The details of the failure are as follows:
+
+Exception: Process executed with non-0 exit code 1: ['/usr/bin/python3', '/usr/oppai/www/firefox-91.7.1/configure.py']
+
+  File "/usr/oppai/www/firefox-91.7.1/python/mozbuild/mozbuild/build_commands.py", line 153, in build
+    return driver.build(
+  File "/usr/oppai/www/firefox-91.7.1/python/mozbuild/mozbuild/controller/building.py", line 1144, in build
+    config_rc = self.configure(
+  File "/usr/oppai/www/firefox-91.7.1/python/mozbuild/mozbuild/controller/building.py", line 1528, in configure
+    status = self._run_command_in_objdir(
+  File "/usr/oppai/www/firefox-91.7.1/python/mozbuild/mozbuild/base.py", line 845, in _run_command_in_objdir
+    return self.run_process(cwd=self.topobjdir, **args)
+  File "/usr/oppai/www/firefox-91.7.1/python/mach/mach/mixin/process.py", line 176, in run_process
+    raise Exception(

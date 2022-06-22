@@ -1,0 +1,150 @@
+Making check in src
+make[1]: Entering directory '/usr/oppai/base/kbd-2.4.0/build/src'
+Making check in libcommon
+make[2]: Entering directory '/usr/oppai/base/kbd-2.4.0/build/src/libcommon'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/kbd-2.4.0/build/src/libcommon'
+Making check in libkbdfile
+make[2]: Entering directory '/usr/oppai/base/kbd-2.4.0/build/src/libkbdfile'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/kbd-2.4.0/build/src/libkbdfile'
+Making check in libkfont
+make[2]: Entering directory '/usr/oppai/base/kbd-2.4.0/build/src/libkfont'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/kbd-2.4.0/build/src/libkfont'
+Making check in libkeymap
+make[2]: Entering directory '/usr/oppai/base/kbd-2.4.0/build/src/libkeymap'
+make  check-am
+make[3]: Entering directory '/usr/oppai/base/kbd-2.4.0/build/src/libkeymap'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/oppai/base/kbd-2.4.0/build/src/libkeymap'
+make[2]: Leaving directory '/usr/oppai/base/kbd-2.4.0/build/src/libkeymap'
+Making check in vlock
+make[2]: Entering directory '/usr/oppai/base/kbd-2.4.0/build/src/vlock'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/kbd-2.4.0/build/src/vlock'
+make[2]: Entering directory '/usr/oppai/base/kbd-2.4.0/build/src'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/oppai/base/kbd-2.4.0/build/src'
+make[1]: Leaving directory '/usr/oppai/base/kbd-2.4.0/build/src'
+Making check in data
+make[1]: Entering directory '/usr/oppai/base/kbd-2.4.0/build/data'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/kbd-2.4.0/build/data'
+Making check in po
+make[1]: Entering directory '/usr/oppai/base/kbd-2.4.0/build/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/kbd-2.4.0/build/po'
+Making check in docs
+make[1]: Entering directory '/usr/oppai/base/kbd-2.4.0/build/docs'
+Making check in man
+make[2]: Entering directory '/usr/oppai/base/kbd-2.4.0/build/docs/man'
+Making check in man1
+make[3]: Entering directory '/usr/oppai/base/kbd-2.4.0/build/docs/man/man1'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/oppai/base/kbd-2.4.0/build/docs/man/man1'
+Making check in man5
+make[3]: Entering directory '/usr/oppai/base/kbd-2.4.0/build/docs/man/man5'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/oppai/base/kbd-2.4.0/build/docs/man/man5'
+Making check in man8
+make[3]: Entering directory '/usr/oppai/base/kbd-2.4.0/build/docs/man/man8'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/oppai/base/kbd-2.4.0/build/docs/man/man8'
+make[3]: Entering directory '/usr/oppai/base/kbd-2.4.0/build/docs/man'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/oppai/base/kbd-2.4.0/build/docs/man'
+make[2]: Leaving directory '/usr/oppai/base/kbd-2.4.0/build/docs/man'
+Making check in reference
+make[2]: Entering directory '/usr/oppai/base/kbd-2.4.0/build/docs/reference'
+make[3]: Entering directory '/usr/oppai/base/kbd-2.4.0/build/docs/reference'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/oppai/base/kbd-2.4.0/build/docs/reference'
+make[2]: Leaving directory '/usr/oppai/base/kbd-2.4.0/build/docs/reference'
+make[2]: Entering directory '/usr/oppai/base/kbd-2.4.0/build/docs'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/oppai/base/kbd-2.4.0/build/docs'
+make[1]: Leaving directory '/usr/oppai/base/kbd-2.4.0/build/docs'
+Making check in tests
+make[1]: Entering directory '/usr/oppai/base/kbd-2.4.0/build/tests'
+Making check in helpers
+make[2]: Entering directory '/usr/oppai/base/kbd-2.4.0/build/tests/helpers'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/kbd-2.4.0/build/tests/helpers'
+Making check in libkbdfile
+make[2]: Entering directory '/usr/oppai/base/kbd-2.4.0/build/tests/libkbdfile'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/kbd-2.4.0/build/tests/libkbdfile'
+Making check in libkeymap
+make[2]: Entering directory '/usr/oppai/base/kbd-2.4.0/build/tests/libkeymap'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/kbd-2.4.0/build/tests/libkeymap'
+Making check in libtswrap
+make[2]: Entering directory '/usr/oppai/base/kbd-2.4.0/build/tests/libtswrap'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/kbd-2.4.0/build/tests/libtswrap'
+make[2]: Entering directory '/usr/oppai/base/kbd-2.4.0/build/tests'
+make  check-local
+make[3]: Entering directory '/usr/oppai/base/kbd-2.4.0/build/tests'
+/bin/sh '/usr/oppai/base/kbd-2.4.0/build/tests/testsuite'  --keywords=unittest 
+## --------------------- ##
+## kbd 2.4.0 test suite. ##
+## --------------------- ##
+
+libkeymap unit tests
+
+  1: test 01                                         ok
+  2: test 02                                         ok
+  3: test 03                                         ok
+  4: test 04                                         ok
+  5: test 05                                         ok
+  6: test 06                                         ok
+  7: test 07                                         ok
+  8: test 08                                         ok
+  9: test 09                                         ok
+ 10: test 10                                         ok
+ 11: test 11                                         ok
+ 12: test 12                                         ok
+ 13: test 13                                         ok
+ 14: test 14                                         ok
+ 15: test 15                                         ok
+ 16: test 16                                         ok
+ 17: test 17                                         ok
+ 18: test 18                                         ok
+ 19: test 19 (alt-is-meta)                           ok
+ 20: test 20 (bkeymap)                               skipped (libkeymap.at:104)
+ 21: test 21 (mktable)                               ok
+ 22: test 22 (fulltable numeric=1 ts=FULL_TABLE)     ok
+ 23: test 23 (fulltable numeric=0 ts=DEFAULT)        ok
+ 24: test 24 (fulltable numeric=0 ts=SEPARATE_LINES) ok
+ 25: binary keymap (us.map)                          skipped (libkeymap.at:152)
+ 26: binary keymap (pt-latin9.map)                   skipped (libkeymap.at:162)
+ 27: binary keymap (cz.map)                          skipped (libkeymap.at:172)
+
+libkbdfile unit tests
+
+ 28: test 01                                         ok
+ 29: test 02                                         ok
+ 30: test 03                                         ok
+ 31: test 04                                         ok
+ 32: test 05                                         ok
+ 33: test 06                                         ok
+ 34: test 07                                         ok
+ 35: test 08                                         ok
+ 36: test 09                                         ok
+ 37: test 10                                         ok
+ 38: test 11                                         ok
+ 39: test 12                                         ok
+ 40: test 13                                         ok
+
+## ------------- ##
+## Test results. ##
+## ------------- ##
+
+36 tests were successful.
+4 tests were skipped.
+make[3]: Leaving directory '/usr/oppai/base/kbd-2.4.0/build/tests'
+make[2]: Leaving directory '/usr/oppai/base/kbd-2.4.0/build/tests'
+make[1]: Leaving directory '/usr/oppai/base/kbd-2.4.0/build/tests'
+make[1]: Entering directory '/usr/oppai/base/kbd-2.4.0/build'
+make[1]: Leaving directory '/usr/oppai/base/kbd-2.4.0/build'

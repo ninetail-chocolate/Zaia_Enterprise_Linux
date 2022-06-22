@@ -1,0 +1,32 @@
+[0/1] Running all tests.
+ 1/21 libxkbcommon / log                                  OK              0.03s
+ 2/21 libxkbcommon / utf8                                 OK              0.02s
+ 3/21 libxkbcommon / utils                                OK              0.02s
+ 4/21 libxkbcommon / keysym                               OK              0.05s
+ 5/21 libxkbcommon / keymap                               OK              0.05s
+ 6/21 libxkbcommon / filecomp                             OK              0.05s
+ 7/21 libxkbcommon / context                              OK              0.04s
+ 8/21 libxkbcommon / rules-file                           OK              0.04s
+ 9/21 libxkbcommon / rules-file-includes                  OK              0.04s
+10/21 libxkbcommon / state                                OK              0.03s
+11/21 libxkbcommon / buffercomp                           OK              0.04s
+12/21 libxkbcommon / stringcomp                           OK              0.05s
+13/21 libxkbcommon / keyseq                               OK              0.04s
+14/21 libxkbcommon / atom                                 OK              0.05s
+15/21 libxkbcommon / compose                              OK              0.04s
+16/21 libxkbcommon / rulescomp                            OK              0.04s
+17/21 libxkbcommon / registry                             OK              0.02s
+18/21 libxkbcommon / x11                                  SKIP            0.02s   exit status 77
+19/21 libxkbcommon:python-tests / symbols-leak-test       OK              0.03s
+20/21 libxkbcommon:python-tests / keysym-test-XF86Macro23 OK              0.05s
+21/21 libxkbcommon:python-tests / tool-option-parsing     OK             24.79s
+
+
+Ok:                 20  
+Expected Fail:      0   
+Fail:               0   
+Unexpected Pass:    0   
+Skipped:            1   
+Timeout:            0   
+
+Full log written to /usr/oppai/library/libxkbcommon-1.4.0/build/meson-logs/testlog.txt

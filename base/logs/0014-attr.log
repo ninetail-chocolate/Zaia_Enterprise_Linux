@@ -1,0 +1,27 @@
+Making check in po
+make[1]: Entering directory '/usr/oppai/base/attr-2.5.1/build/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/attr-2.5.1/build/po'
+make[1]: Entering directory '/usr/oppai/base/attr-2.5.1/build'
+make  check-TESTS
+make[2]: Entering directory '/usr/oppai/base/attr-2.5.1/build'
+make[3]: Entering directory '/usr/oppai/base/attr-2.5.1/build'
+PASS: test/root/getfattr.test
+FAIL: test/attr.test
+============================================================================
+Testsuite summary for attr 2.5.1
+============================================================================
+# TOTAL: 2
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  1
+# XPASS: 0
+# ERROR: 0
+============================================================================
+See ./test-suite.log
+Please report to acl-devel@nongnu.org
+============================================================================
+make[3]: Leaving directory '/usr/oppai/base/attr-2.5.1/build'
+make[2]: Leaving directory '/usr/oppai/base/attr-2.5.1/build'
+make[1]: Leaving directory '/usr/oppai/base/attr-2.5.1/build'

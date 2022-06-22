@@ -1,0 +1,29 @@
+[0/1] Running tests...
+Test project /usr/oppai/library/jasper-3.0.3/bld
+    Start 1: run_test_imginfo
+1/7 Test #1: run_test_imginfo .................***Failed    0.27 sec
+    Start 2: run_test_imgcmp
+2/7 Test #2: run_test_imgcmp ..................   Passed    0.01 sec
+    Start 3: run_test_1
+3/7 Test #3: run_test_1 .......................***Failed    0.65 sec
+    Start 4: run_test_2
+4/7 Test #4: run_test_2 .......................***Failed    0.25 sec
+    Start 5: run_test_3
+5/7 Test #5: run_test_3 .......................   Passed   11.44 sec
+    Start 6: run_test_4
+6/7 Test #6: run_test_4 .......................   Passed    0.01 sec
+    Start 7: run_test_5
+7/7 Test #7: run_test_5 .......................***Failed    0.01 sec
+
+43% tests passed, 4 tests failed out of 7
+
+Total Test time (real) =  12.66 sec
+
+The following tests FAILED:
+	  1 - run_test_imginfo (Failed)
+	  3 - run_test_1 (Failed)
+	  4 - run_test_2 (Failed)
+	  7 - run_test_5 (Failed)
+FAILED: CMakeFiles/test.util 
+cd /usr/oppai/library/jasper-3.0.3/bld && /usr/bin/ctest --force-new-ctest-process
+ninja: build stopped: subcommand failed.

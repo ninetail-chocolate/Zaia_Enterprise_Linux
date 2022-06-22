@@ -1,0 +1,19 @@
+Making check in include
+make[1]: Entering directory '/usr/oppai/xorg-core/libpciaccess-0.16/include'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libpciaccess-0.16/include'
+Making check in man
+make[1]: Entering directory '/usr/oppai/xorg-core/libpciaccess-0.16/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libpciaccess-0.16/man'
+Making check in src
+make[1]: Entering directory '/usr/oppai/xorg-core/libpciaccess-0.16/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libpciaccess-0.16/src'
+Making check in scanpci
+make[1]: Entering directory '/usr/oppai/xorg-core/libpciaccess-0.16/scanpci'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libpciaccess-0.16/scanpci'
+make[1]: Entering directory '/usr/oppai/xorg-core/libpciaccess-0.16'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libpciaccess-0.16'

@@ -1,0 +1,46 @@
+#!/bin/bash
+source /erc/profile
+./0071-atk.sh
+./0072-at-spi2-core.sh
+./0073-at-spi2-atk.sh
+./0074-cairo.sh
+./0075-json-glib.sh
+./0076-pango.sh
+./0077-gdk-pixbuf.sh
+./0078-python3-docutils.sh
+./0079-librsvg.sh
+./0080-libsassc.sh
+./0081-isocodes.sh
+./0082-hicolor-icon-theme.sh
+./0083-adwaita-icon-theme.sh
+./0084-gtk3.sh
+./0085-git.sh
+./0086-vim.sh
+./0087-rtkit.sh
+./0088-gdbm.sh
+./0089-libpulse.sh
+./0090-pipewire.sh
+./0091-taglib.sh
+./0092-lm-sensors.sh
+./0093-libpcap.sh
+./0094-libnl.sh
+./0095-sassc.sh
+./0096-pycairo.sh
+./0097-libqalculate.sh
+./0098-gsettings-desktop-schemas.sh
+./0099-qca.sh
+./0100-libcanberra.sh
+./0101-json-c.sh
+./0102-cryptsetup.sh
+./0103-gyp.sh
+./0104-six.sh
+./0106-nss.sh
+./0107-libassuan.sh
+./0108-gpgme.sh
+./0109-volume_key.sh
+./0110-libblockdev.sh
+./0111-libatasmart.sh
+./0112-udisk2.sh
+echo "END"
+printenv
+echo "EEEEEEEEEEENNNNNNNNNNNNNNDDDDDDDDDDDDDD"

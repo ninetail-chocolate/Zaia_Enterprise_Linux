@@ -1,0 +1,144 @@
+  GEN      public-submodule-commit
+make  check-recursive
+make[1]: Entering directory '/usr/oppai/base/inetutils-2.2/build'
+Making check in lib
+make[2]: Entering directory '/usr/oppai/base/inetutils-2.2/build/lib'
+make  check-recursive
+make[3]: Entering directory '/usr/oppai/base/inetutils-2.2/build/lib'
+make[4]: Entering directory '/usr/oppai/base/inetutils-2.2/build/lib'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/usr/oppai/base/inetutils-2.2/build/lib'
+make[3]: Leaving directory '/usr/oppai/base/inetutils-2.2/build/lib'
+make[2]: Leaving directory '/usr/oppai/base/inetutils-2.2/build/lib'
+Making check in libinetutils
+make[2]: Entering directory '/usr/oppai/base/inetutils-2.2/build/libinetutils'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/inetutils-2.2/build/libinetutils'
+Making check in libtelnet
+make[2]: Entering directory '/usr/oppai/base/inetutils-2.2/build/libtelnet'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/inetutils-2.2/build/libtelnet'
+Making check in libicmp
+make[2]: Entering directory '/usr/oppai/base/inetutils-2.2/build/libicmp'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/inetutils-2.2/build/libicmp'
+Making check in libls
+make[2]: Entering directory '/usr/oppai/base/inetutils-2.2/build/libls'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/inetutils-2.2/build/libls'
+Making check in src
+make[2]: Entering directory '/usr/oppai/base/inetutils-2.2/build/src'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/inetutils-2.2/build/src'
+Making check in telnet
+make[2]: Entering directory '/usr/oppai/base/inetutils-2.2/build/telnet'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/inetutils-2.2/build/telnet'
+Making check in telnetd
+make[2]: Entering directory '/usr/oppai/base/inetutils-2.2/build/telnetd'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/inetutils-2.2/build/telnetd'
+Making check in ftp
+make[2]: Entering directory '/usr/oppai/base/inetutils-2.2/build/ftp'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/inetutils-2.2/build/ftp'
+Making check in ftpd
+make[2]: Entering directory '/usr/oppai/base/inetutils-2.2/build/ftpd'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/inetutils-2.2/build/ftpd'
+Making check in talk
+make[2]: Entering directory '/usr/oppai/base/inetutils-2.2/build/talk'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/inetutils-2.2/build/talk'
+Making check in talkd
+make[2]: Entering directory '/usr/oppai/base/inetutils-2.2/build/talkd'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/inetutils-2.2/build/talkd'
+Making check in whois
+make[2]: Entering directory '/usr/oppai/base/inetutils-2.2/build/whois'
+make  check-am
+make[3]: Entering directory '/usr/oppai/base/inetutils-2.2/build/whois'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/oppai/base/inetutils-2.2/build/whois'
+make[2]: Leaving directory '/usr/oppai/base/inetutils-2.2/build/whois'
+Making check in ping
+make[2]: Entering directory '/usr/oppai/base/inetutils-2.2/build/ping'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/inetutils-2.2/build/ping'
+Making check in ifconfig
+make[2]: Entering directory '/usr/oppai/base/inetutils-2.2/build/ifconfig'
+Making check in system
+make[3]: Entering directory '/usr/oppai/base/inetutils-2.2/build/ifconfig/system'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/oppai/base/inetutils-2.2/build/ifconfig/system'
+make[3]: Entering directory '/usr/oppai/base/inetutils-2.2/build/ifconfig'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/oppai/base/inetutils-2.2/build/ifconfig'
+make[2]: Leaving directory '/usr/oppai/base/inetutils-2.2/build/ifconfig'
+Making check in doc
+make[2]: Entering directory '/usr/oppai/base/inetutils-2.2/build/doc'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/inetutils-2.2/build/doc'
+Making check in man
+make[2]: Entering directory '/usr/oppai/base/inetutils-2.2/build/man'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/inetutils-2.2/build/man'
+Making check in tests
+make[2]: Entering directory '/usr/oppai/base/inetutils-2.2/build/tests'
+make  check-am
+make[3]: Entering directory '/usr/oppai/base/inetutils-2.2/build/tests'
+make  localhost readutmp runtime-ipv6 test-snprintf waitdaemon  \
+  utmp.sh libls.sh ping-localhost.sh traceroute-localhost.sh   ftp-parser.sh   hostname.sh dnsdomainname.sh ifconfig.sh
+make[4]: Entering directory '/usr/oppai/base/inetutils-2.2/build/tests'
+  CC       localhost.o
+  CCLD     localhost
+  CC       readutmp.o
+  CCLD     readutmp
+  CC       runtime-ipv6.o
+  CCLD     runtime-ipv6
+  CC       test-snprintf.o
+  CCLD     test-snprintf
+  CC       waitdaemon.o
+  CCLD     waitdaemon
+make[4]: Nothing to be done for '../../tests/utmp.sh'.
+make[4]: Nothing to be done for '../../tests/libls.sh'.
+make[4]: Nothing to be done for '../../tests/ping-localhost.sh'.
+make[4]: Nothing to be done for '../../tests/traceroute-localhost.sh'.
+make[4]: Nothing to be done for '../../tests/ftp-parser.sh'.
+make[4]: Nothing to be done for '../../tests/hostname.sh'.
+make[4]: Nothing to be done for '../../tests/dnsdomainname.sh'.
+make[4]: Nothing to be done for '../../tests/ifconfig.sh'.
+make[4]: Leaving directory '/usr/oppai/base/inetutils-2.2/build/tests'
+make  check-TESTS
+make[4]: Entering directory '/usr/oppai/base/inetutils-2.2/build/tests'
+make[5]: Entering directory '/usr/oppai/base/inetutils-2.2/build/tests'
+PASS: localhost
+SKIP: test-snprintf
+PASS: waitdaemon
+PASS: utmp.sh
+PASS: libls.sh
+PASS: ping-localhost.sh
+PASS: traceroute-localhost.sh
+PASS: ftp-parser.sh
+PASS: hostname.sh
+PASS: dnsdomainname.sh
+PASS: ifconfig.sh
+============================================================================
+Testsuite summary for GNU inetutils 2.2
+============================================================================
+# TOTAL: 11
+# PASS:  10
+# SKIP:  1
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/usr/oppai/base/inetutils-2.2/build/tests'
+make[4]: Leaving directory '/usr/oppai/base/inetutils-2.2/build/tests'
+make[3]: Leaving directory '/usr/oppai/base/inetutils-2.2/build/tests'
+make[2]: Leaving directory '/usr/oppai/base/inetutils-2.2/build/tests'
+make[2]: Entering directory '/usr/oppai/base/inetutils-2.2/build'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/oppai/base/inetutils-2.2/build'
+make[1]: Leaving directory '/usr/oppai/base/inetutils-2.2/build'

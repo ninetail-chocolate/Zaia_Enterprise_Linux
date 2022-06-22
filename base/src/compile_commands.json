@@ -1,0 +1,992 @@
+[
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/libeinfo/libeinfo.so.1.p -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Iopenrc-0.44.10/src/includes -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -fPIC -MD -MQ src/libeinfo/libeinfo.so.1.p/libeinfo.c.o -MF src/libeinfo/libeinfo.so.1.p/libeinfo.c.o.d -o src/libeinfo/libeinfo.so.1.p/libeinfo.c.o -c openrc-0.44.10/src/libeinfo/libeinfo.c",
+    "file": "openrc-0.44.10/src/libeinfo/libeinfo.c",
+    "output": "src/libeinfo/libeinfo.so.1.p/libeinfo.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/librc/librc.so.1.p -Isrc/librc -Iopenrc-0.44.10/src/librc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -fPIC -MD -MQ src/librc/librc.so.1.p/librc.c.o -MF src/librc/librc.so.1.p/librc.c.o.d -o src/librc/librc.so.1.p/librc.c.o -c openrc-0.44.10/src/librc/librc.c",
+    "file": "openrc-0.44.10/src/librc/librc.c",
+    "output": "src/librc/librc.so.1.p/librc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/librc/librc.so.1.p -Isrc/librc -Iopenrc-0.44.10/src/librc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -fPIC -MD -MQ src/librc/librc.so.1.p/librc-daemon.c.o -MF src/librc/librc.so.1.p/librc-daemon.c.o.d -o src/librc/librc.so.1.p/librc-daemon.c.o -c openrc-0.44.10/src/librc/librc-daemon.c",
+    "file": "openrc-0.44.10/src/librc/librc-daemon.c",
+    "output": "src/librc/librc.so.1.p/librc-daemon.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/librc/librc.so.1.p -Isrc/librc -Iopenrc-0.44.10/src/librc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -fPIC -MD -MQ src/librc/librc.so.1.p/librc-depend.c.o -MF src/librc/librc.so.1.p/librc-depend.c.o.d -o src/librc/librc.so.1.p/librc-depend.c.o -c openrc-0.44.10/src/librc/librc-depend.c",
+    "file": "openrc-0.44.10/src/librc/librc-depend.c",
+    "output": "src/librc/librc.so.1.p/librc-depend.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/librc/librc.so.1.p -Isrc/librc -Iopenrc-0.44.10/src/librc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -fPIC -MD -MQ src/librc/librc.so.1.p/librc-misc.c.o -MF src/librc/librc.so.1.p/librc-misc.c.o.d -o src/librc/librc.so.1.p/librc-misc.c.o -c openrc-0.44.10/src/librc/librc-misc.c",
+    "file": "openrc-0.44.10/src/librc/librc-misc.c",
+    "output": "src/librc/librc.so.1.p/librc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/librc/librc.so.1.p -Isrc/librc -Iopenrc-0.44.10/src/librc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -fPIC -MD -MQ src/librc/librc.so.1.p/librc-stringlist.c.o -MF src/librc/librc.so.1.p/librc-stringlist.c.o.d -o src/librc/librc.so.1.p/librc-stringlist.c.o -c openrc-0.44.10/src/librc/librc-stringlist.c",
+    "file": "openrc-0.44.10/src/librc/librc-stringlist.c",
+    "output": "src/librc/librc.so.1.p/librc-stringlist.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/rc-status.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/rc-status.p/rc-status.c.o -MF src/rc/rc-status.p/rc-status.c.o.d -o src/rc/rc-status.p/rc-status.c.o -c openrc-0.44.10/src/rc/rc-status.c",
+    "file": "openrc-0.44.10/src/rc/rc-status.c",
+    "output": "src/rc/rc-status.p/rc-status.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/rc-status.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/rc-status.p/rc-misc.c.o -MF src/rc/rc-status.p/rc-misc.c.o.d -o src/rc/rc-status.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/rc-status.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/rc-status.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/rc-status.p/_usage.c.o -MF src/rc/rc-status.p/_usage.c.o.d -o src/rc/rc-status.p/_usage.c.o -c openrc-0.44.10/src/rc/_usage.c",
+    "file": "openrc-0.44.10/src/rc/_usage.c",
+    "output": "src/rc/rc-status.p/_usage.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/openrc.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/openrc.p/rc.c.o -MF src/rc/openrc.p/rc.c.o.d -o src/rc/openrc.p/rc.c.o -c openrc-0.44.10/src/rc/rc.c",
+    "file": "openrc-0.44.10/src/rc/rc.c",
+    "output": "src/rc/openrc.p/rc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/openrc.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/openrc.p/rc-logger.c.o -MF src/rc/openrc.p/rc-logger.c.o.d -o src/rc/openrc.p/rc-logger.c.o -c openrc-0.44.10/src/rc/rc-logger.c",
+    "file": "openrc-0.44.10/src/rc/rc-logger.c",
+    "output": "src/rc/openrc.p/rc-logger.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/openrc.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/openrc.p/rc-misc.c.o -MF src/rc/openrc.p/rc-misc.c.o.d -o src/rc/openrc.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/openrc.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/openrc.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/openrc.p/rc-plugin.c.o -MF src/rc/openrc.p/rc-plugin.c.o.d -o src/rc/openrc.p/rc-plugin.c.o -c openrc-0.44.10/src/rc/rc-plugin.c",
+    "file": "openrc-0.44.10/src/rc/rc-plugin.c",
+    "output": "src/rc/openrc.p/rc-plugin.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/openrc.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/openrc.p/_usage.c.o -MF src/rc/openrc.p/_usage.c.o.d -o src/rc/openrc.p/_usage.c.o -c openrc-0.44.10/src/rc/_usage.c",
+    "file": "openrc-0.44.10/src/rc/_usage.c",
+    "output": "src/rc/openrc.p/_usage.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/openrc-run.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -I/usr/include/security -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -DHAVE_AUDIT -DHAVE_PAM -DHAVE_SELINUX -MD -MQ src/rc/openrc-run.p/openrc-run.c.o -MF src/rc/openrc-run.p/openrc-run.c.o.d -o src/rc/openrc-run.p/openrc-run.c.o -c openrc-0.44.10/src/rc/openrc-run.c",
+    "file": "openrc-0.44.10/src/rc/openrc-run.c",
+    "output": "src/rc/openrc-run.p/openrc-run.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/openrc-run.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -I/usr/include/security -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -DHAVE_AUDIT -DHAVE_PAM -DHAVE_SELINUX -MD -MQ src/rc/openrc-run.p/rc-misc.c.o -MF src/rc/openrc-run.p/rc-misc.c.o.d -o src/rc/openrc-run.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/openrc-run.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/openrc-run.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -I/usr/include/security -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -DHAVE_AUDIT -DHAVE_PAM -DHAVE_SELINUX -MD -MQ src/rc/openrc-run.p/rc-plugin.c.o -MF src/rc/openrc-run.p/rc-plugin.c.o.d -o src/rc/openrc-run.p/rc-plugin.c.o -c openrc-0.44.10/src/rc/rc-plugin.c",
+    "file": "openrc-0.44.10/src/rc/rc-plugin.c",
+    "output": "src/rc/openrc-run.p/rc-plugin.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/openrc-run.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -I/usr/include/security -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -DHAVE_AUDIT -DHAVE_PAM -DHAVE_SELINUX -MD -MQ src/rc/openrc-run.p/_usage.c.o -MF src/rc/openrc-run.p/_usage.c.o.d -o src/rc/openrc-run.p/_usage.c.o -c openrc-0.44.10/src/rc/_usage.c",
+    "file": "openrc-0.44.10/src/rc/_usage.c",
+    "output": "src/rc/openrc-run.p/_usage.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/openrc-run.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -I/usr/include/security -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -DHAVE_AUDIT -DHAVE_PAM -DHAVE_SELINUX -MD -MQ src/rc/openrc-run.p/rc-selinux.c.o -MF src/rc/openrc-run.p/rc-selinux.c.o.d -o src/rc/openrc-run.p/rc-selinux.c.o -c openrc-0.44.10/src/rc/rc-selinux.c",
+    "file": "openrc-0.44.10/src/rc/rc-selinux.c",
+    "output": "src/rc/openrc-run.p/rc-selinux.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/rc.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/rc.p/rc.c.o -MF src/rc/rc.p/rc.c.o.d -o src/rc/rc.p/rc.c.o -c openrc-0.44.10/src/rc/rc.c",
+    "file": "openrc-0.44.10/src/rc/rc.c",
+    "output": "src/rc/rc.p/rc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/rc.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/rc.p/rc-logger.c.o -MF src/rc/rc.p/rc-logger.c.o.d -o src/rc/rc.p/rc-logger.c.o -c openrc-0.44.10/src/rc/rc-logger.c",
+    "file": "openrc-0.44.10/src/rc/rc-logger.c",
+    "output": "src/rc/rc.p/rc-logger.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/rc.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/rc.p/rc-misc.c.o -MF src/rc/rc.p/rc-misc.c.o.d -o src/rc/rc.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/rc.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/rc.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/rc.p/rc-plugin.c.o -MF src/rc/rc.p/rc-plugin.c.o.d -o src/rc/rc.p/rc-plugin.c.o -c openrc-0.44.10/src/rc/rc-plugin.c",
+    "file": "openrc-0.44.10/src/rc/rc-plugin.c",
+    "output": "src/rc/rc.p/rc-plugin.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/rc.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/rc.p/_usage.c.o -MF src/rc/rc.p/_usage.c.o.d -o src/rc/rc.p/_usage.c.o -c openrc-0.44.10/src/rc/_usage.c",
+    "file": "openrc-0.44.10/src/rc/_usage.c",
+    "output": "src/rc/rc.p/_usage.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/rc-service.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/rc-service.p/rc-service.c.o -MF src/rc/rc-service.p/rc-service.c.o.d -o src/rc/rc-service.p/rc-service.c.o -c openrc-0.44.10/src/rc/rc-service.c",
+    "file": "openrc-0.44.10/src/rc/rc-service.c",
+    "output": "src/rc/rc-service.p/rc-service.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/rc-service.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/rc-service.p/rc-misc.c.o -MF src/rc/rc-service.p/rc-misc.c.o.d -o src/rc/rc-service.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/rc-service.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/rc-service.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/rc-service.p/_usage.c.o -MF src/rc/rc-service.p/_usage.c.o.d -o src/rc/rc-service.p/_usage.c.o -c openrc-0.44.10/src/rc/_usage.c",
+    "file": "openrc-0.44.10/src/rc/_usage.c",
+    "output": "src/rc/rc-service.p/_usage.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/rc-update.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/rc-update.p/rc-update.c.o -MF src/rc/rc-update.p/rc-update.c.o.d -o src/rc/rc-update.p/rc-update.c.o -c openrc-0.44.10/src/rc/rc-update.c",
+    "file": "openrc-0.44.10/src/rc/rc-update.c",
+    "output": "src/rc/rc-update.p/rc-update.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/rc-update.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/rc-update.p/rc-misc.c.o -MF src/rc/rc-update.p/rc-misc.c.o.d -o src/rc/rc-update.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/rc-update.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/rc-update.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/rc-update.p/_usage.c.o -MF src/rc/rc-update.p/_usage.c.o.d -o src/rc/rc-update.p/_usage.c.o -c openrc-0.44.10/src/rc/_usage.c",
+    "file": "openrc-0.44.10/src/rc/_usage.c",
+    "output": "src/rc/rc-update.p/_usage.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/runscript.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -I/usr/include/security -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -DHAVE_AUDIT -DHAVE_PAM -DHAVE_SELINUX -MD -MQ src/rc/runscript.p/openrc-run.c.o -MF src/rc/runscript.p/openrc-run.c.o.d -o src/rc/runscript.p/openrc-run.c.o -c openrc-0.44.10/src/rc/openrc-run.c",
+    "file": "openrc-0.44.10/src/rc/openrc-run.c",
+    "output": "src/rc/runscript.p/openrc-run.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/runscript.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -I/usr/include/security -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -DHAVE_AUDIT -DHAVE_PAM -DHAVE_SELINUX -MD -MQ src/rc/runscript.p/rc-misc.c.o -MF src/rc/runscript.p/rc-misc.c.o.d -o src/rc/runscript.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/runscript.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/runscript.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -I/usr/include/security -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -DHAVE_AUDIT -DHAVE_PAM -DHAVE_SELINUX -MD -MQ src/rc/runscript.p/_usage.c.o -MF src/rc/runscript.p/_usage.c.o.d -o src/rc/runscript.p/_usage.c.o -c openrc-0.44.10/src/rc/_usage.c",
+    "file": "openrc-0.44.10/src/rc/_usage.c",
+    "output": "src/rc/runscript.p/_usage.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/runscript.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -I/usr/include/security -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -DHAVE_AUDIT -DHAVE_PAM -DHAVE_SELINUX -MD -MQ src/rc/runscript.p/rc-plugin.c.o -MF src/rc/runscript.p/rc-plugin.c.o.d -o src/rc/runscript.p/rc-plugin.c.o -c openrc-0.44.10/src/rc/rc-plugin.c",
+    "file": "openrc-0.44.10/src/rc/rc-plugin.c",
+    "output": "src/rc/runscript.p/rc-plugin.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/runscript.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -I/usr/include/security -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -DHAVE_AUDIT -DHAVE_PAM -DHAVE_SELINUX -MD -MQ src/rc/runscript.p/rc-selinux.c.o -MF src/rc/runscript.p/rc-selinux.c.o.d -o src/rc/runscript.p/rc-selinux.c.o -c openrc-0.44.10/src/rc/rc-selinux.c",
+    "file": "openrc-0.44.10/src/rc/rc-selinux.c",
+    "output": "src/rc/runscript.p/rc-selinux.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/start-stop-daemon.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -I/usr/include/security -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -DHAVE_AUDIT -DHAVE_PAM -DHAVE_SELINUX -MD -MQ src/rc/start-stop-daemon.p/start-stop-daemon.c.o -MF src/rc/start-stop-daemon.p/start-stop-daemon.c.o.d -o src/rc/start-stop-daemon.p/start-stop-daemon.c.o -c openrc-0.44.10/src/rc/start-stop-daemon.c",
+    "file": "openrc-0.44.10/src/rc/start-stop-daemon.c",
+    "output": "src/rc/start-stop-daemon.p/start-stop-daemon.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/start-stop-daemon.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -I/usr/include/security -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -DHAVE_AUDIT -DHAVE_PAM -DHAVE_SELINUX -MD -MQ src/rc/start-stop-daemon.p/rc-pipes.c.o -MF src/rc/start-stop-daemon.p/rc-pipes.c.o.d -o src/rc/start-stop-daemon.p/rc-pipes.c.o -c openrc-0.44.10/src/rc/rc-pipes.c",
+    "file": "openrc-0.44.10/src/rc/rc-pipes.c",
+    "output": "src/rc/start-stop-daemon.p/rc-pipes.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/start-stop-daemon.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -I/usr/include/security -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -DHAVE_AUDIT -DHAVE_PAM -DHAVE_SELINUX -MD -MQ src/rc/start-stop-daemon.p/rc-misc.c.o -MF src/rc/start-stop-daemon.p/rc-misc.c.o.d -o src/rc/start-stop-daemon.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/start-stop-daemon.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/start-stop-daemon.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -I/usr/include/security -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -DHAVE_AUDIT -DHAVE_PAM -DHAVE_SELINUX -MD -MQ src/rc/start-stop-daemon.p/rc-schedules.c.o -MF src/rc/start-stop-daemon.p/rc-schedules.c.o.d -o src/rc/start-stop-daemon.p/rc-schedules.c.o -c openrc-0.44.10/src/rc/rc-schedules.c",
+    "file": "openrc-0.44.10/src/rc/rc-schedules.c",
+    "output": "src/rc/start-stop-daemon.p/rc-schedules.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/start-stop-daemon.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -I/usr/include/security -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -DHAVE_AUDIT -DHAVE_PAM -DHAVE_SELINUX -MD -MQ src/rc/start-stop-daemon.p/rc-selinux.c.o -MF src/rc/start-stop-daemon.p/rc-selinux.c.o.d -o src/rc/start-stop-daemon.p/rc-selinux.c.o -c openrc-0.44.10/src/rc/rc-selinux.c",
+    "file": "openrc-0.44.10/src/rc/rc-selinux.c",
+    "output": "src/rc/start-stop-daemon.p/rc-selinux.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/start-stop-daemon.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -I/usr/include/security -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -DHAVE_AUDIT -DHAVE_PAM -DHAVE_SELINUX -MD -MQ src/rc/start-stop-daemon.p/_usage.c.o -MF src/rc/start-stop-daemon.p/_usage.c.o.d -o src/rc/start-stop-daemon.p/_usage.c.o -c openrc-0.44.10/src/rc/_usage.c",
+    "file": "openrc-0.44.10/src/rc/_usage.c",
+    "output": "src/rc/start-stop-daemon.p/_usage.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/supervise-daemon.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -I/usr/include/security -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -DHAVE_PAM -DHAVE_SELINUX -MD -MQ src/rc/supervise-daemon.p/supervise-daemon.c.o -MF src/rc/supervise-daemon.p/supervise-daemon.c.o.d -o src/rc/supervise-daemon.p/supervise-daemon.c.o -c openrc-0.44.10/src/rc/supervise-daemon.c",
+    "file": "openrc-0.44.10/src/rc/supervise-daemon.c",
+    "output": "src/rc/supervise-daemon.p/supervise-daemon.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/supervise-daemon.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -I/usr/include/security -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -DHAVE_PAM -DHAVE_SELINUX -MD -MQ src/rc/supervise-daemon.p/rc-misc.c.o -MF src/rc/supervise-daemon.p/rc-misc.c.o.d -o src/rc/supervise-daemon.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/supervise-daemon.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/supervise-daemon.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -I/usr/include/security -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -DHAVE_PAM -DHAVE_SELINUX -MD -MQ src/rc/supervise-daemon.p/rc-plugin.c.o -MF src/rc/supervise-daemon.p/rc-plugin.c.o.d -o src/rc/supervise-daemon.p/rc-plugin.c.o -c openrc-0.44.10/src/rc/rc-plugin.c",
+    "file": "openrc-0.44.10/src/rc/rc-plugin.c",
+    "output": "src/rc/supervise-daemon.p/rc-plugin.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/supervise-daemon.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -I/usr/include/security -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -DHAVE_PAM -DHAVE_SELINUX -MD -MQ src/rc/supervise-daemon.p/rc-schedules.c.o -MF src/rc/supervise-daemon.p/rc-schedules.c.o.d -o src/rc/supervise-daemon.p/rc-schedules.c.o -c openrc-0.44.10/src/rc/rc-schedules.c",
+    "file": "openrc-0.44.10/src/rc/rc-schedules.c",
+    "output": "src/rc/supervise-daemon.p/rc-schedules.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/supervise-daemon.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -I/usr/include/security -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -DHAVE_PAM -DHAVE_SELINUX -MD -MQ src/rc/supervise-daemon.p/_usage.c.o -MF src/rc/supervise-daemon.p/_usage.c.o.d -o src/rc/supervise-daemon.p/_usage.c.o -c openrc-0.44.10/src/rc/_usage.c",
+    "file": "openrc-0.44.10/src/rc/_usage.c",
+    "output": "src/rc/supervise-daemon.p/_usage.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/openrc-init.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -DHAVE_SELINUX -MD -MQ src/rc/openrc-init.p/openrc-init.c.o -MF src/rc/openrc-init.p/openrc-init.c.o.d -o src/rc/openrc-init.p/openrc-init.c.o -c openrc-0.44.10/src/rc/openrc-init.c",
+    "file": "openrc-0.44.10/src/rc/openrc-init.c",
+    "output": "src/rc/openrc-init.p/openrc-init.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/openrc-init.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -DHAVE_SELINUX -MD -MQ src/rc/openrc-init.p/rc-plugin.c.o -MF src/rc/openrc-init.p/rc-plugin.c.o.d -o src/rc/openrc-init.p/rc-plugin.c.o -c openrc-0.44.10/src/rc/rc-plugin.c",
+    "file": "openrc-0.44.10/src/rc/rc-plugin.c",
+    "output": "src/rc/openrc-init.p/rc-plugin.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/openrc-init.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -DHAVE_SELINUX -MD -MQ src/rc/openrc-init.p/rc-wtmp.c.o -MF src/rc/openrc-init.p/rc-wtmp.c.o.d -o src/rc/openrc-init.p/rc-wtmp.c.o -c openrc-0.44.10/src/rc/rc-wtmp.c",
+    "file": "openrc-0.44.10/src/rc/rc-wtmp.c",
+    "output": "src/rc/openrc-init.p/rc-wtmp.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/openrc-shutdown.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/openrc-shutdown.p/openrc-shutdown.c.o -MF src/rc/openrc-shutdown.p/openrc-shutdown.c.o.d -o src/rc/openrc-shutdown.p/openrc-shutdown.c.o -c openrc-0.44.10/src/rc/openrc-shutdown.c",
+    "file": "openrc-0.44.10/src/rc/openrc-shutdown.c",
+    "output": "src/rc/openrc-shutdown.p/openrc-shutdown.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/openrc-shutdown.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/openrc-shutdown.p/broadcast.c.o -MF src/rc/openrc-shutdown.p/broadcast.c.o.d -o src/rc/openrc-shutdown.p/broadcast.c.o -c openrc-0.44.10/src/rc/broadcast.c",
+    "file": "openrc-0.44.10/src/rc/broadcast.c",
+    "output": "src/rc/openrc-shutdown.p/broadcast.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/openrc-shutdown.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/openrc-shutdown.p/rc-sysvinit.c.o -MF src/rc/openrc-shutdown.p/rc-sysvinit.c.o.d -o src/rc/openrc-shutdown.p/rc-sysvinit.c.o -c openrc-0.44.10/src/rc/rc-sysvinit.c",
+    "file": "openrc-0.44.10/src/rc/rc-sysvinit.c",
+    "output": "src/rc/openrc-shutdown.p/rc-sysvinit.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/openrc-shutdown.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/openrc-shutdown.p/rc-misc.c.o -MF src/rc/openrc-shutdown.p/rc-misc.c.o.d -o src/rc/openrc-shutdown.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/openrc-shutdown.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/openrc-shutdown.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/openrc-shutdown.p/_usage.c.o -MF src/rc/openrc-shutdown.p/_usage.c.o.d -o src/rc/openrc-shutdown.p/_usage.c.o -c openrc-0.44.10/src/rc/_usage.c",
+    "file": "openrc-0.44.10/src/rc/_usage.c",
+    "output": "src/rc/openrc-shutdown.p/_usage.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/openrc-shutdown.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/openrc-shutdown.p/rc-wtmp.c.o -MF src/rc/openrc-shutdown.p/rc-wtmp.c.o.d -o src/rc/openrc-shutdown.p/rc-wtmp.c.o -c openrc-0.44.10/src/rc/rc-wtmp.c",
+    "file": "openrc-0.44.10/src/rc/rc-wtmp.c",
+    "output": "src/rc/openrc-shutdown.p/rc-wtmp.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/einfon.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/einfon.p/do_e.c.o -MF src/rc/einfon.p/do_e.c.o.d -o src/rc/einfon.p/do_e.c.o -c openrc-0.44.10/src/rc/do_e.c",
+    "file": "openrc-0.44.10/src/rc/do_e.c",
+    "output": "src/rc/einfon.p/do_e.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/einfon.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/einfon.p/rc-misc.c.o -MF src/rc/einfon.p/rc-misc.c.o.d -o src/rc/einfon.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/einfon.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/einfo.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/einfo.p/do_e.c.o -MF src/rc/einfo.p/do_e.c.o.d -o src/rc/einfo.p/do_e.c.o -c openrc-0.44.10/src/rc/do_e.c",
+    "file": "openrc-0.44.10/src/rc/do_e.c",
+    "output": "src/rc/einfo.p/do_e.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/einfo.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/einfo.p/rc-misc.c.o -MF src/rc/einfo.p/rc-misc.c.o.d -o src/rc/einfo.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/einfo.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/ewarnn.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/ewarnn.p/do_e.c.o -MF src/rc/ewarnn.p/do_e.c.o.d -o src/rc/ewarnn.p/do_e.c.o -c openrc-0.44.10/src/rc/do_e.c",
+    "file": "openrc-0.44.10/src/rc/do_e.c",
+    "output": "src/rc/ewarnn.p/do_e.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/ewarnn.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/ewarnn.p/rc-misc.c.o -MF src/rc/ewarnn.p/rc-misc.c.o.d -o src/rc/ewarnn.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/ewarnn.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/ewarn.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/ewarn.p/do_e.c.o -MF src/rc/ewarn.p/do_e.c.o.d -o src/rc/ewarn.p/do_e.c.o -c openrc-0.44.10/src/rc/do_e.c",
+    "file": "openrc-0.44.10/src/rc/do_e.c",
+    "output": "src/rc/ewarn.p/do_e.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/ewarn.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/ewarn.p/rc-misc.c.o -MF src/rc/ewarn.p/rc-misc.c.o.d -o src/rc/ewarn.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/ewarn.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/eerrorn.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/eerrorn.p/do_e.c.o -MF src/rc/eerrorn.p/do_e.c.o.d -o src/rc/eerrorn.p/do_e.c.o -c openrc-0.44.10/src/rc/do_e.c",
+    "file": "openrc-0.44.10/src/rc/do_e.c",
+    "output": "src/rc/eerrorn.p/do_e.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/eerrorn.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/eerrorn.p/rc-misc.c.o -MF src/rc/eerrorn.p/rc-misc.c.o.d -o src/rc/eerrorn.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/eerrorn.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/eerror.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/eerror.p/do_e.c.o -MF src/rc/eerror.p/do_e.c.o.d -o src/rc/eerror.p/do_e.c.o -c openrc-0.44.10/src/rc/do_e.c",
+    "file": "openrc-0.44.10/src/rc/do_e.c",
+    "output": "src/rc/eerror.p/do_e.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/eerror.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/eerror.p/rc-misc.c.o -MF src/rc/eerror.p/rc-misc.c.o.d -o src/rc/eerror.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/eerror.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/ebegin.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/ebegin.p/do_e.c.o -MF src/rc/ebegin.p/do_e.c.o.d -o src/rc/ebegin.p/do_e.c.o -c openrc-0.44.10/src/rc/do_e.c",
+    "file": "openrc-0.44.10/src/rc/do_e.c",
+    "output": "src/rc/ebegin.p/do_e.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/ebegin.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/ebegin.p/rc-misc.c.o -MF src/rc/ebegin.p/rc-misc.c.o.d -o src/rc/ebegin.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/ebegin.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/eend.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/eend.p/do_e.c.o -MF src/rc/eend.p/do_e.c.o.d -o src/rc/eend.p/do_e.c.o -c openrc-0.44.10/src/rc/do_e.c",
+    "file": "openrc-0.44.10/src/rc/do_e.c",
+    "output": "src/rc/eend.p/do_e.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/eend.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/eend.p/rc-misc.c.o -MF src/rc/eend.p/rc-misc.c.o.d -o src/rc/eend.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/eend.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/ewend.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/ewend.p/do_e.c.o -MF src/rc/ewend.p/do_e.c.o.d -o src/rc/ewend.p/do_e.c.o -c openrc-0.44.10/src/rc/do_e.c",
+    "file": "openrc-0.44.10/src/rc/do_e.c",
+    "output": "src/rc/ewend.p/do_e.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/ewend.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/ewend.p/rc-misc.c.o -MF src/rc/ewend.p/rc-misc.c.o.d -o src/rc/ewend.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/ewend.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/eindent.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/eindent.p/do_e.c.o -MF src/rc/eindent.p/do_e.c.o.d -o src/rc/eindent.p/do_e.c.o -c openrc-0.44.10/src/rc/do_e.c",
+    "file": "openrc-0.44.10/src/rc/do_e.c",
+    "output": "src/rc/eindent.p/do_e.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/eindent.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/eindent.p/rc-misc.c.o -MF src/rc/eindent.p/rc-misc.c.o.d -o src/rc/eindent.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/eindent.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/eoutdent.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/eoutdent.p/do_e.c.o -MF src/rc/eoutdent.p/do_e.c.o.d -o src/rc/eoutdent.p/do_e.c.o -c openrc-0.44.10/src/rc/do_e.c",
+    "file": "openrc-0.44.10/src/rc/do_e.c",
+    "output": "src/rc/eoutdent.p/do_e.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/eoutdent.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/eoutdent.p/rc-misc.c.o -MF src/rc/eoutdent.p/rc-misc.c.o.d -o src/rc/eoutdent.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/eoutdent.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/esyslog.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/esyslog.p/do_e.c.o -MF src/rc/esyslog.p/do_e.c.o.d -o src/rc/esyslog.p/do_e.c.o -c openrc-0.44.10/src/rc/do_e.c",
+    "file": "openrc-0.44.10/src/rc/do_e.c",
+    "output": "src/rc/esyslog.p/do_e.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/esyslog.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/esyslog.p/rc-misc.c.o -MF src/rc/esyslog.p/rc-misc.c.o.d -o src/rc/esyslog.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/esyslog.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/eval_ecolors.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/eval_ecolors.p/do_e.c.o -MF src/rc/eval_ecolors.p/do_e.c.o.d -o src/rc/eval_ecolors.p/do_e.c.o -c openrc-0.44.10/src/rc/do_e.c",
+    "file": "openrc-0.44.10/src/rc/do_e.c",
+    "output": "src/rc/eval_ecolors.p/do_e.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/eval_ecolors.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/eval_ecolors.p/rc-misc.c.o -MF src/rc/eval_ecolors.p/rc-misc.c.o.d -o src/rc/eval_ecolors.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/eval_ecolors.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/ewaitfile.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/ewaitfile.p/do_e.c.o -MF src/rc/ewaitfile.p/do_e.c.o.d -o src/rc/ewaitfile.p/do_e.c.o -c openrc-0.44.10/src/rc/do_e.c",
+    "file": "openrc-0.44.10/src/rc/do_e.c",
+    "output": "src/rc/ewaitfile.p/do_e.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/ewaitfile.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/ewaitfile.p/rc-misc.c.o -MF src/rc/ewaitfile.p/rc-misc.c.o.d -o src/rc/ewaitfile.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/ewaitfile.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/veinfo.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/veinfo.p/do_e.c.o -MF src/rc/veinfo.p/do_e.c.o.d -o src/rc/veinfo.p/do_e.c.o -c openrc-0.44.10/src/rc/do_e.c",
+    "file": "openrc-0.44.10/src/rc/do_e.c",
+    "output": "src/rc/veinfo.p/do_e.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/veinfo.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/veinfo.p/rc-misc.c.o -MF src/rc/veinfo.p/rc-misc.c.o.d -o src/rc/veinfo.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/veinfo.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/vewarn.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/vewarn.p/do_e.c.o -MF src/rc/vewarn.p/do_e.c.o.d -o src/rc/vewarn.p/do_e.c.o -c openrc-0.44.10/src/rc/do_e.c",
+    "file": "openrc-0.44.10/src/rc/do_e.c",
+    "output": "src/rc/vewarn.p/do_e.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/vewarn.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/vewarn.p/rc-misc.c.o -MF src/rc/vewarn.p/rc-misc.c.o.d -o src/rc/vewarn.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/vewarn.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/vebegin.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/vebegin.p/do_e.c.o -MF src/rc/vebegin.p/do_e.c.o.d -o src/rc/vebegin.p/do_e.c.o -c openrc-0.44.10/src/rc/do_e.c",
+    "file": "openrc-0.44.10/src/rc/do_e.c",
+    "output": "src/rc/vebegin.p/do_e.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/vebegin.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/vebegin.p/rc-misc.c.o -MF src/rc/vebegin.p/rc-misc.c.o.d -o src/rc/vebegin.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/vebegin.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/veend.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/veend.p/do_e.c.o -MF src/rc/veend.p/do_e.c.o.d -o src/rc/veend.p/do_e.c.o -c openrc-0.44.10/src/rc/do_e.c",
+    "file": "openrc-0.44.10/src/rc/do_e.c",
+    "output": "src/rc/veend.p/do_e.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/veend.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/veend.p/rc-misc.c.o -MF src/rc/veend.p/rc-misc.c.o.d -o src/rc/veend.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/veend.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/vewend.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/vewend.p/do_e.c.o -MF src/rc/vewend.p/do_e.c.o.d -o src/rc/vewend.p/do_e.c.o -c openrc-0.44.10/src/rc/do_e.c",
+    "file": "openrc-0.44.10/src/rc/do_e.c",
+    "output": "src/rc/vewend.p/do_e.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/vewend.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/vewend.p/rc-misc.c.o -MF src/rc/vewend.p/rc-misc.c.o.d -o src/rc/vewend.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/vewend.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/veindent.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/veindent.p/do_e.c.o -MF src/rc/veindent.p/do_e.c.o.d -o src/rc/veindent.p/do_e.c.o -c openrc-0.44.10/src/rc/do_e.c",
+    "file": "openrc-0.44.10/src/rc/do_e.c",
+    "output": "src/rc/veindent.p/do_e.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/veindent.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/veindent.p/rc-misc.c.o -MF src/rc/veindent.p/rc-misc.c.o.d -o src/rc/veindent.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/veindent.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/veoutdent.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/veoutdent.p/do_e.c.o -MF src/rc/veoutdent.p/do_e.c.o.d -o src/rc/veoutdent.p/do_e.c.o -c openrc-0.44.10/src/rc/do_e.c",
+    "file": "openrc-0.44.10/src/rc/do_e.c",
+    "output": "src/rc/veoutdent.p/do_e.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/veoutdent.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/veoutdent.p/rc-misc.c.o -MF src/rc/veoutdent.p/rc-misc.c.o.d -o src/rc/veoutdent.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/veoutdent.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/checkpath.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -I/usr/include/security -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -DHAVE_AUDIT -DHAVE_PAM -DHAVE_SELINUX -MD -MQ src/rc/checkpath.p/checkpath.c.o -MF src/rc/checkpath.p/checkpath.c.o.d -o src/rc/checkpath.p/checkpath.c.o -c openrc-0.44.10/src/rc/checkpath.c",
+    "file": "openrc-0.44.10/src/rc/checkpath.c",
+    "output": "src/rc/checkpath.p/checkpath.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/checkpath.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -I/usr/include/security -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -DHAVE_AUDIT -DHAVE_PAM -DHAVE_SELINUX -MD -MQ src/rc/checkpath.p/rc-misc.c.o -MF src/rc/checkpath.p/rc-misc.c.o.d -o src/rc/checkpath.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/checkpath.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/checkpath.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -I/usr/include/security -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -DHAVE_AUDIT -DHAVE_PAM -DHAVE_SELINUX -MD -MQ src/rc/checkpath.p/_usage.c.o -MF src/rc/checkpath.p/_usage.c.o.d -o src/rc/checkpath.p/_usage.c.o -c openrc-0.44.10/src/rc/_usage.c",
+    "file": "openrc-0.44.10/src/rc/_usage.c",
+    "output": "src/rc/checkpath.p/_usage.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/checkpath.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -I/usr/include/security -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -DHAVE_AUDIT -DHAVE_PAM -DHAVE_SELINUX -MD -MQ src/rc/checkpath.p/rc-selinux.c.o -MF src/rc/checkpath.p/rc-selinux.c.o.d -o src/rc/checkpath.p/rc-selinux.c.o -c openrc-0.44.10/src/rc/rc-selinux.c",
+    "file": "openrc-0.44.10/src/rc/rc-selinux.c",
+    "output": "src/rc/checkpath.p/rc-selinux.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/fstabinfo.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/fstabinfo.p/fstabinfo.c.o -MF src/rc/fstabinfo.p/fstabinfo.c.o.d -o src/rc/fstabinfo.p/fstabinfo.c.o -c openrc-0.44.10/src/rc/fstabinfo.c",
+    "file": "openrc-0.44.10/src/rc/fstabinfo.c",
+    "output": "src/rc/fstabinfo.p/fstabinfo.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/fstabinfo.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/fstabinfo.p/rc-misc.c.o -MF src/rc/fstabinfo.p/rc-misc.c.o.d -o src/rc/fstabinfo.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/fstabinfo.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/fstabinfo.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/fstabinfo.p/_usage.c.o -MF src/rc/fstabinfo.p/_usage.c.o.d -o src/rc/fstabinfo.p/_usage.c.o -c openrc-0.44.10/src/rc/_usage.c",
+    "file": "openrc-0.44.10/src/rc/_usage.c",
+    "output": "src/rc/fstabinfo.p/_usage.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/mountinfo.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/mountinfo.p/mountinfo.c.o -MF src/rc/mountinfo.p/mountinfo.c.o.d -o src/rc/mountinfo.p/mountinfo.c.o -c openrc-0.44.10/src/rc/mountinfo.c",
+    "file": "openrc-0.44.10/src/rc/mountinfo.c",
+    "output": "src/rc/mountinfo.p/mountinfo.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/mountinfo.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/mountinfo.p/rc-misc.c.o -MF src/rc/mountinfo.p/rc-misc.c.o.d -o src/rc/mountinfo.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/mountinfo.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/mountinfo.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/mountinfo.p/_usage.c.o -MF src/rc/mountinfo.p/_usage.c.o.d -o src/rc/mountinfo.p/_usage.c.o -c openrc-0.44.10/src/rc/_usage.c",
+    "file": "openrc-0.44.10/src/rc/_usage.c",
+    "output": "src/rc/mountinfo.p/_usage.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/rc-depend.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/rc-depend.p/rc-depend.c.o -MF src/rc/rc-depend.p/rc-depend.c.o.d -o src/rc/rc-depend.p/rc-depend.c.o -c openrc-0.44.10/src/rc/rc-depend.c",
+    "file": "openrc-0.44.10/src/rc/rc-depend.c",
+    "output": "src/rc/rc-depend.p/rc-depend.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/rc-depend.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/rc-depend.p/rc-misc.c.o -MF src/rc/rc-depend.p/rc-misc.c.o.d -o src/rc/rc-depend.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/rc-depend.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/rc-depend.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/rc-depend.p/_usage.c.o -MF src/rc/rc-depend.p/_usage.c.o.d -o src/rc/rc-depend.p/_usage.c.o -c openrc-0.44.10/src/rc/_usage.c",
+    "file": "openrc-0.44.10/src/rc/_usage.c",
+    "output": "src/rc/rc-depend.p/_usage.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/is_newer_than.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/is_newer_than.p/is_newer_than.c.o -MF src/rc/is_newer_than.p/is_newer_than.c.o.d -o src/rc/is_newer_than.p/is_newer_than.c.o -c openrc-0.44.10/src/rc/is_newer_than.c",
+    "file": "openrc-0.44.10/src/rc/is_newer_than.c",
+    "output": "src/rc/is_newer_than.p/is_newer_than.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/is_newer_than.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/is_newer_than.p/rc-misc.c.o -MF src/rc/is_newer_than.p/rc-misc.c.o.d -o src/rc/is_newer_than.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/is_newer_than.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/is_older_than.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/is_older_than.p/is_older_than.c.o -MF src/rc/is_older_than.p/is_older_than.c.o.d -o src/rc/is_older_than.p/is_older_than.c.o -c openrc-0.44.10/src/rc/is_older_than.c",
+    "file": "openrc-0.44.10/src/rc/is_older_than.c",
+    "output": "src/rc/is_older_than.p/is_older_than.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/is_older_than.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/is_older_than.p/rc-misc.c.o -MF src/rc/is_older_than.p/rc-misc.c.o.d -o src/rc/is_older_than.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/is_older_than.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/service_starting.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/service_starting.p/do_service.c.o -MF src/rc/service_starting.p/do_service.c.o.d -o src/rc/service_starting.p/do_service.c.o -c openrc-0.44.10/src/rc/do_service.c",
+    "file": "openrc-0.44.10/src/rc/do_service.c",
+    "output": "src/rc/service_starting.p/do_service.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/service_starting.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/service_starting.p/rc-misc.c.o -MF src/rc/service_starting.p/rc-misc.c.o.d -o src/rc/service_starting.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/service_starting.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/service_started.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/service_started.p/do_service.c.o -MF src/rc/service_started.p/do_service.c.o.d -o src/rc/service_started.p/do_service.c.o -c openrc-0.44.10/src/rc/do_service.c",
+    "file": "openrc-0.44.10/src/rc/do_service.c",
+    "output": "src/rc/service_started.p/do_service.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/service_started.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/service_started.p/rc-misc.c.o -MF src/rc/service_started.p/rc-misc.c.o.d -o src/rc/service_started.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/service_started.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/service_stopping.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/service_stopping.p/do_service.c.o -MF src/rc/service_stopping.p/do_service.c.o.d -o src/rc/service_stopping.p/do_service.c.o -c openrc-0.44.10/src/rc/do_service.c",
+    "file": "openrc-0.44.10/src/rc/do_service.c",
+    "output": "src/rc/service_stopping.p/do_service.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/service_stopping.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/service_stopping.p/rc-misc.c.o -MF src/rc/service_stopping.p/rc-misc.c.o.d -o src/rc/service_stopping.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/service_stopping.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/service_stopped.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/service_stopped.p/do_service.c.o -MF src/rc/service_stopped.p/do_service.c.o.d -o src/rc/service_stopped.p/do_service.c.o -c openrc-0.44.10/src/rc/do_service.c",
+    "file": "openrc-0.44.10/src/rc/do_service.c",
+    "output": "src/rc/service_stopped.p/do_service.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/service_stopped.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/service_stopped.p/rc-misc.c.o -MF src/rc/service_stopped.p/rc-misc.c.o.d -o src/rc/service_stopped.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/service_stopped.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/service_inactive.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/service_inactive.p/do_service.c.o -MF src/rc/service_inactive.p/do_service.c.o.d -o src/rc/service_inactive.p/do_service.c.o -c openrc-0.44.10/src/rc/do_service.c",
+    "file": "openrc-0.44.10/src/rc/do_service.c",
+    "output": "src/rc/service_inactive.p/do_service.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/service_inactive.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/service_inactive.p/rc-misc.c.o -MF src/rc/service_inactive.p/rc-misc.c.o.d -o src/rc/service_inactive.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/service_inactive.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/service_wasinactive.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/service_wasinactive.p/do_service.c.o -MF src/rc/service_wasinactive.p/do_service.c.o.d -o src/rc/service_wasinactive.p/do_service.c.o -c openrc-0.44.10/src/rc/do_service.c",
+    "file": "openrc-0.44.10/src/rc/do_service.c",
+    "output": "src/rc/service_wasinactive.p/do_service.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/service_wasinactive.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/service_wasinactive.p/rc-misc.c.o -MF src/rc/service_wasinactive.p/rc-misc.c.o.d -o src/rc/service_wasinactive.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/service_wasinactive.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/service_hotplugged.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/service_hotplugged.p/do_service.c.o -MF src/rc/service_hotplugged.p/do_service.c.o.d -o src/rc/service_hotplugged.p/do_service.c.o -c openrc-0.44.10/src/rc/do_service.c",
+    "file": "openrc-0.44.10/src/rc/do_service.c",
+    "output": "src/rc/service_hotplugged.p/do_service.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/service_hotplugged.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/service_hotplugged.p/rc-misc.c.o -MF src/rc/service_hotplugged.p/rc-misc.c.o.d -o src/rc/service_hotplugged.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/service_hotplugged.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/service_started_daemon.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/service_started_daemon.p/do_service.c.o -MF src/rc/service_started_daemon.p/do_service.c.o.d -o src/rc/service_started_daemon.p/do_service.c.o -c openrc-0.44.10/src/rc/do_service.c",
+    "file": "openrc-0.44.10/src/rc/do_service.c",
+    "output": "src/rc/service_started_daemon.p/do_service.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/service_started_daemon.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/service_started_daemon.p/rc-misc.c.o -MF src/rc/service_started_daemon.p/rc-misc.c.o.d -o src/rc/service_started_daemon.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/service_started_daemon.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/service_crashed.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/service_crashed.p/do_service.c.o -MF src/rc/service_crashed.p/do_service.c.o.d -o src/rc/service_crashed.p/do_service.c.o -c openrc-0.44.10/src/rc/do_service.c",
+    "file": "openrc-0.44.10/src/rc/do_service.c",
+    "output": "src/rc/service_crashed.p/do_service.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/service_crashed.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/service_crashed.p/rc-misc.c.o -MF src/rc/service_crashed.p/rc-misc.c.o.d -o src/rc/service_crashed.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/service_crashed.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/service_get_value.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/service_get_value.p/do_value.c.o -MF src/rc/service_get_value.p/do_value.c.o.d -o src/rc/service_get_value.p/do_value.c.o -c openrc-0.44.10/src/rc/do_value.c",
+    "file": "openrc-0.44.10/src/rc/do_value.c",
+    "output": "src/rc/service_get_value.p/do_value.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/service_get_value.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/service_get_value.p/rc-misc.c.o -MF src/rc/service_get_value.p/rc-misc.c.o.d -o src/rc/service_get_value.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/service_get_value.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/service_set_value.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/service_set_value.p/do_value.c.o -MF src/rc/service_set_value.p/do_value.c.o.d -o src/rc/service_set_value.p/do_value.c.o -c openrc-0.44.10/src/rc/do_value.c",
+    "file": "openrc-0.44.10/src/rc/do_value.c",
+    "output": "src/rc/service_set_value.p/do_value.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/service_set_value.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/service_set_value.p/rc-misc.c.o -MF src/rc/service_set_value.p/rc-misc.c.o.d -o src/rc/service_set_value.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/service_set_value.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/get_options.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/get_options.p/do_value.c.o -MF src/rc/get_options.p/do_value.c.o.d -o src/rc/get_options.p/do_value.c.o -c openrc-0.44.10/src/rc/do_value.c",
+    "file": "openrc-0.44.10/src/rc/do_value.c",
+    "output": "src/rc/get_options.p/do_value.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/get_options.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/get_options.p/rc-misc.c.o -MF src/rc/get_options.p/rc-misc.c.o.d -o src/rc/get_options.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/get_options.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/save_options.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/save_options.p/do_value.c.o -MF src/rc/save_options.p/do_value.c.o.d -o src/rc/save_options.p/do_value.c.o -c openrc-0.44.10/src/rc/do_value.c",
+    "file": "openrc-0.44.10/src/rc/do_value.c",
+    "output": "src/rc/save_options.p/do_value.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/save_options.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/save_options.p/rc-misc.c.o -MF src/rc/save_options.p/rc-misc.c.o.d -o src/rc/save_options.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/save_options.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/kill_all.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/kill_all.p/kill_all.c.o -MF src/rc/kill_all.p/kill_all.c.o.d -o src/rc/kill_all.p/kill_all.c.o -c openrc-0.44.10/src/rc/kill_all.c",
+    "file": "openrc-0.44.10/src/rc/kill_all.c",
+    "output": "src/rc/kill_all.p/kill_all.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/kill_all.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/kill_all.p/_usage.c.o -MF src/rc/kill_all.p/_usage.c.o.d -o src/rc/kill_all.p/_usage.c.o -c openrc-0.44.10/src/rc/_usage.c",
+    "file": "openrc-0.44.10/src/rc/_usage.c",
+    "output": "src/rc/kill_all.p/_usage.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/shell_var.p -Isrc/rc -Iopenrc-0.44.10/src/rc -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/shell_var.p/shell_var.c.o -MF src/rc/shell_var.p/shell_var.c.o.d -o src/rc/shell_var.p/shell_var.c.o -c openrc-0.44.10/src/rc/shell_var.c",
+    "file": "openrc-0.44.10/src/rc/shell_var.c",
+    "output": "src/rc/shell_var.p/shell_var.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/mark_service_starting.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/mark_service_starting.p/do_mark_service.c.o -MF src/rc/mark_service_starting.p/do_mark_service.c.o.d -o src/rc/mark_service_starting.p/do_mark_service.c.o -c openrc-0.44.10/src/rc/do_mark_service.c",
+    "file": "openrc-0.44.10/src/rc/do_mark_service.c",
+    "output": "src/rc/mark_service_starting.p/do_mark_service.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/mark_service_starting.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/mark_service_starting.p/rc-misc.c.o -MF src/rc/mark_service_starting.p/rc-misc.c.o.d -o src/rc/mark_service_starting.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/mark_service_starting.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/mark_service_started.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/mark_service_started.p/do_mark_service.c.o -MF src/rc/mark_service_started.p/do_mark_service.c.o.d -o src/rc/mark_service_started.p/do_mark_service.c.o -c openrc-0.44.10/src/rc/do_mark_service.c",
+    "file": "openrc-0.44.10/src/rc/do_mark_service.c",
+    "output": "src/rc/mark_service_started.p/do_mark_service.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/mark_service_started.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/mark_service_started.p/rc-misc.c.o -MF src/rc/mark_service_started.p/rc-misc.c.o.d -o src/rc/mark_service_started.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/mark_service_started.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/mark_service_stopping.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/mark_service_stopping.p/do_mark_service.c.o -MF src/rc/mark_service_stopping.p/do_mark_service.c.o.d -o src/rc/mark_service_stopping.p/do_mark_service.c.o -c openrc-0.44.10/src/rc/do_mark_service.c",
+    "file": "openrc-0.44.10/src/rc/do_mark_service.c",
+    "output": "src/rc/mark_service_stopping.p/do_mark_service.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/mark_service_stopping.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/mark_service_stopping.p/rc-misc.c.o -MF src/rc/mark_service_stopping.p/rc-misc.c.o.d -o src/rc/mark_service_stopping.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/mark_service_stopping.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/mark_service_stopped.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/mark_service_stopped.p/do_mark_service.c.o -MF src/rc/mark_service_stopped.p/do_mark_service.c.o.d -o src/rc/mark_service_stopped.p/do_mark_service.c.o -c openrc-0.44.10/src/rc/do_mark_service.c",
+    "file": "openrc-0.44.10/src/rc/do_mark_service.c",
+    "output": "src/rc/mark_service_stopped.p/do_mark_service.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/mark_service_stopped.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/mark_service_stopped.p/rc-misc.c.o -MF src/rc/mark_service_stopped.p/rc-misc.c.o.d -o src/rc/mark_service_stopped.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/mark_service_stopped.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/mark_service_inactive.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/mark_service_inactive.p/do_mark_service.c.o -MF src/rc/mark_service_inactive.p/do_mark_service.c.o.d -o src/rc/mark_service_inactive.p/do_mark_service.c.o -c openrc-0.44.10/src/rc/do_mark_service.c",
+    "file": "openrc-0.44.10/src/rc/do_mark_service.c",
+    "output": "src/rc/mark_service_inactive.p/do_mark_service.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/mark_service_inactive.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/mark_service_inactive.p/rc-misc.c.o -MF src/rc/mark_service_inactive.p/rc-misc.c.o.d -o src/rc/mark_service_inactive.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/mark_service_inactive.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/mark_service_wasinactive.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/mark_service_wasinactive.p/do_mark_service.c.o -MF src/rc/mark_service_wasinactive.p/do_mark_service.c.o.d -o src/rc/mark_service_wasinactive.p/do_mark_service.c.o -c openrc-0.44.10/src/rc/do_mark_service.c",
+    "file": "openrc-0.44.10/src/rc/do_mark_service.c",
+    "output": "src/rc/mark_service_wasinactive.p/do_mark_service.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/mark_service_wasinactive.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/mark_service_wasinactive.p/rc-misc.c.o -MF src/rc/mark_service_wasinactive.p/rc-misc.c.o.d -o src/rc/mark_service_wasinactive.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/mark_service_wasinactive.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/mark_service_hotplugged.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/mark_service_hotplugged.p/do_mark_service.c.o -MF src/rc/mark_service_hotplugged.p/do_mark_service.c.o.d -o src/rc/mark_service_hotplugged.p/do_mark_service.c.o -c openrc-0.44.10/src/rc/do_mark_service.c",
+    "file": "openrc-0.44.10/src/rc/do_mark_service.c",
+    "output": "src/rc/mark_service_hotplugged.p/do_mark_service.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/mark_service_hotplugged.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/mark_service_hotplugged.p/rc-misc.c.o -MF src/rc/mark_service_hotplugged.p/rc-misc.c.o.d -o src/rc/mark_service_hotplugged.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/mark_service_hotplugged.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/mark_service_failed.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/mark_service_failed.p/do_mark_service.c.o -MF src/rc/mark_service_failed.p/do_mark_service.c.o.d -o src/rc/mark_service_failed.p/do_mark_service.c.o -c openrc-0.44.10/src/rc/do_mark_service.c",
+    "file": "openrc-0.44.10/src/rc/do_mark_service.c",
+    "output": "src/rc/mark_service_failed.p/do_mark_service.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/mark_service_failed.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/mark_service_failed.p/rc-misc.c.o -MF src/rc/mark_service_failed.p/rc-misc.c.o.d -o src/rc/mark_service_failed.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/mark_service_failed.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/mark_service_crashed.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/mark_service_crashed.p/do_mark_service.c.o -MF src/rc/mark_service_crashed.p/do_mark_service.c.o.d -o src/rc/mark_service_crashed.p/do_mark_service.c.o -c openrc-0.44.10/src/rc/do_mark_service.c",
+    "file": "openrc-0.44.10/src/rc/do_mark_service.c",
+    "output": "src/rc/mark_service_crashed.p/do_mark_service.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/mark_service_crashed.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/mark_service_crashed.p/rc-misc.c.o -MF src/rc/mark_service_crashed.p/rc-misc.c.o.d -o src/rc/mark_service_crashed.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/mark_service_crashed.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/rc-abort.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/rc-abort.p/rc-abort.c.o -MF src/rc/rc-abort.p/rc-abort.c.o.d -o src/rc/rc-abort.p/rc-abort.c.o -c openrc-0.44.10/src/rc/rc-abort.c",
+    "file": "openrc-0.44.10/src/rc/rc-abort.c",
+    "output": "src/rc/rc-abort.p/rc-abort.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/swclock.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/swclock.p/swclock.c.o -MF src/rc/swclock.p/swclock.c.o.d -o src/rc/swclock.p/swclock.c.o -c openrc-0.44.10/src/rc/swclock.c",
+    "file": "openrc-0.44.10/src/rc/swclock.c",
+    "output": "src/rc/swclock.p/swclock.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/swclock.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/swclock.p/rc-misc.c.o -MF src/rc/swclock.p/rc-misc.c.o.d -o src/rc/swclock.p/rc-misc.c.o -c openrc-0.44.10/src/rc/rc-misc.c",
+    "file": "openrc-0.44.10/src/rc/rc-misc.c",
+    "output": "src/rc/swclock.p/rc-misc.c.o"
+  },
+  {
+    "directory": "/usr/oppai/base/src",
+    "command": "clang -Isrc/rc/swclock.p -Isrc/rc -Iopenrc-0.44.10/src/rc -Iopenrc-0.44.10/src/includes -Isrc/libeinfo -Iopenrc-0.44.10/src/libeinfo -Isrc/librc -Iopenrc-0.44.10/src/librc -Isrc/common -fcolor-diagnostics -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -D_DEFAULT_SOURCE -Wcast-align -Wcast-qual -Wdeclaration-after-statement -Wformat=2 -Winline -Wmissing-declarations -Wmissing-format-attribute -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wsequence-point -Wshadow -Wwrite-strings -Werror=implicit-function-declaration -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -MD -MQ src/rc/swclock.p/_usage.c.o -MF src/rc/swclock.p/_usage.c.o.d -o src/rc/swclock.p/_usage.c.o -c openrc-0.44.10/src/rc/_usage.c",
+    "file": "openrc-0.44.10/src/rc/_usage.c",
+    "output": "src/rc/swclock.p/_usage.c.o"
+  }
+]

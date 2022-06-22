@@ -1,0 +1,11 @@
+Making check in src
+make[1]: Entering directory '/usr/oppai/xorg-core/libFS-1.0.8/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libFS-1.0.8/src'
+Making check in test
+make[1]: Entering directory '/usr/oppai/xorg-core/libFS-1.0.8/test'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libFS-1.0.8/test'
+make[1]: Entering directory '/usr/oppai/xorg-core/libFS-1.0.8'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libFS-1.0.8'

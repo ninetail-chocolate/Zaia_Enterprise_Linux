@@ -1,0 +1,19 @@
+diff --git a/include/compiler.h b/include/compiler.h
+index 22fa660b..53d9b7ec 100644
+--- a/include/compiler.h
++++ b/include/compiler.h
+@@ -1,5 +1,9 @@
+ #ifdef __cplusplus
+ 
++#ifdef _LIBCPP_VERSION
++#define fallthrough _LIBCPP_FALLTHROUGH()
++#else
++
+ #ifdef __clang__
+ #define fallthrough [[clang::fallthrough]]
+ #else
+@@ -7,3 +11,4 @@
+ #endif
+ 
+ #endif
++#endif

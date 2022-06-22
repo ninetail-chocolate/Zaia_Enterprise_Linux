@@ -1,0 +1,23 @@
+make[1]: Entering directory '/usr/oppai/base/XML-Parser-2.46/Expat'
+"/usr/bin/perl5.35.9" -MExtUtils::Command::MM -e 'cp_nonempty' -- Expat.bs ../blib/arch/auto/XML/Parser/Expat/Expat.bs 644
+Manifying 1 pod document
+make[1]: Leaving directory '/usr/oppai/base/XML-Parser-2.46/Expat'
+PERL_DL_NONLAZY=1 "/usr/bin/perl5.35.9" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/astress.t ........... ok
+t/cdata.t ............. ok
+t/decl.t .............. ok
+t/defaulted.t ......... ok
+t/encoding.t .......... ok
+t/external_ent.t ...... ok
+t/file.t .............. ok
+t/file_open_scalar.t .. ok
+t/finish.t ............ ok
+t/namespaces.t ........ ok
+t/parament.t .......... ok
+t/partial.t ........... ok
+t/skip.t .............. ok
+t/stream.t ............ ok
+t/styles.t ............ ok
+All tests successful.
+Files=15, Tests=140,  1 wallclock secs ( 0.04 usr  0.01 sys +  0.55 cusr  0.07 csys =  0.67 CPU)
+Result: PASS

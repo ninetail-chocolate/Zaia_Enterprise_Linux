@@ -1,0 +1,75 @@
+From 1ee376ac54fe5791f8bb36415e04f65d1165e37e Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?R=C3=A9mi=20Denis-Courmont?= <remi@remlab.net>
+Date: Sat, 15 Jan 2022 18:31:52 +0200
+Subject: [PATCH] avcodec/vaapi: remove legacy checks (fixes #26489)
+
+This stuff is removed in AVCODEC ABI 59, and it is no longer used as of
+VLC 4.0.
+---
+ configure.ac                  | 19 -------------------
+ modules/codec/Makefile.am     |  4 +++-
+ modules/codec/avcodec/vaapi.c |  1 -
+ 3 files changed, 3 insertions(+), 21 deletions(-)
+
+diff --git a/configure.ac b/configure.ac
+index 43d0bcea0ee..b7c6ae9500d 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -2539,25 +2539,6 @@ AM_CONDITIONAL([HAVE_VAAPI_DRM], [test "${have_vaapi_drm}" = "yes"])
+ AM_CONDITIONAL([HAVE_VAAPI_X11], [test "${have_vaapi_x11}" = "yes"])
+ AM_CONDITIONAL([HAVE_VAAPI_WL], [test "${have_vaapi_wl}" = "yes"])
+ 
+-have_avcodec_vaapi="no"
+-AS_IF([test "${have_vaapi}" = "yes" -a "${have_avcodec}" = "yes"], [
+-  VLC_SAVE_FLAGS
+-  CPPFLAGS="${CPPFLAGS} ${AVCODEC_CFLAGS}"
+-  CFLAGS="${CFLAGS} ${AVCODEC_CFLAGS}"
+-  AC_CHECK_HEADERS([libavcodec/vaapi.h], [
+-    AC_MSG_NOTICE([VA API acceleration activated])
+-    have_avcodec_vaapi="yes"
+-  ],[
+-    AS_IF([test -n "${enable_libva}"], [
+-      AC_MSG_ERROR([libva is present but libavcodec/vaapi.h is missing])
+-    ], [
+-      AC_MSG_WARN([libva is present but libavcodec/vaapi.h is missing ])
+-    ])
+-  ])
+-  VLC_RESTORE_FLAGS
+-])
+-AM_CONDITIONAL([HAVE_AVCODEC_VAAPI], [test "${have_avcodec_vaapi}" = "yes"])
+-
+ dnl
+ dnl dxva2 needs avcodec
+ dnl
+diff --git a/modules/codec/Makefile.am b/modules/codec/Makefile.am
+index 7b37d671ad7..cc6995b8cbe 100644
+--- a/modules/codec/Makefile.am
++++ b/modules/codec/Makefile.am
+@@ -395,9 +395,11 @@ libvaapi_plugin_la_SOURCES = \
+ libvaapi_plugin_la_CPPFLAGS = $(AM_CPPFLAGS)
+ libvaapi_plugin_la_CFLAGS = $(AM_CFLAGS) $(AVCODEC_CFLAGS)
+ libvaapi_plugin_la_LIBADD = $(LIBVA_LIBS) $(AVCODEC_LIBS)
+-if HAVE_AVCODEC_VAAPI
++if HAVE_AVCODEC
++if HAVE_VAAPI
+ codec_LTLIBRARIES += libvaapi_plugin.la
+ endif
++endif
+ 
+ libd3d9_common_la_SOURCES = video_chroma/d3d9_fmt.c video_chroma/d3d9_fmt.h \
+ 	video_chroma/dxgi_fmt.c video_chroma/dxgi_fmt.h
+diff --git a/modules/codec/avcodec/vaapi.c b/modules/codec/avcodec/vaapi.c
+index 8420f1d77fd..ea138ce2418 100644
+--- a/modules/codec/avcodec/vaapi.c
++++ b/modules/codec/avcodec/vaapi.c
+@@ -42,7 +42,6 @@
+ # include <va/va_drm.h>
+ #endif
+ #include <libavcodec/avcodec.h>
+-#include <libavcodec/vaapi.h>
+ #include <libavutil/hwcontext_vaapi.h>
+ 
+ #include "avcodec.h"
+-- 
+GitLab
+

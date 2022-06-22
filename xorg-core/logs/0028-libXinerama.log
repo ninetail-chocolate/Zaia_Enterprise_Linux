@@ -1,0 +1,10 @@
+Making check in src
+make[1]: Entering directory '/usr/oppai/xorg-core/libXinerama-1.1.4/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXinerama-1.1.4/src'
+Making check in man
+make[1]: Entering directory '/usr/oppai/xorg-core/libXinerama-1.1.4/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXinerama-1.1.4/man'
+make[1]: Entering directory '/usr/oppai/xorg-core/libXinerama-1.1.4'
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXinerama-1.1.4'

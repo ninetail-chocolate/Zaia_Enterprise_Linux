@@ -1,0 +1,146 @@
+Making check in include
+make[1]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/include'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/include'
+Making check in modules
+make[1]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/modules'
+Making check in im
+make[2]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/modules/im'
+Making check in ximcp
+make[3]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/modules/im/ximcp'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/modules/im/ximcp'
+make[3]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/modules/im'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/modules/im'
+make[2]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/modules/im'
+Making check in lc
+make[2]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/modules/lc'
+Making check in Utf8
+make[3]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/modules/lc/Utf8'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/modules/lc/Utf8'
+Making check in def
+make[3]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/modules/lc/def'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/modules/lc/def'
+Making check in gen
+make[3]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/modules/lc/gen'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/modules/lc/gen'
+make[3]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/modules/lc'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/modules/lc'
+make[2]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/modules/lc'
+Making check in om
+make[2]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/modules/om'
+Making check in generic
+make[3]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/modules/om/generic'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/modules/om/generic'
+make[3]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/modules/om'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/modules/om'
+make[2]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/modules/om'
+make[2]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/modules'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/modules'
+make[1]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/modules'
+Making check in src
+make[1]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/src'
+make  check-recursive
+make[2]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/src'
+Making check in util
+make[3]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/src/util'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/src/util'
+Making check in xcms
+make[3]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/src/xcms'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/src/xcms'
+Making check in xlibi18n
+make[3]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/src/xlibi18n'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/src/xlibi18n'
+Making check in xkb
+make[3]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/src/xkb'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/src/xkb'
+make[3]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/src'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/src'
+make[2]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/src'
+make[1]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/src'
+Making check in nls
+make[1]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/nls'
+make  check-TESTS
+make[2]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/nls'
+make[3]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/nls'
+PASS: compose-check.pl
+============================================================================
+Testsuite summary for libX11 1.7.3.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/nls'
+make[2]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/nls'
+make[1]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/nls'
+Making check in man
+make[1]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/man'
+Making check in xkb
+make[2]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/man/xkb'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/man/xkb'
+make[2]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/man'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/man'
+make[1]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/man'
+Making check in specs
+make[1]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/specs'
+Making check in libX11
+make[2]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/specs/libX11'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/specs/libX11'
+Making check in i18n
+make[2]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/specs/i18n'
+Making check in compose
+make[3]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/specs/i18n/compose'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/specs/i18n/compose'
+Making check in framework
+make[3]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/specs/i18n/framework'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/specs/i18n/framework'
+Making check in localedb
+make[3]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/specs/i18n/localedb'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/specs/i18n/localedb'
+Making check in trans
+make[3]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/specs/i18n/trans'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/specs/i18n/trans'
+make[3]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/specs/i18n'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/specs/i18n'
+make[2]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/specs/i18n'
+Making check in XIM
+make[2]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/specs/XIM'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/specs/XIM'
+Making check in XKB
+make[2]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/specs/XKB'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/specs/XKB'
+make[2]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1/specs'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/specs'
+make[1]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1/specs'
+make[1]: Entering directory '/usr/oppai/xorg-core/libX11-1.7.3.1'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libX11-1.7.3.1'

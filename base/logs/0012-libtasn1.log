@@ -1,0 +1,210 @@
+  GEN      public-submodule-commit
+make  check-recursive
+make[1]: Entering directory '/usr/oppai/base/libtasn1-4.18.0/build'
+Making check in lib
+make[2]: Entering directory '/usr/oppai/base/libtasn1-4.18.0/build/lib'
+Making check in gl
+make[3]: Entering directory '/usr/oppai/base/libtasn1-4.18.0/build/lib/gl'
+make  check-recursive
+make[4]: Entering directory '/usr/oppai/base/libtasn1-4.18.0/build/lib/gl'
+make[5]: Entering directory '/usr/oppai/base/libtasn1-4.18.0/build/lib/gl'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/usr/oppai/base/libtasn1-4.18.0/build/lib/gl'
+make[4]: Leaving directory '/usr/oppai/base/libtasn1-4.18.0/build/lib/gl'
+make[3]: Leaving directory '/usr/oppai/base/libtasn1-4.18.0/build/lib/gl'
+make[3]: Entering directory '/usr/oppai/base/libtasn1-4.18.0/build/lib'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/oppai/base/libtasn1-4.18.0/build/lib'
+make[2]: Leaving directory '/usr/oppai/base/libtasn1-4.18.0/build/lib'
+Making check in src
+make[2]: Entering directory '/usr/oppai/base/libtasn1-4.18.0/build/src'
+Making check in gl
+make[3]: Entering directory '/usr/oppai/base/libtasn1-4.18.0/build/src/gl'
+make  check-recursive
+make[4]: Entering directory '/usr/oppai/base/libtasn1-4.18.0/build/src/gl'
+make[5]: Entering directory '/usr/oppai/base/libtasn1-4.18.0/build/src/gl'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/usr/oppai/base/libtasn1-4.18.0/build/src/gl'
+make[4]: Leaving directory '/usr/oppai/base/libtasn1-4.18.0/build/src/gl'
+make[3]: Leaving directory '/usr/oppai/base/libtasn1-4.18.0/build/src/gl'
+make[3]: Entering directory '/usr/oppai/base/libtasn1-4.18.0/build/src'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/oppai/base/libtasn1-4.18.0/build/src'
+make[2]: Leaving directory '/usr/oppai/base/libtasn1-4.18.0/build/src'
+Making check in fuzz
+make[2]: Entering directory '/usr/oppai/base/libtasn1-4.18.0/build/fuzz'
+make  libtasn1_array2tree_fuzzer libtasn1_parser2tree_fuzzer libtasn1_pkix_der_fuzzer libtasn1_gnutls_der_fuzzer asn1_get_length_ber_fuzzer asn1_get_length_der_fuzzer asn1_get_object_id_der_fuzzer asn1_decode_simple_ber_fuzzer asn1_decode_simple_der_fuzzer
+make[3]: Entering directory '/usr/oppai/base/libtasn1-4.18.0/build/fuzz'
+  CC       libtasn1_array2tree_fuzzer.o
+  CC       main.o
+  CC       libtasn1_parser2tree_fuzzer.o
+  CC       libtasn1_pkix_der_fuzzer.o
+  CC       libtasn1_gnutls_der_fuzzer.o
+  CC       asn1_get_length_ber_fuzzer.o
+  CC       asn1_get_length_der_fuzzer.o
+  CC       asn1_get_object_id_der_fuzzer.o
+  CC       asn1_decode_simple_ber_fuzzer.o
+  CC       asn1_decode_simple_der_fuzzer.o
+  CCLD     libtasn1_array2tree_fuzzer
+  CCLD     libtasn1_parser2tree_fuzzer
+  CCLD     libtasn1_gnutls_der_fuzzer
+  CCLD     asn1_get_length_ber_fuzzer
+  CCLD     asn1_get_length_der_fuzzer
+  CCLD     asn1_get_object_id_der_fuzzer
+  CCLD     asn1_decode_simple_ber_fuzzer
+  CCLD     asn1_decode_simple_der_fuzzer
+  CCLD     libtasn1_pkix_der_fuzzer
+make[3]: Leaving directory '/usr/oppai/base/libtasn1-4.18.0/build/fuzz'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/libtasn1-4.18.0/build/fuzz'
+make[4]: Entering directory '/usr/oppai/base/libtasn1-4.18.0/build/fuzz'
+PASS: libtasn1_pkix_der_fuzzer
+PASS: libtasn1_array2tree_fuzzer
+PASS: libtasn1_parser2tree_fuzzer
+PASS: libtasn1_gnutls_der_fuzzer
+PASS: asn1_get_length_ber_fuzzer
+PASS: asn1_get_length_der_fuzzer
+PASS: asn1_get_object_id_der_fuzzer
+PASS: asn1_decode_simple_ber_fuzzer
+PASS: asn1_decode_simple_der_fuzzer
+============================================================================
+Testsuite summary for GNU Libtasn1 4.18.0
+============================================================================
+# TOTAL: 9
+# PASS:  9
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/libtasn1-4.18.0/build/fuzz'
+make[3]: Leaving directory '/usr/oppai/base/libtasn1-4.18.0/build/fuzz'
+make[2]: Leaving directory '/usr/oppai/base/libtasn1-4.18.0/build/fuzz'
+Making check in tests
+make[2]: Entering directory '/usr/oppai/base/libtasn1-4.18.0/build/tests'
+make  check-am
+make[3]: Entering directory '/usr/oppai/base/libtasn1-4.18.0/build/tests'
+make  Test_parser Test_tree Test_encoding Test_indefinite Test_errors Test_simple Test_overflow Test_strings Test_choice Test_encdec copynode coding-decoding2 strict-der Test_choice_ocsp ocsp-basic-response octet-string coding-long-oid object-id-decoding spc_pe_image_data setof CVE-2018-1000654 reproducers object-id-encoding \
+  crlf.sh benchmark.sh threadsafety.sh decoding.sh decoding-invalid-x509.sh decoding-invalid-pkcs7.sh coding.sh parser.sh
+make[4]: Entering directory '/usr/oppai/base/libtasn1-4.18.0/build/tests'
+  CC       Test_parser.o
+  CC       Test_tree.o
+  CC       Test_encoding.o
+  CC       Test_indefinite.o
+  CC       Test_errors.o
+  CC       Test_simple.o
+  CC       Test_overflow.o
+  CC       Test_strings.o
+  CC       Test_choice.o
+  CC       Test_encdec.o
+  CC       copynode.o
+  CC       coding-decoding2.o
+  CC       strict-der.o
+  CC       Test_choice_ocsp.o
+  CC       ocsp-basic-response.o
+  CC       octet-string.o
+  CC       coding-long-oid.o
+  CC       object-id-decoding.o
+  CC       spc_pe_image_data.o
+  CC       setof.o
+  CC       reproducers.o
+  CC       CVE-2018-1000654.o
+make[4]: Nothing to be done for '../../tests/crlf.sh'.
+make[4]: Nothing to be done for '../../tests/benchmark.sh'.
+make[4]: Nothing to be done for '../../tests/threadsafety.sh'.
+make[4]: Nothing to be done for '../../tests/decoding.sh'.
+make[4]: Nothing to be done for '../../tests/decoding-invalid-x509.sh'.
+make[4]: Nothing to be done for '../../tests/decoding-invalid-pkcs7.sh'.
+make[4]: Nothing to be done for '../../tests/coding.sh'.
+make[4]: Nothing to be done for '../../tests/parser.sh'.
+  CC       object-id-encoding.o
+  CCLD     Test_encoding
+  CCLD     Test_indefinite
+  CCLD     Test_errors
+  CCLD     Test_simple
+  CCLD     Test_overflow
+  CCLD     Test_strings
+  CCLD     Test_choice
+  CCLD     coding-decoding2
+  CCLD     Test_encdec
+  CCLD     Test_choice_ocsp
+  CCLD     strict-der
+  CCLD     ocsp-basic-response
+  CCLD     coding-long-oid
+  CCLD     object-id-decoding
+  CCLD     spc_pe_image_data
+  CCLD     setof
+  CCLD     CVE-2018-1000654
+  CCLD     reproducers
+  CCLD     object-id-encoding
+  CCLD     Test_parser
+  CCLD     Test_tree
+  CCLD     copynode
+  CCLD     octet-string
+make[4]: Leaving directory '/usr/oppai/base/libtasn1-4.18.0/build/tests'
+make  check-TESTS
+make[4]: Entering directory '/usr/oppai/base/libtasn1-4.18.0/build/tests'
+make[5]: Entering directory '/usr/oppai/base/libtasn1-4.18.0/build/tests'
+PASS: Test_encoding
+PASS: Test_tree
+PASS: Test_simple
+PASS: Test_errors
+PASS: Test_parser
+PASS: Test_overflow
+PASS: Test_strings
+PASS: Test_indefinite
+PASS: Test_choice
+PASS: coding-decoding2
+PASS: spc_pe_image_data
+PASS: Test_encdec
+PASS: strict-der
+PASS: copynode
+PASS: Test_choice_ocsp
+PASS: octet-string
+PASS: ocsp-basic-response
+PASS: object-id-decoding
+PASS: coding-long-oid
+PASS: CVE-2018-1000654
+PASS: reproducers
+PASS: object-id-encoding
+PASS: threadsafety.sh
+PASS: crlf.sh
+PASS: setof
+PASS: coding.sh
+PASS: parser.sh
+PASS: decoding.sh
+PASS: decoding-invalid-pkcs7.sh
+PASS: decoding-invalid-x509.sh
+============================================================================
+Testsuite summary for GNU Libtasn1 4.18.0
+============================================================================
+# TOTAL: 30
+# PASS:  30
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/usr/oppai/base/libtasn1-4.18.0/build/tests'
+make[4]: Leaving directory '/usr/oppai/base/libtasn1-4.18.0/build/tests'
+make[3]: Leaving directory '/usr/oppai/base/libtasn1-4.18.0/build/tests'
+make[2]: Leaving directory '/usr/oppai/base/libtasn1-4.18.0/build/tests'
+Making check in doc
+make[2]: Entering directory '/usr/oppai/base/libtasn1-4.18.0/build/doc'
+make[3]: Entering directory '/usr/oppai/base/libtasn1-4.18.0/build/doc'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/oppai/base/libtasn1-4.18.0/build/doc'
+make[2]: Leaving directory '/usr/oppai/base/libtasn1-4.18.0/build/doc'
+Making check in examples
+make[2]: Entering directory '/usr/oppai/base/libtasn1-4.18.0/build/examples'
+make  check-am
+make[3]: Entering directory '/usr/oppai/base/libtasn1-4.18.0/build/examples'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/oppai/base/libtasn1-4.18.0/build/examples'
+make[2]: Leaving directory '/usr/oppai/base/libtasn1-4.18.0/build/examples'
+make[2]: Entering directory '/usr/oppai/base/libtasn1-4.18.0/build'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/oppai/base/libtasn1-4.18.0/build'
+make[1]: Leaving directory '/usr/oppai/base/libtasn1-4.18.0/build'

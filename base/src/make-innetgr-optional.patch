@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<title>make-innetgr-optional.patch\polkit\community - aports - Alpine packages build scripts
+</title>
+<meta name='generator' content='cgit v1.2.1'/>
+<meta name='robots' content='index, nofollow'/>
+<link rel='stylesheet' type='text/css' href='/cgit.css'/>
+<link rel='shortcut icon' href='//alpinelinux.org/alpine-logo.ico'/>
+<link rel='alternate' title='Atom feed' href='http://git.alpinelinux.org/aports/atom/community/polkit/make-innetgr-optional.patch?h=master' type='application/atom+xml'/>
+<link rel='vcs-git' href='git://git.alpinelinux.org/aports' title='aports Git repository'/>
+<link rel='vcs-git' href='https://git.alpinelinux.org/aports' title='aports Git repository'/>
+</head>
+<body>
+<div id='cgit'><table id='header'>
+<tr>
+<td class='logo' rowspan='2'><a href='/'><img src='//wiki.alpinelinux.org/images/alogo.png' alt='cgit logo'/></a></td>
+<td class='main'><a href='/'>index</a> : <a title='aports' href='/aports/'>aports</a></td><td class='form'><form method='get'>
+<select name='h' onchange='this.form.submit();'>
+<option value='1.10-stable'>1.10-stable</option>
+<option value='1.9'>1.9</option>
+<option value='2.0-stable'>2.0-stable</option>
+<option value='2.1-stable'>2.1-stable</option>
+<option value='2.2-stable'>2.2-stable</option>
+<option value='2.3-stable'>2.3-stable</option>
+<option value='2.4-stable'>2.4-stable</option>
+<option value='2.5-stable'>2.5-stable</option>
+<option value='2.6-stable'>2.6-stable</option>
+<option value='2.7-stable'>2.7-stable</option>
+<option value='3.0-stable'>3.0-stable</option>
+<option value='3.1-stable'>3.1-stable</option>
+<option value='3.10-stable'>3.10-stable</option>
+<option value='3.11-stable'>3.11-stable</option>
+<option value='3.12-stable'>3.12-stable</option>
+<option value='3.13-stable'>3.13-stable</option>
+<option value='3.14-stable'>3.14-stable</option>
+<option value='3.15-stable'>3.15-stable</option>
+<option value='3.2-stable'>3.2-stable</option>
+<option value='3.3-stable'>3.3-stable</option>
+<option value='3.4-stable'>3.4-stable</option>
+<option value='3.5-stable'>3.5-stable</option>
+<option value='3.6-stable'>3.6-stable</option>
+<option value='3.7-stable'>3.7-stable</option>
+<option value='3.8-stable'>3.8-stable</option>
+<option value='3.9-stable'>3.9-stable</option>
+<option value='fs-upgrade-1.10.7'>fs-upgrade-1.10.7</option>
+<option value='master' selected='selected'>master</option>
+<option value='nuspell'>nuspell</option>
+<option value='patches/3526'>patches/3526</option>
+<option value='patches/3527'>patches/3527</option>
+<option value='patches/3530'>patches/3530</option>
+<option value='patches/3531'>patches/3531</option>
+<option value='patches/3534'>patches/3534</option>
+<option value='patches/3535'>patches/3535</option>
+<option value='patches/3538'>patches/3538</option>
+<option value='patches/3539'>patches/3539</option>
+<option value='patches/3540'>patches/3540</option>
+<option value='patches/3551'>patches/3551</option>
+<option value='patches/3556'>patches/3556</option>
+<option value='patches/3558'>patches/3558</option>
+<option value='patches/3559'>patches/3559</option>
+<option value='patches/3562'>patches/3562</option>
+<option value='patches/3563'>patches/3563</option>
+<option value='patches/3564'>patches/3564</option>
+<option value='patches/3565'>patches/3565</option>
+<option value='patches/3567'>patches/3567</option>
+<option value='patches/3568'>patches/3568</option>
+<option value='patches/3569'>patches/3569</option>
+<option value='patches/3574'>patches/3574</option>
+<option value='patches/3575'>patches/3575</option>
+<option value='patches/3576'>patches/3576</option>
+<option value='patches/3577'>patches/3577</option>
+<option value='patches/3582'>patches/3582</option>
+<option value='patches/3584'>patches/3584</option>
+<option value='patches/3590'>patches/3590</option>
+<option value='patches/3592'>patches/3592</option>
+<option value='patches/3594'>patches/3594</option>
+<option value='patches/3598'>patches/3598</option>
+<option value='patches/3599'>patches/3599</option>
+<option value='patches/3601'>patches/3601</option>
+<option value='patches/3603'>patches/3603</option>
+<option value='patches/3604'>patches/3604</option>
+<option value='patches/3606'>patches/3606</option>
+<option value='patches/3607'>patches/3607</option>
+<option value='patches/3608'>patches/3608</option>
+<option value='patches/3610'>patches/3610</option>
+<option value='patches/3612'>patches/3612</option>
+<option value='patches/3613'>patches/3613</option>
+<option value='patches/3615'>patches/3615</option>
+<option value='patches/3616'>patches/3616</option>
+<option value='patches/3618'>patches/3618</option>
+<option value='patches/3621'>patches/3621</option>
+<option value='patches/3622'>patches/3622</option>
+<option value='patches/3624'>patches/3624</option>
+<option value='patches/3627'>patches/3627</option>
+<option value='patches/3632'>patches/3632</option>
+<option value='patches/3633'>patches/3633</option>
+<option value='patches/3635'>patches/3635</option>
+<option value='patches/3636'>patches/3636</option>
+<option value='patches/3646'>patches/3646</option>
+<option value='patches/3654'>patches/3654</option>
+<option value='patches/3656'>patches/3656</option>
+<option value='patches/3662'>patches/3662</option>
+<option value='patches/3666'>patches/3666</option>
+<option value='patches/3670'>patches/3670</option>
+<option value='patches/3671'>patches/3671</option>
+<option value='patches/3675'>patches/3675</option>
+<option value='patches/3687'>patches/3687</option>
+<option value='patches/3690'>patches/3690</option>
+<option value='patches/3691'>patches/3691</option>
+<option value='patches/3692'>patches/3692</option>
+<option value='patches/3697'>patches/3697</option>
+<option value='patches/3706'>patches/3706</option>
+<option value='patches/3707'>patches/3707</option>
+<option value='patches/3715'>patches/3715</option>
+<option value='patches/3721'>patches/3721</option>
+<option value='patches/3722'>patches/3722</option>
+<option value='patches/3724'>patches/3724</option>
+<option value='patches/3731'>patches/3731</option>
+<option value='patches/3756'>patches/3756</option>
+<option value='patches/3764'>patches/3764</option>
+<option value='patches/3767'>patches/3767</option>
+<option value='patches/3770'>patches/3770</option>
+<option value='patches/3771'>patches/3771</option>
+<option value='patches/3774'>patches/3774</option>
+<option value='patches/3775'>patches/3775</option>
+<option value='patches/3777'>patches/3777</option>
+<option value='patches/3779'>patches/3779</option>
+<option value='patches/3787'>patches/3787</option>
+<option value='patches/3788'>patches/3788</option>
+<option value='patches/3789'>patches/3789</option>
+<option value='patches/3790'>patches/3790</option>
+<option value='patches/3793'>patches/3793</option>
+<option value='patches/3796'>patches/3796</option>
+<option value='patches/3797'>patches/3797</option>
+<option value='patches/3798'>patches/3798</option>
+<option value='patches/3799'>patches/3799</option>
+<option value='patches/3800'>patches/3800</option>
+<option value='patches/3802'>patches/3802</option>
+<option value='patches/3803'>patches/3803</option>
+<option value='patches/3804'>patches/3804</option>
+<option value='patches/3805'>patches/3805</option>
+<option value='patches/3808'>patches/3808</option>
+<option value='patches/3811'>patches/3811</option>
+<option value='patches/3813'>patches/3813</option>
+<option value='patches/3816'>patches/3816</option>
+<option value='patches/3818'>patches/3818</option>
+<option value='patches/3820'>patches/3820</option>
+<option value='patches/3821'>patches/3821</option>
+<option value='patches/3822'>patches/3822</option>
+<option value='patches/3823'>patches/3823</option>
+<option value='patches/3825'>patches/3825</option>
+<option value='patches/3827'>patches/3827</option>
+<option value='patches/3828'>patches/3828</option>
+<option value='patches/3829'>patches/3829</option>
+<option value='patches/3830'>patches/3830</option>
+<option value='patches/3831'>patches/3831</option>
+<option value='patches/3832'>patches/3832</option>
+<option value='patches/3833'>patches/3833</option>
+<option value='patches/3835'>patches/3835</option>
+<option value='patches/3836'>patches/3836</option>
+<option value='patches/3837'>patches/3837</option>
+<option value='patches/3838'>patches/3838</option>
+<option value='patches/3839'>patches/3839</option>
+<option value='patches/3843'>patches/3843</option>
+<option value='patches/3845'>patches/3845</option>
+<option value='patches/3846'>patches/3846</option>
+<option value='patches/3847'>patches/3847</option>
+<option value='patches/3850'>patches/3850</option>
+<option value='patches/3852'>patches/3852</option>
+<option value='patches/3853'>patches/3853</option>
+<option value='patches/3854'>patches/3854</option>
+<option value='patches/3855'>patches/3855</option>
+<option value='patches/3858'>patches/3858</option>
+<option value='patches/3861'>patches/3861</option>
+<option value='patches/3863'>patches/3863</option>
+<option value='patches/3864'>patches/3864</option>
+<option value='patches/3868'>patches/3868</option>
+<option value='patches/3869'>patches/3869</option>
+<option value='patches/3870'>patches/3870</option>
+<option value='patches/3871'>patches/3871</option>
+<option value='patches/3873'>patches/3873</option>
+<option value='patches/3878'>patches/3878</option>
+<option value='patches/3881'>patches/3881</option>
+<option value='patches/3882'>patches/3882</option>
+<option value='patches/3883'>patches/3883</option>
+<option value='patches/3885'>patches/3885</option>
+<option value='patches/3886'>patches/3886</option>
+<option value='patches/3887'>patches/3887</option>
+<option value='patches/3888'>patches/3888</option>
+<option value='patches/3890'>patches/3890</option>
+<option value='patches/3891'>patches/3891</option>
+<option value='patches/3892'>patches/3892</option>
+<option value='patches/3895'>patches/3895</option>
+<option value='patches/3896'>patches/3896</option>
+<option value='patches/3897'>patches/3897</option>
+<option value='patches/3908'>patches/3908</option>
+<option value='patches/3909'>patches/3909</option>
+<option value='patches/3912'>patches/3912</option>
+<option value='patches/3913'>patches/3913</option>
+<option value='patches/3914'>patches/3914</option>
+<option value='patches/3916'>patches/3916</option>
+<option value='patches/3918'>patches/3918</option>
+<option value='patches/3920'>patches/3920</option>
+<option value='patches/3923'>patches/3923</option>
+<option value='patches/3927'>patches/3927</option>
+<option value='patches/3933'>patches/3933</option>
+<option value='patches/3934'>patches/3934</option>
+<option value='patches/3937'>patches/3937</option>
+<option value='patches/3940'>patches/3940</option>
+<option value='patches/3941'>patches/3941</option>
+<option value='patches/3946'>patches/3946</option>
+<option value='patches/3947'>patches/3947</option>
+<option value='patches/3949'>patches/3949</option>
+<option value='patches/3950'>patches/3950</option>
+<option value='patches/3953'>patches/3953</option>
+<option value='patches/3954'>patches/3954</option>
+<option value='patches/3956'>patches/3956</option>
+<option value='patches/3957'>patches/3957</option>
+<option value='patches/3958'>patches/3958</option>
+<option value='patches/3959'>patches/3959</option>
+<option value='patches/3963'>patches/3963</option>
+<option value='patches/3967'>patches/3967</option>
+<option value='patches/3968'>patches/3968</option>
+<option value='patches/3969'>patches/3969</option>
+<option value='patches/3970'>patches/3970</option>
+<option value='wlroots'>wlroots</option>
+</select> <input type='submit' value='switch'/></form></td></tr>
+<tr><td class='sub'>Alpine packages build scripts
+</td><td class='sub right'>uwsgi</td></tr></table>
+<table class='tabs'><tr><td>
+<a href='/aports/about/'>about</a><a href='/aports/'>summary</a><a href='/aports/refs/'>refs</a><a href='/aports/log/community/polkit/make-innetgr-optional.patch'>log</a><a class='active' href='/aports/tree/community/polkit/make-innetgr-optional.patch'>tree</a><a href='/aports/commit/community/polkit/make-innetgr-optional.patch'>commit</a><a href='/aports/diff/community/polkit/make-innetgr-optional.patch'>diff</a><a href='/aports/stats/community/polkit/make-innetgr-optional.patch'>stats</a></td><td class='form'><form class='right' method='get' action='/aports/log/community/polkit/make-innetgr-optional.patch'>
+<select name='qt'>
+<option value='grep'>log msg</option>
+<option value='author'>author</option>
+<option value='committer'>committer</option>
+<option value='range'>range</option>
+</select>
+<input class='txt' type='search' size='10' name='q' value=''/>
+<input type='submit' value='search'/>
+</form>
+</td></tr></table>
+<div class='path'>path: <a href='/aports/tree/'>root</a>/<a href='/aports/tree/community'>community</a>/<a href='/aports/tree/community/polkit'>polkit</a>/<a href='/aports/tree/community/polkit/make-innetgr-optional.patch'>make-innetgr-optional.patch</a></div><div class='content'>blob: 8459c670ba50934f8d80b132be3dfab978aabfe8 (<a href='/aports/plain/community/polkit/make-innetgr-optional.patch'>plain</a>) (<a href='/aports/blame/community/polkit/make-innetgr-optional.patch'>blame</a>)
+<table summary='blob content' class='blob'>
+<tr><td class='linenumbers'><pre><a id='n1' href='#n1'>1</a>
+<a id='n2' href='#n2'>2</a>
+<a id='n3' href='#n3'>3</a>
+<a id='n4' href='#n4'>4</a>
+<a id='n5' href='#n5'>5</a>
+<a id='n6' href='#n6'>6</a>
+<a id='n7' href='#n7'>7</a>
+<a id='n8' href='#n8'>8</a>
+<a id='n9' href='#n9'>9</a>
+<a id='n10' href='#n10'>10</a>
+<a id='n11' href='#n11'>11</a>
+<a id='n12' href='#n12'>12</a>
+<a id='n13' href='#n13'>13</a>
+<a id='n14' href='#n14'>14</a>
+<a id='n15' href='#n15'>15</a>
+<a id='n16' href='#n16'>16</a>
+<a id='n17' href='#n17'>17</a>
+<a id='n18' href='#n18'>18</a>
+<a id='n19' href='#n19'>19</a>
+<a id='n20' href='#n20'>20</a>
+<a id='n21' href='#n21'>21</a>
+<a id='n22' href='#n22'>22</a>
+<a id='n23' href='#n23'>23</a>
+<a id='n24' href='#n24'>24</a>
+<a id='n25' href='#n25'>25</a>
+<a id='n26' href='#n26'>26</a>
+<a id='n27' href='#n27'>27</a>
+<a id='n28' href='#n28'>28</a>
+<a id='n29' href='#n29'>29</a>
+<a id='n30' href='#n30'>30</a>
+<a id='n31' href='#n31'>31</a>
+<a id='n32' href='#n32'>32</a>
+<a id='n33' href='#n33'>33</a>
+<a id='n34' href='#n34'>34</a>
+<a id='n35' href='#n35'>35</a>
+<a id='n36' href='#n36'>36</a>
+<a id='n37' href='#n37'>37</a>
+<a id='n38' href='#n38'>38</a>
+<a id='n39' href='#n39'>39</a>
+<a id='n40' href='#n40'>40</a>
+<a id='n41' href='#n41'>41</a>
+<a id='n42' href='#n42'>42</a>
+<a id='n43' href='#n43'>43</a>
+<a id='n44' href='#n44'>44</a>
+<a id='n45' href='#n45'>45</a>
+<a id='n46' href='#n46'>46</a>
+<a id='n47' href='#n47'>47</a>
+<a id='n48' href='#n48'>48</a>
+<a id='n49' href='#n49'>49</a>
+<a id='n50' href='#n50'>50</a>
+<a id='n51' href='#n51'>51</a>
+<a id='n52' href='#n52'>52</a>
+<a id='n53' href='#n53'>53</a>
+<a id='n54' href='#n54'>54</a>
+<a id='n55' href='#n55'>55</a>
+<a id='n56' href='#n56'>56</a>
+<a id='n57' href='#n57'>57</a>
+<a id='n58' href='#n58'>58</a>
+<a id='n59' href='#n59'>59</a>
+<a id='n60' href='#n60'>60</a>
+<a id='n61' href='#n61'>61</a>
+<a id='n62' href='#n62'>62</a>
+<a id='n63' href='#n63'>63</a>
+<a id='n64' href='#n64'>64</a>
+<a id='n65' href='#n65'>65</a>
+<a id='n66' href='#n66'>66</a>
+<a id='n67' href='#n67'>67</a>
+<a id='n68' href='#n68'>68</a>
+<a id='n69' href='#n69'>69</a>
+<a id='n70' href='#n70'>70</a>
+<a id='n71' href='#n71'>71</a>
+<a id='n72' href='#n72'>72</a>
+<a id='n73' href='#n73'>73</a>
+<a id='n74' href='#n74'>74</a>
+<a id='n75' href='#n75'>75</a>
+<a id='n76' href='#n76'>76</a>
+<a id='n77' href='#n77'>77</a>
+<a id='n78' href='#n78'>78</a>
+<a id='n79' href='#n79'>79</a>
+<a id='n80' href='#n80'>80</a>
+<a id='n81' href='#n81'>81</a>
+<a id='n82' href='#n82'>82</a>
+<a id='n83' href='#n83'>83</a>
+<a id='n84' href='#n84'>84</a>
+<a id='n85' href='#n85'>85</a>
+<a id='n86' href='#n86'>86</a>
+<a id='n87' href='#n87'>87</a>
+<a id='n88' href='#n88'>88</a>
+<a id='n89' href='#n89'>89</a>
+<a id='n90' href='#n90'>90</a>
+<a id='n91' href='#n91'>91</a>
+<a id='n92' href='#n92'>92</a>
+<a id='n93' href='#n93'>93</a>
+<a id='n94' href='#n94'>94</a>
+<a id='n95' href='#n95'>95</a>
+<a id='n96' href='#n96'>96</a>
+<a id='n97' href='#n97'>97</a>
+<a id='n98' href='#n98'>98</a>
+<a id='n99' href='#n99'>99</a>
+<a id='n100' href='#n100'>100</a>
+<a id='n101' href='#n101'>101</a>
+<a id='n102' href='#n102'>102</a>
+<a id='n103' href='#n103'>103</a>
+<a id='n104' href='#n104'>104</a>
+<a id='n105' href='#n105'>105</a>
+<a id='n106' href='#n106'>106</a>
+<a id='n107' href='#n107'>107</a>
+<a id='n108' href='#n108'>108</a>
+<a id='n109' href='#n109'>109</a>
+<a id='n110' href='#n110'>110</a>
+<a id='n111' href='#n111'>111</a>
+<a id='n112' href='#n112'>112</a>
+<a id='n113' href='#n113'>113</a>
+<a id='n114' href='#n114'>114</a>
+<a id='n115' href='#n115'>115</a>
+<a id='n116' href='#n116'>116</a>
+<a id='n117' href='#n117'>117</a>
+<a id='n118' href='#n118'>118</a>
+<a id='n119' href='#n119'>119</a>
+<a id='n120' href='#n120'>120</a>
+<a id='n121' href='#n121'>121</a>
+<a id='n122' href='#n122'>122</a>
+<a id='n123' href='#n123'>123</a>
+<a id='n124' href='#n124'>124</a>
+<a id='n125' href='#n125'>125</a>
+<a id='n126' href='#n126'>126</a>
+<a id='n127' href='#n127'>127</a>
+<a id='n128' href='#n128'>128</a>
+<a id='n129' href='#n129'>129</a>
+<a id='n130' href='#n130'>130</a>
+<a id='n131' href='#n131'>131</a>
+<a id='n132' href='#n132'>132</a>
+<a id='n133' href='#n133'>133</a>
+<a id='n134' href='#n134'>134</a>
+<a id='n135' href='#n135'>135</a>
+<a id='n136' href='#n136'>136</a>
+<a id='n137' href='#n137'>137</a>
+<a id='n138' href='#n138'>138</a>
+<a id='n139' href='#n139'>139</a>
+<a id='n140' href='#n140'>140</a>
+<a id='n141' href='#n141'>141</a>
+<a id='n142' href='#n142'>142</a>
+<a id='n143' href='#n143'>143</a>
+<a id='n144' href='#n144'>144</a>
+<a id='n145' href='#n145'>145</a>
+<a id='n146' href='#n146'>146</a>
+<a id='n147' href='#n147'>147</a>
+<a id='n148' href='#n148'>148</a>
+<a id='n149' href='#n149'>149</a>
+<a id='n150' href='#n150'>150</a>
+<a id='n151' href='#n151'>151</a>
+<a id='n152' href='#n152'>152</a>
+<a id='n153' href='#n153'>153</a>
+<a id='n154' href='#n154'>154</a>
+<a id='n155' href='#n155'>155</a>
+<a id='n156' href='#n156'>156</a>
+<a id='n157' href='#n157'>157</a>
+<a id='n158' href='#n158'>158</a>
+<a id='n159' href='#n159'>159</a>
+<a id='n160' href='#n160'>160</a>
+<a id='n161' href='#n161'>161</a>
+<a id='n162' href='#n162'>162</a>
+<a id='n163' href='#n163'>163</a>
+<a id='n164' href='#n164'>164</a>
+<a id='n165' href='#n165'>165</a>
+<a id='n166' href='#n166'>166</a>
+<a id='n167' href='#n167'>167</a>
+<a id='n168' href='#n168'>168</a>
+<a id='n169' href='#n169'>169</a>
+<a id='n170' href='#n170'>170</a>
+<a id='n171' href='#n171'>171</a>
+<a id='n172' href='#n172'>172</a>
+<a id='n173' href='#n173'>173</a>
+<a id='n174' href='#n174'>174</a>
+<a id='n175' href='#n175'>175</a>
+<a id='n176' href='#n176'>176</a>
+<a id='n177' href='#n177'>177</a>
+<a id='n178' href='#n178'>178</a>
+<a id='n179' href='#n179'>179</a>
+<a id='n180' href='#n180'>180</a>
+<a id='n181' href='#n181'>181</a>
+<a id='n182' href='#n182'>182</a>
+<a id='n183' href='#n183'>183</a>
+<a id='n184' href='#n184'>184</a>
+<a id='n185' href='#n185'>185</a>
+<a id='n186' href='#n186'>186</a>
+<a id='n187' href='#n187'>187</a>
+<a id='n188' href='#n188'>188</a>
+<a id='n189' href='#n189'>189</a>
+<a id='n190' href='#n190'>190</a>
+<a id='n191' href='#n191'>191</a>
+<a id='n192' href='#n192'>192</a>
+<a id='n193' href='#n193'>193</a>
+<a id='n194' href='#n194'>194</a>
+<a id='n195' href='#n195'>195</a>
+<a id='n196' href='#n196'>196</a>
+<a id='n197' href='#n197'>197</a>
+<a id='n198' href='#n198'>198</a>
+<a id='n199' href='#n199'>199</a>
+<a id='n200' href='#n200'>200</a>
+<a id='n201' href='#n201'>201</a>
+<a id='n202' href='#n202'>202</a>
+<a id='n203' href='#n203'>203</a>
+<a id='n204' href='#n204'>204</a>
+<a id='n205' href='#n205'>205</a>
+<a id='n206' href='#n206'>206</a>
+<a id='n207' href='#n207'>207</a>
+<a id='n208' href='#n208'>208</a>
+<a id='n209' href='#n209'>209</a>
+<a id='n210' href='#n210'>210</a>
+<a id='n211' href='#n211'>211</a>
+<a id='n212' href='#n212'>212</a>
+<a id='n213' href='#n213'>213</a>
+<a id='n214' href='#n214'>214</a>
+<a id='n215' href='#n215'>215</a>
+<a id='n216' href='#n216'>216</a>
+<a id='n217' href='#n217'>217</a>
+<a id='n218' href='#n218'>218</a>
+<a id='n219' href='#n219'>219</a>
+<a id='n220' href='#n220'>220</a>
+<a id='n221' href='#n221'>221</a>
+<a id='n222' href='#n222'>222</a>
+<a id='n223' href='#n223'>223</a>
+<a id='n224' href='#n224'>224</a>
+<a id='n225' href='#n225'>225</a>
+<a id='n226' href='#n226'>226</a>
+<a id='n227' href='#n227'>227</a>
+<a id='n228' href='#n228'>228</a>
+<a id='n229' href='#n229'>229</a>
+<a id='n230' href='#n230'>230</a>
+<a id='n231' href='#n231'>231</a>
+<a id='n232' href='#n232'>232</a>
+<a id='n233' href='#n233'>233</a>
+<a id='n234' href='#n234'>234</a>
+<a id='n235' href='#n235'>235</a>
+<a id='n236' href='#n236'>236</a>
+<a id='n237' href='#n237'>237</a>
+<a id='n238' href='#n238'>238</a>
+<a id='n239' href='#n239'>239</a>
+</pre></td>
+<td class='lines'><pre><code>See https://gitlab.freedesktop.org/polkit/polkit/merge_requests/10
+
+From 778bb45e0e0cbabe2b04adf67a500af1dab09768 Mon Sep 17 00:00:00 2001
+From: &quot;A. Wilcox&quot; &lt;AWilcox&#64;Wilcox-Tech.com&gt;
+Date: Wed, 11 Jul 2018 04:54:26 -0500
+Subject: [PATCH] make netgroup support optional
+
+On at least Linux/musl and Linux/uclibc, netgroup support is not
+available.  PolKit fails to compile on these systems for that reason.
+
+This change makes netgroup support conditional on the presence of the
+setnetgrent(3) function which is required for the support to work.  If
+that function is not available on the system, an error will be returned
+to the administrator if unix-netgroup: is specified in configuration.
+
+Fixes bug 50145.
+
+Closes polkit/polkit#14.
+
+Signed-off-by: A. Wilcox &lt;AWilcox&#64;Wilcox-Tech.com&gt;
+<span style="color:#000000; font-weight:bold">---</span>
+diff --git a/configure.ac b/configure.ac
+index 4ac2219..ca478df 100644
+<span style="color:#000000; font-weight:bold">--- a/configure.ac</span>
+<span style="color:#0057ae">+++ b/configure.ac</span>
+&#64;&#64; -100,7 +100,7 &#64;&#64; AC_CHECK_LIB(expat,XML_ParserCreate,[EXPAT_LIBS=&quot;-lexpat&quot;],
+ 	     [AC_MSG_ERROR([Can&#39;t find expat library. Please install expat.])])
+ AC_SUBST(EXPAT_LIBS)
+ 
+<span style="color:#000000; font-weight:bold">-AC_CHECK_FUNCS(clearenv fdatasync)</span>
+<span style="color:#0057ae">+AC_CHECK_FUNCS(clearenv fdatasync setnetgrent)</span>
+ 
+ if test &quot;x$GCC&quot; = &quot;xyes&quot;; then
+   LDFLAGS=&quot;-Wl,--as-needed $LDFLAGS&quot;
+diff --git a/src/polkit/polkitidentity.c b/src/polkit/polkitidentity.c
+index 3aa1f7f..10e9c17 100644
+<span style="color:#000000; font-weight:bold">--- a/src/polkit/polkitidentity.c</span>
+<span style="color:#0057ae">+++ b/src/polkit/polkitidentity.c</span>
+&#64;&#64; -182,7 +182,15 &#64;&#64; polkit_identity_from_string  (const gchar   *str,
+     }
+   else if (g_str_has_prefix (str, &quot;unix-netgroup:&quot;))
+     {
+<span style="color:#0057ae">+#ifndef HAVE_SETNETGRENT</span>
+<span style="color:#0057ae">+      g_set_error (error,</span>
+<span style="color:#0057ae">+                   POLKIT_ERROR,</span>
+<span style="color:#0057ae">+                   POLKIT_ERROR_FAILED,</span>
+<span style="color:#0057ae">+                   &quot;Netgroups are not available on this machine (&#39;%s&#39;)&quot;,</span>
+<span style="color:#0057ae">+                   str);</span>
+<span style="color:#0057ae">+#else</span>
+       identity = polkit_unix_netgroup_new (str + sizeof &quot;unix-netgroup:&quot; - 1);
+<span style="color:#0057ae">+#endif</span>
+     }
+ 
+   if (identity == NULL &amp;&amp; (error != NULL &amp;&amp; *error == NULL))
+&#64;&#64; -344,6 +352,13 &#64;&#64; polkit_identity_new_for_gvariant (GVariant  *variant,
+       GVariant *v;
+       const char *name;
+ 
+<span style="color:#0057ae">+#ifndef HAVE_SETNETGRENT</span>
+<span style="color:#0057ae">+      g_set_error (error,</span>
+<span style="color:#0057ae">+                   POLKIT_ERROR,</span>
+<span style="color:#0057ae">+                   POLKIT_ERROR_FAILED,</span>
+<span style="color:#0057ae">+                   &quot;Netgroups are not available on this machine&quot;);</span>
+<span style="color:#0057ae">+      goto out;</span>
+<span style="color:#0057ae">+#else</span>
+       v = lookup_asv (details_gvariant, &quot;name&quot;, G_VARIANT_TYPE_STRING, error);
+       if (v == NULL)
+         {
+&#64;&#64; -353,6 +368,7 &#64;&#64; polkit_identity_new_for_gvariant (GVariant  *variant,
+       name = g_variant_get_string (v, NULL);
+       ret = polkit_unix_netgroup_new (name);
+       g_variant_unref (v);
+<span style="color:#0057ae">+#endif</span>
+     }
+   else
+     {
+diff --git a/src/polkit/polkitunixnetgroup.c b/src/polkit/polkitunixnetgroup.c
+index 8a2b369..83f8d4a 100644
+<span style="color:#000000; font-weight:bold">--- a/src/polkit/polkitunixnetgroup.c</span>
+<span style="color:#0057ae">+++ b/src/polkit/polkitunixnetgroup.c</span>
+&#64;&#64; -194,6 +194,9 &#64;&#64; polkit_unix_netgroup_set_name (PolkitUnixNetgroup *group,
+ PolkitIdentity *
+ polkit_unix_netgroup_new (const gchar *name)
+ {
+<span style="color:#0057ae">+#ifndef HAVE_SETNETGRENT</span>
+<span style="color:#0057ae">+  g_assert_not_reached();</span>
+<span style="color:#0057ae">+#endif</span>
+   g_return_val_if_fail (name != NULL, NULL);
+   return POLKIT_IDENTITY (g_object_new (POLKIT_TYPE_UNIX_NETGROUP,
+                                        &quot;name&quot;, name,
+diff --git a/src/polkitbackend/polkitbackendinteractiveauthority.c b/src/polkitbackend/polkitbackendinteractiveauthority.c
+index 056d9a8..36c2f3d 100644
+<span style="color:#000000; font-weight:bold">--- a/src/polkitbackend/polkitbackendinteractiveauthority.c</span>
+<span style="color:#0057ae">+++ b/src/polkitbackend/polkitbackendinteractiveauthority.c</span>
+&#64;&#64; -2233,25 +2233,26 &#64;&#64; get_users_in_net_group (PolkitIdentity                    *group,
+   GList *ret;
+ 
+   ret = NULL;
+<span style="color:#0057ae">+#ifdef HAVE_SETNETGRENT</span>
+   name = polkit_unix_netgroup_get_name (POLKIT_UNIX_NETGROUP (group));
+ 
+<span style="color:#000000; font-weight:bold">-#ifdef HAVE_SETNETGRENT_RETURN</span>
+<span style="color:#0057ae">+# ifdef HAVE_SETNETGRENT_RETURN</span>
+   if (setnetgrent (name) == 0)
+     {
+       g_warning (&quot;Error looking up net group with name %s: %s&quot;, name, g_strerror (errno));
+       goto out;
+     }
+<span style="color:#000000; font-weight:bold">-#else</span>
+<span style="color:#0057ae">+# else</span>
+   setnetgrent (name);
+<span style="color:#000000; font-weight:bold">-#endif</span>
+<span style="color:#0057ae">+# endif /* HAVE_SETNETGRENT_RETURN */</span>
+ 
+   for (;;)
+     {
+<span style="color:#000000; font-weight:bold">-#if defined(HAVE_NETBSD) || defined(HAVE_OPENBSD)</span>
+<span style="color:#0057ae">+# if defined(HAVE_NETBSD) || defined(HAVE_OPENBSD)</span>
+       const char *hostname, *username, *domainname;
+<span style="color:#000000; font-weight:bold">-#else</span>
+<span style="color:#0057ae">+# else</span>
+       char *hostname, *username, *domainname;
+<span style="color:#000000; font-weight:bold">-#endif</span>
+<span style="color:#0057ae">+# endif /* defined(HAVE_NETBSD) || defined(HAVE_OPENBSD) */</span>
+       PolkitIdentity *user;
+       GError *error = NULL;
+ 
+&#64;&#64; -2282,6 +2283,7 &#64;&#64; get_users_in_net_group (PolkitIdentity                    *group,
+ 
+  out:
+   endnetgrent ();
+<span style="color:#0057ae">+#endif /* HAVE_SETNETGRENT */</span>
+   return ret;
+ }
+ 
+diff --git a/src/polkitbackend/polkitbackendjsauthority.cpp b/src/polkitbackend/polkitbackendjsauthority.cpp
+index ca17108..da95180 100644
+<span style="color:#000000; font-weight:bold">--- a/src/polkitbackend/polkitbackendjsauthority.cpp</span>
+<span style="color:#0057ae">+++ b/src/polkitbackend/polkitbackendjsauthority.cpp</span>
+&#64;&#64; -1520,6 +1520,7 &#64;&#64; js_polkit_user_is_in_netgroup (JSContext  *cx,
+ 
+   JS::CallArgs args = JS::CallArgsFromVp (argc, vp);
+ 
+<span style="color:#0057ae">+#ifdef HAVE_SETNETGRENT</span>
+   JS::RootedString usrstr (authority-&gt;priv-&gt;cx);
+   usrstr = args[0].toString();
+   user = JS_EncodeStringToUTF8 (cx, usrstr);
+&#64;&#64; -1534,6 +1535,7 &#64;&#64; js_polkit_user_is_in_netgroup (JSContext  *cx,
+     {
+       is_in_netgroup =  true;
+     }
+<span style="color:#0057ae">+ #endif</span>
+ 
+   ret = true;
+ 
+diff --git a/test/polkit/polkitidentitytest.c b/test/polkit/polkitidentitytest.c
+index e91967b..e829aaa 100644
+<span style="color:#000000; font-weight:bold">--- a/test/polkit/polkitidentitytest.c</span>
+<span style="color:#0057ae">+++ b/test/polkit/polkitidentitytest.c</span>
+<span style="color:#010181">&#64;&#64; -19,6 +19,7 &#64;&#64;</span>
+  * Author: Nikki VonHollen &lt;vonhollen&#64;google.com&gt;
+  */
+ 
+<span style="color:#0057ae">+#include &quot;config.h&quot;</span>
+ #include &quot;glib.h&quot;
+ #include &lt;polkit/polkit.h&gt;
+ #include &lt;polkit/polkitprivate.h&gt;
+&#64;&#64; -145,11 +146,15 &#64;&#64; struct ComparisonTestData comparison_test_data [] = {
+   {&quot;unix-group:root&quot;, &quot;unix-group:jane&quot;, FALSE},
+   {&quot;unix-group:jane&quot;, &quot;unix-group:jane&quot;, TRUE},
+ 
+<span style="color:#0057ae">+#ifdef HAVE_SETNETGRENT</span>
+   {&quot;unix-netgroup:foo&quot;, &quot;unix-netgroup:foo&quot;, TRUE},
+   {&quot;unix-netgroup:foo&quot;, &quot;unix-netgroup:bar&quot;, FALSE},
+<span style="color:#0057ae">+#endif</span>
+ 
+   {&quot;unix-user:root&quot;, &quot;unix-group:root&quot;, FALSE},
+<span style="color:#0057ae">+#ifdef HAVE_SETNETGRENT</span>
+   {&quot;unix-user:jane&quot;, &quot;unix-netgroup:foo&quot;, FALSE},
+<span style="color:#0057ae">+#endif</span>
+ 
+   {NULL},
+ };
+&#64;&#64; -181,11 +186,13 &#64;&#64; main (int argc, char *argv[])
+   g_test_add_data_func (&quot;/PolkitIdentity/group_string_2&quot;, &quot;unix-group:jane&quot;, test_string);
+   g_test_add_data_func (&quot;/PolkitIdentity/group_string_3&quot;, &quot;unix-group:users&quot;, test_string);
+ 
+<span style="color:#0057ae">+#ifdef HAVE_SETNETGRENT</span>
+   g_test_add_data_func (&quot;/PolkitIdentity/netgroup_string&quot;, &quot;unix-netgroup:foo&quot;, test_string);
+<span style="color:#0057ae">+  g_test_add_data_func (&quot;/PolkitIdentity/netgroup_gvariant&quot;, &quot;unix-netgroup:foo&quot;, test_gvariant);</span>
+<span style="color:#0057ae">+#endif</span>
+ 
+   g_test_add_data_func (&quot;/PolkitIdentity/user_gvariant&quot;, &quot;unix-user:root&quot;, test_gvariant);
+   g_test_add_data_func (&quot;/PolkitIdentity/group_gvariant&quot;, &quot;unix-group:root&quot;, test_gvariant);
+<span style="color:#000000; font-weight:bold">-  g_test_add_data_func (&quot;/PolkitIdentity/netgroup_gvariant&quot;, &quot;unix-netgroup:foo&quot;, test_gvariant);</span>
+ 
+   add_comparison_tests ();
+ 
+diff --git a/test/polkit/polkitunixnetgrouptest.c b/test/polkit/polkitunixnetgrouptest.c
+index 3701ba1..e3352eb 100644
+<span style="color:#000000; font-weight:bold">--- a/test/polkit/polkitunixnetgrouptest.c</span>
+<span style="color:#0057ae">+++ b/test/polkit/polkitunixnetgrouptest.c</span>
+<span style="color:#010181">&#64;&#64; -19,6 +19,7 &#64;&#64;</span>
+  * Author: Nikki VonHollen &lt;vonhollen&#64;google.com&gt;
+  */
+ 
+<span style="color:#0057ae">+#include &quot;config.h&quot;</span>
+ #include &quot;glib.h&quot;
+ #include &lt;polkit/polkit.h&gt;
+ #include &lt;string.h&gt;
+&#64;&#64; -69,7 +70,9 &#64;&#64; int
+ main (int argc, char *argv[])
+ {
+   g_test_init (&amp;argc, &amp;argv, NULL);
+<span style="color:#0057ae">+#ifdef HAVE_SETNETGRENT</span>
+   g_test_add_func (&quot;/PolkitUnixNetgroup/new&quot;, test_new);
+   g_test_add_func (&quot;/PolkitUnixNetgroup/set_name&quot;, test_set_name);
+<span style="color:#0057ae">+#endif</span>
+   return g_test_run ();
+ }
+diff --git a/test/polkitbackend/test-polkitbackendjsauthority.c b/test/polkitbackend/test-polkitbackendjsauthority.c
+index f97e0e0..fc52149 100644
+<span style="color:#000000; font-weight:bold">--- a/test/polkitbackend/test-polkitbackendjsauthority.c</span>
+<span style="color:#0057ae">+++ b/test/polkitbackend/test-polkitbackendjsauthority.c</span>
+&#64;&#64; -137,12 +137,14 &#64;&#64; test_get_admin_identities (void)
+         &quot;unix-group:users&quot;
+       }
+     },
+<span style="color:#0057ae">+#ifdef HAVE_SETNETGRENT</span>
+     {
+       &quot;net.company.action3&quot;,
+       {
+         &quot;unix-netgroup:foo&quot;
+       }
+     },
+<span style="color:#0057ae">+#endif</span>
+   };
+   guint n;
+ 
+</code></pre></td></tr></table>
+</div> <!-- class=content -->
+<div class='footer'>generated by <a href='https://git.zx2c4.com/cgit/about/'>cgit v1.2.1</a> (<a href='https://git-scm.com/'>git 2.18.0</a>) at 2022-03-14 20:59:22 +0000</div>
+</div> <!-- id=cgit -->
+</body>
+</html>

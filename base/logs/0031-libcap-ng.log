@@ -1,0 +1,53 @@
+Making check in src
+make[1]: Entering directory '/usr/oppai/base/libcap-ng-0.8.2/bld/src'
+Making check in test
+make[2]: Entering directory '/usr/oppai/base/libcap-ng-0.8.2/bld/src/test'
+make  lib_test thread_test
+make[3]: Entering directory '/usr/oppai/base/libcap-ng-0.8.2/bld/src/test'
+clang -DHAVE_CONFIG_H -I. -I../../../src/test -I../..  -I../../.. -I../../../src   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT lib_test.o -MD -MP -MF .deps/lib_test.Tpo -c -o lib_test.o ../../../src/test/lib_test.c
+clang -DHAVE_CONFIG_H -I. -I../../../src/test -I../..  -I../../.. -I../../../src   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT thread_test.o -MD -MP -MF .deps/thread_test.Tpo -c -o thread_test.o ../../../src/test/thread_test.c
+mv -f .deps/thread_test.Tpo .deps/thread_test.Po
+/bin/sh ../../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl   -o thread_test thread_test.o ../../src/libcap-ng.la -lpthread 
+mv -f .deps/lib_test.Tpo .deps/lib_test.Po
+/bin/sh ../../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl   -o lib_test lib_test.o ../../src/libcap-ng.la 
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o .libs/thread_test thread_test.o  ../../src/.libs/libcap-ng.so -lpthread
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o .libs/lib_test lib_test.o  ../../src/.libs/libcap-ng.so
+make[3]: Leaving directory '/usr/oppai/base/libcap-ng-0.8.2/bld/src/test'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/libcap-ng-0.8.2/bld/src/test'
+make[4]: Entering directory '/usr/oppai/base/libcap-ng-0.8.2/bld/src/test'
+PASS: lib_test
+PASS: thread_test
+============================================================================
+Testsuite summary for libcap-ng 0.8.2
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/libcap-ng-0.8.2/bld/src/test'
+make[3]: Leaving directory '/usr/oppai/base/libcap-ng-0.8.2/bld/src/test'
+make[2]: Leaving directory '/usr/oppai/base/libcap-ng-0.8.2/bld/src/test'
+make[2]: Entering directory '/usr/oppai/base/libcap-ng-0.8.2/bld/src'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/oppai/base/libcap-ng-0.8.2/bld/src'
+make[1]: Leaving directory '/usr/oppai/base/libcap-ng-0.8.2/bld/src'
+Making check in utils
+make[1]: Entering directory '/usr/oppai/base/libcap-ng-0.8.2/bld/utils'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/libcap-ng-0.8.2/bld/utils'
+Making check in m4
+make[1]: Entering directory '/usr/oppai/base/libcap-ng-0.8.2/bld/m4'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/libcap-ng-0.8.2/bld/m4'
+Making check in docs
+make[1]: Entering directory '/usr/oppai/base/libcap-ng-0.8.2/bld/docs'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/libcap-ng-0.8.2/bld/docs'
+make[1]: Entering directory '/usr/oppai/base/libcap-ng-0.8.2/bld'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/usr/oppai/base/libcap-ng-0.8.2/bld'

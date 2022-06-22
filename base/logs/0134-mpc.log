@@ -1,0 +1,456 @@
+Making check in src
+make[1]: Entering directory '/usr/oppai/base/mpc-1.2.1/build/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/mpc-1.2.1/build/src'
+Making check in tests
+make[1]: Entering directory '/usr/oppai/base/mpc-1.2.1/build/tests'
+make  tabs tacos tacosh tadd tadd_fr tadd_si tadd_ui targ tasin tasinh tatan tatanh tcmp_abs tconj tcos tcosh tdiv tdiv_2si tdiv_2ui tdiv_fr tdiv_ui tdot texp tfma tfr_div tfr_sub timag tio_str tlog tlog10 tmul tmul_2si tmul_2ui tmul_fr tmul_i tmul_si tmul_ui tneg tnorm tpow tpow_d tpow_fr tpow_ld tpow_si tpow_ui tpow_z tprec tproj treal treimref trootofunity tset tsin tsin_cos tsinh tsqr tsqrt tstrtoc tsub tsub_fr tsub_ui tsum tswap ttan ttanh tui_div tui_ui_sub tget_version exceptions libmpc-tests.la
+make[2]: Entering directory '/usr/oppai/base/mpc-1.2.1/build/tests'
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tabs.o -MD -MP -MF .deps/tabs.Tpo -c -o tabs.o ../../tests/tabs.c
+/bin/sh ../libtool  --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT check_data.lo -MD -MP -MF .deps/check_data.Tpo -c -o check_data.lo ../../tests/check_data.c
+/bin/sh ../libtool  --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT clear_parameters.lo -MD -MP -MF .deps/clear_parameters.Tpo -c -o clear_parameters.lo ../../tests/clear_parameters.c
+/bin/sh ../libtool  --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT close_datafile.lo -MD -MP -MF .deps/close_datafile.Tpo -c -o close_datafile.lo ../../tests/close_datafile.c
+/bin/sh ../libtool  --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT comparisons.lo -MD -MP -MF .deps/comparisons.Tpo -c -o comparisons.lo ../../tests/comparisons.c
+/bin/sh ../libtool  --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT copy_parameter.lo -MD -MP -MF .deps/copy_parameter.Tpo -c -o copy_parameter.lo ../../tests/copy_parameter.c
+/bin/sh ../libtool  --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT double_rounding.lo -MD -MP -MF .deps/double_rounding.Tpo -c -o double_rounding.lo ../../tests/double_rounding.c
+/bin/sh ../libtool  --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT init_parameters.lo -MD -MP -MF .deps/init_parameters.Tpo -c -o init_parameters.lo ../../tests/init_parameters.c
+/bin/sh ../libtool  --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT mpfr_flags.lo -MD -MP -MF .deps/mpfr_flags.Tpo -c -o mpfr_flags.lo ../../tests/mpfr_flags.c
+/bin/sh ../libtool  --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT open_datafile.lo -MD -MP -MF .deps/open_datafile.Tpo -c -o open_datafile.lo ../../tests/open_datafile.c
+/bin/sh ../libtool  --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT print_parameter.lo -MD -MP -MF .deps/print_parameter.Tpo -c -o print_parameter.lo ../../tests/print_parameter.c
+/bin/sh ../libtool  --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT random.lo -MD -MP -MF .deps/random.Tpo -c -o random.lo ../../tests/random.c
+/bin/sh ../libtool  --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT read_data.lo -MD -MP -MF .deps/read_data.Tpo -c -o read_data.lo ../../tests/read_data.c
+/bin/sh ../libtool  --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT read_description.lo -MD -MP -MF .deps/read_description.Tpo -c -o read_description.lo ../../tests/read_description.c
+/bin/sh ../libtool  --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT read_line.lo -MD -MP -MF .deps/read_line.Tpo -c -o read_line.lo ../../tests/read_line.c
+/bin/sh ../libtool  --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT rounding.lo -MD -MP -MF .deps/rounding.Tpo -c -o rounding.lo ../../tests/rounding.c
+/bin/sh ../libtool  --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT setprec_parameters.lo -MD -MP -MF .deps/setprec_parameters.Tpo -c -o setprec_parameters.lo ../../tests/setprec_parameters.c
+/bin/sh ../libtool  --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tpl_gmp.lo -MD -MP -MF .deps/tpl_gmp.Tpo -c -o tpl_gmp.lo ../../tests/tpl_gmp.c
+/bin/sh ../libtool  --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tpl_mpc.lo -MD -MP -MF .deps/tpl_mpc.Tpo -c -o tpl_mpc.lo ../../tests/tpl_mpc.c
+/bin/sh ../libtool  --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tpl_mpfr.lo -MD -MP -MF .deps/tpl_mpfr.Tpo -c -o tpl_mpfr.lo ../../tests/tpl_mpfr.c
+/bin/sh ../libtool  --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tpl_native.lo -MD -MP -MF .deps/tpl_native.Tpo -c -o tpl_native.lo ../../tests/tpl_native.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tacos.o -MD -MP -MF .deps/tacos.Tpo -c -o tacos.o ../../tests/tacos.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tacosh.o -MD -MP -MF .deps/tacosh.Tpo -c -o tacosh.o ../../tests/tacosh.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tadd.o -MD -MP -MF .deps/tadd.Tpo -c -o tadd.o ../../tests/tadd.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tadd_fr.o -MD -MP -MF .deps/tadd_fr.Tpo -c -o tadd_fr.o ../../tests/tadd_fr.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tadd_si.o -MD -MP -MF .deps/tadd_si.Tpo -c -o tadd_si.o ../../tests/tadd_si.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tadd_ui.o -MD -MP -MF .deps/tadd_ui.Tpo -c -o tadd_ui.o ../../tests/tadd_ui.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT targ.o -MD -MP -MF .deps/targ.Tpo -c -o targ.o ../../tests/targ.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tasin.o -MD -MP -MF .deps/tasin.Tpo -c -o tasin.o ../../tests/tasin.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tasinh.o -MD -MP -MF .deps/tasinh.Tpo -c -o tasinh.o ../../tests/tasinh.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tatan.o -MD -MP -MF .deps/tatan.Tpo -c -o tatan.o ../../tests/tatan.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tatanh.o -MD -MP -MF .deps/tatanh.Tpo -c -o tatanh.o ../../tests/tatanh.c
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I../../tests -I.. -I../../src -I../.. -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT clear_parameters.lo -MD -MP -MF .deps/clear_parameters.Tpo -c ../../tests/clear_parameters.c  -fPIC -DPIC -o .libs/clear_parameters.o
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I../../tests -I.. -I../../src -I../.. -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT mpfr_flags.lo -MD -MP -MF .deps/mpfr_flags.Tpo -c ../../tests/mpfr_flags.c  -fPIC -DPIC -o .libs/mpfr_flags.o
+mv -f .deps/tadd_si.Tpo .deps/tadd_si.Po
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I../../tests -I.. -I../../src -I../.. -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT close_datafile.lo -MD -MP -MF .deps/close_datafile.Tpo -c ../../tests/close_datafile.c  -fPIC -DPIC -o .libs/close_datafile.o
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I../../tests -I.. -I../../src -I../.. -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT check_data.lo -MD -MP -MF .deps/check_data.Tpo -c ../../tests/check_data.c  -fPIC -DPIC -o .libs/check_data.o
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tcmp_abs.o -MD -MP -MF .deps/tcmp_abs.Tpo -c -o tcmp_abs.o ../../tests/tcmp_abs.c
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I../../tests -I.. -I../../src -I../.. -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT copy_parameter.lo -MD -MP -MF .deps/copy_parameter.Tpo -c ../../tests/copy_parameter.c  -fPIC -DPIC -o .libs/copy_parameter.o
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I../../tests -I.. -I../../src -I../.. -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT double_rounding.lo -MD -MP -MF .deps/double_rounding.Tpo -c ../../tests/double_rounding.c  -fPIC -DPIC -o .libs/double_rounding.o
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I../../tests -I.. -I../../src -I../.. -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT read_description.lo -MD -MP -MF .deps/read_description.Tpo -c ../../tests/read_description.c  -fPIC -DPIC -o .libs/read_description.o
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I../../tests -I.. -I../../src -I../.. -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT open_datafile.lo -MD -MP -MF .deps/open_datafile.Tpo -c ../../tests/open_datafile.c  -fPIC -DPIC -o .libs/open_datafile.o
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I../../tests -I.. -I../../src -I../.. -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT comparisons.lo -MD -MP -MF .deps/comparisons.Tpo -c ../../tests/comparisons.c  -fPIC -DPIC -o .libs/comparisons.o
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I../../tests -I.. -I../../src -I../.. -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tpl_mpfr.lo -MD -MP -MF .deps/tpl_mpfr.Tpo -c ../../tests/tpl_mpfr.c  -fPIC -DPIC -o .libs/tpl_mpfr.o
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I../../tests -I.. -I../../src -I../.. -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT print_parameter.lo -MD -MP -MF .deps/print_parameter.Tpo -c ../../tests/print_parameter.c  -fPIC -DPIC -o .libs/print_parameter.o
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I../../tests -I.. -I../../src -I../.. -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tpl_gmp.lo -MD -MP -MF .deps/tpl_gmp.Tpo -c ../../tests/tpl_gmp.c  -fPIC -DPIC -o .libs/tpl_gmp.o
+mv -f .deps/tacosh.Tpo .deps/tacosh.Po
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I../../tests -I.. -I../../src -I../.. -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT read_line.lo -MD -MP -MF .deps/read_line.Tpo -c ../../tests/read_line.c  -fPIC -DPIC -o .libs/read_line.o
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tconj.o -MD -MP -MF .deps/tconj.Tpo -c -o tconj.o ../../tests/tconj.c
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I../../tests -I.. -I../../src -I../.. -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT init_parameters.lo -MD -MP -MF .deps/init_parameters.Tpo -c ../../tests/init_parameters.c  -fPIC -DPIC -o .libs/init_parameters.o
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I../../tests -I.. -I../../src -I../.. -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT random.lo -MD -MP -MF .deps/random.Tpo -c ../../tests/random.c  -fPIC -DPIC -o .libs/random.o
+mv -f .deps/targ.Tpo .deps/targ.Po
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I../../tests -I.. -I../../src -I../.. -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT setprec_parameters.lo -MD -MP -MF .deps/setprec_parameters.Tpo -c ../../tests/setprec_parameters.c  -fPIC -DPIC -o .libs/setprec_parameters.o
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I../../tests -I.. -I../../src -I../.. -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tpl_native.lo -MD -MP -MF .deps/tpl_native.Tpo -c ../../tests/tpl_native.c  -fPIC -DPIC -o .libs/tpl_native.o
+mv -f .deps/tadd_fr.Tpo .deps/tadd_fr.Po
+mv -f .deps/tasin.Tpo .deps/tasin.Po
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I../../tests -I.. -I../../src -I../.. -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT rounding.lo -MD -MP -MF .deps/rounding.Tpo -c ../../tests/rounding.c  -fPIC -DPIC -o .libs/rounding.o
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tcos.o -MD -MP -MF .deps/tcos.Tpo -c -o tcos.o ../../tests/tcos.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tcosh.o -MD -MP -MF .deps/tcosh.Tpo -c -o tcosh.o ../../tests/tcosh.c
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I../../tests -I.. -I../../src -I../.. -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tpl_mpc.lo -MD -MP -MF .deps/tpl_mpc.Tpo -c ../../tests/tpl_mpc.c  -fPIC -DPIC -o .libs/tpl_mpc.o
+mv -f .deps/close_datafile.Tpo .deps/close_datafile.Plo
+mv -f .deps/tabs.Tpo .deps/tabs.Po
+mv -f .deps/copy_parameter.Tpo .deps/copy_parameter.Plo
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I../../tests -I.. -I../../src -I../.. -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT read_data.lo -MD -MP -MF .deps/read_data.Tpo -c ../../tests/read_data.c  -fPIC -DPIC -o .libs/read_data.o
+mv -f .deps/clear_parameters.Tpo .deps/clear_parameters.Plo
+mv -f .deps/mpfr_flags.Tpo .deps/mpfr_flags.Plo
+mv -f .deps/tacos.Tpo .deps/tacos.Po
+mv -f .deps/tadd.Tpo .deps/tadd.Po
+mv -f .deps/tadd_ui.Tpo .deps/tadd_ui.Po
+mv -f .deps/tasinh.Tpo .deps/tasinh.Po
+mv -f .deps/tcmp_abs.Tpo .deps/tcmp_abs.Po
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tdiv.o -MD -MP -MF .deps/tdiv.Tpo -c -o tdiv.o ../../tests/tdiv.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tdiv_2si.o -MD -MP -MF .deps/tdiv_2si.Tpo -c -o tdiv_2si.o ../../tests/tdiv_2si.c
+mv -f .deps/tatan.Tpo .deps/tatan.Po
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tdiv_2ui.o -MD -MP -MF .deps/tdiv_2ui.Tpo -c -o tdiv_2ui.o ../../tests/tdiv_2ui.c
+mv -f .deps/init_parameters.Tpo .deps/init_parameters.Plo
+mv -f .deps/open_datafile.Tpo .deps/open_datafile.Plo
+mv -f .deps/check_data.Tpo .deps/check_data.Plo
+mv -f .deps/comparisons.Tpo .deps/comparisons.Plo
+mv -f .deps/print_parameter.Tpo .deps/print_parameter.Plo
+mv -f .deps/read_description.Tpo .deps/read_description.Plo
+mv -f .deps/tpl_gmp.Tpo .deps/tpl_gmp.Plo
+mv -f .deps/tpl_mpfr.Tpo .deps/tpl_mpfr.Plo
+mv -f .deps/tpl_native.Tpo .deps/tpl_native.Plo
+mv -f .deps/tatanh.Tpo .deps/tatanh.Po
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tdiv_fr.o -MD -MP -MF .deps/tdiv_fr.Tpo -c -o tdiv_fr.o ../../tests/tdiv_fr.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tdiv_ui.o -MD -MP -MF .deps/tdiv_ui.Tpo -c -o tdiv_ui.o ../../tests/tdiv_ui.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tdot.o -MD -MP -MF .deps/tdot.Tpo -c -o tdot.o ../../tests/tdot.c
+mv -f .deps/double_rounding.Tpo .deps/double_rounding.Plo
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT texp.o -MD -MP -MF .deps/texp.Tpo -c -o texp.o ../../tests/texp.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tfma.o -MD -MP -MF .deps/tfma.Tpo -c -o tfma.o ../../tests/tfma.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tfr_div.o -MD -MP -MF .deps/tfr_div.Tpo -c -o tfr_div.o ../../tests/tfr_div.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tfr_sub.o -MD -MP -MF .deps/tfr_sub.Tpo -c -o tfr_sub.o ../../tests/tfr_sub.c
+mv -f .deps/setprec_parameters.Tpo .deps/setprec_parameters.Plo
+mv -f .deps/read_line.Tpo .deps/read_line.Plo
+mv -f .deps/tpl_mpc.Tpo .deps/tpl_mpc.Plo
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT timag.o -MD -MP -MF .deps/timag.Tpo -c -o timag.o ../../tests/timag.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tio_str.o -MD -MP -MF .deps/tio_str.Tpo -c -o tio_str.o ../../tests/tio_str.c
+mv -f .deps/rounding.Tpo .deps/rounding.Plo
+mv -f .deps/tconj.Tpo .deps/tconj.Po
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tlog.o -MD -MP -MF .deps/tlog.Tpo -c -o tlog.o ../../tests/tlog.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tlog10.o -MD -MP -MF .deps/tlog10.Tpo -c -o tlog10.o ../../tests/tlog10.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tmul.o -MD -MP -MF .deps/tmul.Tpo -c -o tmul.o ../../tests/tmul.c
+mv -f .deps/random.Tpo .deps/random.Plo
+mv -f .deps/tcos.Tpo .deps/tcos.Po
+mv -f .deps/tdiv.Tpo .deps/tdiv.Po
+mv -f .deps/tdiv_2si.Tpo .deps/tdiv_2si.Po
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tmul_2si.o -MD -MP -MF .deps/tmul_2si.Tpo -c -o tmul_2si.o ../../tests/tmul_2si.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tmul_2ui.o -MD -MP -MF .deps/tmul_2ui.Tpo -c -o tmul_2ui.o ../../tests/tmul_2ui.c
+mv -f .deps/read_data.Tpo .deps/read_data.Plo
+mv -f .deps/tdot.Tpo .deps/tdot.Po
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tmul_fr.o -MD -MP -MF .deps/tmul_fr.Tpo -c -o tmul_fr.o ../../tests/tmul_fr.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tmul_i.o -MD -MP -MF .deps/tmul_i.Tpo -c -o tmul_i.o ../../tests/tmul_i.c
+mv -f .deps/tdiv_2ui.Tpo .deps/tdiv_2ui.Po
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tmul_si.o -MD -MP -MF .deps/tmul_si.Tpo -c -o tmul_si.o ../../tests/tmul_si.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tmul_ui.o -MD -MP -MF .deps/tmul_ui.Tpo -c -o tmul_ui.o ../../tests/tmul_ui.c
+mv -f .deps/tcosh.Tpo .deps/tcosh.Po
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tneg.o -MD -MP -MF .deps/tneg.Tpo -c -o tneg.o ../../tests/tneg.c
+mv -f .deps/tdiv_fr.Tpo .deps/tdiv_fr.Po
+mv -f .deps/tdiv_ui.Tpo .deps/tdiv_ui.Po
+mv -f .deps/texp.Tpo .deps/texp.Po
+mv -f .deps/tfr_div.Tpo .deps/tfr_div.Po
+mv -f .deps/tfr_sub.Tpo .deps/tfr_sub.Po
+mv -f .deps/timag.Tpo .deps/timag.Po
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tnorm.o -MD -MP -MF .deps/tnorm.Tpo -c -o tnorm.o ../../tests/tnorm.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tpow.o -MD -MP -MF .deps/tpow.Tpo -c -o tpow.o ../../tests/tpow.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tpow_d.o -MD -MP -MF .deps/tpow_d.Tpo -c -o tpow_d.o ../../tests/tpow_d.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tpow_fr.o -MD -MP -MF .deps/tpow_fr.Tpo -c -o tpow_fr.o ../../tests/tpow_fr.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tpow_ld.o -MD -MP -MF .deps/tpow_ld.Tpo -c -o tpow_ld.o ../../tests/tpow_ld.c
+mv -f .deps/tlog.Tpo .deps/tlog.Po
+mv -f .deps/tio_str.Tpo .deps/tio_str.Po
+mv -f .deps/tfma.Tpo .deps/tfma.Po
+mv -f .deps/tlog10.Tpo .deps/tlog10.Po
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tpow_si.o -MD -MP -MF .deps/tpow_si.Tpo -c -o tpow_si.o ../../tests/tpow_si.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tpow_ui.o -MD -MP -MF .deps/tpow_ui.Tpo -c -o tpow_ui.o ../../tests/tpow_ui.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tpow_z.o -MD -MP -MF .deps/tpow_z.Tpo -c -o tpow_z.o ../../tests/tpow_z.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tprec.o -MD -MP -MF .deps/tprec.Tpo -c -o tprec.o ../../tests/tprec.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tproj.o -MD -MP -MF .deps/tproj.Tpo -c -o tproj.o ../../tests/tproj.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT treal.o -MD -MP -MF .deps/treal.Tpo -c -o treal.o ../../tests/treal.c
+mv -f .deps/tmul_2si.Tpo .deps/tmul_2si.Po
+mv -f .deps/tmul_2ui.Tpo .deps/tmul_2ui.Po
+mv -f .deps/tmul_fr.Tpo .deps/tmul_fr.Po
+mv -f .deps/tpow_ld.Tpo .deps/tpow_ld.Po
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT treimref.o -MD -MP -MF .deps/treimref.Tpo -c -o treimref.o ../../tests/treimref.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT trootofunity.o -MD -MP -MF .deps/trootofunity.Tpo -c -o trootofunity.o ../../tests/trootofunity.c
+mv -f .deps/tmul.Tpo .deps/tmul.Po
+mv -f .deps/tmul_ui.Tpo .deps/tmul_ui.Po
+mv -f .deps/tmul_i.Tpo .deps/tmul_i.Po
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tset.o -MD -MP -MF .deps/tset.Tpo -c -o tset.o ../../tests/tset.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tsin.o -MD -MP -MF .deps/tsin.Tpo -c -o tsin.o ../../tests/tsin.c
+mv -f .deps/tprec.Tpo .deps/tprec.Po
+mv -f .deps/tmul_si.Tpo .deps/tmul_si.Po
+mv -f .deps/tpow_d.Tpo .deps/tpow_d.Po
+mv -f .deps/tpow_si.Tpo .deps/tpow_si.Po
+mv -f .deps/tneg.Tpo .deps/tneg.Po
+mv -f .deps/tpow_z.Tpo .deps/tpow_z.Po
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tsin_cos.o -MD -MP -MF .deps/tsin_cos.Tpo -c -o tsin_cos.o ../../tests/tsin_cos.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tsinh.o -MD -MP -MF .deps/tsinh.Tpo -c -o tsinh.o ../../tests/tsinh.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tsqr.o -MD -MP -MF .deps/tsqr.Tpo -c -o tsqr.o ../../tests/tsqr.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tsqrt.o -MD -MP -MF .deps/tsqrt.Tpo -c -o tsqrt.o ../../tests/tsqrt.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tstrtoc.o -MD -MP -MF .deps/tstrtoc.Tpo -c -o tstrtoc.o ../../tests/tstrtoc.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tsub.o -MD -MP -MF .deps/tsub.Tpo -c -o tsub.o ../../tests/tsub.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tsub_fr.o -MD -MP -MF .deps/tsub_fr.Tpo -c -o tsub_fr.o ../../tests/tsub_fr.c
+mv -f .deps/tnorm.Tpo .deps/tnorm.Po
+mv -f .deps/tpow.Tpo .deps/tpow.Po
+mv -f .deps/tpow_fr.Tpo .deps/tpow_fr.Po
+mv -f .deps/tpow_ui.Tpo .deps/tpow_ui.Po
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tsub_ui.o -MD -MP -MF .deps/tsub_ui.Tpo -c -o tsub_ui.o ../../tests/tsub_ui.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tsum.o -MD -MP -MF .deps/tsum.Tpo -c -o tsum.o ../../tests/tsum.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tswap.o -MD -MP -MF .deps/tswap.Tpo -c -o tswap.o ../../tests/tswap.c
+mv -f .deps/treimref.Tpo .deps/treimref.Po
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT ttan.o -MD -MP -MF .deps/ttan.Tpo -c -o ttan.o ../../tests/ttan.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT ttanh.o -MD -MP -MF .deps/ttanh.Tpo -c -o ttanh.o ../../tests/ttanh.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tui_div.o -MD -MP -MF .deps/tui_div.Tpo -c -o tui_div.o ../../tests/tui_div.c
+mv -f .deps/tproj.Tpo .deps/tproj.Po
+mv -f .deps/treal.Tpo .deps/treal.Po
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tui_ui_sub.o -MD -MP -MF .deps/tui_ui_sub.Tpo -c -o tui_ui_sub.o ../../tests/tui_ui_sub.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tget_version.o -MD -MP -MF .deps/tget_version.Tpo -c -o tget_version.o ../../tests/tget_version.c
+mv -f .deps/tsum.Tpo .deps/tsum.Po
+mv -f .deps/trootofunity.Tpo .deps/trootofunity.Po
+mv -f .deps/tstrtoc.Tpo .deps/tstrtoc.Po
+mv -f .deps/tswap.Tpo .deps/tswap.Po
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../src -I../..   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT exceptions.o -MD -MP -MF .deps/exceptions.Tpo -c -o exceptions.o ../../tests/exceptions.c
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o libmpc-tests.la  check_data.lo clear_parameters.lo close_datafile.lo comparisons.lo copy_parameter.lo double_rounding.lo init_parameters.lo mpfr_flags.lo open_datafile.lo print_parameter.lo random.lo read_data.lo read_description.lo read_line.lo rounding.lo setprec_parameters.lo tpl_gmp.lo tpl_mpc.lo tpl_mpfr.lo tpl_native.lo  -lmpfr -lgmp 
+mv -f .deps/tsin.Tpo .deps/tsin.Po
+mv -f .deps/tsin_cos.Tpo .deps/tsin_cos.Po
+mv -f .deps/tsinh.Tpo .deps/tsinh.Po
+mv -f .deps/tsub_fr.Tpo .deps/tsub_fr.Po
+mv -f .deps/tsqrt.Tpo .deps/tsqrt.Po
+mv -f .deps/tsub_ui.Tpo .deps/tsub_ui.Po
+mv -f .deps/tsub.Tpo .deps/tsub.Po
+mv -f .deps/tsqr.Tpo .deps/tsqr.Po
+mv -f .deps/tget_version.Tpo .deps/tget_version.Po
+mv -f .deps/tui_ui_sub.Tpo .deps/tui_ui_sub.Po
+mv -f .deps/exceptions.Tpo .deps/exceptions.Po
+mv -f .deps/ttanh.Tpo .deps/ttanh.Po
+mv -f .deps/tui_div.Tpo .deps/tui_div.Po
+mv -f .deps/ttan.Tpo .deps/ttan.Po
+mv -f .deps/tset.Tpo .deps/tset.Po
+libtool: link: ar cru .libs/libmpc-tests.a .libs/check_data.o .libs/clear_parameters.o .libs/close_datafile.o .libs/comparisons.o .libs/copy_parameter.o .libs/double_rounding.o .libs/init_parameters.o .libs/mpfr_flags.o .libs/open_datafile.o .libs/print_parameter.o .libs/random.o .libs/read_data.o .libs/read_description.o .libs/read_line.o .libs/rounding.o .libs/setprec_parameters.o .libs/tpl_gmp.o .libs/tpl_mpc.o .libs/tpl_mpfr.o .libs/tpl_native.o 
+libtool: link: ranlib .libs/libmpc-tests.a
+libtool: link: ( cd ".libs" && rm -f "libmpc-tests.la" && ln -s "../libmpc-tests.la" "libmpc-tests.la" )
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tabs tabs.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tacos tacos.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tacosh tacosh.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tadd tadd.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tadd_fr tadd_fr.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tadd_si tadd_si.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tadd_ui tadd_ui.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o targ targ.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tasin tasin.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tasinh tasinh.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tatan tatan.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tatanh tatanh.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tcmp_abs tcmp_abs.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tconj tconj.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tcosh tcosh.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tcos tcos.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tdiv tdiv.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tdiv_2si tdiv_2si.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tdiv_2ui tdiv_2ui.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tdiv_fr tdiv_fr.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tdiv_ui tdiv_ui.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tdot tdot.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o texp texp.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tfma tfma.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tfr_div tfr_div.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tfr_sub tfr_sub.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o timag timag.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tio_str tio_str.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tlog tlog.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tlog10 tlog10.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tmul tmul.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tmul_2si tmul_2si.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tacos tacos.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tadd_ui tadd_ui.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o targ targ.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tabs tabs.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tcosh tcosh.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tasinh tasinh.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tasin tasin.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tadd tadd.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tatan tatan.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tcmp_abs tcmp_abs.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tacosh tacosh.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tadd_fr tadd_fr.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tadd_si tadd_si.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tdiv_ui tdiv_ui.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tcos tcos.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tdiv_2si tdiv_2si.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tmul_2ui tmul_2ui.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tdiv_2ui tdiv_2ui.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tmul_fr tmul_fr.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tatanh tatanh.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o texp texp.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tdot tdot.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tconj tconj.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tdiv tdiv.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tdiv_fr tdiv_fr.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tfr_sub tfr_sub.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tmul_i tmul_i.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tmul_si tmul_si.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tmul_ui tmul_ui.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tneg tneg.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tfma tfma.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tnorm tnorm.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tpow tpow.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tpow_d tpow_d.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tpow_fr tpow_fr.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tio_str tio_str.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tpow_ld tpow_ld.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tfr_div tfr_div.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tpow_si tpow_si.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tpow_ui tpow_ui.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tpow_z tpow_z.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tprec tprec.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tproj tproj.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o timag timag.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tlog tlog.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o treal treal.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tmul tmul.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tmul_2si tmul_2si.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tlog10 tlog10.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o treimref treimref.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o trootofunity trootofunity.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tset tset.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tsin tsin.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tsin_cos tsin_cos.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tsinh tsinh.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tsqr tsqr.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tsqrt tsqrt.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tstrtoc tstrtoc.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tsub tsub.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tsub_fr tsub_fr.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tsub_ui tsub_ui.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tsum tsum.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tswap tswap.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tmul_2ui tmul_2ui.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o ttan ttan.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tmul_fr tmul_fr.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tpow_ui tpow_ui.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tpow_fr tpow_fr.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o ttanh ttanh.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tmul_si tmul_si.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tpow tpow.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tpow_ld tpow_ld.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tneg tneg.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tui_div tui_div.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tmul_ui tmul_ui.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tpow_d tpow_d.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tmul_i tmul_i.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tnorm tnorm.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tproj tproj.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o treimref treimref.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tui_ui_sub tui_ui_sub.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tpow_si tpow_si.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tsin tsin.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+make[2]: 'libmpc-tests.la' is up to date.
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o tget_version tget_version.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o trootofunity trootofunity.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-install -L../src/.libs  -o exceptions exceptions.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp 
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tprec tprec.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tset tset.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tpow_z tpow_z.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o treal treal.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tsqr tsqr.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tsqrt tsqrt.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tsub tsub.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tsinh tsinh.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tsub_fr tsub_fr.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tstrtoc tstrtoc.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tsub_ui tsub_ui.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tsin_cos tsin_cos.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o ttan ttan.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tsum tsum.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tswap tswap.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o ttanh ttanh.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tui_div tui_div.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tui_ui_sub tui_ui_sub.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o exceptions exceptions.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o tget_version tget_version.o  -L../src/.libs ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -Wl,-rpath -Wl,/usr/oppai/base/mpc-1.2.1/build/src/.libs
+make[2]: Leaving directory '/usr/oppai/base/mpc-1.2.1/build/tests'
+make  check-TESTS
+make[2]: Entering directory '/usr/oppai/base/mpc-1.2.1/build/tests'
+make[3]: Entering directory '/usr/oppai/base/mpc-1.2.1/build/tests'
+PASS: tadd_fr
+PASS: tcmp_abs
+PASS: tadd
+PASS: tadd_si
+PASS: tadd_ui
+PASS: tdot
+PASS: tconj
+PASS: tdiv_fr
+PASS: tfr_sub
+PASS: tabs
+PASS: tdiv_ui
+PASS: timag
+PASS: tdiv
+PASS: targ
+PASS: tio_str
+PASS: tmul
+PASS: tcosh
+PASS: tfr_div
+PASS: tmul_fr
+PASS: tneg
+PASS: tmul_i
+PASS: tmul_si
+PASS: tmul_ui
+PASS: tpow_ld
+PASS: tlog
+PASS: tproj
+PASS: tpow_z
+PASS: treal
+PASS: tcos
+PASS: tprec
+PASS: treimref
+PASS: tnorm
+PASS: tset
+PASS: tstrtoc
+PASS: tsub_fr
+PASS: tsub
+PASS: tsub_ui
+PASS: tfma
+PASS: tswap
+PASS: tlog10
+PASS: texp
+PASS: tsum
+PASS: tsqrt
+PASS: tsqr
+PASS: tui_ui_sub
+PASS: tget_version
+PASS: tsin
+PASS: tui_div
+PASS: tsinh
+PASS: tmul_2si
+PASS: tdiv_2si
+PASS: exceptions
+PASS: tasinh
+PASS: ttan
+PASS: ttanh
+PASS: tacos
+PASS: tasin
+PASS: tacosh
+PASS: tpow_ui
+PASS: tdiv_2ui
+PASS: tpow_si
+PASS: tatanh
+PASS: tatan
+PASS: tmul_2ui
+PASS: tsin_cos
+PASS: trootofunity
+PASS: tpow_d
+PASS: tpow_fr
+PASS: tpow
+============================================================================
+Testsuite summary for mpc 1.2.1
+============================================================================
+# TOTAL: 69
+# PASS:  69
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/usr/oppai/base/mpc-1.2.1/build/tests'
+make[2]: Leaving directory '/usr/oppai/base/mpc-1.2.1/build/tests'
+make[1]: Leaving directory '/usr/oppai/base/mpc-1.2.1/build/tests'
+Making check in doc
+make[1]: Entering directory '/usr/oppai/base/mpc-1.2.1/build/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/mpc-1.2.1/build/doc'
+Making check in tools
+make[1]: Entering directory '/usr/oppai/base/mpc-1.2.1/build/tools'
+Making check in bench
+make[2]: Entering directory '/usr/oppai/base/mpc-1.2.1/build/tools/bench'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/mpc-1.2.1/build/tools/bench'
+Making check in mpcheck
+make[2]: Entering directory '/usr/oppai/base/mpc-1.2.1/build/tools/mpcheck'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/mpc-1.2.1/build/tools/mpcheck'
+make[2]: Entering directory '/usr/oppai/base/mpc-1.2.1/build/tools'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/oppai/base/mpc-1.2.1/build/tools'
+make[1]: Leaving directory '/usr/oppai/base/mpc-1.2.1/build/tools'
+make[1]: Entering directory '/usr/oppai/base/mpc-1.2.1/build'
+make[1]: Leaving directory '/usr/oppai/base/mpc-1.2.1/build'

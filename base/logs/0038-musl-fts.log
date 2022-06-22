@@ -1,0 +1,11 @@
+/bin/sh ./libtool  --tag=CC   --mode=compile clang -DHAVE_CONFIG_H -I. -I..     -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT fts.lo -MD -MP -MF .deps/fts.Tpo -c -o fts.lo ../fts.c
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I.. -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT fts.lo -MD -MP -MF .deps/fts.Tpo -c ../fts.c  -fPIC -DPIC -o .libs/fts.o
+libtool: compile:  clang -DHAVE_CONFIG_H -I. -I.. -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT fts.lo -MD -MP -MF .deps/fts.Tpo -c ../fts.c -o fts.o >/dev/null 2>&1
+mv -f .deps/fts.Tpo .deps/fts.Plo
+/bin/sh ./libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl   -o libfts.la -rpath /usr/lib fts.lo  
+libtool: link: clang -shared  -fPIC -DPIC  .libs/fts.o    -march=znver1 -O2 -stdlib=libc++   -Wl,-soname -Wl,libfts.so.0 -o .libs/libfts.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libfts.so.0" && ln -s "libfts.so.0.0.0" "libfts.so.0")
+libtool: link: (cd ".libs" && rm -f "libfts.so" && ln -s "libfts.so.0.0.0" "libfts.so")
+libtool: link: ar cru .libs/libfts.a  fts.o
+libtool: link: ranlib .libs/libfts.a
+libtool: link: ( cd ".libs" && rm -f "libfts.la" && ln -s "../libfts.la" "libfts.la" )

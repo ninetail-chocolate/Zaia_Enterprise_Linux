@@ -1,0 +1,81 @@
+  GEN      public-submodule-commit
+make  check-recursive
+make[1]: Entering directory '/usr/oppai/base/patch-2.7.6/build'
+Making check in lib
+make[2]: Entering directory '/usr/oppai/base/patch-2.7.6/build/lib'
+make  check-am
+make[3]: Entering directory '/usr/oppai/base/patch-2.7.6/build/lib'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/oppai/base/patch-2.7.6/build/lib'
+make[2]: Leaving directory '/usr/oppai/base/patch-2.7.6/build/lib'
+Making check in src
+make[2]: Entering directory '/usr/oppai/base/patch-2.7.6/build/src'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/patch-2.7.6/build/src'
+Making check in tests
+make[2]: Entering directory '/usr/oppai/base/patch-2.7.6/build/tests'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/patch-2.7.6/build/tests'
+make[4]: Entering directory '/usr/oppai/base/patch-2.7.6/build/tests'
+PASS: bad-usage
+PASS: corrupt-patch
+PASS: git-binary-diff
+PASS: filename-choice
+PASS: garbage
+PASS: create-directory
+PASS: false-match
+PASS: corrupt-reject-files
+XFAIL: context-format
+PASS: mangled-numbers-abort
+PASS: concat-git-diff
+XFAIL: dash-o-append
+PASS: file-create-modes
+PASS: fifo
+PASS: criss-cross
+PASS: no-mode-change-git-diff
+PASS: file-modes
+PASS: deep-directories
+PASS: mixed-patch-types
+PASS: munged-context-format
+PASS: empty-files
+PASS: asymmetric-hunks
+PASS: line-numbers
+PASS: inname
+PASS: git-cleanup
+PASS: no-newline-triggers-assert
+PASS: global-reject-files
+PASS: preserve-c-function-names
+PASS: bad-filenames
+PASS: quoted-filenames
+SKIP: read-only-files
+PASS: remember-reject-files
+PASS: remove-directories
+PASS: need-filename
+PASS: unmodified-files
+PASS: copy-rename
+PASS: remember-backup-files
+PASS: backup-prefix-suffix
+PASS: preserve-mode-and-timestamp
+PASS: reject-format
+PASS: create-delete
+PASS: crlf-handling
+PASS: symlinks
+PASS: merge
+============================================================================
+Testsuite summary for GNU patch 2.7.6
+============================================================================
+# TOTAL: 44
+# PASS:  41
+# SKIP:  1
+# XFAIL: 2
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/patch-2.7.6/build/tests'
+make[3]: Leaving directory '/usr/oppai/base/patch-2.7.6/build/tests'
+make[2]: Leaving directory '/usr/oppai/base/patch-2.7.6/build/tests'
+make[2]: Entering directory '/usr/oppai/base/patch-2.7.6/build'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/oppai/base/patch-2.7.6/build'
+make[1]: Leaving directory '/usr/oppai/base/patch-2.7.6/build'

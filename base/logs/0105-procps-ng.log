@@ -1,0 +1,56 @@
+make  check-recursive
+make[1]: Entering directory '/usr/oppai/base/procps-3.3.17/build'
+Making check in include
+make[2]: Entering directory '/usr/oppai/base/procps-3.3.17/build/include'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/procps-3.3.17/build/include'
+Making check in man-po
+make[2]: Entering directory '/usr/oppai/base/procps-3.3.17/build/man-po'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/procps-3.3.17/build/man-po'
+Making check in po
+make[2]: Entering directory '/usr/oppai/base/procps-3.3.17/build/po'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/procps-3.3.17/build/po'
+Making check in testsuite
+make[2]: Entering directory '/usr/oppai/base/procps-3.3.17/build/testsuite'
+make  check-DEJAGNU
+make[3]: Entering directory '/usr/oppai/base/procps-3.3.17/build/testsuite'
+Making a new site.exp file ...
+srcdir='../../testsuite'; export srcdir; \
+EXPECT=expect; export EXPECT; \
+if /bin/sh -c "runtest --version" > /dev/null 2>&1; then \
+  exit_status=0; l='   '; for tool in $l; do \
+    if runtest --tool $tool --srcdir $srcdir  ; \
+    then :; else exit_status=1; fi; \
+  done; \
+else echo "WARNING: could not find 'runtest'" 1>&2; :;\
+fi; \
+exit $exit_status
+make[3]: Leaving directory '/usr/oppai/base/procps-3.3.17/build/testsuite'
+make[2]: Leaving directory '/usr/oppai/base/procps-3.3.17/build/testsuite'
+make[2]: Entering directory '/usr/oppai/base/procps-3.3.17/build'
+make  lib/test_strtod_nol
+make[3]: Entering directory '/usr/oppai/base/procps-3.3.17/build'
+  CC       lib/test_strtod_nol.o
+  CCLD     lib/test_strtod_nol
+make[3]: Leaving directory '/usr/oppai/base/procps-3.3.17/build'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/procps-3.3.17/build'
+make[4]: Entering directory '/usr/oppai/base/procps-3.3.17/build'
+PASS: lib/test_strtod_nol
+============================================================================
+Testsuite summary for procps-ng 3.3.17
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/procps-3.3.17/build'
+make[3]: Leaving directory '/usr/oppai/base/procps-3.3.17/build'
+make[2]: Leaving directory '/usr/oppai/base/procps-3.3.17/build'
+make[1]: Leaving directory '/usr/oppai/base/procps-3.3.17/build'

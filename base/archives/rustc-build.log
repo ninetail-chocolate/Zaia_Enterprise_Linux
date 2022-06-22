@@ -1,0 +1,144 @@
+patching file compiler/rustc_target/src/spec/aarch64_zel_linux_musl.rs
+patching file compiler/rustc_target/src/spec/armv6_zel_linux_musleabihf.rs
+patching file compiler/rustc_target/src/spec/armv7_zel_linux_musleabihf.rs
+patching file compiler/rustc_target/src/spec/i586_zel_linux_musl.rs
+patching file compiler/rustc_target/src/spec/mod.rs
+Hunk #1 succeeded at 799 (offset 309 lines).
+patching file compiler/rustc_target/src/spec/powerpc64_zel_linux_musl.rs
+patching file compiler/rustc_target/src/spec/powerpc64le_zel_linux_musl.rs
+patching file compiler/rustc_target/src/spec/powerpc_zel_linux_musl.rs
+patching file compiler/rustc_target/src/spec/s390x_zel_linux_musl.rs
+patching file compiler/rustc_target/src/spec/x86_64_zel_linux_musl.rs
+patching file compiler/rustc_target/src/spec/riscv64_zel_linux_musl.rs
+downloading https://static.rust-lang.org/dist/2022-01-13/rust-std-1.58.0-x86_64-unknown-linux-musl.tar.xz
+extracting /usr/oppai/base/rustc-1.59.0-src/build/cache/2022-01-13/rust-std-1.58.0-x86_64-unknown-linux-musl.tar.xz
+downloading https://static.rust-lang.org/dist/2022-01-13/rustc-1.58.0-x86_64-unknown-linux-musl.tar.xz
+extracting /usr/oppai/base/rustc-1.59.0-src/build/cache/2022-01-13/rustc-1.58.0-x86_64-unknown-linux-musl.tar.xz
+downloading https://static.rust-lang.org/dist/2022-01-13/cargo-1.58.0-x86_64-unknown-linux-musl.tar.xz
+extracting /usr/oppai/base/rustc-1.59.0-src/build/cache/2022-01-13/cargo-1.58.0-x86_64-unknown-linux-musl.tar.xz
+Building rustbuild
+warning: x.py has made several changes recently you may want to look at
+help: consider looking at the changes in `src/bootstrap/CHANGELOG.md`
+note: to silence this warning, add `changelog-seen = 2` at the top of `config.toml`
+Building crtbegin.o and crtend.o
+running: "/usr/bin/clang" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "--target=x86_64-unknown-linux-musl" "-std=c11" "-DCRT_HAS_INITFINI_ARRAY" "-DEH_USE_FRAME_REGISTRY" "-o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-unknown-linux-musl/native/crt/crtbegin.o" "-c" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/compiler-rt/lib/crt/crtbegin.c"
+exit status: 0
+running: "/usr/bin/clang" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "--target=x86_64-unknown-linux-musl" "-std=c11" "-DCRT_HAS_INITFINI_ARRAY" "-DEH_USE_FRAME_REGISTRY" "-o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-unknown-linux-musl/native/crt/crtend.o" "-c" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/compiler-rt/lib/crt/crtend.c"
+exit status: 0
+running: "ar" "cq" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-unknown-linux-musl/native/crt/libcrt.a" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-unknown-linux-musl/native/crt/crtbegin.o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-unknown-linux-musl/native/crt/crtend.o"
+exit status: 0
+running: "ar" "s" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-unknown-linux-musl/native/crt/libcrt.a"
+exit status: 0
+Building libunwind.a for x86_64-unknown-linux-musl
+CXX_x86_64-unknown-linux-musl = None
+CXX_x86_64_unknown_linux_musl = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-musl = None
+CXXFLAGS_x86_64_unknown_linux_musl = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = None
+running: "/usr/bin/clang++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "--target=x86_64-unknown-linux-musl" "-I" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/libunwind/include" "-nostdinc++" "-fno-exceptions" "-fno-rtti" "-fstrict-aliasing" "-funwind-tables" "-fvisibility=hidden" "-fvisibility-global-new-delete-hidden" "-D_LIBUNWIND_DISABLE_VISIBILITY_ANNOTATIONS" "-o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-unknown-linux-musl/native/libunwind/Unwind-EHABI.o" "-c" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/libunwind/src/Unwind-EHABI.cpp"
+exit status: 0
+running: "/usr/bin/clang++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "--target=x86_64-unknown-linux-musl" "-I" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/libunwind/include" "-nostdinc++" "-fno-exceptions" "-fno-rtti" "-fstrict-aliasing" "-funwind-tables" "-fvisibility=hidden" "-fvisibility-global-new-delete-hidden" "-D_LIBUNWIND_DISABLE_VISIBILITY_ANNOTATIONS" "-o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-unknown-linux-musl/native/libunwind/Unwind-seh.o" "-c" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/libunwind/src/Unwind-seh.cpp"
+exit status: 0
+running: "/usr/bin/clang++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "--target=x86_64-unknown-linux-musl" "-I" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/libunwind/include" "-nostdinc++" "-fno-exceptions" "-fno-rtti" "-fstrict-aliasing" "-funwind-tables" "-fvisibility=hidden" "-fvisibility-global-new-delete-hidden" "-D_LIBUNWIND_DISABLE_VISIBILITY_ANNOTATIONS" "-o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-unknown-linux-musl/native/libunwind/libunwind.o" "-c" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/libunwind/src/libunwind.cpp"
+exit status: 0
+running: "ar" "cq" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-unknown-linux-musl/native/libunwind/libunwind-cpp.a" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-unknown-linux-musl/native/libunwind/Unwind-EHABI.o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-unknown-linux-musl/native/libunwind/Unwind-seh.o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-unknown-linux-musl/native/libunwind/libunwind.o"
+exit status: 0
+running: "ar" "s" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-unknown-linux-musl/native/libunwind/libunwind-cpp.a"
+exit status: 0
+running: "/usr/bin/clang" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "--target=x86_64-unknown-linux-musl" "-I" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/libunwind/include" "-fstrict-aliasing" "-funwind-tables" "-fvisibility=hidden" "-D_LIBUNWIND_DISABLE_VISIBILITY_ANNOTATIONS" "-o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-unknown-linux-musl/native/libunwind/Unwind-sjlj.o" "-c" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/libunwind/src/Unwind-sjlj.c"
+exit status: 0
+running: "/usr/bin/clang" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "--target=x86_64-unknown-linux-musl" "-I" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/libunwind/include" "-fstrict-aliasing" "-funwind-tables" "-fvisibility=hidden" "-D_LIBUNWIND_DISABLE_VISIBILITY_ANNOTATIONS" "-o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-unknown-linux-musl/native/libunwind/UnwindLevel1-gcc-ext.o" "-c" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/libunwind/src/UnwindLevel1-gcc-ext.c"
+exit status: 0
+running: "/usr/bin/clang" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "--target=x86_64-unknown-linux-musl" "-I" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/libunwind/include" "-fstrict-aliasing" "-funwind-tables" "-fvisibility=hidden" "-D_LIBUNWIND_DISABLE_VISIBILITY_ANNOTATIONS" "-o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-unknown-linux-musl/native/libunwind/UnwindLevel1.o" "-c" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/libunwind/src/UnwindLevel1.c"
+exit status: 0
+running: "/usr/bin/clang" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "--target=x86_64-unknown-linux-musl" "-I" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/libunwind/include" "-fstrict-aliasing" "-funwind-tables" "-fvisibility=hidden" "-D_LIBUNWIND_DISABLE_VISIBILITY_ANNOTATIONS" "-o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-unknown-linux-musl/native/libunwind/UnwindRegistersRestore.o" "-c" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/libunwind/src/UnwindRegistersRestore.S"
+exit status: 0
+running: "/usr/bin/clang" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "--target=x86_64-unknown-linux-musl" "-I" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/libunwind/include" "-fstrict-aliasing" "-funwind-tables" "-fvisibility=hidden" "-D_LIBUNWIND_DISABLE_VISIBILITY_ANNOTATIONS" "-o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-unknown-linux-musl/native/libunwind/UnwindRegistersSave.o" "-c" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/libunwind/src/UnwindRegistersSave.S"
+exit status: 0
+running: "ar" "cq" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-unknown-linux-musl/native/libunwind/libunwind.a" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-unknown-linux-musl/native/libunwind/Unwind-sjlj.o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-unknown-linux-musl/native/libunwind/UnwindLevel1-gcc-ext.o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-unknown-linux-musl/native/libunwind/UnwindLevel1.o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-unknown-linux-musl/native/libunwind/UnwindRegistersRestore.o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-unknown-linux-musl/native/libunwind/UnwindRegistersSave.o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-unknown-linux-musl/native/libunwind/Unwind-EHABI.o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-unknown-linux-musl/native/libunwind/Unwind-seh.o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-unknown-linux-musl/native/libunwind/libunwind.o"
+exit status: 0
+running: "ar" "s" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-unknown-linux-musl/native/libunwind/libunwind.a"
+exit status: 0
+Building stage0 std artifacts (x86_64-unknown-linux-musl -> x86_64-unknown-linux-musl)
+Copying stage0 std from stage0 (x86_64-unknown-linux-musl -> x86_64-unknown-linux-musl / x86_64-unknown-linux-musl)
+Building stage0 compiler artifacts (x86_64-unknown-linux-musl -> x86_64-unknown-linux-musl)
+Copying stage0 rustc from stage0 (x86_64-unknown-linux-musl -> x86_64-unknown-linux-musl / x86_64-unknown-linux-musl)
+Assembling stage1 compiler (x86_64-unknown-linux-musl)
+Building crtbegin.o and crtend.o
+running: "/usr/bin/clang" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "--target=x86_64-zel-linux-musl" "-std=c11" "-DCRT_HAS_INITFINI_ARRAY" "-DEH_USE_FRAME_REGISTRY" "-o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-zel-linux-musl/native/crt/crtbegin.o" "-c" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/compiler-rt/lib/crt/crtbegin.c"
+exit status: 0
+running: "/usr/bin/clang" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "--target=x86_64-zel-linux-musl" "-std=c11" "-DCRT_HAS_INITFINI_ARRAY" "-DEH_USE_FRAME_REGISTRY" "-o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-zel-linux-musl/native/crt/crtend.o" "-c" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/compiler-rt/lib/crt/crtend.c"
+exit status: 0
+running: "ar" "cq" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-zel-linux-musl/native/crt/libcrt.a" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-zel-linux-musl/native/crt/crtbegin.o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-zel-linux-musl/native/crt/crtend.o"
+exit status: 0
+running: "ar" "s" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-zel-linux-musl/native/crt/libcrt.a"
+exit status: 0
+Building libunwind.a for x86_64-zel-linux-musl
+CXX_x86_64-zel-linux-musl = None
+CXX_x86_64_zel_linux_musl = None
+TARGET_CXX = None
+CXX = None
+CROSS_COMPILE = None
+CXXFLAGS_x86_64-zel-linux-musl = None
+CXXFLAGS_x86_64_zel_linux_musl = None
+TARGET_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = None
+running: "/usr/bin/clang++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "--target=x86_64-zel-linux-musl" "-I" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/libunwind/include" "-nostdinc++" "-fno-exceptions" "-fno-rtti" "-fstrict-aliasing" "-funwind-tables" "-fvisibility=hidden" "-fvisibility-global-new-delete-hidden" "-D_LIBUNWIND_DISABLE_VISIBILITY_ANNOTATIONS" "-o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-zel-linux-musl/native/libunwind/Unwind-EHABI.o" "-c" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/libunwind/src/Unwind-EHABI.cpp"
+exit status: 0
+running: "/usr/bin/clang++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "--target=x86_64-zel-linux-musl" "-I" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/libunwind/include" "-nostdinc++" "-fno-exceptions" "-fno-rtti" "-fstrict-aliasing" "-funwind-tables" "-fvisibility=hidden" "-fvisibility-global-new-delete-hidden" "-D_LIBUNWIND_DISABLE_VISIBILITY_ANNOTATIONS" "-o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-zel-linux-musl/native/libunwind/Unwind-seh.o" "-c" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/libunwind/src/Unwind-seh.cpp"
+exit status: 0
+running: "/usr/bin/clang++" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "--target=x86_64-zel-linux-musl" "-I" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/libunwind/include" "-nostdinc++" "-fno-exceptions" "-fno-rtti" "-fstrict-aliasing" "-funwind-tables" "-fvisibility=hidden" "-fvisibility-global-new-delete-hidden" "-D_LIBUNWIND_DISABLE_VISIBILITY_ANNOTATIONS" "-o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-zel-linux-musl/native/libunwind/libunwind.o" "-c" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/libunwind/src/libunwind.cpp"
+exit status: 0
+running: "ar" "cq" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-zel-linux-musl/native/libunwind/libunwind-cpp.a" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-zel-linux-musl/native/libunwind/Unwind-EHABI.o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-zel-linux-musl/native/libunwind/Unwind-seh.o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-zel-linux-musl/native/libunwind/libunwind.o"
+exit status: 0
+running: "ar" "s" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-zel-linux-musl/native/libunwind/libunwind-cpp.a"
+exit status: 0
+running: "/usr/bin/clang" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "--target=x86_64-zel-linux-musl" "-I" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/libunwind/include" "-fstrict-aliasing" "-funwind-tables" "-fvisibility=hidden" "-D_LIBUNWIND_DISABLE_VISIBILITY_ANNOTATIONS" "-o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-zel-linux-musl/native/libunwind/Unwind-sjlj.o" "-c" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/libunwind/src/Unwind-sjlj.c"
+exit status: 0
+running: "/usr/bin/clang" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "--target=x86_64-zel-linux-musl" "-I" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/libunwind/include" "-fstrict-aliasing" "-funwind-tables" "-fvisibility=hidden" "-D_LIBUNWIND_DISABLE_VISIBILITY_ANNOTATIONS" "-o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-zel-linux-musl/native/libunwind/UnwindLevel1-gcc-ext.o" "-c" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/libunwind/src/UnwindLevel1-gcc-ext.c"
+exit status: 0
+running: "/usr/bin/clang" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "--target=x86_64-zel-linux-musl" "-I" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/libunwind/include" "-fstrict-aliasing" "-funwind-tables" "-fvisibility=hidden" "-D_LIBUNWIND_DISABLE_VISIBILITY_ANNOTATIONS" "-o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-zel-linux-musl/native/libunwind/UnwindLevel1.o" "-c" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/libunwind/src/UnwindLevel1.c"
+exit status: 0
+running: "/usr/bin/clang" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "--target=x86_64-zel-linux-musl" "-I" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/libunwind/include" "-fstrict-aliasing" "-funwind-tables" "-fvisibility=hidden" "-D_LIBUNWIND_DISABLE_VISIBILITY_ANNOTATIONS" "-o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-zel-linux-musl/native/libunwind/UnwindRegistersRestore.o" "-c" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/libunwind/src/UnwindRegistersRestore.S"
+exit status: 0
+running: "/usr/bin/clang" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "--target=x86_64-zel-linux-musl" "-I" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/libunwind/include" "-fstrict-aliasing" "-funwind-tables" "-fvisibility=hidden" "-D_LIBUNWIND_DISABLE_VISIBILITY_ANNOTATIONS" "-o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-zel-linux-musl/native/libunwind/UnwindRegistersSave.o" "-c" "/usr/oppai/base/rustc-1.59.0-src/src/llvm-project/libunwind/src/UnwindRegistersSave.S"
+exit status: 0
+running: "ar" "cq" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-zel-linux-musl/native/libunwind/libunwind.a" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-zel-linux-musl/native/libunwind/Unwind-sjlj.o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-zel-linux-musl/native/libunwind/UnwindLevel1-gcc-ext.o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-zel-linux-musl/native/libunwind/UnwindLevel1.o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-zel-linux-musl/native/libunwind/UnwindRegistersRestore.o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-zel-linux-musl/native/libunwind/UnwindRegistersSave.o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-zel-linux-musl/native/libunwind/Unwind-EHABI.o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-zel-linux-musl/native/libunwind/Unwind-seh.o" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-zel-linux-musl/native/libunwind/libunwind.o"
+exit status: 0
+running: "ar" "s" "/usr/oppai/base/rustc-1.59.0-src/build/x86_64-zel-linux-musl/native/libunwind/libunwind.a"
+exit status: 0
+Building stage1 std artifacts (x86_64-unknown-linux-musl -> x86_64-zel-linux-musl)
+Copying stage1 std from stage1 (x86_64-unknown-linux-musl -> x86_64-unknown-linux-musl / x86_64-zel-linux-musl)
+Building stage1 std artifacts (x86_64-unknown-linux-musl -> x86_64-unknown-linux-musl)
+Copying stage1 std from stage1 (x86_64-unknown-linux-musl -> x86_64-unknown-linux-musl / x86_64-unknown-linux-musl)
+Building stage1 compiler artifacts (x86_64-unknown-linux-musl -> x86_64-zel-linux-musl)
+Copying stage1 rustc from stage1 (x86_64-unknown-linux-musl -> x86_64-unknown-linux-musl / x86_64-zel-linux-musl)
+Building stage1 tool cargo (x86_64-zel-linux-musl)
+Building stage1 tool cargo-credential-1password (x86_64-zel-linux-musl)
+Building stage1 tool clippy-driver (x86_64-zel-linux-musl)
+Building stage1 tool rls (x86_64-zel-linux-musl)
+Building stage0 std artifacts (x86_64-unknown-linux-musl -> x86_64-zel-linux-musl)
+Build completed unsuccessfully in 0:31:24
+info: using vendored source, but .cargo/config is already present.
+      Reusing the current configuration file. But you may want to configure vendoring like this:
+[source.crates-io]
+replace-with = 'vendored-sources'
+registry = 'https://example.com'
+
+[source.vendored-sources]
+directory = '/usr/oppai/base/rustc-1.59.0-src/vendor'
+
+Building rustbuild
+warning: x.py has made several changes recently you may want to look at
+help: consider looking at the changes in `src/bootstrap/CHANGELOG.md`
+note: to silence this warning, add `changelog-seen = 2` at the top of `config.toml`
+Building stage0 std artifacts (x86_64-unknown-linux-musl -> x86_64-unknown-linux-musl)
+Copying stage0 std from stage0 (x86_64-unknown-linux-musl -> x86_64-unknown-linux-musl / x86_64-unknown-linux-musl)
+Building stage0 compiler artifacts (x86_64-unknown-linux-musl -> x86_64-unknown-linux-musl)

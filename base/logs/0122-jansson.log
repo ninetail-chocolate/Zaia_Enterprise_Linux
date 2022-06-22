@@ -1,0 +1,143 @@
+Making check in doc
+make[1]: Entering directory '/usr/oppai/base/jansson-2.13.1/build/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/jansson-2.13.1/build/doc'
+Making check in src
+make[1]: Entering directory '/usr/oppai/base/jansson-2.13.1/build/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/jansson-2.13.1/build/src'
+Making check in test
+make[1]: Entering directory '/usr/oppai/base/jansson-2.13.1/build/test'
+Making check in bin
+make[2]: Entering directory '/usr/oppai/base/jansson-2.13.1/build/test/bin'
+make  json_process
+make[3]: Entering directory '/usr/oppai/base/jansson-2.13.1/build/test/bin'
+clang -DHAVE_CONFIG_H -I. -I../../../test/bin -I../..  -I../../src -I../../../src  -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT json_process.o -MD -MP -MF .deps/json_process.Tpo -c -o json_process.o ../../../test/bin/json_process.c
+mv -f .deps/json_process.Tpo .deps/json_process.Po
+/bin/sh ../../libtool  --tag=CC   --mode=link clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -static   -o json_process json_process.o ../../src/libjansson.la 
+libtool: link: clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o json_process json_process.o  ../../src/.libs/libjansson.so -Wl,-rpath -Wl,/usr/oppai/base/jansson-2.13.1/build/src/.libs
+make[3]: Leaving directory '/usr/oppai/base/jansson-2.13.1/build/test/bin'
+make[2]: Leaving directory '/usr/oppai/base/jansson-2.13.1/build/test/bin'
+Making check in suites
+make[2]: Entering directory '/usr/oppai/base/jansson-2.13.1/build/test/suites'
+Making check in api
+make[3]: Entering directory '/usr/oppai/base/jansson-2.13.1/build/test/suites/api'
+make  test_array test_chaos test_copy test_dump test_dump_callback test_equal test_load test_loadb test_load_callback test_memory_funcs test_number test_object test_pack test_simple test_sprintf test_unpack test_version
+make[4]: Entering directory '/usr/oppai/base/jansson-2.13.1/build/test/suites/api'
+clang -DHAVE_CONFIG_H -I. -I../../../../test/suites/api -I../../..  -I../../../src -I../../../../src  -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT test_array.o -MD -MP -MF .deps/test_array.Tpo -c -o test_array.o ../../../../test/suites/api/test_array.c
+clang -DHAVE_CONFIG_H -I. -I../../../../test/suites/api -I../../..  -I../../../src -I../../../../src  -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT test_chaos.o -MD -MP -MF .deps/test_chaos.Tpo -c -o test_chaos.o ../../../../test/suites/api/test_chaos.c
+clang -DHAVE_CONFIG_H -I. -I../../../../test/suites/api -I../../..  -I../../../src -I../../../../src  -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT test_copy.o -MD -MP -MF .deps/test_copy.Tpo -c -o test_copy.o ../../../../test/suites/api/test_copy.c
+clang -DHAVE_CONFIG_H -I. -I../../../../test/suites/api -I../../..  -I../../../src -I../../../../src  -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT test_dump.o -MD -MP -MF .deps/test_dump.Tpo -c -o test_dump.o ../../../../test/suites/api/test_dump.c
+clang -DHAVE_CONFIG_H -I. -I../../../../test/suites/api -I../../..  -I../../../src -I../../../../src  -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT test_dump_callback.o -MD -MP -MF .deps/test_dump_callback.Tpo -c -o test_dump_callback.o ../../../../test/suites/api/test_dump_callback.c
+clang -DHAVE_CONFIG_H -I. -I../../../../test/suites/api -I../../..  -I../../../src -I../../../../src  -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT test_equal.o -MD -MP -MF .deps/test_equal.Tpo -c -o test_equal.o ../../../../test/suites/api/test_equal.c
+clang -DHAVE_CONFIG_H -I. -I../../../../test/suites/api -I../../..  -I../../../src -I../../../../src  -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT test_load.o -MD -MP -MF .deps/test_load.Tpo -c -o test_load.o ../../../../test/suites/api/test_load.c
+clang -DHAVE_CONFIG_H -I. -I../../../../test/suites/api -I../../..  -I../../../src -I../../../../src  -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT test_loadb.o -MD -MP -MF .deps/test_loadb.Tpo -c -o test_loadb.o ../../../../test/suites/api/test_loadb.c
+clang -DHAVE_CONFIG_H -I. -I../../../../test/suites/api -I../../..  -I../../../src -I../../../../src  -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT test_load_callback.o -MD -MP -MF .deps/test_load_callback.Tpo -c -o test_load_callback.o ../../../../test/suites/api/test_load_callback.c
+clang -DHAVE_CONFIG_H -I. -I../../../../test/suites/api -I../../..  -I../../../src -I../../../../src  -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT test_memory_funcs.o -MD -MP -MF .deps/test_memory_funcs.Tpo -c -o test_memory_funcs.o ../../../../test/suites/api/test_memory_funcs.c
+clang -DHAVE_CONFIG_H -I. -I../../../../test/suites/api -I../../..  -I../../../src -I../../../../src  -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT test_number.o -MD -MP -MF .deps/test_number.Tpo -c -o test_number.o ../../../../test/suites/api/test_number.c
+clang -DHAVE_CONFIG_H -I. -I../../../../test/suites/api -I../../..  -I../../../src -I../../../../src  -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT test_object.o -MD -MP -MF .deps/test_object.Tpo -c -o test_object.o ../../../../test/suites/api/test_object.c
+clang -DHAVE_CONFIG_H -I. -I../../../../test/suites/api -I../../..  -I../../../src -I../../../../src  -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT test_pack.o -MD -MP -MF .deps/test_pack.Tpo -c -o test_pack.o ../../../../test/suites/api/test_pack.c
+clang -DHAVE_CONFIG_H -I. -I../../../../test/suites/api -I../../..  -I../../../src -I../../../../src  -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT test_simple.o -MD -MP -MF .deps/test_simple.Tpo -c -o test_simple.o ../../../../test/suites/api/test_simple.c
+clang -DHAVE_CONFIG_H -I. -I../../../../test/suites/api -I../../..  -I../../../src -I../../../../src  -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT test_sprintf.o -MD -MP -MF .deps/test_sprintf.Tpo -c -o test_sprintf.o ../../../../test/suites/api/test_sprintf.c
+clang -DHAVE_CONFIG_H -I. -I../../../../test/suites/api -I../../..  -I../../../src -I../../../../src  -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT test_unpack.o -MD -MP -MF .deps/test_unpack.Tpo -c -o test_unpack.o ../../../../test/suites/api/test_unpack.c
+clang -DHAVE_CONFIG_H -I. -I../../../../test/suites/api -I../../..  -I../../../src -I../../../../src  -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT test_version.o -MD -MP -MF .deps/test_version.Tpo -c -o test_version.o ../../../../test/suites/api/test_version.c
+mv -f .deps/test_sprintf.Tpo .deps/test_sprintf.Po
+/bin/sh ../../../libtool  --tag=CC   --mode=link clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -static   -o test_sprintf test_sprintf.o ../../../src/libjansson.la 
+mv -f .deps/test_version.Tpo .deps/test_version.Po
+/bin/sh ../../../libtool  --tag=CC   --mode=link clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -static   -o test_version test_version.o ../../../src/libjansson.la 
+mv -f .deps/test_memory_funcs.Tpo .deps/test_memory_funcs.Po
+mv -f .deps/test_dump_callback.Tpo .deps/test_dump_callback.Po
+/bin/sh ../../../libtool  --tag=CC   --mode=link clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -static   -o test_memory_funcs test_memory_funcs.o ../../../src/libjansson.la 
+mv -f .deps/test_load_callback.Tpo .deps/test_load_callback.Po
+/bin/sh ../../../libtool  --tag=CC   --mode=link clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -static   -o test_dump_callback test_dump_callback.o ../../../src/libjansson.la 
+/bin/sh ../../../libtool  --tag=CC   --mode=link clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -static   -o test_load_callback test_load_callback.o ../../../src/libjansson.la 
+mv -f .deps/test_loadb.Tpo .deps/test_loadb.Po
+/bin/sh ../../../libtool  --tag=CC   --mode=link clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -static   -o test_loadb test_loadb.o ../../../src/libjansson.la 
+mv -f .deps/test_number.Tpo .deps/test_number.Po
+/bin/sh ../../../libtool  --tag=CC   --mode=link clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -static   -o test_number test_number.o ../../../src/libjansson.la 
+mv -f .deps/test_equal.Tpo .deps/test_equal.Po
+/bin/sh ../../../libtool  --tag=CC   --mode=link clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -static   -o test_equal test_equal.o ../../../src/libjansson.la 
+mv -f .deps/test_dump.Tpo .deps/test_dump.Po
+/bin/sh ../../../libtool  --tag=CC   --mode=link clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -static   -o test_dump test_dump.o ../../../src/libjansson.la 
+mv -f .deps/test_load.Tpo .deps/test_load.Po
+mv -f .deps/test_simple.Tpo .deps/test_simple.Po
+mv -f .deps/test_chaos.Tpo .deps/test_chaos.Po
+/bin/sh ../../../libtool  --tag=CC   --mode=link clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -static   -o test_load test_load.o ../../../src/libjansson.la 
+/bin/sh ../../../libtool  --tag=CC   --mode=link clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -static   -o test_simple test_simple.o ../../../src/libjansson.la 
+libtool: link: clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o test_load_callback test_load_callback.o  ../../../src/.libs/libjansson.so -Wl,-rpath -Wl,/usr/oppai/base/jansson-2.13.1/build/src/.libs
+/bin/sh ../../../libtool  --tag=CC   --mode=link clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -static   -o test_chaos test_chaos.o ../../../src/libjansson.la 
+libtool: link: clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o test_sprintf test_sprintf.o  ../../../src/.libs/libjansson.so -Wl,-rpath -Wl,/usr/oppai/base/jansson-2.13.1/build/src/.libs
+libtool: link: clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o test_memory_funcs test_memory_funcs.o  ../../../src/.libs/libjansson.so -Wl,-rpath -Wl,/usr/oppai/base/jansson-2.13.1/build/src/.libs
+libtool: link: clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o test_dump_callback test_dump_callback.o  ../../../src/.libs/libjansson.so -Wl,-rpath -Wl,/usr/oppai/base/jansson-2.13.1/build/src/.libs
+libtool: link: clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o test_version test_version.o  ../../../src/.libs/libjansson.so -Wl,-rpath -Wl,/usr/oppai/base/jansson-2.13.1/build/src/.libs
+mv -f .deps/test_copy.Tpo .deps/test_copy.Po
+/bin/sh ../../../libtool  --tag=CC   --mode=link clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -static   -o test_copy test_copy.o ../../../src/libjansson.la 
+libtool: link: clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o test_number test_number.o  ../../../src/.libs/libjansson.so -Wl,-rpath -Wl,/usr/oppai/base/jansson-2.13.1/build/src/.libs
+libtool: link: clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o test_loadb test_loadb.o  ../../../src/.libs/libjansson.so -Wl,-rpath -Wl,/usr/oppai/base/jansson-2.13.1/build/src/.libs
+libtool: link: clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o test_dump test_dump.o  ../../../src/.libs/libjansson.so -Wl,-rpath -Wl,/usr/oppai/base/jansson-2.13.1/build/src/.libs
+libtool: link: clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o test_equal test_equal.o  ../../../src/.libs/libjansson.so -Wl,-rpath -Wl,/usr/oppai/base/jansson-2.13.1/build/src/.libs
+libtool: link: clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o test_simple test_simple.o  ../../../src/.libs/libjansson.so -Wl,-rpath -Wl,/usr/oppai/base/jansson-2.13.1/build/src/.libs
+libtool: link: clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o test_load test_load.o  ../../../src/.libs/libjansson.so -Wl,-rpath -Wl,/usr/oppai/base/jansson-2.13.1/build/src/.libs
+libtool: link: clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o test_chaos test_chaos.o  ../../../src/.libs/libjansson.so -Wl,-rpath -Wl,/usr/oppai/base/jansson-2.13.1/build/src/.libs
+libtool: link: clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o test_copy test_copy.o  ../../../src/.libs/libjansson.so -Wl,-rpath -Wl,/usr/oppai/base/jansson-2.13.1/build/src/.libs
+mv -f .deps/test_array.Tpo .deps/test_array.Po
+/bin/sh ../../../libtool  --tag=CC   --mode=link clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -static   -o test_array test_array.o ../../../src/libjansson.la 
+libtool: link: clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o test_array test_array.o  ../../../src/.libs/libjansson.so -Wl,-rpath -Wl,/usr/oppai/base/jansson-2.13.1/build/src/.libs
+mv -f .deps/test_object.Tpo .deps/test_object.Po
+/bin/sh ../../../libtool  --tag=CC   --mode=link clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -static   -o test_object test_object.o ../../../src/libjansson.la 
+mv -f .deps/test_unpack.Tpo .deps/test_unpack.Po
+/bin/sh ../../../libtool  --tag=CC   --mode=link clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -static   -o test_unpack test_unpack.o ../../../src/libjansson.la 
+libtool: link: clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o test_object test_object.o  ../../../src/.libs/libjansson.so -Wl,-rpath -Wl,/usr/oppai/base/jansson-2.13.1/build/src/.libs
+libtool: link: clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o test_unpack test_unpack.o  ../../../src/.libs/libjansson.so -Wl,-rpath -Wl,/usr/oppai/base/jansson-2.13.1/build/src/.libs
+mv -f .deps/test_pack.Tpo .deps/test_pack.Po
+/bin/sh ../../../libtool  --tag=CC   --mode=link clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -static   -o test_pack test_pack.o ../../../src/libjansson.la 
+libtool: link: clang -Wall -Wextra -Wdeclaration-after-statement -Wshadow -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -o test_pack test_pack.o  ../../../src/.libs/libjansson.so -Wl,-rpath -Wl,/usr/oppai/base/jansson-2.13.1/build/src/.libs
+make[4]: Leaving directory '/usr/oppai/base/jansson-2.13.1/build/test/suites/api'
+make[3]: Leaving directory '/usr/oppai/base/jansson-2.13.1/build/test/suites/api'
+make[3]: Entering directory '/usr/oppai/base/jansson-2.13.1/build/test/suites'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/oppai/base/jansson-2.13.1/build/test/suites'
+make[2]: Leaving directory '/usr/oppai/base/jansson-2.13.1/build/test/suites'
+Making check in ossfuzz
+make[2]: Entering directory '/usr/oppai/base/jansson-2.13.1/build/test/ossfuzz'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/jansson-2.13.1/build/test/ossfuzz'
+make[2]: Entering directory '/usr/oppai/base/jansson-2.13.1/build/test'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/jansson-2.13.1/build/test'
+make[4]: Entering directory '/usr/oppai/base/jansson-2.13.1/build/test'
+PASS: run-suites
+============================================================================
+Testsuite summary for jansson 2.13.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/jansson-2.13.1/build/test'
+make[3]: Leaving directory '/usr/oppai/base/jansson-2.13.1/build/test'
+make[2]: Leaving directory '/usr/oppai/base/jansson-2.13.1/build/test'
+make[1]: Leaving directory '/usr/oppai/base/jansson-2.13.1/build/test'
+make[1]: Entering directory '/usr/oppai/base/jansson-2.13.1/build'
+make  check-TESTS
+make[2]: Entering directory '/usr/oppai/base/jansson-2.13.1/build'
+make[3]: Entering directory '/usr/oppai/base/jansson-2.13.1/build'
+PASS: scripts/clang-format-check
+============================================================================
+Testsuite summary for jansson 2.13.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/usr/oppai/base/jansson-2.13.1/build'
+make[2]: Leaving directory '/usr/oppai/base/jansson-2.13.1/build'
+make[1]: Leaving directory '/usr/oppai/base/jansson-2.13.1/build'

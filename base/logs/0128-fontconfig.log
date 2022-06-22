@@ -1,0 +1,159 @@
+Making check in fontconfig
+make[1]: Entering directory '/usr/oppai/base/fontconfig-2.13.96/fontconfig'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/fontconfig-2.13.96/fontconfig'
+Making check in fc-case
+make[1]: Entering directory '/usr/oppai/base/fontconfig-2.13.96/fc-case'
+make  check-am
+make[2]: Entering directory '/usr/oppai/base/fontconfig-2.13.96/fc-case'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/oppai/base/fontconfig-2.13.96/fc-case'
+make[1]: Leaving directory '/usr/oppai/base/fontconfig-2.13.96/fc-case'
+Making check in fc-lang
+make[1]: Entering directory '/usr/oppai/base/fontconfig-2.13.96/fc-lang'
+make  check-am
+make[2]: Entering directory '/usr/oppai/base/fontconfig-2.13.96/fc-lang'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/oppai/base/fontconfig-2.13.96/fc-lang'
+make[1]: Leaving directory '/usr/oppai/base/fontconfig-2.13.96/fc-lang'
+Making check in src
+make[1]: Entering directory '/usr/oppai/base/fontconfig-2.13.96/src'
+make  check-am
+make[2]: Entering directory '/usr/oppai/base/fontconfig-2.13.96/src'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/oppai/base/fontconfig-2.13.96/src'
+make[1]: Leaving directory '/usr/oppai/base/fontconfig-2.13.96/src'
+Making check in fc-cache
+make[1]: Entering directory '/usr/oppai/base/fontconfig-2.13.96/fc-cache'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/fontconfig-2.13.96/fc-cache'
+Making check in fc-cat
+make[1]: Entering directory '/usr/oppai/base/fontconfig-2.13.96/fc-cat'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/fontconfig-2.13.96/fc-cat'
+Making check in fc-conflist
+make[1]: Entering directory '/usr/oppai/base/fontconfig-2.13.96/fc-conflist'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/fontconfig-2.13.96/fc-conflist'
+Making check in fc-list
+make[1]: Entering directory '/usr/oppai/base/fontconfig-2.13.96/fc-list'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/fontconfig-2.13.96/fc-list'
+Making check in fc-match
+make[1]: Entering directory '/usr/oppai/base/fontconfig-2.13.96/fc-match'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/fontconfig-2.13.96/fc-match'
+Making check in fc-pattern
+make[1]: Entering directory '/usr/oppai/base/fontconfig-2.13.96/fc-pattern'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/fontconfig-2.13.96/fc-pattern'
+Making check in fc-query
+make[1]: Entering directory '/usr/oppai/base/fontconfig-2.13.96/fc-query'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/fontconfig-2.13.96/fc-query'
+Making check in fc-scan
+make[1]: Entering directory '/usr/oppai/base/fontconfig-2.13.96/fc-scan'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/fontconfig-2.13.96/fc-scan'
+Making check in fc-validate
+make[1]: Entering directory '/usr/oppai/base/fontconfig-2.13.96/fc-validate'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/fontconfig-2.13.96/fc-validate'
+Making check in conf.d
+make[1]: Entering directory '/usr/oppai/base/fontconfig-2.13.96/conf.d'
+make  check-am
+make[2]: Entering directory '/usr/oppai/base/fontconfig-2.13.96/conf.d'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/oppai/base/fontconfig-2.13.96/conf.d'
+make[1]: Leaving directory '/usr/oppai/base/fontconfig-2.13.96/conf.d'
+Making check in its
+make[1]: Entering directory '/usr/oppai/base/fontconfig-2.13.96/its'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/fontconfig-2.13.96/its'
+Making check in po
+make[1]: Entering directory '/usr/oppai/base/fontconfig-2.13.96/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/fontconfig-2.13.96/po'
+Making check in po-conf
+make[1]: Entering directory '/usr/oppai/base/fontconfig-2.13.96/po-conf'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/fontconfig-2.13.96/po-conf'
+Making check in test
+make[1]: Entering directory '/usr/oppai/base/fontconfig-2.13.96/test'
+make  check-am
+make[2]: Entering directory '/usr/oppai/base/fontconfig-2.13.96/test'
+make  test-pthread test-crbug1004254 test-bz89617 test-bz131804 test-migration test-bz96676 test-name-parse  test-bz106618 test-bz106632 test-issue107  test-bz1744377 test-issue180 test-family-matching run-test.sh
+make[3]: Entering directory '/usr/oppai/base/fontconfig-2.13.96/test'
+make[3]: 'test-pthread' is up to date.
+make[3]: 'test-crbug1004254' is up to date.
+make[3]: 'test-bz89617' is up to date.
+make[3]: 'test-bz131804' is up to date.
+make[3]: 'test-migration' is up to date.
+make[3]: 'test-bz96676' is up to date.
+make[3]: 'test-name-parse' is up to date.
+make[3]: 'test-bz106618' is up to date.
+make[3]: 'test-bz106632' is up to date.
+make[3]: 'test-issue107' is up to date.
+make[3]: 'test-bz1744377' is up to date.
+make[3]: 'test-issue180' is up to date.
+make[3]: 'test-family-matching' is up to date.
+make[3]: Nothing to be done for 'run-test.sh'.
+make[3]: Leaving directory '/usr/oppai/base/fontconfig-2.13.96/test'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/fontconfig-2.13.96/test'
+make[4]: Entering directory '/usr/oppai/base/fontconfig-2.13.96/test'
+SKIP: run-test-conf.sh
+PASS: test-bz131804
+PASS: test-name-parse
+PASS: test-bz89617
+PASS: test-bz96676
+PASS: test-bz1744377
+PASS: test-issue180
+PASS: test-family-matching
+PASS: test-issue107
+PASS: test-bz106632
+PASS: run-test.sh
+============================================================================
+Testsuite summary for fontconfig 2.13.96
+============================================================================
+# TOTAL: 11
+# PASS:  10
+# SKIP:  1
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/fontconfig-2.13.96/test'
+make[3]: Leaving directory '/usr/oppai/base/fontconfig-2.13.96/test'
+make[2]: Leaving directory '/usr/oppai/base/fontconfig-2.13.96/test'
+make[1]: Leaving directory '/usr/oppai/base/fontconfig-2.13.96/test'
+Making check in doc
+make[1]: Entering directory '/usr/oppai/base/fontconfig-2.13.96/doc'
+make  check-am
+make[2]: Entering directory '/usr/oppai/base/fontconfig-2.13.96/doc'
+make  check-missing-doc 
+make[3]: Entering directory '/usr/oppai/base/fontconfig-2.13.96/doc'
+make[3]: Nothing to be done for 'check-missing-doc'.
+make[3]: Leaving directory '/usr/oppai/base/fontconfig-2.13.96/doc'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/fontconfig-2.13.96/doc'
+make[4]: Entering directory '/usr/oppai/base/fontconfig-2.13.96/doc'
+PASS: check-missing-doc
+============================================================================
+Testsuite summary for fontconfig 2.13.96
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/fontconfig-2.13.96/doc'
+make[3]: Leaving directory '/usr/oppai/base/fontconfig-2.13.96/doc'
+make[2]: Leaving directory '/usr/oppai/base/fontconfig-2.13.96/doc'
+make[1]: Leaving directory '/usr/oppai/base/fontconfig-2.13.96/doc'
+make[1]: Entering directory '/usr/oppai/base/fontconfig-2.13.96'
+make[1]: Leaving directory '/usr/oppai/base/fontconfig-2.13.96'

@@ -1,0 +1,193 @@
+Making check in doc
+make[1]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/doc'
+Making check in pictures
+make[2]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/doc/pictures'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/doc/pictures'
+make[2]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/doc'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/doc'
+make[1]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/doc'
+Making check in include
+make[1]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/include'
+Making check in sound
+make[2]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/include/sound'
+Making check in uapi
+make[3]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/include/sound/uapi'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/include/sound/uapi'
+make[3]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/include/sound'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/include/sound'
+make[2]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/include/sound'
+make[2]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/include'
+if ! test -r alsa/local.h; then \
+	ln -s ../../include alsa; \
+fi
+for f in asoundlib.h version.h; do \
+	if ! test -r ../../include/$f; then \
+		ln -s /usr/oppai/audio/alsa-lib-1.2.6/build/include/$f ../../include/$f; \
+	fi; \
+done
+make[2]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/include'
+make[1]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/include'
+Making check in src
+make[1]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src'
+Making check in control
+make[2]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src/control'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src/control'
+Making check in mixer
+make[2]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src/mixer'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src/mixer'
+Making check in pcm
+make[2]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src/pcm'
+make[3]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src/pcm'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src/pcm'
+make[2]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src/pcm'
+Making check in timer
+make[2]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src/timer'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src/timer'
+Making check in rawmidi
+make[2]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src/rawmidi'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src/rawmidi'
+Making check in hwdep
+make[2]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src/hwdep'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src/hwdep'
+Making check in seq
+make[2]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src/seq'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src/seq'
+Making check in ucm
+make[2]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src/ucm'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src/ucm'
+Making check in conf
+make[2]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src/conf'
+Making check in cards
+make[3]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src/conf/cards'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src/conf/cards'
+Making check in ctl
+make[3]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src/conf/ctl'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src/conf/ctl'
+Making check in pcm
+make[3]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src/conf/pcm'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src/conf/pcm'
+make[3]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src/conf'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src/conf'
+make[2]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src/conf'
+make[2]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src'
+make[1]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src'
+Making check in src/topology
+make[1]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src/topology'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/src/topology'
+Making check in modules
+make[1]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/modules'
+Making check in mixer
+make[2]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/modules/mixer'
+Making check in simple
+make[3]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/modules/mixer/simple'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/modules/mixer/simple'
+make[3]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/modules/mixer'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/modules/mixer'
+make[2]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/modules/mixer'
+make[2]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/modules'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/modules'
+make[1]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/modules'
+Making check in aserver
+make[1]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/aserver'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/aserver'
+Making check in test
+make[1]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/test'
+Making check in .
+make[2]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/test'
+make  control pcm pcm_min latency seq playmidi1 timer rawmidi midiloop oldapi queue_timer namehint client_event_filter chmap audio_time user-ctl-element-set pcm-multi-thread
+make[3]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/test'
+  CC       control.o
+  CC       pcm.o
+  CC       pcm_min.o
+  CC       latency.o
+  CC       seq.o
+  CC       playmidi1.o
+  CC       timer.o
+  CC       rawmidi.o
+  CC       midiloop.o
+  CC       oldapi.o
+  CC       queue_timer.o
+  CC       namehint.o
+  CC       client_event_filter.o
+  CC       chmap.o
+  CC       audio_time.o
+  CC       pcm-multi-thread.o
+  CC       user_ctl_element_set-user-ctl-element-set.o
+  CCLD     namehint
+  CCLD     pcm_min
+  CCLD     client_event_filter
+  CCLD     control
+  CCLD     oldapi
+  CCLD     queue_timer
+  CCLD     pcm-multi-thread
+  CCLD     midiloop
+  CCLD     timer
+  CCLD     chmap
+  CCLD     rawmidi
+  CCLD     audio_time
+  CCLD     seq
+  CCLD     user-ctl-element-set
+  CCLD     latency
+  CCLD     pcm
+  CCLD     playmidi1
+make[3]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/test'
+make[2]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/test'
+Making check in lsb
+make[2]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/test/lsb'
+make  config midi_event
+make[3]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/test/lsb'
+  CC       config.o
+  CC       midi_event.o
+  CCLD     midi_event
+  CCLD     config
+make[3]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/test/lsb'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/test/lsb'
+make[4]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/test/lsb'
+PASS: config
+PASS: midi_event
+============================================================================
+Testsuite summary for alsa-lib 1.2.6
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/test/lsb'
+make[3]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/test/lsb'
+make[2]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/test/lsb'
+make[1]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/test'
+Making check in utils
+make[1]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build/utils'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build/utils'
+make[1]: Entering directory '/usr/oppai/audio/alsa-lib-1.2.6/build'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/usr/oppai/audio/alsa-lib-1.2.6/build'

@@ -1,0 +1,157 @@
+Making check in src
+make[1]: Entering directory '/usr/oppai/base/dosfstools-4.2/build/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/dosfstools-4.2/build/src'
+Making check in manpages
+make[1]: Entering directory '/usr/oppai/base/dosfstools-4.2/build/manpages'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/dosfstools-4.2/build/manpages'
+Making check in tests
+make[1]: Entering directory '/usr/oppai/base/dosfstools-4.2/build/tests'
+make  test-mkfs test-fsck test-label referenceFAT12.mkfs referenceFAT12.xxd referenceFAT16.mkfs referenceFAT16.xxd referenceFAT32.mkfs referenceFAT32.xxd referenceFAT32mbr.mkfs referenceFAT32mbr.xxd mkfs-fat32_2_res_sects.mkfs mkfs-fat32_2_res_sects.xxd mkfs-fat32_4K.mkfs mkfs-fat32_4K.xxd check-bad_names.fsck check-bad_names.xxd check-fat12_first_cluster.fsck check-fat12_first_cluster.args check-fat12_first_cluster.xxd check-fat16_first_cluster.fsck check-fat16_first_cluster.args check-fat16_first_cluster.xxd check-fat32_first_cluster.fsck check-fat32_first_cluster.args check-fat32_first_cluster.xxd check-fat16_dos_cln_shut.fsck check-fat16_dos_cln_shut.xxd check-fat32_dos_cln_shut.fsck check-fat32_dos_cln_shut.xxd check-chain_to_free_cluster.fsck check-chain_to_free_cluster.xxd check-chain_too_long.fsck check-chain_too_long.xxd check-chain_to_other_file.fsck check-chain_to_other_file.xxd check-circular_chain.fsck check-circular_chain.xxd check-duplicate_names.fsck check-duplicate_names.xxd check-dot_entries.fsck check-dot_entries.xxd check-huge.fsck check-label-different.fsck check-label-different.xxd check-label-only-boot.fsck check-label-only-boot.xxd check-label-only-root.fsck check-label-only-root.xxd label-fat32_mkdosfs_label1_dosfslabel_empty.label label-fat32_mkdosfs_label1_dosfslabel_empty.xxd label-fat32_mkdosfs_label1_dosfslabel_label2.label label-fat32_mkdosfs_label1_dosfslabel_label2.xxd label-fat32_mkdosfs_label1_dosfslabel_NO_NAME.label label-fat32_mkdosfs_label1_dosfslabel_NO_NAME.xxd label-fat32_mkdosfs_label1_mlabel_erase.label label-fat32_mkdosfs_label1_mlabel_erase.xxd label-fat32_mkdosfs_label1_mlabel_NO_NAME.label label-fat32_mkdosfs_label1_mlabel_NO_NAME.xxd label-fat32_mkdosfs_label1_xp_erase.label label-fat32_mkdosfs_label1_xp_erase.xxd label-fat32_mkdosfs_label1_xp_label2.label label-fat32_mkdosfs_label1_xp_label2.xxd label-fat32_mkdosfs_label1.label label-fat32_mkdosfs_label1.xxd label-fat32_mkdosfs_none_dosfslabel_label1_xp_label2.label label-fat32_mkdosfs_none_dosfslabel_label1_xp_label2.xxd label-fat32_mkdosfs_none_dosfslabel_label1.label label-fat32_mkdosfs_none_dosfslabel_label1.xxd label-fat32_mkdosfs_none_dosfslabel_NO_NAME.label label-fat32_mkdosfs_none_dosfslabel_NO_NAME.xxd label-fat32_mkdosfs_none_xp_label1_dosfslabel_label2.label label-fat32_mkdosfs_none_xp_label1_dosfslabel_label2.xxd label-fat32_mkdosfs_none_xp_label1.label label-fat32_mkdosfs_none_xp_label1.xxd label-fat32_mkdosfs_none.label label-fat32_mkdosfs_none.xxd label-fat32_xp_label1.label label-fat32_xp_label1.xxd label-fat32_xp_none_dosfslabel_label1.label label-fat32_xp_none_dosfslabel_label1.xxd label-fat32_xp_none_mlabel_label1.label label-fat32_xp_none_mlabel_label1.xxd label-fat32_xp_none.label label-fat32_xp_none.xxd
+make[2]: Entering directory '/usr/oppai/base/dosfstools-4.2/build/tests'
+make[2]: Nothing to be done for '../../tests/test-mkfs'.
+make[2]: Nothing to be done for '../../tests/test-fsck'.
+make[2]: Nothing to be done for '../../tests/test-label'.
+make[2]: Nothing to be done for '../../tests/referenceFAT12.mkfs'.
+make[2]: Nothing to be done for '../../tests/referenceFAT12.xxd'.
+make[2]: Nothing to be done for '../../tests/referenceFAT16.mkfs'.
+make[2]: Nothing to be done for '../../tests/referenceFAT16.xxd'.
+make[2]: Nothing to be done for '../../tests/referenceFAT32.mkfs'.
+make[2]: Nothing to be done for '../../tests/referenceFAT32.xxd'.
+make[2]: Nothing to be done for '../../tests/referenceFAT32mbr.mkfs'.
+make[2]: Nothing to be done for '../../tests/referenceFAT32mbr.xxd'.
+make[2]: Nothing to be done for '../../tests/mkfs-fat32_2_res_sects.mkfs'.
+make[2]: Nothing to be done for '../../tests/mkfs-fat32_2_res_sects.xxd'.
+make[2]: Nothing to be done for '../../tests/mkfs-fat32_4K.mkfs'.
+make[2]: Nothing to be done for '../../tests/mkfs-fat32_4K.xxd'.
+make[2]: Nothing to be done for '../../tests/check-bad_names.fsck'.
+make[2]: Nothing to be done for '../../tests/check-bad_names.xxd'.
+make[2]: Nothing to be done for '../../tests/check-fat12_first_cluster.fsck'.
+make[2]: Nothing to be done for '../../tests/check-fat12_first_cluster.args'.
+make[2]: Nothing to be done for '../../tests/check-fat12_first_cluster.xxd'.
+make[2]: Nothing to be done for '../../tests/check-fat16_first_cluster.fsck'.
+make[2]: Nothing to be done for '../../tests/check-fat16_first_cluster.args'.
+make[2]: Nothing to be done for '../../tests/check-fat16_first_cluster.xxd'.
+make[2]: Nothing to be done for '../../tests/check-fat32_first_cluster.fsck'.
+make[2]: Nothing to be done for '../../tests/check-fat32_first_cluster.args'.
+make[2]: Nothing to be done for '../../tests/check-fat32_first_cluster.xxd'.
+make[2]: Nothing to be done for '../../tests/check-fat16_dos_cln_shut.fsck'.
+make[2]: Nothing to be done for '../../tests/check-fat16_dos_cln_shut.xxd'.
+make[2]: Nothing to be done for '../../tests/check-fat32_dos_cln_shut.fsck'.
+make[2]: Nothing to be done for '../../tests/check-fat32_dos_cln_shut.xxd'.
+make[2]: Nothing to be done for '../../tests/check-chain_to_free_cluster.fsck'.
+make[2]: Nothing to be done for '../../tests/check-chain_to_free_cluster.xxd'.
+make[2]: Nothing to be done for '../../tests/check-chain_too_long.fsck'.
+make[2]: Nothing to be done for '../../tests/check-chain_too_long.xxd'.
+make[2]: Nothing to be done for '../../tests/check-chain_to_other_file.fsck'.
+make[2]: Nothing to be done for '../../tests/check-chain_to_other_file.xxd'.
+make[2]: Nothing to be done for '../../tests/check-circular_chain.fsck'.
+make[2]: Nothing to be done for '../../tests/check-circular_chain.xxd'.
+make[2]: Nothing to be done for '../../tests/check-duplicate_names.fsck'.
+make[2]: Nothing to be done for '../../tests/check-duplicate_names.xxd'.
+make[2]: Nothing to be done for '../../tests/check-dot_entries.fsck'.
+make[2]: Nothing to be done for '../../tests/check-dot_entries.xxd'.
+make[2]: Nothing to be done for '../../tests/check-huge.fsck'.
+make[2]: Nothing to be done for '../../tests/check-label-different.fsck'.
+make[2]: Nothing to be done for '../../tests/check-label-different.xxd'.
+make[2]: Nothing to be done for '../../tests/check-label-only-boot.fsck'.
+make[2]: Nothing to be done for '../../tests/check-label-only-boot.xxd'.
+make[2]: Nothing to be done for '../../tests/check-label-only-root.fsck'.
+make[2]: Nothing to be done for '../../tests/check-label-only-root.xxd'.
+make[2]: Nothing to be done for '../../tests/label-fat32_mkdosfs_label1_dosfslabel_empty.label'.
+make[2]: Nothing to be done for '../../tests/label-fat32_mkdosfs_label1_dosfslabel_empty.xxd'.
+make[2]: Nothing to be done for '../../tests/label-fat32_mkdosfs_label1_dosfslabel_label2.label'.
+make[2]: Nothing to be done for '../../tests/label-fat32_mkdosfs_label1_dosfslabel_label2.xxd'.
+make[2]: Nothing to be done for '../../tests/label-fat32_mkdosfs_label1_dosfslabel_NO_NAME.label'.
+make[2]: Nothing to be done for '../../tests/label-fat32_mkdosfs_label1_dosfslabel_NO_NAME.xxd'.
+make[2]: Nothing to be done for '../../tests/label-fat32_mkdosfs_label1_mlabel_erase.label'.
+make[2]: Nothing to be done for '../../tests/label-fat32_mkdosfs_label1_mlabel_erase.xxd'.
+make[2]: Nothing to be done for '../../tests/label-fat32_mkdosfs_label1_mlabel_NO_NAME.label'.
+make[2]: Nothing to be done for '../../tests/label-fat32_mkdosfs_label1_mlabel_NO_NAME.xxd'.
+make[2]: Nothing to be done for '../../tests/label-fat32_mkdosfs_label1_xp_erase.label'.
+make[2]: Nothing to be done for '../../tests/label-fat32_mkdosfs_label1_xp_erase.xxd'.
+make[2]: Nothing to be done for '../../tests/label-fat32_mkdosfs_label1_xp_label2.label'.
+make[2]: Nothing to be done for '../../tests/label-fat32_mkdosfs_label1_xp_label2.xxd'.
+make[2]: Nothing to be done for '../../tests/label-fat32_mkdosfs_label1.label'.
+make[2]: Nothing to be done for '../../tests/label-fat32_mkdosfs_label1.xxd'.
+make[2]: Nothing to be done for '../../tests/label-fat32_mkdosfs_none_dosfslabel_label1_xp_label2.label'.
+make[2]: Nothing to be done for '../../tests/label-fat32_mkdosfs_none_dosfslabel_label1_xp_label2.xxd'.
+make[2]: Nothing to be done for '../../tests/label-fat32_mkdosfs_none_dosfslabel_label1.label'.
+make[2]: Nothing to be done for '../../tests/label-fat32_mkdosfs_none_dosfslabel_label1.xxd'.
+make[2]: Nothing to be done for '../../tests/label-fat32_mkdosfs_none_dosfslabel_NO_NAME.label'.
+make[2]: Nothing to be done for '../../tests/label-fat32_mkdosfs_none_dosfslabel_NO_NAME.xxd'.
+make[2]: Nothing to be done for '../../tests/label-fat32_mkdosfs_none_xp_label1_dosfslabel_label2.label'.
+make[2]: Nothing to be done for '../../tests/label-fat32_mkdosfs_none_xp_label1_dosfslabel_label2.xxd'.
+make[2]: Nothing to be done for '../../tests/label-fat32_mkdosfs_none_xp_label1.label'.
+make[2]: Nothing to be done for '../../tests/label-fat32_mkdosfs_none_xp_label1.xxd'.
+make[2]: Nothing to be done for '../../tests/label-fat32_mkdosfs_none.label'.
+make[2]: Nothing to be done for '../../tests/label-fat32_mkdosfs_none.xxd'.
+make[2]: Nothing to be done for '../../tests/label-fat32_xp_label1.label'.
+make[2]: Nothing to be done for '../../tests/label-fat32_xp_label1.xxd'.
+make[2]: Nothing to be done for '../../tests/label-fat32_xp_none_dosfslabel_label1.label'.
+make[2]: Nothing to be done for '../../tests/label-fat32_xp_none_dosfslabel_label1.xxd'.
+make[2]: Nothing to be done for '../../tests/label-fat32_xp_none_mlabel_label1.label'.
+make[2]: Nothing to be done for '../../tests/label-fat32_xp_none_mlabel_label1.xxd'.
+make[2]: Nothing to be done for '../../tests/label-fat32_xp_none.label'.
+make[2]: Nothing to be done for '../../tests/label-fat32_xp_none.xxd'.
+make[2]: Leaving directory '/usr/oppai/base/dosfstools-4.2/build/tests'
+make  check-TESTS
+make[2]: Entering directory '/usr/oppai/base/dosfstools-4.2/build/tests'
+make[3]: Entering directory '/usr/oppai/base/dosfstools-4.2/build/tests'
+FAIL: check-fat12_first_cluster.fsck
+FAIL: check-fat16_first_cluster.fsck
+PASS: referenceFAT12.mkfs
+XFAIL: check-huge.fsck
+PASS: referenceFAT16.mkfs
+FAIL: check-fat32_first_cluster.fsck
+PASS: check-fat16_dos_cln_shut.fsck
+PASS: label-fat32_mkdosfs_label1_dosfslabel_NO_NAME.label
+PASS: label-fat32_mkdosfs_label1_xp_erase.label
+PASS: label-fat32_mkdosfs_label1_dosfslabel_label2.label
+PASS: mkfs-fat32_2_res_sects.mkfs
+PASS: mkfs-fat32_4K.mkfs
+PASS: label-fat32_mkdosfs_label1_mlabel_erase.label
+PASS: referenceFAT32.mkfs
+PASS: label-fat32_mkdosfs_label1_dosfslabel_empty.label
+PASS: label-fat32_mkdosfs_none_xp_label1.label
+PASS: label-fat32_mkdosfs_none_dosfslabel_NO_NAME.label
+PASS: referenceFAT32mbr.mkfs
+PASS: label-fat32_mkdosfs_none_dosfslabel_label1_xp_label2.label
+PASS: label-fat32_mkdosfs_none_dosfslabel_label1.label
+PASS: label-fat32_mkdosfs_label1_mlabel_NO_NAME.label
+PASS: label-fat32_mkdosfs_none_xp_label1_dosfslabel_label2.label
+PASS: label-fat32_mkdosfs_none.label
+PASS: label-fat32_xp_none.label
+PASS: label-fat32_mkdosfs_label1.label
+PASS: label-fat32_xp_label1.label
+PASS: label-fat32_mkdosfs_label1_xp_label2.label
+PASS: label-fat32_xp_none_dosfslabel_label1.label
+PASS: label-fat32_xp_none_mlabel_label1.label
+PASS: check-label-only-boot.fsck
+PASS: check-label-different.fsck
+PASS: check-label-only-root.fsck
+PASS: check-duplicate_names.fsck
+PASS: check-chain_too_long.fsck
+PASS: check-bad_names.fsck
+PASS: check-dot_entries.fsck
+PASS: check-chain_to_free_cluster.fsck
+PASS: check-circular_chain.fsck
+PASS: check-fat32_dos_cln_shut.fsck
+PASS: check-chain_to_other_file.fsck
+============================================================================
+Testsuite summary for dosfstools 4.2
+============================================================================
+# TOTAL: 40
+# PASS:  36
+# SKIP:  0
+# XFAIL: 1
+# FAIL:  3
+# XPASS: 0
+# ERROR: 0
+============================================================================
+See tests/test-suite.log
+============================================================================
+make[3]: Leaving directory '/usr/oppai/base/dosfstools-4.2/build/tests'
+make[2]: Leaving directory '/usr/oppai/base/dosfstools-4.2/build/tests'
+make[1]: Leaving directory '/usr/oppai/base/dosfstools-4.2/build/tests'

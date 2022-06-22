@@ -1,0 +1,486 @@
+Making check in gnulib/lib
+make[1]: Entering directory '/usr/oppai/base/texinfo-6.8/build/gnulib/lib'
+make  check-recursive
+make[2]: Entering directory '/usr/oppai/base/texinfo-6.8/build/gnulib/lib'
+make[3]: Entering directory '/usr/oppai/base/texinfo-6.8/build/gnulib/lib'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/gnulib/lib'
+make[2]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/gnulib/lib'
+make[1]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/gnulib/lib'
+Making check in info
+make[1]: Entering directory '/usr/oppai/base/texinfo-6.8/build/info'
+make  check-am
+make[2]: Entering directory '/usr/oppai/base/texinfo-6.8/build/info'
+make  pseudotty
+make[3]: Entering directory '/usr/oppai/base/texinfo-6.8/build/info'
+clang -DHAVE_CONFIG_H -I. -I../../info -I..  -I../.. -I../../gnulib/lib -I../gnulib/lib -DLOCALEDIR=\"/usr/share/locale\" -DINFODIR=\"/usr/share/info\" -DINFODIR2=\"/usr/share/info\"   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT pseudotty.o -MD -MP -MF .deps/pseudotty.Tpo -c -o pseudotty.o ../../info/pseudotty.c
+mv -f .deps/pseudotty.Tpo .deps/pseudotty.Po
+clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl   -o pseudotty pseudotty.o ../gnulib/lib/libgnu.a -lncurses    
+make[3]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/info'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/texinfo-6.8/build/info'
+make[4]: Entering directory '/usr/oppai/base/texinfo-6.8/build/info'
+PASS: t/file-node.sh
+PASS: t/file-node-with-dot.sh
+PASS: t/file-index.sh
+PASS: t/file-file-with-dot.sh
+PASS: t/no-file.sh
+PASS: t/file-index-colons.sh
+PASS: t/dir-file.sh
+PASS: t/relative-path.sh
+PASS: t/dir.sh
+PASS: t/split.sh
+PASS: t/node-no-file.sh
+PASS: t/dir-nondir.sh
+PASS: t/file-relative-path.sh
+PASS: t/file-nodes.sh
+PASS: t/malformed-split.sh
+PASS: t/dir-file-node.sh
+PASS: t/dir-file-sloppily.sh
+PASS: t/file.sh
+PASS: t/dir-no-file.sh
+PASS: t/dir-file-menu.sh
+PASS: t/dir-file-no-menu.sh
+PASS: t/dir-3-menus.sh
+PASS: t/dir-file-index.sh
+PASS: t/dir-merge.sh
+PASS: t/dir-menus-sloppily.sh
+PASS: t/where-dir-file.sh
+PASS: t/dir-dangling-entry.sh
+PASS: t/spec-file-node.sh
+PASS: t/spec-menu.sh
+PASS: t/spec-no-node.sh
+PASS: t/empty.sh
+PASS: t/dir-entry-to-subdir.sh
+PASS: t/all-only.sh
+PASS: t/tab-no-xref.sh
+PASS: t/tab.sh
+PASS: t/tab-skip-node.sh
+PASS: t/tab-argument.sh
+PASS: t/xref-across-lines-2.sh
+PASS: t/xref-across-lines.sh
+PASS: t/body-start.sh
+PASS: t/end-of-line.sh
+PASS: t/star-note-non-whitespace.sh
+PASS: t/last-node-not-top-level.sh
+PASS: t/split-footnotes.sh
+PASS: t/c-u-m-x-scroll-forward.sh
+PASS: t/goal-column.sh
+PASS: t/xref-to-anchor.sh
+PASS: t/no-index.sh
+PASS: t/last-no-history.sh
+PASS: t/adjust-anchors.sh
+PASS: t/window-split-dir.sh
+PASS: t/split-file-menu.sh
+PASS: t/search-split-after-index.sh
+PASS: t/index-search.sh
+PASS: t/index.sh
+PASS: t/index-completing.sh
+PASS: t/empty-infopath.sh
+PASS: t/index-apropos.sh
+PASS: t/index-long-nodeline.sh
+PASS: t/search-after-tag.sh
+PASS: t/menu-sequence.sh
+PASS: t/split-index.sh
+PASS: t/search-empty.sh
+PASS: t/relative-reference.sh
+PASS: t/inc-sea-forward.sh
+PASS: t/help.sh
+PASS: t/gc-split.sh
+PASS: t/inc-sea-insensitive.sh
+PASS: t/goto-quoted.sh
+PASS: t/close-window-after-search.sh
+PASS: t/anchor-positions.sh
+PASS: t/inc-sea-bs.sh
+PASS: t/inc-sea-forward-nonregex.sh
+PASS: t/next-quoted.sh
+PASS: t/quoted-label-as-target.sh
+PASS: t/search-skip-screen.sh
+PASS: t/quoted-manual-in-label.sh
+PASS: t/quoted-label-and-target.sh
+PASS: t/quoted-manual-in-target.sh
+PASS: t/multiple-completions.sh
+PASS: t/echo-area-no-completions.sh
+PASS: t/quoted-target.sh
+PASS: t/replace-viewed.sh
+PASS: t/inc-sea-history.sh
+PASS: t/resize-in-completions.sh
+============================================================================
+Testsuite summary for GNU Texinfo 6.8
+============================================================================
+# TOTAL: 85
+# PASS:  85
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/info'
+make[3]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/info'
+make[2]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/info'
+make[1]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/info'
+Making check in install-info
+make[1]: Entering directory '/usr/oppai/base/texinfo-6.8/build/install-info'
+Making check in .
+make[2]: Entering directory '/usr/oppai/base/texinfo-6.8/build/install-info'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/install-info'
+Making check in tests
+make[2]: Entering directory '/usr/oppai/base/texinfo-6.8/build/install-info/tests'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/texinfo-6.8/build/install-info/tests'
+make[4]: Entering directory '/usr/oppai/base/texinfo-6.8/build/install-info/tests'
+PASS: ii-0001-test
+PASS: ii-0002-test
+PASS: ii-0003-test
+PASS: ii-0005-test
+PASS: ii-0006-test
+PASS: ii-0004-test
+PASS: ii-0009-test
+PASS: ii-0007-test
+PASS: ii-0011-test
+PASS: ii-0013-test
+PASS: ii-0008-test
+PASS: ii-0016-test
+PASS: ii-0012-test
+PASS: ii-0018-test
+PASS: ii-0017-test
+PASS: ii-0010-test
+PASS: ii-0020-test
+PASS: ii-0021-test
+PASS: ii-0014-test
+PASS: ii-0028-test
+PASS: ii-0019-test
+PASS: ii-0022-test
+PASS: ii-0015-test
+PASS: ii-0027-test
+PASS: ii-0023-test
+PASS: ii-0029-test
+PASS: ii-0024-test
+PASS: ii-0025-test
+PASS: ii-0030-test
+PASS: ii-0032-test
+PASS: ii-0031-test
+PASS: ii-0026-test
+PASS: ii-0037-test
+PASS: ii-0042-test
+PASS: ii-0039-test
+PASS: ii-0035-test
+PASS: ii-0033-test
+PASS: ii-0038-test
+PASS: ii-0036-test
+PASS: ii-0044-test
+PASS: ii-0040-test
+PASS: ii-0047-test
+PASS: ii-0043-test
+PASS: ii-0045-test
+PASS: ii-0046-test
+PASS: ii-0053-test
+PASS: ii-0034-test
+PASS: ii-0051-test
+PASS: ii-0048-test
+PASS: ii-0052-test
+PASS: ii-0041-test
+PASS: ii-0050-test
+PASS: ii-0056-test
+PASS: ii-0055-test
+PASS: ii-0057-test
+PASS: ii-0054-test
+PASS: ii-0049-test
+============================================================================
+Testsuite summary for GNU Texinfo 6.8
+============================================================================
+# TOTAL: 57
+# PASS:  57
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/install-info/tests'
+make[3]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/install-info/tests'
+make[2]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/install-info/tests'
+make[1]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/install-info'
+Making check in po
+make[1]: Entering directory '/usr/oppai/base/texinfo-6.8/build/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/po'
+Making check in po_document
+make[1]: Entering directory '/usr/oppai/base/texinfo-6.8/build/po_document'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/po_document'
+Making check in tp
+make[1]: Entering directory '/usr/oppai/base/texinfo-6.8/build/tp'
+Making check in Texinfo/XS
+make[2]: Entering directory '/usr/oppai/base/texinfo-6.8/build/tp/Texinfo/XS'
+make  check-recursive
+make[3]: Entering directory '/usr/oppai/base/texinfo-6.8/build/tp/Texinfo/XS'
+Making check in gnulib/lib
+make[4]: Entering directory '/usr/oppai/base/texinfo-6.8/build/tp/Texinfo/XS/gnulib/lib'
+make  check-recursive
+make[5]: Entering directory '/usr/oppai/base/texinfo-6.8/build/tp/Texinfo/XS/gnulib/lib'
+make[6]: Entering directory '/usr/oppai/base/texinfo-6.8/build/tp/Texinfo/XS/gnulib/lib'
+make[6]: Nothing to be done for 'check-am'.
+make[6]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/tp/Texinfo/XS/gnulib/lib'
+make[5]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/tp/Texinfo/XS/gnulib/lib'
+make[4]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/tp/Texinfo/XS/gnulib/lib'
+make[4]: Entering directory '/usr/oppai/base/texinfo-6.8/build/tp/Texinfo/XS'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/tp/Texinfo/XS'
+make[3]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/tp/Texinfo/XS'
+make[2]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/tp/Texinfo/XS'
+Making check in .
+make[2]: Entering directory '/usr/oppai/base/texinfo-6.8/build/tp'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/texinfo-6.8/build/tp'
+make[4]: Entering directory '/usr/oppai/base/texinfo-6.8/build/tp'
+============================================================================
+Testsuite summary for GNU Texinfo 6.8
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/tp'
+make[3]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/tp'
+make[2]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/tp'
+Making check in tests
+make[2]: Entering directory '/usr/oppai/base/texinfo-6.8/build/tp/tests'
+Making check in .
+make[3]: Entering directory '/usr/oppai/base/texinfo-6.8/build/tp/tests'
+make  check-TESTS
+make[4]: Entering directory '/usr/oppai/base/texinfo-6.8/build/tp/tests'
+make[5]: Entering directory '/usr/oppai/base/texinfo-6.8/build/tp/tests'
+PASS: test_scripts/formatting_texi_ignore_and_comments.sh
+PASS: test_scripts/formatting_ignore_and_comments_output.sh
+PASS: test_scripts/formatting_simplest_test_css.sh
+PASS: test_scripts/formatting_test_redefine_need.sh
+PASS: test_scripts/sectioning_sectioning_directions_split_chapter.sh
+PASS: test_scripts/formatting_split_nocopying_split_dev_null.sh
+PASS: test_scripts/sectioning_sectioning_directions.sh
+PASS: test_scripts/indices_index_entry_in_footnote_info.sh
+PASS: test_scripts/indices_index_no_node_no_top.sh
+PASS: test_scripts/indices_index_and_node_same_name.sh
+PASS: test_scripts/indices_index_nodes.sh
+PASS: test_scripts/indices_index_nodes_nodes.sh
+PASS: test_scripts/indices_index_special_region_no_insertcopying.sh
+PASS: test_scripts/indices_index_special_region_no_region_html.sh
+PASS: test_scripts/indices_nodes_before_top_and_sections_html_chapter_nodes.sh
+PASS: test_scripts/indices_printindex_between_node_section.sh
+PASS: test_scripts/nested_formats_texi_nested_formats.sh
+PASS: test_scripts/indices_printindex_between_part_chapter.sh
+PASS: test_scripts/indices_index_special_region.sh
+PASS: test_scripts/indices_index_special_region_no_region.sh
+PASS: test_scripts/indices_index_one_node.sh
+PASS: test_scripts/nested_formats_nested_itemize.sh
+PASS: test_scripts/indices_index_special_region_no_insertcopying_html.sh
+PASS: test_scripts/indices_nodes_before_top_and_sections_html_chapter.sh
+PASS: test_scripts/indices_index_table.sh
+PASS: test_scripts/indices_index_special_region_html.sh
+PASS: test_scripts/nested_formats_nested_flushright.sh
+PASS: test_scripts/nested_formats_nested_group.sh
+PASS: test_scripts/nested_formats_nested_menu.sh
+PASS: test_scripts/indices_index_entry_in_footnote.sh
+PASS: test_scripts/indices_index_entry_in_footnote_separated_info.sh
+PASS: test_scripts/nested_formats_nested_table.sh
+PASS: test_scripts/contents_contents_at_begin.sh
+PASS: test_scripts/nested_formats_nested_enumerate.sh
+PASS: test_scripts/nested_formats_nested_quotation.sh
+PASS: test_scripts/nested_formats_nested_multitable.sh
+PASS: test_scripts/nested_formats_nested_cartouche.sh
+PASS: test_scripts/contents_contents_in_middle_chapter.sh
+PASS: test_scripts/nested_formats_nested_example.sh
+PASS: test_scripts/contents_contents_in_middle_section.sh
+PASS: test_scripts/contents_contents_at_begin_inline.sh
+PASS: test_scripts/contents_no_content.sh
+PASS: test_scripts/contents_double_contents_nodes.sh
+PASS: test_scripts/contents_no_content_setcatpage.sh
+PASS: test_scripts/contents_double_contents_section.sh
+PASS: test_scripts/contents_contents_at_end.sh
+PASS: test_scripts/contents_contents_in_middle_chapter_inline.sh
+PASS: test_scripts/contents_double_contents.sh
+PASS: test_scripts/contents_double_contents_inline.sh
+PASS: test_scripts/contents_no_content_setcatpage_do_contents.sh
+PASS: test_scripts/contents_double_contents_chapter.sh
+PASS: test_scripts/contents_double_contents_after_title.sh
+PASS: test_scripts/contents_no_content_do_contents.sh
+PASS: test_scripts/contents_contents_at_end_inline.sh
+PASS: test_scripts/contents_contents_in_middle_section_inline.sh
+PASS: test_scripts/contents_no_content_do_contents_inline.sh
+PASS: test_scripts/contents_no_content_inline.sh
+PASS: test_scripts/nested_formats_nested_deffn.sh
+PASS: test_scripts/contents_double_contents_inline_section.sh
+SKIP: test_scripts/tex_html_block_EOL_tex.sh
+SKIP: test_scripts/tex_html_simplest_httex.sh
+SKIP: test_scripts/tex_html_tex_notex.sh
+SKIP: test_scripts/tex_html_tex.sh
+SKIP: test_scripts/tex_html_tex_httex.sh
+PASS: test_scripts/contents_double_contents_inline_chapter.sh
+SKIP: test_scripts/tex_html_tex_accents_httex.sh
+SKIP: test_scripts/tex_html_tex_gdef_httex.sh
+SKIP: test_scripts/tex_html_tex_accents_l2h.sh
+PASS: test_scripts/contents_double_contents_after_title_no_texi2html.sh
+SKIP: test_scripts/tex_html_tex_complex_httex.sh
+SKIP: test_scripts/tex_html_tex_gdef_l2h.sh
+SKIP: test_scripts/tex_html_tex_eqalign_httex.sh
+SKIP: test_scripts/tex_html_tex_not_closed.sh
+SKIP: test_scripts/tex_html_tex_eqalign_l2h.sh
+PASS: test_scripts/contents_double_contents_inline_nodes.sh
+SKIP: test_scripts/tex_html_math_not_closed.sh
+SKIP: test_scripts/tex_html_tex_in_copying.sh
+SKIP: test_scripts/tex_html_formatting_singular.sh
+SKIP: test_scripts/tex_html_tex_complex_l2h.sh
+PASS: test_scripts/contents_no_content_setcatpage_do_contents_inline.sh
+PASS: test_scripts/contents_no_content_setcatpage_inline.sh
+PASS: test_scripts/contents_double_contents_book.sh
+PASS: test_scripts/contents_double_contents_after_title_book_chapter.sh
+PASS: test_scripts/contents_double_contents_after_title_book.sh
+PASS: test_scripts/contents_contents_in_middle_chapter_info.sh
+PASS: test_scripts/layout_navigation_test_misc_file_collision.sh
+PASS: test_scripts/contents_contents_at_end_info.sh
+PASS: test_scripts/layout_no_monolithic_only_toc_out.sh
+PASS: test_scripts/contents_contents_in_middle_section_info.sh
+PASS: test_scripts/contents_contents_and_parts.sh
+PASS: test_scripts/contents_contents_at_begin_info.sh
+PASS: test_scripts/layout_formatting_docbook.sh
+PASS: test_scripts/layout_formatting_xml.sh
+PASS: test_scripts/contents_double_contents_info.sh
+PASS: test_scripts/layout_formatting_plaintext.sh
+PASS: test_scripts/layout_formatting_exotic.sh
+PASS: test_scripts/layout_formatting_html_nodes.sh
+PASS: test_scripts/layout_formatting_weird_quotes.sh
+PASS: test_scripts/layout_formatting_html32.sh
+PASS: test_scripts/layout_formatting_html.sh
+PASS: test_scripts/layout_formatting_regions.sh
+PASS: test_scripts/layout_formatting_mathjax.sh
+PASS: test_scripts/layout_formatting_fr_icons.sh
+PASS: test_scripts/layout_formatting_chm.sh
+PASS: test_scripts/layout_formatting.sh
+PASS: test_scripts/layout_formatting_nodes.sh
+============================================================================
+Testsuite summary for GNU Texinfo 6.8
+============================================================================
+# TOTAL: 106
+# PASS:  89
+# SKIP:  17
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/tp/tests'
+make[4]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/tp/tests'
+make[3]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/tp/tests'
+Making check in many_input_files
+make[3]: Entering directory '/usr/oppai/base/texinfo-6.8/build/tp/tests/many_input_files'
+make  check-TESTS
+make[4]: Entering directory '/usr/oppai/base/texinfo-6.8/build/tp/tests/many_input_files'
+make[5]: Entering directory '/usr/oppai/base/texinfo-6.8/build/tp/tests/many_input_files'
+SKIP: tex_l2h.sh
+SKIP: tex_t4ht.sh
+============================================================================
+Testsuite summary for GNU Texinfo 6.8
+============================================================================
+# TOTAL: 2
+# PASS:  0
+# SKIP:  2
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/tp/tests/many_input_files'
+make[4]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/tp/tests/many_input_files'
+make[3]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/tp/tests/many_input_files'
+make[2]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/tp/tests'
+make[1]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/tp'
+Making check in Pod-Simple-Texinfo
+make[1]: Entering directory '/usr/oppai/base/texinfo-6.8/build/Pod-Simple-Texinfo'
+make  check-TESTS
+make[2]: Entering directory '/usr/oppai/base/texinfo-6.8/build/Pod-Simple-Texinfo'
+make[3]: Entering directory '/usr/oppai/base/texinfo-6.8/build/Pod-Simple-Texinfo'
+PASS: prove.sh
+============================================================================
+Testsuite summary for GNU Texinfo 6.8
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/Pod-Simple-Texinfo'
+make[2]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/Pod-Simple-Texinfo'
+make[1]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/Pod-Simple-Texinfo'
+Making check in texindex
+make[1]: Entering directory '/usr/oppai/base/texinfo-6.8/build/texindex'
+make  check-TESTS
+make[2]: Entering directory '/usr/oppai/base/texinfo-6.8/build/texindex'
+make[3]: Entering directory '/usr/oppai/base/texinfo-6.8/build/texindex'
+PASS: tests/ti-helpversion.sh
+============================================================================
+Testsuite summary for GNU Texinfo 6.8
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/texindex'
+make[2]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/texindex'
+make[1]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/texindex'
+Making check in util
+make[1]: Entering directory '/usr/oppai/base/texinfo-6.8/build/util'
+make  check-TESTS
+make[2]: Entering directory '/usr/oppai/base/texinfo-6.8/build/util'
+make[3]: Entering directory '/usr/oppai/base/texinfo-6.8/build/util'
+PASS: tests/texi2dvi_helpversion.sh
+============================================================================
+Testsuite summary for GNU Texinfo 6.8
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/util'
+make[2]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/util'
+make[1]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/util'
+Making check in doc
+make[1]: Entering directory '/usr/oppai/base/texinfo-6.8/build/doc'
+Making check in tp_api
+make[2]: Entering directory '/usr/oppai/base/texinfo-6.8/build/doc/tp_api'
+make  check-am
+make[3]: Entering directory '/usr/oppai/base/texinfo-6.8/build/doc/tp_api'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/doc/tp_api'
+make[2]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/doc/tp_api'
+make[2]: Entering directory '/usr/oppai/base/texinfo-6.8/build/doc'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/doc'
+make[1]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/doc'
+Making check in man
+make[1]: Entering directory '/usr/oppai/base/texinfo-6.8/build/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/man'
+Making check in js
+make[1]: Entering directory '/usr/oppai/base/texinfo-6.8/build/js'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/texinfo-6.8/build/js'
+make[1]: Entering directory '/usr/oppai/base/texinfo-6.8/build'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/usr/oppai/base/texinfo-6.8/build'

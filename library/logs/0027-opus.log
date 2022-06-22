@@ -1,0 +1,38 @@
+make  check-recursive
+make[1]: Entering directory '/usr/oppai/library/opus-1.3.1/build'
+make[2]: Entering directory '/usr/oppai/library/opus-1.3.1/build'
+make[3]: Entering directory '/usr/oppai/library/opus-1.3.1/build/doc'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/usr/oppai/library/opus-1.3.1/build/doc'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/library/opus-1.3.1/build'
+make[4]: Entering directory '/usr/oppai/library/opus-1.3.1/build'
+PASS: celt/tests/test_unit_laplace
+PASS: celt/tests/test_unit_types
+PASS: celt/tests/test_unit_rotation
+PASS: celt/tests/test_unit_mathops
+PASS: tests/test_opus_projection
+PASS: celt/tests/test_unit_dft
+PASS: tests/test_opus_padding
+PASS: celt/tests/test_unit_mdct
+PASS: celt/tests/test_unit_cwrs32
+PASS: celt/tests/test_unit_entropy
+PASS: silk/tests/test_unit_LPC_inv_pred_gain
+PASS: tests/test_opus_decode
+PASS: tests/test_opus_api
+PASS: tests/test_opus_encode
+============================================================================
+Testsuite summary for opus 1.3.1
+============================================================================
+# TOTAL: 14
+# PASS:  14
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/library/opus-1.3.1/build'
+make[3]: Leaving directory '/usr/oppai/library/opus-1.3.1/build'
+make[2]: Leaving directory '/usr/oppai/library/opus-1.3.1/build'
+make[1]: Leaving directory '/usr/oppai/library/opus-1.3.1/build'

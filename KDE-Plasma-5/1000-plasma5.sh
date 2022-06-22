@@ -1,0 +1,35 @@
+#!/bin/bash
+./0001-kdecoration.sh
+./0002-libkscreen.sh
+./0003-breeze.sh
+./0004-breeze-gtk.sh
+./0005-layer-shell-qt.sh
+./0006-kscreenlocker.sh
+./0007-oxygen.sh
+./0008-kinfocenter.sh
+./0009-kwayland-server.sh
+./0010-kwin.sh
+./0011-libksysguard.sh
+./0012-plasma-workspace.sh
+./0013-plasma-disks.sh
+./0014-kde-gtk-config.sh
+./0015-khotkeys.sh
+./0016-kmenuedit.sh
+./0017-kscreen.sh
+./0018-kwayland-integration.sh
+./0019-kwrited.sh
+./0020-milou.sh
+./0021-plasma-nm.sh
+./0022-plasma-pa.sh
+./0023-plasma-workspace-wallpapers.sh
+./0024-polkit-kde-agent.sh
+./0025-powerdevil.sh
+./0026-plasma-desktop.sh
+./0027-kdeplasma-addons.sh
+./0028-kgamma5.sh
+./0029-ksshaskpass.sh
+./0030-kactivitymanagerd.sh
+./0031-systemsettings.sh
+./0032-xdg-desktop-portal-kde.sh
+echo "do now 0033"
+echo "END"

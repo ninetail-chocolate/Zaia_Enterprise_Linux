@@ -1,0 +1,10 @@
+Making check in src
+make[1]: Entering directory '/usr/oppai/xorg-core/libXres-1.2.1/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXres-1.2.1/src'
+Making check in man
+make[1]: Entering directory '/usr/oppai/xorg-core/libXres-1.2.1/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXres-1.2.1/man'
+make[1]: Entering directory '/usr/oppai/xorg-core/libXres-1.2.1'
+make[1]: Leaving directory '/usr/oppai/xorg-core/libXres-1.2.1'

@@ -1,0 +1,10 @@
+[0/1] Running tests...
+Test project /usr/oppai/library/libogg-1.3.5/build
+    Start 1: test_bitwise
+1/2 Test #1: test_bitwise .....................   Passed    0.05 sec
+    Start 2: test_framing
+2/2 Test #2: test_framing .....................   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 2
+
+Total Test time (real) =   0.05 sec

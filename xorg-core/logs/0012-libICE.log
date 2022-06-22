@@ -1,0 +1,14 @@
+Making check in doc
+make[1]: Entering directory '/usr/oppai/xorg-core/libICE-1.0.10/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libICE-1.0.10/doc'
+Making check in specs
+make[1]: Entering directory '/usr/oppai/xorg-core/libICE-1.0.10/specs'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libICE-1.0.10/specs'
+Making check in src
+make[1]: Entering directory '/usr/oppai/xorg-core/libICE-1.0.10/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/xorg-core/libICE-1.0.10/src'
+make[1]: Entering directory '/usr/oppai/xorg-core/libICE-1.0.10'
+make[1]: Leaving directory '/usr/oppai/xorg-core/libICE-1.0.10'

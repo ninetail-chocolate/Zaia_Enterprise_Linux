@@ -1,0 +1,289 @@
+***********************************************************************
+
+Running bc tests...
+
+Running bc print2...Skipping bc print test
+Running bc decimal...Running bc length...Skipping bc parse test
+Running bc lib2...Running bc scale...Running bc shift...Running bc add...Running bc multiply...Running bc subtract...Running bc divide...Running bc modulus...Running bc sqrt...Running bc power...Running bc comp...pass
+pass
+Running bc assignments...pass
+pass
+pass
+Running bc boolean...pass
+pass
+pass
+Running bc places...Running bc trunc...Running bc abs...Running bc functions...Running bc scientific...Running bc vars...Running bc engineering...pass
+Running bc globals...pass
+Running bc strings...pass
+Skipping bc strings2 test
+pass
+pass
+Running bc letters...pass
+pass
+pass
+pass
+pass
+Running bc exponent...pass
+pass
+Running bc log...Running bc pi...pass
+Running bc arctangent...Running bc sine...pass
+Running bc cosine...pass
+Running bc arrays...Skipping bc bessel test
+Running bc misc...Running bc misc1...Running bc misc2...Running bc misc3...pass
+pass
+Running bc misc4...pass
+Running bc misc5...pass
+pass
+Running bc misc6...pass
+pass
+Running bc misc8...pass
+Running bc misc7...Running bc void...pass
+Running bc recursive_arrays...pass
+pass
+pass
+pass
+pass
+Running bc rand...Running bc divmod...pass
+pass
+pass
+Running bc leadingzero...Running bc modexp...Skipping bc script divide.bc
+Skipping bc script subtract.bc
+Skipping bc script add.bc
+pass
+Skipping bc script multiply.bc
+Running bc bitfuncs...Skipping bc script parse.bc
+Skipping bc script print.bc
+Skipping bc script bessel.bc
+Running bc script atan.bc...Running bc script array.bc...pass
+Running bc script functions.bc...pass
+Running bc script len.bc...Running bc script globals.bc...pass
+Running bc script rand.bc...pass
+pass
+Running bc script references.bc...Running bc script ifs.bc...pass
+Skipping bc script strings2.bc
+Running bc script screen.bc...pass
+pass
+Running bc script ifs2.bc...Running bc error file 01.txt...pass
+pass
+pass
+Running bc command-line error tests...Running bc error file 04.txt...Running bc error file 05.txt...pass
+pass
+pass
+Running bc error file 06.txt...pass
+Running bc error file 01.txt through cat...pass
+Running bc error file 02.txt...pass
+Running bc error file 04.txt through cat...Running bc errors...pass
+Running bc error file 05.txt through cat...Running bc error file 07.txt...Running bc error file 03.txt...pass
+Running bc error file 08.txt...Running bc error file 09.txt...pass
+Running bc error file 02.txt through cat...pass
+Running bc error file 06.txt through cat...Running bc error file 10.txt...Running bc error file 12.txt...pass
+pass
+Running bc error file 07.txt through cat...Running bc error file 11.txt...pass
+pass
+pass
+pass
+Running bc error file 08.txt through cat...pass
+Running bc error file 12.txt through cat...pass
+pass
+Running bc error file 10.txt through cat...pass
+pass
+Running bc error file 03.txt through cat...Running bc error file 13.txt...pass
+pass
+Running bc error file 09.txt through cat...Running bc error file 14.txt...Running bc error file 15.txt...pass
+pass
+Running bc error file 11.txt through cat...pass
+pass
+Running bc error file 16.txt...pass
+pass
+pass
+Running bc error file 14.txt through cat...Running bc error file 18.txt...Running bc error file 17.txt...pass
+Running bc error file 21.txt...pass
+Running bc error file 13.txt through cat...Running bc error file 20.txt...Running bc error file 19.txt...pass
+Running bc error file 16.txt through cat...pass
+pass
+Running bc error file 18.txt through cat...Running bc error file 22.txt...pass
+Running bc error file 15.txt through cat...Running bc error file 23.txt...pass
+Running bc error file 21.txt through cat...Running bc error file 24.txt...Running bc error file 25.txt...pass
+Running bc error file 20.txt through cat...pass
+Running bc error file 26.txt...pass
+Running bc error file 17.txt through cat...Running bc error file 29.txt...pass
+pass
+Running bc error file 22.txt through cat...Running bc error file 27.txt...Running bc error file 28.txt...Running bc error file 30.txt...pass
+pass
+Running bc error file 24.txt through cat...pass
+Running bc error file 25.txt through cat...pass
+Running bc error file 32.txt...pass
+pass
+Running bc error file 27.txt through cat...Running bc error file 31.txt...pass
+Running bc error file 30.txt through cat...pass
+pass
+Running bc error file 26.txt through cat...pass
+pass
+***********************************************************************
+
+Running dc tests...
+
+pass
+pass
+Running bc error file 29.txt through cat...Running bc error file 32.txt through cat...pass
+pass
+Running bc error file 31.txt through cat...pass
+pass
+pass
+pass
+pass
+Running bc error file 19.txt through cat...pass
+Running bc error file 23.txt through cat...pass
+Running bc error file 28.txt through cat...Running bc stdin tests...Running bc read...pass
+
+Running bc quit test...pass
+Warning: ../tests/bc/scripts/timeconst.bc does not exist
+Skipping...
+pass
+pass
+pass
+Running dc decimal...pass
+pass
+Running dc length...Running dc stack_len...pass
+Running bc read errors...Running bc environment var tests...Running dc exec_stack_len...Running dc divide...Running dc add...pass
+Running keyword redefinition test...pass
+pass
+Running dc subtract...pass
+Running dc multiply...pass
+pass
+Running dc divmod...pass
+Running dc power...pass
+Running bc empty read...Running dc modexp...Running dc sqrt...Running dc modulus...pass
+pass
+pass
+Running dc boolean...pass
+Running bc read EOF...Running dc trunc...pass
+pass
+Running dc places...pass
+Running dc negate...pass
+pass
+pass
+Running dc shift...Running dc abs...pass
+Running dc engineering...pass
+Running dc scientific...pass
+Running bc line length tests...pass
+pass
+Running dc vars...pass
+pass
+Running dc misc...pass
+Running dc strings...pass
+pass
+Running dc rand...Running dc script asciify.dc...Skipping dc script prime.dc
+Running dc script array.dc...Running dc script stream.dc...pass
+Running dc script else.dc...pass
+Running dc script quit.dc...Running dc script weird.dc...Running dc script factorial.dc...Running dc script loop.dc...pass
+Running dc command-line error tests...Running dc error file 01.txt...Running dc error file 02.txt...pass
+pass
+Running bc arg tests...pass
+pass
+pass
+Running dc error file 01.txt through cat...Running dc error file 02.txt through cat...pass
+pass
+pass
+Running dc error file 03.txt...Running dc errors...pass
+Running dc error file 05.txt...Running dc error file 04.txt...pass
+Running dc error file 03.txt through cat...Running dc error file 08.txt...pass
+Running dc error file 06.txt...pass
+Running dc error file 05.txt through cat...Running dc error file 07.txt...pass
+Running dc error file 04.txt through cat...pass
+pass
+pass
+Running dc error file 10.txt...Running dc error file 09.txt...pass
+Running dc error file 08.txt through cat...Running dc error file 11.txt...pass
+Running dc error file 14.txt...Running dc error file 13.txt...pass
+Running dc error file 07.txt through cat...Running dc error file 12.txt...pass
+Running dc error file 06.txt through cat...pass
+Running dc error file 09.txt through cat...pass
+pass
+pass
+Running dc error file 10.txt through cat...pass
+pass
+Running dc error file 14.txt through cat...pass
+pass
+pass
+Running dc error file 13.txt through cat...pass
+pass
+Running dc error file 15.txt...Running dc error file 12.txt through cat...pass
+pass
+pass
+Running dc error file 15.txt through cat...Running dc error file 16.txt...Running dc error file 17.txt...pass
+pass
+Running dc error file 19.txt...pass
+Running dc error file 17.txt through cat...pass
+Running dc error file 16.txt through cat...Running dc error file 20.txt...pass
+Running dc error file 19.txt through cat...pass
+pass
+Running dc error file 20.txt through cat...Running dc error file 21.txt...Running dc error file 22.txt...pass
+pass
+pass
+Running dc error file 21.txt through cat...Running dc error file 23.txt...pass
+Running dc error file 22.txt through cat...pass
+Running dc error file 23.txt through cat...Running dc error file 25.txt...pass
+Running dc error file 25.txt through cat...pass
+Running dc error file 26.txt...pass
+Running dc error file 27.txt...pass
+Running dc error file 30.txt...Running dc error file 28.txt...Running dc error file 32.txt...pass
+pass
+Running dc error file 26.txt through cat...Running dc error file 31.txt...pass
+Running dc error file 27.txt through cat...Running dc error file 29.txt...pass
+Running dc error file 28.txt through cat...pass
+pass
+pass
+Running dc error file 31.txt through cat...pass
+pass
+Running dc error file 32.txt through cat...pass
+Running dc error file 30.txt through cat...Running dc error file 33.txt...pass
+Running dc error file 11.txt through cat...Running dc error file 18.txt...Running dc error file 34.txt...pass
+Running dc error file 29.txt through cat...pass
+pass
+pass
+pass
+pass
+Running dc error file 33.txt through cat...pass
+pass
+
+Running dc quit test...Running dc stdin tests...Running dc read...pass
+pass
+Running dc error file 18.txt through cat...Running dc error file 34.txt through cat...pass
+Running dc environment var tests...pass
+Running dc read errors...Running dc error file 24.txt...pass
+pass
+Running dc error file 24.txt through cat...pass
+pass
+pass
+Running dc empty read...pass
+Running dc read EOF...pass
+pass
+pass
+Running dc Easter script...pass
+Running dc line length tests...pass
+Running bc directory test...pass
+Running bc binary file test...pass
+Running bc binary stdin test...pass
+Running bc limits tests...pass
+Running dc arg tests...pass
+pass
+pass
+pass
+Running dc directory test...pass
+Running dc binary file test...pass
+Running dc binary stdin test...pass
+pass
+pass
+pass
+
+All dc tests passed.
+
+***********************************************************************
+pass
+pass
+Running bc posix_errors...pass
+
+All bc tests passed.
+
+***********************************************************************

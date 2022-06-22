@@ -1,0 +1,260 @@
+Making check in src
+make[1]: Entering directory '/usr/oppai/library/lcms2-2.13.1/build/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/library/lcms2-2.13.1/build/src'
+Making check in include
+make[1]: Entering directory '/usr/oppai/library/lcms2-2.13.1/build/include'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/library/lcms2-2.13.1/build/include'
+Making check in utils/tificc
+make[1]: Entering directory '/usr/oppai/library/lcms2-2.13.1/build/utils/tificc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/library/lcms2-2.13.1/build/utils/tificc'
+Making check in utils/transicc
+make[1]: Entering directory '/usr/oppai/library/lcms2-2.13.1/build/utils/transicc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/library/lcms2-2.13.1/build/utils/transicc'
+Making check in utils/linkicc
+make[1]: Entering directory '/usr/oppai/library/lcms2-2.13.1/build/utils/linkicc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/library/lcms2-2.13.1/build/utils/linkicc'
+Making check in utils/jpgicc
+make[1]: Entering directory '/usr/oppai/library/lcms2-2.13.1/build/utils/jpgicc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/library/lcms2-2.13.1/build/utils/jpgicc'
+Making check in utils/psicc
+make[1]: Entering directory '/usr/oppai/library/lcms2-2.13.1/build/utils/psicc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/library/lcms2-2.13.1/build/utils/psicc'
+Making check in testbed
+make[1]: Entering directory '/usr/oppai/library/lcms2-2.13.1/build/testbed'
+make  testcms
+make[2]: Entering directory '/usr/oppai/library/lcms2-2.13.1/build/testbed'
+depbase=`echo testcms2.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+clang -DPACKAGE_NAME=\"lcms2\" -DPACKAGE_TARNAME=\"lcms2\" -DPACKAGE_VERSION=\"2.13\" -DPACKAGE_STRING=\"lcms2\ 2.13\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_FUNC_ATTRIBUTE_VISIBILITY=1 -DHAVE_GMTIME_R=1 -DHAVE_PTHREAD=1 -DHasTHREADS=1 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I../../testbed  -I../include -I../../include -I../../src   -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -fvisibility=hidden  -MT testcms2.o -MD -MP -MF $depbase.Tpo -c -o testcms2.o ../../testbed/testcms2.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo testplugin.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+clang -DPACKAGE_NAME=\"lcms2\" -DPACKAGE_TARNAME=\"lcms2\" -DPACKAGE_VERSION=\"2.13\" -DPACKAGE_STRING=\"lcms2\ 2.13\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_FUNC_ATTRIBUTE_VISIBILITY=1 -DHAVE_GMTIME_R=1 -DHAVE_PTHREAD=1 -DHasTHREADS=1 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I../../testbed  -I../include -I../../include -I../../src   -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -fvisibility=hidden  -MT testplugin.o -MD -MP -MF $depbase.Tpo -c -o testplugin.o ../../testbed/testplugin.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo zoo_icc.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+clang -DPACKAGE_NAME=\"lcms2\" -DPACKAGE_TARNAME=\"lcms2\" -DPACKAGE_VERSION=\"2.13\" -DPACKAGE_STRING=\"lcms2\ 2.13\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_FUNC_ATTRIBUTE_VISIBILITY=1 -DHAVE_GMTIME_R=1 -DHAVE_PTHREAD=1 -DHasTHREADS=1 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I../../testbed  -I../include -I../../include -I../../src   -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -fvisibility=hidden  -MT zoo_icc.o -MD -MP -MF $depbase.Tpo -c -o zoo_icc.o ../../testbed/zoo_icc.c &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -fvisibility=hidden  -static   -o testcms testcms2.o testplugin.o zoo_icc.o ../src/liblcms2.la  
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC --target=x86_64-zel-linux-musl -fvisibility=hidden -o testcms testcms2.o testplugin.o zoo_icc.o  ../src/.libs/liblcms2.so -lm -lpthread -Wl,-rpath -Wl,/usr/oppai/library/lcms2-2.13.1/build/src/.libs
+make[2]: Leaving directory '/usr/oppai/library/lcms2-2.13.1/build/testbed'
+if [ ../.. != .. ]; then \
+	cp ../../testbed/*.ic? ../testbed; \
+fi
+LD_LIBRARY_PATH=../src/.libs ./testcms
+LittleCMS 2.13 test bed Apr  5 2022 06:06:52
+
+Installing debug memory plug-in ... done.
+Installing error logger ... done.
+Supported intents:
+	0 - Perceptual
+	1 - Relative colorimetric
+	2 - Saturation
+	3 - Absolute colorimetric
+	10 - Perceptual preserving black ink
+	11 - Relative colorimetric preserving black ink
+	12 - Saturation preserving black ink
+	13 - Perceptual preserving black plane
+	14 - Relative colorimetric preserving black plane
+	15 - Saturation preserving black plane
+
+Checking Base types ...Ok.
+Checking endianness ...Ok.
+Checking quick floor ...Ok.
+Checking quick floor word ...Ok.
+Checking Fixed point 15.16 representation ...Ok.
+Checking Fixed point 8.8 representation ...Ok.
+Checking D50 roundtrip ...Ok.
+Checking Creation of test profiles .................Ok.
+Checking 1D interpolation in 2pt tables ...Ok.
+Checking 1D interpolation in 3pt tables ...Ok.
+Checking 1D interpolation in 4pt tables ...Ok.
+Checking 1D interpolation in 6pt tables ...Ok.
+Checking 1D interpolation in 18pt tables ...Ok.
+Checking 1D interpolation in descending 2pt tables ...Ok.
+Checking 1D interpolation in descending 3pt tables ...Ok.
+Checking 1D interpolation in descending 6pt tables ...Ok.
+Checking 1D interpolation in descending 18pt tables ...Ok.
+Checking 3D interpolation Tetrahedral (float)  ...Ok.
+Checking 3D interpolation Trilinear (float)  ...Ok.
+Checking 3D interpolation Tetrahedral (16)  ...Ok.
+Checking 3D interpolation Trilinear (16)  ...Ok.
+Checking Reverse interpolation 3 -> 3 ...Ok.
+Checking Reverse interpolation 4 -> 3 ......Ok.
+Checking 3D interpolation ...Ok.
+Checking 3D interpolation with granularity ...Ok.
+Checking 4D interpolation ...Ok.
+Checking 4D interpolation with granularity ...Ok.
+Checking 5D interpolation with granularity ...Ok.
+Checking 6D interpolation with granularity ...Ok.
+Checking 7D interpolation with granularity ...Ok.
+Checking 8D interpolation with granularity ...Ok.
+Checking Lab to LCh and back (float only)  ...Ok.
+Checking Lab to XYZ and back (float only)  ...Ok.
+Checking Lab to xyY and back (float only)  ...Ok.
+Checking Lab V2 encoding ...Ok.
+Checking Lab V4 encoding ...Ok.
+Checking Blackbody radiator ...Ok.
+Checking Linear gamma curves (16 bits) ....Ok.
+Checking Linear gamma curves (float) ....Ok.
+Checking Curve 1.8 (float) ...|Err|<0.001953 .Ok.
+Checking Curve 2.2 (float) ...|Err|<0.001953 .Ok.
+Checking Curve 3.0 (float) ...|Err|<0.001953 .Ok.
+Checking Curve 1.8 (table) ...|Err|<0.053287 .Ok.
+Checking Curve 2.2 (table) ...|Err|<0.024062 .Ok.
+Checking Curve 3.0 (table) ...|Err|<0.049726 .Ok.
+Checking Curve 1.8 (word table) ...|Err|<0.990786 .Ok.
+Checking Curve 2.2 (word table) ...|Err|<0.972654 .Ok.
+Checking Curve 3.0 (word table) ...|Err|<0.986603 .Ok.
+Checking Parametric curves ...Ok.
+Checking Join curves ...Ok.
+Checking Join curves descending ...Ok.
+Checking Join curves degenerated ...Ok.
+Checking Join curves sRGB (Float) ...Ok.
+Checking Join curves sRGB (16 bits) ...Ok.
+Checking Join curves sigmoidal ...Ok.
+Checking LUT creation & dup ...Ok.
+Checking 1 Stage LUT  ...Ok.
+Checking 2 Stage LUT  ...Ok.
+Checking 2 Stage LUT (16 bits) ...Ok.
+Checking 3 Stage LUT  ...Ok.
+Checking 3 Stage LUT (16 bits) ...Ok.
+Checking 4 Stage LUT  ...Ok.
+Checking 4 Stage LUT (16 bits) ...Ok.
+Checking 5 Stage LUT  ...Ok.
+Checking 5 Stage LUT (16 bits)  ...Ok.
+Checking 6 Stage LUT  ...Ok.
+Checking 6 Stage LUT (16 bits)  ...Ok.
+Checking Lab to Lab LUT (float only)  ...Ok.
+Checking XYZ to XYZ LUT (float only)  ...Ok.
+Checking Lab to Lab MAT LUT (float only)  ...Ok.
+Checking Named Color LUT ...Ok.
+Checking Usual formatters ...Ok.
+Checking Floating point formatters ...Ok.
+Checking HALF formatters ...Ok.
+Checking ChangeBuffersFormat ...Ok.
+Checking Multilocalized Unicode ...Ok.
+Checking Named color lists ...Ok.
+Checking Create named color profile ...Ok.
+Checking Profile creation .............................................Ok.
+Checking Header version ...Ok.
+Checking Multilocalized profile ...Ok.
+Checking Error reporting on bad profiles ...Ok.
+Checking Error reporting on bad transforms ...Ok.
+Checking Curves only transforms .........Ok.
+Checking Float Lab->Lab transforms .......Ok.
+Checking Encoded Lab->Lab transforms ...Ok.
+Checking Stored identities .......Ok.
+Checking Matrix-shaper transform (float) ...Ok.
+Checking Matrix-shaper transform (16 bits) ...Ok.
+Checking Matrix-shaper transform (8 bits) ...Ok.
+Checking Primaries of sRGB ...Ok.
+Checking Known values across matrix-shaper ...Ok.
+Checking Gray input profile ...Ok.
+Checking Gray Lab input profile ...Ok.
+Checking Gray output profile ...Ok.
+Checking Gray Lab output profile ...Ok.
+Checking Matrix-shaper proofing transform (float) ...Ok.
+Checking Matrix-shaper proofing transform (16 bits) ...Ok.
+Checking Gamut check .....Ok.
+Checking CMYK roundtrip on perceptual transform ...Ok.
+Checking CMYK perceptual transform ...Ok.
+Checking Black ink only preservation ...Ok.
+Checking Black plane preservation ...Ok.
+Checking Deciding curve types ...Ok.
+Checking Black point detection ...Ok.
+Checking TAC detection ...Ok.
+Checking CGATS parser ..............Ok.
+Checking CGATS parser on junk ...Ok.
+Checking CGATS parser on overflow ...Ok.
+Checking PostScript generator ...Ok.
+Checking Segment maxima GBD ........Ok.
+Checking MD5 digest ...Ok.
+Checking Linking ...Ok.
+Checking floating point tags on XYZ ...Ok.
+Checking RGB->Lab->RGB with alpha on FLT ...Ok.
+Checking Parametric curve on Rec709 ...Ok.
+Checking Floating Point sampled curve with non-zero start ...Ok.
+Checking Floating Point segmented curve with short sampled segment ...Ok.
+Checking Read RAW portions .....Ok.
+Checking Check MetaTag ...Ok.
+Checking Null transform on floats ...Ok.
+Checking Set free a tag ...Ok.
+Checking Matrix simplification ...Ok.
+Checking Planar 8 optimization ...Ok.
+Checking Swap endian feature ...Ok.
+Checking Transform line stride RGB ...Ok.
+Checking Forged MPE profile ...Ok.
+Checking Proofing intersection ...Ok.
+Checking Empty MLUC ...Ok.
+Checking sRGB round-trips ...Ok.
+Checking Gamma space detection ...Ok.
+Checking Unbounded mode w/ integer output ...Ok.
+Checking Context memory handling ...Ok.
+Checking Simple context functionality ...Ok.
+Checking Alarm codes context ...Ok.
+Checking Adaptation state context ...Ok.
+Checking 1D interpolation plugin ...Ok.
+Checking 3D interpolation plugin ...Ok.
+Checking Parametric curve plugin ...Ok.
+Checking Formatters plugin ...Ok.
+Checking Tag type plugin ...Ok.
+Checking MPE type plugin ...Ok.
+Checking Optimization plugin ...Ok.
+Checking Rendering intent plugin ...Ok.
+Checking Full transform plugin ...Ok.
+Checking Mutex plugin ...Ok.
+
+
+P E R F O R M A N C E   T E S T S
+=================================
+
+8 bits on CLUT profiles                      : 33.2 MPixel/sec.
+16 bits on CLUT profiles                     : 42.5 MPixel/sec.
+32 bits on CLUT profiles                     : 3.22 MPixel/sec.
+
+8 bits on Matrix-Shaper profiles             : 76.5 MPixel/sec.
+16 bits on Matrix-Shaper profiles            : 41.5 MPixel/sec.
+32 bits on Matrix-Shaper profiles            : 5.71 MPixel/sec.
+
+8 bits on SAME Matrix-Shaper profiles        : 98.1 MPixel/sec.
+16 bits on SAME Matrix-Shaper profiles       : 111. MPixel/sec.
+32 bits on SAME Matrix-Shaper profiles       : 4.20 MPixel/sec.
+
+8 bits on Matrix-Shaper profiles (AbsCol)    : 77.1 MPixel/sec.
+16 bits on Matrix-Shaper profiles (AbsCol)   : 42.5 MPixel/sec.
+32 bits on Matrix-Shaper profiles (AbsCol)   : 5.70 MPixel/sec.
+
+8 bits on curves                             : 113. MPixel/sec.
+16 bits on curves                            : 130. MPixel/sec.
+32 bits on curves                            : 4.71 MPixel/sec.
+
+8 bits on CMYK profiles                      : 18.1 MPixel/sec.
+16 bits on CMYK profiles                     : 18.6 MPixel/sec.
+32 bits on CMYK profiles                     : 2.92 MPixel/sec.
+
+8 bits on gray-to gray                       : 120. MPixel/sec.
+16 bits on gray-to gray                      : 130. MPixel/sec.
+32 bits on gray-to gray                      : 8.19 MPixel/sec.
+
+8 bits on gray-to-lab gray                   : 119. MPixel/sec.
+16 bits on gray-to-lab gray                  : 132. MPixel/sec.
+32 bits on gray-to-lab gray                  : 4.54 MPixel/sec.
+
+8 bits on SAME gray-to-gray                  : 120. MPixel/sec.
+16 bits on SAME gray-to-gray                 : 130. MPixel/sec.
+32 bits on SAME gray-to-gray                 : 8.26 MPixel/sec.
+
+[Memory statistics]
+Allocated = 0 MaxAlloc = 3055784 Single block hit = 1204224
+if [ ../.. != .. ]; then \
+	rm -f ../testbed/*.ic?; \
+fi
+make[1]: Leaving directory '/usr/oppai/library/lcms2-2.13.1/build/testbed'
+make[1]: Entering directory '/usr/oppai/library/lcms2-2.13.1/build'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/usr/oppai/library/lcms2-2.13.1/build'

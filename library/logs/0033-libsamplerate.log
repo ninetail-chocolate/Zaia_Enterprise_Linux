@@ -1,0 +1,669 @@
+make  tests/callback_hang_test tests/callback_test tests/clone_test tests/downsample_test tests/float_short_test tests/misc_test tests/multi_channel_test tests/nullptr_test tests/reset_test tests/simple_test tests/snr_bw_test tests/termination_test tests/throughput_test tests/varispeed_test tests/multichan_throughput_test tests/src-evaluate
+make[1]: Entering directory '/usr/oppai/library/libsamplerate-0.2.2/build'
+  CC       tests/callback_hang_test.o
+  CC       tests/callback_test.o
+  CC       tests/clone_test.o
+  CC       tests/util.o
+  CC       tests/downsample_test.o
+  CC       tests/float_short_test.o
+  CC       tests/misc_test.o
+  CC       tests/multi_channel_test-multi_channel_test.o
+  CC       tests/multi_channel_test-util.o
+  CC       tests/multi_channel_test-calc_snr.o
+  CC       tests/reset_test.o
+  CC       tests/nullptr_test.o
+  CC       tests/simple_test.o
+  CC       tests/snr_bw_test-snr_bw_test.o
+  CC       tests/snr_bw_test-calc_snr.o
+  CC       tests/snr_bw_test-util.o
+  CC       tests/termination_test.o
+  CC       tests/throughput_test-throughput_test.o
+  CC       tests/throughput_test-util.o
+  CC       tests/throughput_test-calc_snr.o
+  CC       tests/varispeed_test-varispeed_test.o
+  CC       tests/varispeed_test-util.o
+  CC       tests/varispeed_test-calc_snr.o
+  CC       tests/multichan_throughput_test-multichan_throughput_test.o
+  CC       tests/multichan_throughput_test-util.o
+  CC       tests/multichan_throughput_test-calc_snr.o
+  CC       tests/src_evaluate-src-evaluate.o
+  CC       tests/src_evaluate-calc_snr.o
+  CC       tests/src_evaluate-util.o
+  CCLD     tests/snr_bw_test
+  CCLD     tests/callback_hang_test
+  CCLD     tests/callback_test
+  CCLD     tests/clone_test
+  CCLD     tests/downsample_test
+  CCLD     tests/float_short_test
+  CCLD     tests/misc_test
+  CCLD     tests/nullptr_test
+  CCLD     tests/simple_test
+  CCLD     tests/reset_test
+  CCLD     tests/throughput_test
+  CCLD     tests/varispeed_test
+  CCLD     tests/multi_channel_test
+  CCLD     tests/termination_test
+  CCLD     tests/multichan_throughput_test
+  CCLD     tests/src-evaluate
+make[1]: Leaving directory '/usr/oppai/library/libsamplerate-0.2.2/build'
+make  check-TESTS
+make[1]: Entering directory '/usr/oppai/library/libsamplerate-0.2.2/build'
+
+	callback_hang_test  (ZOH Interpolator            ) ....... ok
+	callback_hang_test  (Linear Interpolator         ) ....... ok
+	callback_hang_test  (Fastest Sinc Interpolator   ) ....... ok
+
+PASS: tests/callback_hang_test
+
+    Zero Order Hold interpolator :
+	callback_test    (SRC ratio = 1.0000) ........... ok
+	callback_test    (SRC ratio = 0.0990) ........... ok
+	callback_test    (SRC ratio = 0.1000) ........... ok
+	callback_test    (SRC ratio = 0.3333) ........... ok
+	callback_test    (SRC ratio = 0.7890) ........... ok
+	callback_test    (SRC ratio = 1.0001) ........... ok
+	callback_test    (SRC ratio = 1.9000) ........... ok
+	callback_test    (SRC ratio = 3.1000) ........... ok
+	callback_test    (SRC ratio = 9.9000) ........... ok
+    Linear interpolator :
+	callback_test    (SRC ratio = 1.0000) ........... ok
+	callback_test    (SRC ratio = 0.0990) ........... ok
+	callback_test    (SRC ratio = 0.1000) ........... ok
+	callback_test    (SRC ratio = 0.3333) ........... ok
+	callback_test    (SRC ratio = 0.7890) ........... ok
+	callback_test    (SRC ratio = 1.0001) ........... ok
+	callback_test    (SRC ratio = 1.9000) ........... ok
+	callback_test    (SRC ratio = 3.1000) ........... ok
+	callback_test    (SRC ratio = 9.9000) ........... ok
+    Sinc interpolator :
+	callback_test    (SRC ratio = 1.0000) ........... ok
+	callback_test    (SRC ratio = 0.0990) ........... ok
+	callback_test    (SRC ratio = 0.1000) ........... ok
+	callback_test    (SRC ratio = 0.3333) ........... ok
+	callback_test    (SRC ratio = 0.7890) ........... ok
+	callback_test    (SRC ratio = 1.0001) ........... ok
+	callback_test    (SRC ratio = 1.9000) ........... ok
+	callback_test    (SRC ratio = 3.1000) ........... ok
+	callback_test    (SRC ratio = 9.9000) ........... ok
+
+    End of stream test :
+	ZOH Interpolator                      ........... ok
+	Linear Interpolator                   ........... ok
+	Fastest Sinc Interpolator             ........... ok
+
+PASS: tests/callback_test
+
+        clone_test          (ZOH Interpolator            ) ....... ok
+        clone_test          (Linear Interpolator         ) ....... ok
+        clone_test          (Fastest Sinc Interpolator   ) ....... ok
+
+PASS: tests/clone_test
+
+        downsample_test     (ZOH Interpolator            ) ....... ok
+        downsample_test     (Linear Interpolator         ) ....... ok
+        downsample_test     (Fastest Sinc Interpolator   ) ....... ok
+        downsample_test     (Medium Sinc Interpolator    ) ....... ok
+        downsample_test     (Best Sinc Interpolator      ) ....... ok
+
+PASS: tests/downsample_test
+
+	float_to_short_test ............................. ok
+	short_to_float_test ............................. ok
+	float_to_int_test ............................... ok
+	int_to_float_test ............................... ok
+
+PASS: tests/float_short_test
+
+    version : libsamplerate-0.2.2 (c) 2002-2008 Erik de Castro Lopo
+
+    name_test :
+	Name 0 : Best Sinc Interpolator
+	Desc 0 : Band limited sinc interpolation, best quality, 144dB SNR, 96% BW.
+	Name 1 : Medium Sinc Interpolator
+	Desc 1 : Band limited sinc interpolation, medium quality, 121dB SNR, 90% BW.
+	Name 2 : Fastest Sinc Interpolator
+	Desc 2 : Band limited sinc interpolation, fastest, 97dB SNR, 80% BW.
+	Name 3 : ZOH Interpolator
+	Desc 3 : Zero order hold interpolator, very fast, poor quality.
+	Name 4 : Linear Interpolator
+	Desc 4 : Linear interpolator, very fast, poor quality.
+
+    error_test :
+	0  : No error.
+	1  : Malloc failed.
+	2  : SRC_STATE pointer is NULL.
+	3  : SRC_DATA pointer is NULL.
+	4  : SRC_DATA->data_out or SRC_DATA->data_in is NULL.
+	5  : Internal error. No private data.
+	6  : SRC ratio outside [1/256, 256] range.
+	7  : Internal error. No process pointer.
+	8  : Internal error. SHIFT_BITS too large.
+	9  : Internal error. Filter length too large.
+	10 : Bad converter number.
+	11 : Channel count must be >= 1.
+	12 : Internal error. Bad buffer length. Please report this.
+	13 : Internal error. Input data / internal buffer size difference. Please report this.
+	14 : Internal error. Private pointer is NULL. Please report this.
+	15 : src_process() called without reset after end_of_input.
+	16 : Input and output data arrays overlap.
+	17 : Supplied callback function pointer is NULL.
+	18 : Calling mode differs from initialisation mode (ie process v callback).
+	19 : Callback function pointer is NULL in src_callback_read ().
+	20 : This converter only allows constant conversion ratios.
+	21 : Internal error : Bad length in prepare_data ().
+	22 : Error : Someone is trampling on my internal state.
+	23 : Placeholder. No error defined for this error number.
+
+    src_ratio_test (SRC ratio must be in range [1/256, 256]):
+	 SRC ratio (  0.00390) : fail ................... ok
+	 SRC ratio (  0.00391) : pass ................... ok
+	 SRC ratio (  1.00000) : pass ................... ok
+	 SRC ratio (256.00000) : pass ................... ok
+	 SRC ratio (256.10000) : fail ................... ok
+	 SRC ratio ( -1.00000) : fail ................... ok
+
+    zero_input_test (ZOH Interpolator          ) ........ ok
+    zero_input_test (Linear Interpolator       ) ........ ok
+    zero_input_test (Fastest Sinc Interpolator ) ........ ok
+
+PASS: tests/misc_test
+
+    Zero Order Hold interpolator :
+	simple_test            ( 1 channel ) ............ ok
+	process_test           ( 1 channel ) ............ ok
+	callback_test          ( 1 channel ) ............ ok
+	simple_test            ( 2 channels) ............ ok
+	process_test           ( 2 channels) ............ ok
+	callback_test          ( 2 channels) ............ ok
+	simple_test            ( 3 channels) ............ ok
+	process_test           ( 3 channels) ............ ok
+	callback_test          ( 3 channels) ............ ok
+
+    Linear interpolator :
+	simple_test            ( 1 channel ) ............ ok
+	process_test           ( 1 channel ) ............ ok
+	callback_test          ( 1 channel ) ............ ok
+	simple_test            ( 2 channels) ............ ok
+	process_test           ( 2 channels) ............ ok
+	callback_test          ( 2 channels) ............ ok
+	simple_test            ( 3 channels) ............ ok
+	process_test           ( 3 channels) ............ ok
+	callback_test          ( 3 channels) ............ ok
+
+    Sinc interpolator :
+	simple_test            ( 1 channel ) ............ ok
+	process_test           ( 1 channel ) ............ ok
+	callback_test          ( 1 channel ) ............ ok
+	simple_test            ( 2 channels) ............ ok
+	process_test           ( 2 channels) ............ ok
+	callback_test          ( 2 channels) ............ ok
+	simple_test            ( 3 channels) ............ ok
+	process_test           ( 3 channels) ............ ok
+	callback_test          ( 3 channels) ............ ok
+	simple_test            ( 4 channels) ............ ok
+	process_test           ( 4 channels) ............ ok
+	callback_test          ( 4 channels) ............ ok
+	simple_test            ( 5 channels) ............ ok
+	process_test           ( 5 channels) ............ ok
+	callback_test          ( 5 channels) ............ ok
+	simple_test            ( 6 channels) ............ ok
+	process_test           ( 6 channels) ............ ok
+	callback_test          ( 6 channels) ............ ok
+	simple_test            ( 7 channels) ............ ok
+	process_test           ( 7 channels) ............ ok
+	callback_test          ( 7 channels) ............ ok
+	simple_test            ( 8 channels) ............ ok
+	process_test           ( 8 channels) ............ ok
+	callback_test          ( 8 channels) ............ ok
+	simple_test            ( 9 channels) ............ ok
+	process_test           ( 9 channels) ............ ok
+	callback_test          ( 9 channels) ............ ok
+	simple_test            (10 channels) ............ ok
+	process_test           (10 channels) ............ ok
+	callback_test          (10 channels) ............ ok
+
+PASS: tests/multi_channel_test
+
+        nullptr_test        (ZOH Interpolator            ) ....... ok
+        nullptr_test        (Linear Interpolator         ) ....... ok
+        nullptr_test        (Fastest Sinc Interpolator   ) ....... ok
+
+PASS: tests/nullptr_test
+
+	process_reset_test  (ZOH Interpolator            ) ....... ok
+	process_reset_test  (Linear Interpolator         ) ....... ok
+	process_reset_test  (Fastest Sinc Interpolator   ) ....... ok
+	callback_reset_test (ZOH Interpolator            ) ....... ok
+	callback_reset_test (Linear Interpolator         ) ....... ok
+	callback_reset_test (Fastest Sinc Interpolator   ) ....... ok
+
+PASS: tests/reset_test
+
+    Zero Order Hold interpolator :
+	simple_test	(SRC ratio = 1.0001) ................. ok
+	produces_output	(SRC ratio = 1.0001, channels = 1) ... ok
+	produces_output	(SRC ratio = 1.0001, channels = 2) ... ok
+	produces_output	(SRC ratio = 1.0001, channels = 3) ... ok
+	produces_output	(SRC ratio = 1.0001, channels = 4) ... ok
+	produces_output	(SRC ratio = 1.0001, channels = 5) ... ok
+	produces_output	(SRC ratio = 1.0001, channels = 6) ... ok
+	produces_output	(SRC ratio = 1.0001, channels = 7) ... ok
+	produces_output	(SRC ratio = 1.0001, channels = 8) ... ok
+	produces_output	(SRC ratio = 1.0001, channels = 9) ... ok
+	simple_test	(SRC ratio = 0.0990) ................. ok
+	produces_output	(SRC ratio = 0.0990, channels = 1) ... ok
+	produces_output	(SRC ratio = 0.0990, channels = 2) ... ok
+	produces_output	(SRC ratio = 0.0990, channels = 3) ... ok
+	produces_output	(SRC ratio = 0.0990, channels = 4) ... ok
+	produces_output	(SRC ratio = 0.0990, channels = 5) ... ok
+	produces_output	(SRC ratio = 0.0990, channels = 6) ... ok
+	produces_output	(SRC ratio = 0.0990, channels = 7) ... ok
+	produces_output	(SRC ratio = 0.0990, channels = 8) ... ok
+	produces_output	(SRC ratio = 0.0990, channels = 9) ... ok
+	simple_test	(SRC ratio = 0.1000) ................. ok
+	produces_output	(SRC ratio = 0.1000, channels = 1) ... ok
+	produces_output	(SRC ratio = 0.1000, channels = 2) ... ok
+	produces_output	(SRC ratio = 0.1000, channels = 3) ... ok
+	produces_output	(SRC ratio = 0.1000, channels = 4) ... ok
+	produces_output	(SRC ratio = 0.1000, channels = 5) ... ok
+	produces_output	(SRC ratio = 0.1000, channels = 6) ... ok
+	produces_output	(SRC ratio = 0.1000, channels = 7) ... ok
+	produces_output	(SRC ratio = 0.1000, channels = 8) ... ok
+	produces_output	(SRC ratio = 0.1000, channels = 9) ... ok
+	simple_test	(SRC ratio = 0.3333) ................. ok
+	produces_output	(SRC ratio = 0.3333, channels = 1) ... ok
+	produces_output	(SRC ratio = 0.3333, channels = 2) ... ok
+	produces_output	(SRC ratio = 0.3333, channels = 3) ... ok
+	produces_output	(SRC ratio = 0.3333, channels = 4) ... ok
+	produces_output	(SRC ratio = 0.3333, channels = 5) ... ok
+	produces_output	(SRC ratio = 0.3333, channels = 6) ... ok
+	produces_output	(SRC ratio = 0.3333, channels = 7) ... ok
+	produces_output	(SRC ratio = 0.3333, channels = 8) ... ok
+	produces_output	(SRC ratio = 0.3333, channels = 9) ... ok
+	simple_test	(SRC ratio = 0.7890) ................. ok
+	produces_output	(SRC ratio = 0.7890, channels = 1) ... ok
+	produces_output	(SRC ratio = 0.7890, channels = 2) ... ok
+	produces_output	(SRC ratio = 0.7890, channels = 3) ... ok
+	produces_output	(SRC ratio = 0.7890, channels = 4) ... ok
+	produces_output	(SRC ratio = 0.7890, channels = 5) ... ok
+	produces_output	(SRC ratio = 0.7890, channels = 6) ... ok
+	produces_output	(SRC ratio = 0.7890, channels = 7) ... ok
+	produces_output	(SRC ratio = 0.7890, channels = 8) ... ok
+	produces_output	(SRC ratio = 0.7890, channels = 9) ... ok
+	simple_test	(SRC ratio = 1.9000) ................. ok
+	produces_output	(SRC ratio = 1.9000, channels = 1) ... ok
+	produces_output	(SRC ratio = 1.9000, channels = 2) ... ok
+	produces_output	(SRC ratio = 1.9000, channels = 3) ... ok
+	produces_output	(SRC ratio = 1.9000, channels = 4) ... ok
+	produces_output	(SRC ratio = 1.9000, channels = 5) ... ok
+	produces_output	(SRC ratio = 1.9000, channels = 6) ... ok
+	produces_output	(SRC ratio = 1.9000, channels = 7) ... ok
+	produces_output	(SRC ratio = 1.9000, channels = 8) ... ok
+	produces_output	(SRC ratio = 1.9000, channels = 9) ... ok
+	simple_test	(SRC ratio = 3.1000) ................. ok
+	produces_output	(SRC ratio = 3.1000, channels = 1) ... ok
+	produces_output	(SRC ratio = 3.1000, channels = 2) ... ok
+	produces_output	(SRC ratio = 3.1000, channels = 3) ... ok
+	produces_output	(SRC ratio = 3.1000, channels = 4) ... ok
+	produces_output	(SRC ratio = 3.1000, channels = 5) ... ok
+	produces_output	(SRC ratio = 3.1000, channels = 6) ... ok
+	produces_output	(SRC ratio = 3.1000, channels = 7) ... ok
+	produces_output	(SRC ratio = 3.1000, channels = 8) ... ok
+	produces_output	(SRC ratio = 3.1000, channels = 9) ... ok
+	simple_test	(SRC ratio = 9.9000) ................. ok
+	produces_output	(SRC ratio = 9.9000, channels = 1) ... ok
+	produces_output	(SRC ratio = 9.9000, channels = 2) ... ok
+	produces_output	(SRC ratio = 9.9000, channels = 3) ... ok
+	produces_output	(SRC ratio = 9.9000, channels = 4) ... ok
+	produces_output	(SRC ratio = 9.9000, channels = 5) ... ok
+	produces_output	(SRC ratio = 9.9000, channels = 6) ... ok
+	produces_output	(SRC ratio = 9.9000, channels = 7) ... ok
+	produces_output	(SRC ratio = 9.9000, channels = 8) ... ok
+	produces_output	(SRC ratio = 9.9000, channels = 9) ... ok
+	simple_test	(SRC ratio = 256.0000) ................. ok
+	produces_output	(SRC ratio = 256.0000, channels = 1) ... ok
+	produces_output	(SRC ratio = 256.0000, channels = 2) ... ok
+	produces_output	(SRC ratio = 256.0000, channels = 3) ... ok
+	produces_output	(SRC ratio = 256.0000, channels = 4) ... ok
+	produces_output	(SRC ratio = 256.0000, channels = 5) ... ok
+	produces_output	(SRC ratio = 256.0000, channels = 6) ... ok
+	produces_output	(SRC ratio = 256.0000, channels = 7) ... ok
+	produces_output	(SRC ratio = 256.0000, channels = 8) ... ok
+	produces_output	(SRC ratio = 256.0000, channels = 9) ... ok
+	simple_test	(SRC ratio = 0.0039) ................. ok
+	produces_output	(SRC ratio = 0.0039, channels = 1) ... ok
+	produces_output	(SRC ratio = 0.0039, channels = 2) ... ok
+	produces_output	(SRC ratio = 0.0039, channels = 3) ... ok
+	produces_output	(SRC ratio = 0.0039, channels = 4) ... ok
+	produces_output	(SRC ratio = 0.0039, channels = 5) ... ok
+	produces_output	(SRC ratio = 0.0039, channels = 6) ... ok
+	produces_output	(SRC ratio = 0.0039, channels = 7) ... ok
+	produces_output	(SRC ratio = 0.0039, channels = 8) ... ok
+	produces_output	(SRC ratio = 0.0039, channels = 9) ... ok
+    Linear interpolator :
+	simple_test	(SRC ratio = 1.0001) ................. ok
+	produces_output	(SRC ratio = 1.0001, channels = 1) ... ok
+	produces_output	(SRC ratio = 1.0001, channels = 2) ... ok
+	produces_output	(SRC ratio = 1.0001, channels = 3) ... ok
+	produces_output	(SRC ratio = 1.0001, channels = 4) ... ok
+	produces_output	(SRC ratio = 1.0001, channels = 5) ... ok
+	produces_output	(SRC ratio = 1.0001, channels = 6) ... ok
+	produces_output	(SRC ratio = 1.0001, channels = 7) ... ok
+	produces_output	(SRC ratio = 1.0001, channels = 8) ... ok
+	produces_output	(SRC ratio = 1.0001, channels = 9) ... ok
+	simple_test	(SRC ratio = 0.0990) ................. ok
+	produces_output	(SRC ratio = 0.0990, channels = 1) ... ok
+	produces_output	(SRC ratio = 0.0990, channels = 2) ... ok
+	produces_output	(SRC ratio = 0.0990, channels = 3) ... ok
+	produces_output	(SRC ratio = 0.0990, channels = 4) ... ok
+	produces_output	(SRC ratio = 0.0990, channels = 5) ... ok
+	produces_output	(SRC ratio = 0.0990, channels = 6) ... ok
+	produces_output	(SRC ratio = 0.0990, channels = 7) ... ok
+	produces_output	(SRC ratio = 0.0990, channels = 8) ... ok
+	produces_output	(SRC ratio = 0.0990, channels = 9) ... ok
+	simple_test	(SRC ratio = 0.1000) ................. ok
+	produces_output	(SRC ratio = 0.1000, channels = 1) ... ok
+	produces_output	(SRC ratio = 0.1000, channels = 2) ... ok
+	produces_output	(SRC ratio = 0.1000, channels = 3) ... ok
+	produces_output	(SRC ratio = 0.1000, channels = 4) ... ok
+	produces_output	(SRC ratio = 0.1000, channels = 5) ... ok
+	produces_output	(SRC ratio = 0.1000, channels = 6) ... ok
+	produces_output	(SRC ratio = 0.1000, channels = 7) ... ok
+	produces_output	(SRC ratio = 0.1000, channels = 8) ... ok
+	produces_output	(SRC ratio = 0.1000, channels = 9) ... ok
+	simple_test	(SRC ratio = 0.3333) ................. ok
+	produces_output	(SRC ratio = 0.3333, channels = 1) ... ok
+	produces_output	(SRC ratio = 0.3333, channels = 2) ... ok
+	produces_output	(SRC ratio = 0.3333, channels = 3) ... ok
+	produces_output	(SRC ratio = 0.3333, channels = 4) ... ok
+	produces_output	(SRC ratio = 0.3333, channels = 5) ... ok
+	produces_output	(SRC ratio = 0.3333, channels = 6) ... ok
+	produces_output	(SRC ratio = 0.3333, channels = 7) ... ok
+	produces_output	(SRC ratio = 0.3333, channels = 8) ... ok
+	produces_output	(SRC ratio = 0.3333, channels = 9) ... ok
+	simple_test	(SRC ratio = 0.7890) ................. ok
+	produces_output	(SRC ratio = 0.7890, channels = 1) ... ok
+	produces_output	(SRC ratio = 0.7890, channels = 2) ... ok
+	produces_output	(SRC ratio = 0.7890, channels = 3) ... ok
+	produces_output	(SRC ratio = 0.7890, channels = 4) ... ok
+	produces_output	(SRC ratio = 0.7890, channels = 5) ... ok
+	produces_output	(SRC ratio = 0.7890, channels = 6) ... ok
+	produces_output	(SRC ratio = 0.7890, channels = 7) ... ok
+	produces_output	(SRC ratio = 0.7890, channels = 8) ... ok
+	produces_output	(SRC ratio = 0.7890, channels = 9) ... ok
+	simple_test	(SRC ratio = 1.9000) ................. ok
+	produces_output	(SRC ratio = 1.9000, channels = 1) ... ok
+	produces_output	(SRC ratio = 1.9000, channels = 2) ... ok
+	produces_output	(SRC ratio = 1.9000, channels = 3) ... ok
+	produces_output	(SRC ratio = 1.9000, channels = 4) ... ok
+	produces_output	(SRC ratio = 1.9000, channels = 5) ... ok
+	produces_output	(SRC ratio = 1.9000, channels = 6) ... ok
+	produces_output	(SRC ratio = 1.9000, channels = 7) ... ok
+	produces_output	(SRC ratio = 1.9000, channels = 8) ... ok
+	produces_output	(SRC ratio = 1.9000, channels = 9) ... ok
+	simple_test	(SRC ratio = 3.1000) ................. ok
+	produces_output	(SRC ratio = 3.1000, channels = 1) ... ok
+	produces_output	(SRC ratio = 3.1000, channels = 2) ... ok
+	produces_output	(SRC ratio = 3.1000, channels = 3) ... ok
+	produces_output	(SRC ratio = 3.1000, channels = 4) ... ok
+	produces_output	(SRC ratio = 3.1000, channels = 5) ... ok
+	produces_output	(SRC ratio = 3.1000, channels = 6) ... ok
+	produces_output	(SRC ratio = 3.1000, channels = 7) ... ok
+	produces_output	(SRC ratio = 3.1000, channels = 8) ... ok
+	produces_output	(SRC ratio = 3.1000, channels = 9) ... ok
+	simple_test	(SRC ratio = 9.9000) ................. ok
+	produces_output	(SRC ratio = 9.9000, channels = 1) ... ok
+	produces_output	(SRC ratio = 9.9000, channels = 2) ... ok
+	produces_output	(SRC ratio = 9.9000, channels = 3) ... ok
+	produces_output	(SRC ratio = 9.9000, channels = 4) ... ok
+	produces_output	(SRC ratio = 9.9000, channels = 5) ... ok
+	produces_output	(SRC ratio = 9.9000, channels = 6) ... ok
+	produces_output	(SRC ratio = 9.9000, channels = 7) ... ok
+	produces_output	(SRC ratio = 9.9000, channels = 8) ... ok
+	produces_output	(SRC ratio = 9.9000, channels = 9) ... ok
+	simple_test	(SRC ratio = 256.0000) ................. ok
+	produces_output	(SRC ratio = 256.0000, channels = 1) ... ok
+	produces_output	(SRC ratio = 256.0000, channels = 2) ... ok
+	produces_output	(SRC ratio = 256.0000, channels = 3) ... ok
+	produces_output	(SRC ratio = 256.0000, channels = 4) ... ok
+	produces_output	(SRC ratio = 256.0000, channels = 5) ... ok
+	produces_output	(SRC ratio = 256.0000, channels = 6) ... ok
+	produces_output	(SRC ratio = 256.0000, channels = 7) ... ok
+	produces_output	(SRC ratio = 256.0000, channels = 8) ... ok
+	produces_output	(SRC ratio = 256.0000, channels = 9) ... ok
+	simple_test	(SRC ratio = 0.0039) ................. ok
+	produces_output	(SRC ratio = 0.0039, channels = 1) ... ok
+	produces_output	(SRC ratio = 0.0039, channels = 2) ... ok
+	produces_output	(SRC ratio = 0.0039, channels = 3) ... ok
+	produces_output	(SRC ratio = 0.0039, channels = 4) ... ok
+	produces_output	(SRC ratio = 0.0039, channels = 5) ... ok
+	produces_output	(SRC ratio = 0.0039, channels = 6) ... ok
+	produces_output	(SRC ratio = 0.0039, channels = 7) ... ok
+	produces_output	(SRC ratio = 0.0039, channels = 8) ... ok
+	produces_output	(SRC ratio = 0.0039, channels = 9) ... ok
+    Sinc interpolator :
+	simple_test	(SRC ratio = 1.0001) ................. ok
+	produces_output	(SRC ratio = 1.0001, channels = 1) ... ok
+	produces_output	(SRC ratio = 1.0001, channels = 2) ... ok
+	produces_output	(SRC ratio = 1.0001, channels = 3) ... ok
+	produces_output	(SRC ratio = 1.0001, channels = 4) ... ok
+	produces_output	(SRC ratio = 1.0001, channels = 5) ... ok
+	produces_output	(SRC ratio = 1.0001, channels = 6) ... ok
+	produces_output	(SRC ratio = 1.0001, channels = 7) ... ok
+	produces_output	(SRC ratio = 1.0001, channels = 8) ... ok
+	produces_output	(SRC ratio = 1.0001, channels = 9) ... ok
+	simple_test	(SRC ratio = 0.0990) ................. ok
+	produces_output	(SRC ratio = 0.0990, channels = 1) ... ok
+	produces_output	(SRC ratio = 0.0990, channels = 2) ... ok
+	produces_output	(SRC ratio = 0.0990, channels = 3) ... ok
+	produces_output	(SRC ratio = 0.0990, channels = 4) ... ok
+	produces_output	(SRC ratio = 0.0990, channels = 5) ... ok
+	produces_output	(SRC ratio = 0.0990, channels = 6) ... ok
+	produces_output	(SRC ratio = 0.0990, channels = 7) ... ok
+	produces_output	(SRC ratio = 0.0990, channels = 8) ... ok
+	produces_output	(SRC ratio = 0.0990, channels = 9) ... ok
+	simple_test	(SRC ratio = 0.1000) ................. ok
+	produces_output	(SRC ratio = 0.1000, channels = 1) ... ok
+	produces_output	(SRC ratio = 0.1000, channels = 2) ... ok
+	produces_output	(SRC ratio = 0.1000, channels = 3) ... ok
+	produces_output	(SRC ratio = 0.1000, channels = 4) ... ok
+	produces_output	(SRC ratio = 0.1000, channels = 5) ... ok
+	produces_output	(SRC ratio = 0.1000, channels = 6) ... ok
+	produces_output	(SRC ratio = 0.1000, channels = 7) ... ok
+	produces_output	(SRC ratio = 0.1000, channels = 8) ... ok
+	produces_output	(SRC ratio = 0.1000, channels = 9) ... ok
+	simple_test	(SRC ratio = 0.3333) ................. ok
+	produces_output	(SRC ratio = 0.3333, channels = 1) ... ok
+	produces_output	(SRC ratio = 0.3333, channels = 2) ... ok
+	produces_output	(SRC ratio = 0.3333, channels = 3) ... ok
+	produces_output	(SRC ratio = 0.3333, channels = 4) ... ok
+	produces_output	(SRC ratio = 0.3333, channels = 5) ... ok
+	produces_output	(SRC ratio = 0.3333, channels = 6) ... ok
+	produces_output	(SRC ratio = 0.3333, channels = 7) ... ok
+	produces_output	(SRC ratio = 0.3333, channels = 8) ... ok
+	produces_output	(SRC ratio = 0.3333, channels = 9) ... ok
+	simple_test	(SRC ratio = 0.7890) ................. ok
+	produces_output	(SRC ratio = 0.7890, channels = 1) ... ok
+	produces_output	(SRC ratio = 0.7890, channels = 2) ... ok
+	produces_output	(SRC ratio = 0.7890, channels = 3) ... ok
+	produces_output	(SRC ratio = 0.7890, channels = 4) ... ok
+	produces_output	(SRC ratio = 0.7890, channels = 5) ... ok
+	produces_output	(SRC ratio = 0.7890, channels = 6) ... ok
+	produces_output	(SRC ratio = 0.7890, channels = 7) ... ok
+	produces_output	(SRC ratio = 0.7890, channels = 8) ... ok
+	produces_output	(SRC ratio = 0.7890, channels = 9) ... ok
+	simple_test	(SRC ratio = 1.9000) ................. ok
+	produces_output	(SRC ratio = 1.9000, channels = 1) ... ok
+	produces_output	(SRC ratio = 1.9000, channels = 2) ... ok
+	produces_output	(SRC ratio = 1.9000, channels = 3) ... ok
+	produces_output	(SRC ratio = 1.9000, channels = 4) ... ok
+	produces_output	(SRC ratio = 1.9000, channels = 5) ... ok
+	produces_output	(SRC ratio = 1.9000, channels = 6) ... ok
+	produces_output	(SRC ratio = 1.9000, channels = 7) ... ok
+	produces_output	(SRC ratio = 1.9000, channels = 8) ... ok
+	produces_output	(SRC ratio = 1.9000, channels = 9) ... ok
+	simple_test	(SRC ratio = 3.1000) ................. ok
+	produces_output	(SRC ratio = 3.1000, channels = 1) ... ok
+	produces_output	(SRC ratio = 3.1000, channels = 2) ... ok
+	produces_output	(SRC ratio = 3.1000, channels = 3) ... ok
+	produces_output	(SRC ratio = 3.1000, channels = 4) ... ok
+	produces_output	(SRC ratio = 3.1000, channels = 5) ... ok
+	produces_output	(SRC ratio = 3.1000, channels = 6) ... ok
+	produces_output	(SRC ratio = 3.1000, channels = 7) ... ok
+	produces_output	(SRC ratio = 3.1000, channels = 8) ... ok
+	produces_output	(SRC ratio = 3.1000, channels = 9) ... ok
+	simple_test	(SRC ratio = 9.9000) ................. ok
+	produces_output	(SRC ratio = 9.9000, channels = 1) ... ok
+	produces_output	(SRC ratio = 9.9000, channels = 2) ... ok
+	produces_output	(SRC ratio = 9.9000, channels = 3) ... ok
+	produces_output	(SRC ratio = 9.9000, channels = 4) ... ok
+	produces_output	(SRC ratio = 9.9000, channels = 5) ... ok
+	produces_output	(SRC ratio = 9.9000, channels = 6) ... ok
+	produces_output	(SRC ratio = 9.9000, channels = 7) ... ok
+	produces_output	(SRC ratio = 9.9000, channels = 8) ... ok
+	produces_output	(SRC ratio = 9.9000, channels = 9) ... ok
+	simple_test	(SRC ratio = 256.0000) ................. ok
+	produces_output	(SRC ratio = 256.0000, channels = 1) ... ok
+	produces_output	(SRC ratio = 256.0000, channels = 2) ... ok
+	produces_output	(SRC ratio = 256.0000, channels = 3) ... ok
+	produces_output	(SRC ratio = 256.0000, channels = 4) ... ok
+	produces_output	(SRC ratio = 256.0000, channels = 5) ... ok
+	produces_output	(SRC ratio = 256.0000, channels = 6) ... ok
+	produces_output	(SRC ratio = 256.0000, channels = 7) ... ok
+	produces_output	(SRC ratio = 256.0000, channels = 8) ... ok
+	produces_output	(SRC ratio = 256.0000, channels = 9) ... ok
+	simple_test	(SRC ratio = 0.0039) ................. ok
+	produces_output	(SRC ratio = 0.0039, channels = 1) ... ok
+	produces_output	(SRC ratio = 0.0039, channels = 2) ... ok
+	produces_output	(SRC ratio = 0.0039, channels = 3) ... ok
+	produces_output	(SRC ratio = 0.0039, channels = 4) ... ok
+	produces_output	(SRC ratio = 0.0039, channels = 5) ... ok
+	produces_output	(SRC ratio = 0.0039, channels = 6) ... ok
+	produces_output	(SRC ratio = 0.0039, channels = 7) ... ok
+	produces_output	(SRC ratio = 0.0039, channels = 8) ... ok
+	produces_output	(SRC ratio = 0.0039, channels = 9) ... ok
+
+PASS: tests/simple_test
+
+****************************************************************
+ This test cannot be run without FFTW (http://www.fftw.org/).
+ Both the real and the complex versions of the library are
+ required.
+****************************************************************
+
+PASS: tests/snr_bw_test
+
+    Zero Order Hold interpolator:
+	init_term_test   (SRC ratio =  0.9999) .......... ok
+	init_term_test   (SRC ratio =  1.0001) .......... ok
+	init_term_test   (SRC ratio =  0.7890) .......... ok
+	init_term_test   (SRC ratio =  1.2000) .......... ok
+	init_term_test   (SRC ratio =  0.3333) .......... ok
+	init_term_test   (SRC ratio =  3.1000) .......... ok
+	init_term_test   (SRC ratio =  0.1250) .......... ok
+	init_term_test   (SRC ratio =  8.0000) .......... ok
+	init_term_test   (SRC ratio =  0.0999) .......... ok
+	init_term_test   (SRC ratio =  9.9900) .......... ok
+	init_term_test   (SRC ratio =  0.1000) .......... ok
+	init_term_test   (SRC ratio = 10.0000) .......... ok
+
+	stream_test      (SRC ratio =  0.9999) .......... ok
+	stream_test      (SRC ratio =  1.0001) .......... ok
+	stream_test      (SRC ratio =  0.7890) .......... ok
+	stream_test      (SRC ratio =  1.2000) .......... ok
+	stream_test      (SRC ratio =  0.3333) .......... ok
+	stream_test      (SRC ratio =  3.1000) .......... ok
+	stream_test      (SRC ratio =  0.1250) .......... ok
+	stream_test      (SRC ratio =  8.0000) .......... ok
+	stream_test      (SRC ratio =  0.0999) .......... ok
+	stream_test      (SRC ratio =  9.9900) .......... ok
+	stream_test      (SRC ratio =  0.1000) .......... ok
+	stream_test      (SRC ratio = 10.0000) .......... ok
+
+    Linear interpolator:
+	init_term_test   (SRC ratio =  0.9999) .......... ok
+	init_term_test   (SRC ratio =  1.0001) .......... ok
+	init_term_test   (SRC ratio =  0.7890) .......... ok
+	init_term_test   (SRC ratio =  1.2000) .......... ok
+	init_term_test   (SRC ratio =  0.3333) .......... ok
+	init_term_test   (SRC ratio =  3.1000) .......... ok
+	init_term_test   (SRC ratio =  0.1250) .......... ok
+	init_term_test   (SRC ratio =  8.0000) .......... ok
+	init_term_test   (SRC ratio =  0.0999) .......... ok
+	init_term_test   (SRC ratio =  9.9900) .......... ok
+	init_term_test   (SRC ratio =  0.1000) .......... ok
+	init_term_test   (SRC ratio = 10.0000) .......... ok
+
+	stream_test      (SRC ratio =  0.9999) .......... ok
+	stream_test      (SRC ratio =  1.0001) .......... ok
+	stream_test      (SRC ratio =  0.7890) .......... ok
+	stream_test      (SRC ratio =  1.2000) .......... ok
+	stream_test      (SRC ratio =  0.3333) .......... ok
+	stream_test      (SRC ratio =  3.1000) .......... ok
+	stream_test      (SRC ratio =  0.1250) .......... ok
+	stream_test      (SRC ratio =  8.0000) .......... ok
+	stream_test      (SRC ratio =  0.0999) .......... ok
+	stream_test      (SRC ratio =  9.9900) .......... ok
+	stream_test      (SRC ratio =  0.1000) .......... ok
+	stream_test      (SRC ratio = 10.0000) .......... ok
+
+    Sinc interpolator:
+	init_term_test   (SRC ratio =  0.9999) .......... ok
+	init_term_test   (SRC ratio =  1.0001) .......... ok
+	init_term_test   (SRC ratio =  0.7890) .......... ok
+	init_term_test   (SRC ratio =  1.2000) .......... ok
+	init_term_test   (SRC ratio =  0.3333) .......... ok
+	init_term_test   (SRC ratio =  3.1000) .......... ok
+	init_term_test   (SRC ratio =  0.1250) .......... ok
+	init_term_test   (SRC ratio =  8.0000) .......... ok
+	init_term_test   (SRC ratio =  0.0999) .......... ok
+	init_term_test   (SRC ratio =  9.9900) .......... ok
+	init_term_test   (SRC ratio =  0.1000) .......... ok
+	init_term_test   (SRC ratio = 10.0000) .......... ok
+
+	stream_test      (SRC ratio =  0.9999) .......... ok
+	stream_test      (SRC ratio =  1.0001) .......... ok
+	stream_test      (SRC ratio =  0.7890) .......... ok
+	stream_test      (SRC ratio =  1.2000) .......... ok
+	stream_test      (SRC ratio =  0.3333) .......... ok
+	stream_test      (SRC ratio =  3.1000) .......... ok
+	stream_test      (SRC ratio =  0.1250) .......... ok
+	stream_test      (SRC ratio =  8.0000) .......... ok
+	stream_test      (SRC ratio =  0.0999) .......... ok
+	stream_test      (SRC ratio =  9.9900) .......... ok
+	stream_test      (SRC ratio =  0.1000) .......... ok
+	stream_test      (SRC ratio = 10.0000) .......... ok
+
+PASS: tests/termination_test
+
+    CPU name : AMD Ryzen 7 1800X Eight-Core Processor
+
+
+    Converter                        Duration        Throughput
+    -----------------------------------------------------------
+    ZOH Interpolator                   3.00           106981315
+    Linear Interpolator                3.00           103691406
+    Fastest Sinc Interpolator          3.00             8606188
+    Medium Sinc Interpolator           3.01             4009870
+    Best Sinc Interpolator             3.05             1084097
+
+            Duration is in seconds.
+            Throughput is in samples/sec (more is better).
+
+PASS: tests/throughput_test
+
+    Varispeed SNR test
+        Zero Order Hold interpolator    : ok
+        Linear interpolator             : ok
+        Sinc interpolator               : ok
+
+    Varispeed bounds test
+        Zero Order Hold interpolator    : ok
+        Linear interpolator             : ok
+        Sinc interpolator               : ok
+
+PASS: tests/varispeed_test
+===================
+All 14 tests passed
+===================
+make[1]: Leaving directory '/usr/oppai/library/libsamplerate-0.2.2/build'

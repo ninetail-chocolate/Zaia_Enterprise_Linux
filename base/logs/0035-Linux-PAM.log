@@ -1,0 +1,1199 @@
+Making check in libpam
+make[1]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/libpam'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/libpam'
+Making check in tests
+make[1]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/tests'
+make  tst-pam_start tst-pam_end tst-pam_fail_delay tst-pam_open_session tst-pam_close_session tst-pam_acct_mgmt tst-pam_authenticate tst-pam_chauthtok tst-pam_setcred tst-pam_get_item tst-pam_set_item tst-pam_getenvlist tst-pam_get_user tst-pam_set_data tst-pam_mkargv tst-pam_start_confdir tst-dlopen
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/tests'
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..    -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tst-pam_start.o -MD -MP -MF .deps/tst-pam_start.Tpo -c -o tst-pam_start.o ../../tests/tst-pam_start.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..    -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tst-pam_end.o -MD -MP -MF .deps/tst-pam_end.Tpo -c -o tst-pam_end.o ../../tests/tst-pam_end.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..    -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tst-pam_fail_delay.o -MD -MP -MF .deps/tst-pam_fail_delay.Tpo -c -o tst-pam_fail_delay.o ../../tests/tst-pam_fail_delay.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..    -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tst-pam_open_session.o -MD -MP -MF .deps/tst-pam_open_session.Tpo -c -o tst-pam_open_session.o ../../tests/tst-pam_open_session.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..    -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tst-pam_close_session.o -MD -MP -MF .deps/tst-pam_close_session.Tpo -c -o tst-pam_close_session.o ../../tests/tst-pam_close_session.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..    -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tst-pam_acct_mgmt.o -MD -MP -MF .deps/tst-pam_acct_mgmt.Tpo -c -o tst-pam_acct_mgmt.o ../../tests/tst-pam_acct_mgmt.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..    -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tst-pam_authenticate.o -MD -MP -MF .deps/tst-pam_authenticate.Tpo -c -o tst-pam_authenticate.o ../../tests/tst-pam_authenticate.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..    -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tst-pam_chauthtok.o -MD -MP -MF .deps/tst-pam_chauthtok.Tpo -c -o tst-pam_chauthtok.o ../../tests/tst-pam_chauthtok.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..    -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tst-pam_setcred.o -MD -MP -MF .deps/tst-pam_setcred.Tpo -c -o tst-pam_setcred.o ../../tests/tst-pam_setcred.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..    -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tst-pam_get_item.o -MD -MP -MF .deps/tst-pam_get_item.Tpo -c -o tst-pam_get_item.o ../../tests/tst-pam_get_item.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..    -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tst-pam_set_item.o -MD -MP -MF .deps/tst-pam_set_item.Tpo -c -o tst-pam_set_item.o ../../tests/tst-pam_set_item.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..    -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tst-pam_getenvlist.o -MD -MP -MF .deps/tst-pam_getenvlist.Tpo -c -o tst-pam_getenvlist.o ../../tests/tst-pam_getenvlist.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..    -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tst-pam_get_user.o -MD -MP -MF .deps/tst-pam_get_user.Tpo -c -o tst-pam_get_user.o ../../tests/tst-pam_get_user.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..    -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tst-pam_set_data.o -MD -MP -MF .deps/tst-pam_set_data.Tpo -c -o tst-pam_set_data.o ../../tests/tst-pam_set_data.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..    -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tst-pam_mkargv.o -MD -MP -MF .deps/tst-pam_mkargv.Tpo -c -o tst-pam_mkargv.o ../../tests/tst-pam_mkargv.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..    -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tst-pam_start_confdir.o -MD -MP -MF .deps/tst-pam_start_confdir.Tpo -c -o tst-pam_start_confdir.o ../../tests/tst-pam_start_confdir.c
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..    -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tst-dlopen.o -MD -MP -MF .deps/tst-dlopen.Tpo -c -o tst-dlopen.o ../../tests/tst-dlopen.c
+mv -f .deps/tst-pam_acct_mgmt.Tpo .deps/tst-pam_acct_mgmt.Po
+mv -f .deps/tst-pam_fail_delay.Tpo .deps/tst-pam_fail_delay.Po
+mv -f .deps/tst-pam_start.Tpo .deps/tst-pam_start.Po
+mv -f .deps/tst-pam_open_session.Tpo .deps/tst-pam_open_session.Po
+mv -f .deps/tst-pam_close_session.Tpo .deps/tst-pam_close_session.Po
+mv -f .deps/tst-pam_chauthtok.Tpo .deps/tst-pam_chauthtok.Po
+mv -f .deps/tst-pam_setcred.Tpo .deps/tst-pam_setcred.Po
+mv -f .deps/tst-pam_start_confdir.Tpo .deps/tst-pam_start_confdir.Po
+/bin/sh ../libtool  --tag=CC   --mode=link clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_start tst-pam_start.o ../libpam/libpam.la 
+/bin/sh ../libtool  --tag=CC   --mode=link clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_fail_delay tst-pam_fail_delay.o ../libpam/libpam.la 
+/bin/sh ../libtool  --tag=CC   --mode=link clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_open_session tst-pam_open_session.o ../libpam/libpam.la 
+/bin/sh ../libtool  --tag=CC   --mode=link clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_close_session tst-pam_close_session.o ../libpam/libpam.la 
+/bin/sh ../libtool  --tag=CC   --mode=link clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_acct_mgmt tst-pam_acct_mgmt.o ../libpam/libpam.la 
+/bin/sh ../libtool  --tag=CC   --mode=link clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_chauthtok tst-pam_chauthtok.o ../libpam/libpam.la 
+/bin/sh ../libtool  --tag=CC   --mode=link clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_setcred tst-pam_setcred.o ../libpam/libpam.la 
+mv -f .deps/tst-pam_end.Tpo .deps/tst-pam_end.Po
+/bin/sh ../libtool  --tag=CC   --mode=link clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_start_confdir tst-pam_start_confdir.o ../libpam/libpam.la 
+mv -f .deps/tst-pam_authenticate.Tpo .deps/tst-pam_authenticate.Po
+/bin/sh ../libtool  --tag=CC   --mode=link clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_end tst-pam_end.o ../libpam/libpam.la 
+/bin/sh ../libtool  --tag=CC   --mode=link clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_authenticate tst-pam_authenticate.o ../libpam/libpam.la 
+mv -f .deps/tst-pam_getenvlist.Tpo .deps/tst-pam_getenvlist.Po
+mv -f .deps/tst-dlopen.Tpo .deps/tst-dlopen.Po
+/bin/sh ../libtool  --tag=CC   --mode=link clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_getenvlist tst-pam_getenvlist.o ../libpam/libpam.la 
+/bin/sh ../libtool  --tag=CC   --mode=link clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-dlopen tst-dlopen.o -ldl 
+mv -f .deps/tst-pam_get_item.Tpo .deps/tst-pam_get_item.Po
+/bin/sh ../libtool  --tag=CC   --mode=link clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_get_item tst-pam_get_item.o ../libpam/libpam.la 
+mv -f .deps/tst-pam_set_item.Tpo .deps/tst-pam_set_item.Po
+/bin/sh ../libtool  --tag=CC   --mode=link clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_set_item tst-pam_set_item.o ../libpam/libpam.la 
+mv -f .deps/tst-pam_get_user.Tpo .deps/tst-pam_get_user.Po
+/bin/sh ../libtool  --tag=CC   --mode=link clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_get_user tst-pam_get_user.o ../libpam/libpam.la 
+mv -f .deps/tst-pam_set_data.Tpo .deps/tst-pam_set_data.Po
+/bin/sh ../libtool  --tag=CC   --mode=link clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_set_data tst-pam_set_data.o ../libpam/libpam.la 
+mv -f .deps/tst-pam_mkargv.Tpo .deps/tst-pam_mkargv.Po
+/bin/sh ../libtool  --tag=CC   --mode=link clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_mkargv tst-pam_mkargv.o ../libpam/libpam.la 
+libtool: link: clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_close_session tst-pam_close_session.o  ../libpam/.libs/libpam.so -Wl,-rpath -Wl,/usr/lib
+libtool: link: clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_authenticate tst-pam_authenticate.o  ../libpam/.libs/libpam.so -Wl,-rpath -Wl,/usr/lib
+libtool: link: clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_start tst-pam_start.o  ../libpam/.libs/libpam.so -Wl,-rpath -Wl,/usr/lib
+libtool: link: clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_getenvlist tst-pam_getenvlist.o  ../libpam/.libs/libpam.so -Wl,-rpath -Wl,/usr/lib
+libtool: link: clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-dlopen tst-dlopen.o  -ldl
+libtool: link: clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_fail_delay tst-pam_fail_delay.o  ../libpam/.libs/libpam.so -Wl,-rpath -Wl,/usr/lib
+libtool: link: clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_start_confdir tst-pam_start_confdir.o  ../libpam/.libs/libpam.so -Wl,-rpath -Wl,/usr/lib
+libtool: link: clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_setcred tst-pam_setcred.o  ../libpam/.libs/libpam.so -Wl,-rpath -Wl,/usr/lib
+libtool: link: clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_acct_mgmt tst-pam_acct_mgmt.o  ../libpam/.libs/libpam.so -Wl,-rpath -Wl,/usr/lib
+libtool: link: clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_open_session tst-pam_open_session.o  ../libpam/.libs/libpam.so -Wl,-rpath -Wl,/usr/lib
+libtool: link: clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_chauthtok tst-pam_chauthtok.o  ../libpam/.libs/libpam.so -Wl,-rpath -Wl,/usr/lib
+libtool: link: clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_get_item tst-pam_get_item.o  ../libpam/.libs/libpam.so -Wl,-rpath -Wl,/usr/lib
+libtool: link: clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_set_item tst-pam_set_item.o  ../libpam/.libs/libpam.so -Wl,-rpath -Wl,/usr/lib
+libtool: link: clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_end tst-pam_end.o  ../libpam/.libs/libpam.so -Wl,-rpath -Wl,/usr/lib
+libtool: link: clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_get_user tst-pam_get_user.o  ../libpam/.libs/libpam.so -Wl,-rpath -Wl,/usr/lib
+libtool: link: clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_set_data tst-pam_set_data.o  ../libpam/.libs/libpam.so -Wl,-rpath -Wl,/usr/lib
+libtool: link: clang -DLIBPAM_COMPILE -I../../libpam/include -I../../libpam -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_mkargv tst-pam_mkargv.o  ../libpam/.libs/libpam.so -Wl,-rpath -Wl,/usr/lib
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/tests'
+make  check-TESTS
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/tests'
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/tests'
+PASS: tst-pam_end
+PASS: tst-pam_fail_delay
+PASS: tst-pam_start
+PASS: tst-pam_authenticate
+PASS: tst-pam_chauthtok
+PASS: tst-pam_open_session
+PASS: tst-pam_close_session
+PASS: tst-pam_get_item
+PASS: tst-pam_acct_mgmt
+PASS: tst-pam_setcred
+PASS: tst-pam_get_user
+PASS: tst-pam_getenvlist
+PASS: tst-pam_start_confdir
+PASS: tst-pam_set_data
+PASS: tst-pam_mkargv
+PASS: tst-pam_set_item
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 16
+# PASS:  16
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/tests'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/tests'
+make[1]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/tests'
+Making check in libpamc
+make[1]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/libpamc'
+Making check in test
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/libpamc/test'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/libpamc/test'
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/libpamc'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/libpamc'
+make[1]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/libpamc'
+Making check in libpam_misc
+make[1]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/libpam_misc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/libpam_misc'
+Making check in modules
+make[1]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules'
+Making check in pam_access
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_access'
+make  tst-pam_access
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_access'
+make[3]: Nothing to be done for '../../../modules/pam_access/tst-pam_access'.
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_access'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_access'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_access'
+PASS: tst-pam_access
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_access'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_access'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_access'
+Making check in pam_debug
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_debug'
+make  tst-pam_debug-retval \
+  tst-pam_debug
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_debug'
+clang -DHAVE_CONFIG_H -I. -I../../../modules/pam_debug -I../..    -I../../../libpam/include -I../../../libpamc/include -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tst-pam_debug-retval.o -MD -MP -MF .deps/tst-pam_debug-retval.Tpo -c -o tst-pam_debug-retval.o ../../../modules/pam_debug/tst-pam_debug-retval.c
+make[3]: Nothing to be done for '../../../modules/pam_debug/tst-pam_debug'.
+mv -f .deps/tst-pam_debug-retval.Tpo .deps/tst-pam_debug-retval.Po
+/bin/sh ../../libtool  --tag=CC   --mode=link clang -I../../../libpam/include -I../../../libpamc/include -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-undefined -avoid-version -module -Wl,--version-script=../../../modules/pam_debug/../modules.map -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_debug-retval tst-pam_debug-retval.o ../../libpam/libpam.la 
+libtool: link: clang -I../../../libpam/include -I../../../libpamc/include -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -Wl,--version-script=../../../modules/pam_debug/../modules.map -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_debug-retval tst-pam_debug-retval.o  ../../libpam/.libs/libpam.so -Wl,-rpath -Wl,/usr/lib
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_debug'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_debug'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_debug'
+PASS: tst-pam_debug
+PASS: tst-pam_debug-retval
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_debug'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_debug'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_debug'
+Making check in pam_deny
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_deny'
+make  tst-pam_deny-retval \
+  tst-pam_deny
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_deny'
+clang -DHAVE_CONFIG_H -I. -I../../../modules/pam_deny -I../..    -I../../../libpam/include -I../../../libpamc/include -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tst-pam_deny-retval.o -MD -MP -MF .deps/tst-pam_deny-retval.Tpo -c -o tst-pam_deny-retval.o ../../../modules/pam_deny/tst-pam_deny-retval.c
+make[3]: Nothing to be done for '../../../modules/pam_deny/tst-pam_deny'.
+mv -f .deps/tst-pam_deny-retval.Tpo .deps/tst-pam_deny-retval.Po
+/bin/sh ../../libtool  --tag=CC   --mode=link clang -I../../../libpam/include -I../../../libpamc/include -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-undefined -avoid-version -module -Wl,--version-script=../../../modules/pam_deny/../modules.map -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_deny-retval tst-pam_deny-retval.o ../../libpam/libpam.la 
+libtool: link: clang -I../../../libpam/include -I../../../libpamc/include -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -Wl,--version-script=../../../modules/pam_deny/../modules.map -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_deny-retval tst-pam_deny-retval.o  ../../libpam/.libs/libpam.so -Wl,-rpath -Wl,/usr/lib
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_deny'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_deny'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_deny'
+PASS: tst-pam_deny
+PASS: tst-pam_deny-retval
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_deny'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_deny'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_deny'
+Making check in pam_echo
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_echo'
+make  tst-pam_echo-retval \
+  tst-pam_echo
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_echo'
+clang -DHAVE_CONFIG_H -I. -I../../../modules/pam_echo -I../..    -I../../../libpam/include -I../../../libpamc/include -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tst-pam_echo-retval.o -MD -MP -MF .deps/tst-pam_echo-retval.Tpo -c -o tst-pam_echo-retval.o ../../../modules/pam_echo/tst-pam_echo-retval.c
+make[3]: Nothing to be done for '../../../modules/pam_echo/tst-pam_echo'.
+mv -f .deps/tst-pam_echo-retval.Tpo .deps/tst-pam_echo-retval.Po
+/bin/sh ../../libtool  --tag=CC   --mode=link clang -I../../../libpam/include -I../../../libpamc/include -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-undefined -avoid-version -module -Wl,--version-script=../../../modules/pam_echo/../modules.map -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_echo-retval tst-pam_echo-retval.o ../../libpam/libpam.la 
+libtool: link: clang -I../../../libpam/include -I../../../libpamc/include -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -Wl,--version-script=../../../modules/pam_echo/../modules.map -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_echo-retval tst-pam_echo-retval.o  ../../libpam/.libs/libpam.so -Wl,-rpath -Wl,/usr/lib
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_echo'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_echo'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_echo'
+PASS: tst-pam_echo
+PASS: tst-pam_echo-retval
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_echo'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_echo'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_echo'
+Making check in pam_env
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_env'
+make  tst-pam_env
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_env'
+make[3]: Nothing to be done for '../../../modules/pam_env/tst-pam_env'.
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_env'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_env'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_env'
+PASS: tst-pam_env
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_env'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_env'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_env'
+Making check in pam_exec
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_exec'
+make  tst-pam_exec
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_exec'
+make[3]: Nothing to be done for '../../../modules/pam_exec/tst-pam_exec'.
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_exec'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_exec'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_exec'
+PASS: tst-pam_exec
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_exec'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_exec'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_exec'
+Making check in pam_faildelay
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_faildelay'
+make  tst-pam_faildelay-retval \
+  tst-pam_faildelay
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_faildelay'
+clang -DHAVE_CONFIG_H -I. -I../../../modules/pam_faildelay -I../..    -I../../../libpam/include -I../../../libpamc/include -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tst-pam_faildelay-retval.o -MD -MP -MF .deps/tst-pam_faildelay-retval.Tpo -c -o tst-pam_faildelay-retval.o ../../../modules/pam_faildelay/tst-pam_faildelay-retval.c
+make[3]: Nothing to be done for '../../../modules/pam_faildelay/tst-pam_faildelay'.
+mv -f .deps/tst-pam_faildelay-retval.Tpo .deps/tst-pam_faildelay-retval.Po
+/bin/sh ../../libtool  --tag=CC   --mode=link clang -I../../../libpam/include -I../../../libpamc/include -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-undefined -avoid-version -module -Wl,--version-script=../../../modules/pam_faildelay/../modules.map -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_faildelay-retval tst-pam_faildelay-retval.o ../../libpam/libpam.la 
+libtool: link: clang -I../../../libpam/include -I../../../libpamc/include -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -Wl,--version-script=../../../modules/pam_faildelay/../modules.map -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_faildelay-retval tst-pam_faildelay-retval.o  ../../libpam/.libs/libpam.so -Wl,-rpath -Wl,/usr/lib
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_faildelay'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_faildelay'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_faildelay'
+PASS: tst-pam_faildelay
+PASS: tst-pam_faildelay-retval
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_faildelay'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_faildelay'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_faildelay'
+Making check in pam_faillock
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_faillock'
+make  tst-pam_faillock
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_faillock'
+make[3]: Nothing to be done for '../../../modules/pam_faillock/tst-pam_faillock'.
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_faillock'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_faillock'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_faillock'
+PASS: tst-pam_faillock
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_faillock'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_faillock'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_faillock'
+Making check in pam_filter
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_filter'
+Making check in upperLOWER
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_filter/upperLOWER'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_filter/upperLOWER'
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_filter'
+make  tst-pam_filter
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_filter'
+make[4]: Nothing to be done for '../../../modules/pam_filter/tst-pam_filter'.
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_filter'
+make  check-TESTS
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_filter'
+make[5]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_filter'
+PASS: tst-pam_filter
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_filter'
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_filter'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_filter'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_filter'
+Making check in pam_ftp
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_ftp'
+make  tst-pam_ftp
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_ftp'
+make[3]: Nothing to be done for '../../../modules/pam_ftp/tst-pam_ftp'.
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_ftp'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_ftp'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_ftp'
+PASS: tst-pam_ftp
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_ftp'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_ftp'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_ftp'
+Making check in pam_group
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_group'
+make  tst-pam_group
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_group'
+make[3]: Nothing to be done for '../../../modules/pam_group/tst-pam_group'.
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_group'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_group'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_group'
+PASS: tst-pam_group
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_group'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_group'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_group'
+Making check in pam_issue
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_issue'
+make  tst-pam_issue
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_issue'
+make[3]: Nothing to be done for '../../../modules/pam_issue/tst-pam_issue'.
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_issue'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_issue'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_issue'
+PASS: tst-pam_issue
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_issue'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_issue'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_issue'
+Making check in pam_keyinit
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_keyinit'
+make  tst-pam_keyinit
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_keyinit'
+make[3]: Nothing to be done for '../../../modules/pam_keyinit/tst-pam_keyinit'.
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_keyinit'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_keyinit'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_keyinit'
+PASS: tst-pam_keyinit
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_keyinit'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_keyinit'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_keyinit'
+Making check in pam_limits
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_limits'
+make  tst-pam_limits
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_limits'
+make[3]: Nothing to be done for '../../../modules/pam_limits/tst-pam_limits'.
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_limits'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_limits'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_limits'
+PASS: tst-pam_limits
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_limits'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_limits'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_limits'
+Making check in pam_listfile
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_listfile'
+make  tst-pam_listfile
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_listfile'
+make[3]: Nothing to be done for '../../../modules/pam_listfile/tst-pam_listfile'.
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_listfile'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_listfile'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_listfile'
+PASS: tst-pam_listfile
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_listfile'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_listfile'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_listfile'
+Making check in pam_localuser
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_localuser'
+make  tst-pam_localuser-retval \
+  tst-pam_localuser
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_localuser'
+clang -DHAVE_CONFIG_H -I. -I../../../modules/pam_localuser -I../..    -I../../../libpam/include -I../../../libpamc/include -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tst-pam_localuser-retval.o -MD -MP -MF .deps/tst-pam_localuser-retval.Tpo -c -o tst-pam_localuser-retval.o ../../../modules/pam_localuser/tst-pam_localuser-retval.c
+make[3]: Nothing to be done for '../../../modules/pam_localuser/tst-pam_localuser'.
+mv -f .deps/tst-pam_localuser-retval.Tpo .deps/tst-pam_localuser-retval.Po
+/bin/sh ../../libtool  --tag=CC   --mode=link clang -I../../../libpam/include -I../../../libpamc/include -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-undefined -avoid-version -module -Wl,--version-script=../../../modules/pam_localuser/../modules.map -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_localuser-retval tst-pam_localuser-retval.o ../../libpam/libpam.la 
+libtool: link: clang -I../../../libpam/include -I../../../libpamc/include -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -Wl,--version-script=../../../modules/pam_localuser/../modules.map -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_localuser-retval tst-pam_localuser-retval.o  ../../libpam/.libs/libpam.so -Wl,-rpath -Wl,/usr/lib
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_localuser'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_localuser'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_localuser'
+PASS: tst-pam_localuser
+PASS: tst-pam_localuser-retval
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_localuser'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_localuser'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_localuser'
+Making check in pam_loginuid
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_loginuid'
+make  tst-pam_loginuid
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_loginuid'
+make[3]: Nothing to be done for '../../../modules/pam_loginuid/tst-pam_loginuid'.
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_loginuid'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_loginuid'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_loginuid'
+PASS: tst-pam_loginuid
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_loginuid'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_loginuid'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_loginuid'
+Making check in pam_mail
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_mail'
+make  tst-pam_mail
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_mail'
+make[3]: Nothing to be done for '../../../modules/pam_mail/tst-pam_mail'.
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_mail'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_mail'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_mail'
+PASS: tst-pam_mail
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_mail'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_mail'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_mail'
+Making check in pam_mkhomedir
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_mkhomedir'
+make  tst-pam_mkhomedir-retval \
+  tst-pam_mkhomedir
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_mkhomedir'
+clang -DHAVE_CONFIG_H -I. -I../../../modules/pam_mkhomedir -I../..    -I../../../libpam/include -I../../../libpamc/include -DMKHOMEDIR_HELPER=\"/usr/sbin/mkhomedir_helper\" -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tst-pam_mkhomedir-retval.o -MD -MP -MF .deps/tst-pam_mkhomedir-retval.Tpo -c -o tst-pam_mkhomedir-retval.o ../../../modules/pam_mkhomedir/tst-pam_mkhomedir-retval.c
+make[3]: Nothing to be done for '../../../modules/pam_mkhomedir/tst-pam_mkhomedir'.
+mv -f .deps/tst-pam_mkhomedir-retval.Tpo .deps/tst-pam_mkhomedir-retval.Po
+/bin/sh ../../libtool  --tag=CC   --mode=link clang -I../../../libpam/include -I../../../libpamc/include -DMKHOMEDIR_HELPER=\"/usr/sbin/mkhomedir_helper\" -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_mkhomedir-retval tst-pam_mkhomedir-retval.o ../../libpam/libpam.la 
+libtool: link: clang -I../../../libpam/include -I../../../libpamc/include -DMKHOMEDIR_HELPER=\"/usr/sbin/mkhomedir_helper\" -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_mkhomedir-retval tst-pam_mkhomedir-retval.o  ../../libpam/.libs/libpam.so -Wl,-rpath -Wl,/usr/lib
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_mkhomedir'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_mkhomedir'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_mkhomedir'
+PASS: tst-pam_mkhomedir
+PASS: tst-pam_mkhomedir-retval
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_mkhomedir'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_mkhomedir'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_mkhomedir'
+Making check in pam_motd
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_motd'
+make  tst-pam_motd
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_motd'
+make[3]: Nothing to be done for '../../../modules/pam_motd/tst-pam_motd'.
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_motd'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_motd'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_motd'
+PASS: tst-pam_motd
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_motd'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_motd'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_motd'
+Making check in pam_namespace
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_namespace'
+make  tst-pam_namespace
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_namespace'
+make[3]: Nothing to be done for '../../../modules/pam_namespace/tst-pam_namespace'.
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_namespace'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_namespace'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_namespace'
+PASS: tst-pam_namespace
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_namespace'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_namespace'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_namespace'
+Making check in pam_nologin
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_nologin'
+make  tst-pam_nologin-retval \
+  tst-pam_nologin
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_nologin'
+clang -DHAVE_CONFIG_H -I. -I../../../modules/pam_nologin -I../..    -I../../../libpam/include -I../../../libpamc/include -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tst-pam_nologin-retval.o -MD -MP -MF .deps/tst-pam_nologin-retval.Tpo -c -o tst-pam_nologin-retval.o ../../../modules/pam_nologin/tst-pam_nologin-retval.c
+make[3]: Nothing to be done for '../../../modules/pam_nologin/tst-pam_nologin'.
+mv -f .deps/tst-pam_nologin-retval.Tpo .deps/tst-pam_nologin-retval.Po
+/bin/sh ../../libtool  --tag=CC   --mode=link clang -I../../../libpam/include -I../../../libpamc/include -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-undefined -avoid-version -module -Wl,--version-script=../../../modules/pam_nologin/../modules.map -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_nologin-retval tst-pam_nologin-retval.o ../../libpam/libpam.la 
+libtool: link: clang -I../../../libpam/include -I../../../libpamc/include -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -Wl,--version-script=../../../modules/pam_nologin/../modules.map -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_nologin-retval tst-pam_nologin-retval.o  ../../libpam/.libs/libpam.so -Wl,-rpath -Wl,/usr/lib
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_nologin'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_nologin'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_nologin'
+PASS: tst-pam_nologin
+PASS: tst-pam_nologin-retval
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_nologin'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_nologin'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_nologin'
+Making check in pam_permit
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_permit'
+make  tst-pam_permit-retval \
+  tst-pam_permit
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_permit'
+clang -DHAVE_CONFIG_H -I. -I../../../modules/pam_permit -I../..    -I../../../libpam/include -I../../../libpamc/include -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tst-pam_permit-retval.o -MD -MP -MF .deps/tst-pam_permit-retval.Tpo -c -o tst-pam_permit-retval.o ../../../modules/pam_permit/tst-pam_permit-retval.c
+make[3]: Nothing to be done for '../../../modules/pam_permit/tst-pam_permit'.
+mv -f .deps/tst-pam_permit-retval.Tpo .deps/tst-pam_permit-retval.Po
+/bin/sh ../../libtool  --tag=CC   --mode=link clang -I../../../libpam/include -I../../../libpamc/include -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-undefined -avoid-version -module -Wl,--version-script=../../../modules/pam_permit/../modules.map -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_permit-retval tst-pam_permit-retval.o ../../libpam/libpam.la 
+libtool: link: clang -I../../../libpam/include -I../../../libpamc/include -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -Wl,--version-script=../../../modules/pam_permit/../modules.map -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_permit-retval tst-pam_permit-retval.o  ../../libpam/.libs/libpam.so -Wl,-rpath -Wl,/usr/lib
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_permit'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_permit'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_permit'
+PASS: tst-pam_permit
+PASS: tst-pam_permit-retval
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_permit'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_permit'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_permit'
+Making check in pam_pwhistory
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_pwhistory'
+make  tst-pam_pwhistory
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_pwhistory'
+make[3]: Nothing to be done for '../../../modules/pam_pwhistory/tst-pam_pwhistory'.
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_pwhistory'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_pwhistory'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_pwhistory'
+PASS: tst-pam_pwhistory
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_pwhistory'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_pwhistory'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_pwhistory'
+Making check in pam_rootok
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_rootok'
+make  tst-pam_rootok-retval \
+  tst-pam_rootok
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_rootok'
+clang -DHAVE_CONFIG_H -I. -I../../../modules/pam_rootok -I../..    -I../../../libpam/include -I../../../libpamc/include -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tst-pam_rootok-retval.o -MD -MP -MF .deps/tst-pam_rootok-retval.Tpo -c -o tst-pam_rootok-retval.o ../../../modules/pam_rootok/tst-pam_rootok-retval.c
+make[3]: Nothing to be done for '../../../modules/pam_rootok/tst-pam_rootok'.
+mv -f .deps/tst-pam_rootok-retval.Tpo .deps/tst-pam_rootok-retval.Po
+/bin/sh ../../libtool  --tag=CC   --mode=link clang -I../../../libpam/include -I../../../libpamc/include -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-undefined -avoid-version -module -Wl,--version-script=../../../modules/pam_rootok/../modules.map -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_rootok-retval tst-pam_rootok-retval.o ../../libpam/libpam.la 
+libtool: link: clang -I../../../libpam/include -I../../../libpamc/include -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -Wl,--version-script=../../../modules/pam_rootok/../modules.map -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_rootok-retval tst-pam_rootok-retval.o  ../../libpam/.libs/libpam.so -Wl,-rpath -Wl,/usr/lib
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_rootok'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_rootok'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_rootok'
+PASS: tst-pam_rootok
+PASS: tst-pam_rootok-retval
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_rootok'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_rootok'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_rootok'
+Making check in pam_securetty
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_securetty'
+make  tst-pam_securetty
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_securetty'
+make[3]: Nothing to be done for '../../../modules/pam_securetty/tst-pam_securetty'.
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_securetty'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_securetty'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_securetty'
+PASS: tst-pam_securetty
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_securetty'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_securetty'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_securetty'
+Making check in pam_setquota
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_setquota'
+make  tst-pam_setquota
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_setquota'
+make[3]: Nothing to be done for '../../../modules/pam_setquota/tst-pam_setquota'.
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_setquota'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_setquota'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_setquota'
+PASS: tst-pam_setquota
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_setquota'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_setquota'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_setquota'
+Making check in pam_shells
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_shells'
+make  tst-pam_shells
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_shells'
+make[3]: Nothing to be done for '../../../modules/pam_shells/tst-pam_shells'.
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_shells'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_shells'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_shells'
+PASS: tst-pam_shells
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_shells'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_shells'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_shells'
+Making check in pam_stress
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_stress'
+make  tst-pam_stress
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_stress'
+make[3]: Nothing to be done for '../../../modules/pam_stress/tst-pam_stress'.
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_stress'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_stress'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_stress'
+PASS: tst-pam_stress
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_stress'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_stress'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_stress'
+Making check in pam_succeed_if
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_succeed_if'
+make  tst-pam_succeed_if
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_succeed_if'
+make[3]: Nothing to be done for '../../../modules/pam_succeed_if/tst-pam_succeed_if'.
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_succeed_if'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_succeed_if'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_succeed_if'
+PASS: tst-pam_succeed_if
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_succeed_if'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_succeed_if'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_succeed_if'
+Making check in pam_time
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_time'
+make  tst-pam_time
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_time'
+make[3]: Nothing to be done for '../../../modules/pam_time/tst-pam_time'.
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_time'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_time'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_time'
+PASS: tst-pam_time
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_time'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_time'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_time'
+Making check in pam_timestamp
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_timestamp'
+make  hmacfile \
+  tst-pam_timestamp
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_timestamp'
+clang -DHAVE_CONFIG_H -I. -I../../../modules/pam_timestamp -I../..    -I../../../libpam/include -I../../../libpamc/include -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT hmacfile.o -MD -MP -MF .deps/hmacfile.Tpo -c -o hmacfile.o ../../../modules/pam_timestamp/hmacfile.c
+clang -DHAVE_CONFIG_H -I. -I../../../modules/pam_timestamp -I../..    -I../../../libpam/include -I../../../libpamc/include -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT hmacsha1.o -MD -MP -MF .deps/hmacsha1.Tpo -c -o hmacsha1.o ../../../modules/pam_timestamp/hmacsha1.c
+clang -DHAVE_CONFIG_H -I. -I../../../modules/pam_timestamp -I../..    -I../../../libpam/include -I../../../libpamc/include -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT sha1.o -MD -MP -MF .deps/sha1.Tpo -c -o sha1.o ../../../modules/pam_timestamp/sha1.c
+make[3]: Nothing to be done for '../../../modules/pam_timestamp/tst-pam_timestamp'.
+mv -f .deps/hmacfile.Tpo .deps/hmacfile.Po
+mv -f .deps/hmacsha1.Tpo .deps/hmacsha1.Po
+mv -f .deps/sha1.Tpo .deps/sha1.Po
+/bin/sh ../../libtool  --tag=CC   --mode=link clang -I../../../libpam/include -I../../../libpamc/include -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o hmacfile hmacfile.o hmacsha1.o sha1.o ../../libpam/libpam.la 
+libtool: link: clang -I../../../libpam/include -I../../../libpamc/include -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/hmacfile hmacfile.o hmacsha1.o sha1.o  ../../libpam/.libs/libpam.so -Wl,-rpath -Wl,/usr/lib
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_timestamp'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_timestamp'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_timestamp'
+PASS: tst-pam_timestamp
+PASS: hmacfile
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_timestamp'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_timestamp'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_timestamp'
+Making check in pam_tty_audit
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_tty_audit'
+make  tst-pam_tty_audit
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_tty_audit'
+make[3]: Nothing to be done for '../../../modules/pam_tty_audit/tst-pam_tty_audit'.
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_tty_audit'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_tty_audit'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_tty_audit'
+PASS: tst-pam_tty_audit
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_tty_audit'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_tty_audit'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_tty_audit'
+Making check in pam_umask
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_umask'
+make  tst-pam_umask
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_umask'
+make[3]: Nothing to be done for '../../../modules/pam_umask/tst-pam_umask'.
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_umask'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_umask'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_umask'
+PASS: tst-pam_umask
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_umask'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_umask'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_umask'
+Making check in pam_unix
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_unix'
+make  tst-pam_unix
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_unix'
+make[3]: Nothing to be done for '../../../modules/pam_unix/tst-pam_unix'.
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_unix'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_unix'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_unix'
+PASS: tst-pam_unix
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_unix'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_unix'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_unix'
+Making check in pam_usertype
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_usertype'
+make  tst-pam_usertype
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_usertype'
+make[3]: Nothing to be done for '../../../modules/pam_usertype/tst-pam_usertype'.
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_usertype'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_usertype'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_usertype'
+PASS: tst-pam_usertype
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_usertype'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_usertype'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_usertype'
+Making check in pam_warn
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_warn'
+make  tst-pam_warn-retval \
+  tst-pam_warn
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_warn'
+clang -DHAVE_CONFIG_H -I. -I../../../modules/pam_warn -I../..    -I../../../libpam/include -I../../../libpamc/include -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT tst-pam_warn-retval.o -MD -MP -MF .deps/tst-pam_warn-retval.Tpo -c -o tst-pam_warn-retval.o ../../../modules/pam_warn/tst-pam_warn-retval.c
+make[3]: Nothing to be done for '../../../modules/pam_warn/tst-pam_warn'.
+mv -f .deps/tst-pam_warn-retval.Tpo .deps/tst-pam_warn-retval.Po
+/bin/sh ../../libtool  --tag=CC   --mode=link clang -I../../../libpam/include -I../../../libpamc/include -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -no-undefined -avoid-version -module -Wl,--version-script=../../../modules/pam_warn/../modules.map -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_warn-retval tst-pam_warn-retval.o ../../libpam/libpam.la 
+libtool: link: clang -I../../../libpam/include -I../../../libpamc/include -W -Wall -Wbad-function-cast -Wcast-align -Wcast-qual -Wdeprecated -Winline -Wmain -Wmissing-declarations -Wmissing-format-attribute -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wshadow -Wstrict-prototypes -Wuninitialized -Wwrite-strings -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -Wl,--version-script=../../../modules/pam_warn/../modules.map -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_warn-retval tst-pam_warn-retval.o  ../../libpam/.libs/libpam.so -Wl,-rpath -Wl,/usr/lib
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_warn'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_warn'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_warn'
+PASS: tst-pam_warn
+PASS: tst-pam_warn-retval
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_warn'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_warn'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_warn'
+Making check in pam_wheel
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_wheel'
+make  tst-pam_wheel
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_wheel'
+make[3]: Nothing to be done for '../../../modules/pam_wheel/tst-pam_wheel'.
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_wheel'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_wheel'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_wheel'
+PASS: tst-pam_wheel
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_wheel'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_wheel'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_wheel'
+Making check in pam_xauth
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_xauth'
+make  tst-pam_xauth
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_xauth'
+make[3]: Nothing to be done for '../../../modules/pam_xauth/tst-pam_xauth'.
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_xauth'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_xauth'
+make[4]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_xauth'
+PASS: tst-pam_xauth
+============================================================================
+Testsuite summary for Linux-PAM 1.5.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_xauth'
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_xauth'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules/pam_xauth'
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules'
+make[1]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/modules'
+Making check in po
+make[1]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/po'
+Making check in conf
+make[1]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/conf'
+Making check in pam_conv1
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/conf/pam_conv1'
+make  check-am
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/conf/pam_conv1'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/conf/pam_conv1'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/conf/pam_conv1'
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/conf'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/conf'
+make[1]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/conf'
+Making check in examples
+make[1]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/examples'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/examples'
+Making check in xtests
+make[1]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/xtests'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/xtests'
+Making check in doc
+make[1]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/doc'
+Making check in man
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/doc/man'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/doc/man'
+Making check in specs
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/doc/specs'
+make  check-am
+make[3]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/doc/specs'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/doc/specs'
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/doc/specs'
+Making check in sag
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/doc/sag'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/doc/sag'
+Making check in adg
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/doc/adg'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/doc/adg'
+Making check in mwg
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/doc/mwg'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/doc/mwg'
+make[2]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build/doc'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/doc'
+make[1]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build/doc'
+make[1]: Entering directory '/usr/oppai/base/Linux-PAM-1.5.2/build'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/usr/oppai/base/Linux-PAM-1.5.2/build'

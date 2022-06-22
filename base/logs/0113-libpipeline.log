@@ -1,0 +1,64 @@
+Making check in gl/lib
+make[1]: Entering directory '/usr/oppai/base/libpipeline-1.5.5/gl/lib'
+make  check-recursive
+make[2]: Entering directory '/usr/oppai/base/libpipeline-1.5.5/gl/lib'
+make[3]: Entering directory '/usr/oppai/base/libpipeline-1.5.5/gl/lib'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/oppai/base/libpipeline-1.5.5/gl/lib'
+make[2]: Leaving directory '/usr/oppai/base/libpipeline-1.5.5/gl/lib'
+make[1]: Leaving directory '/usr/oppai/base/libpipeline-1.5.5/gl/lib'
+Making check in lib
+make[1]: Entering directory '/usr/oppai/base/libpipeline-1.5.5/lib'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/libpipeline-1.5.5/lib'
+Making check in man
+make[1]: Entering directory '/usr/oppai/base/libpipeline-1.5.5/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/libpipeline-1.5.5/man'
+Making check in tests
+make[1]: Entering directory '/usr/oppai/base/libpipeline-1.5.5/tests'
+make  basic argstr exec inspect pump read redirect
+make[2]: Entering directory '/usr/oppai/base/libpipeline-1.5.5/tests'
+  CC       basic.o
+  CC       common.o
+  CC       argstr.o
+  CC       exec.o
+  CC       inspect.o
+  CC       pump.o
+  CC       read.o
+  CC       redirect.o
+  CCLD     inspect
+  CCLD     exec
+  CCLD     redirect
+  CCLD     argstr
+  CCLD     pump
+  CCLD     read
+  CCLD     basic
+make[2]: Leaving directory '/usr/oppai/base/libpipeline-1.5.5/tests'
+make  check-TESTS
+make[2]: Entering directory '/usr/oppai/base/libpipeline-1.5.5/tests'
+make[3]: Entering directory '/usr/oppai/base/libpipeline-1.5.5/tests'
+PASS: inspect
+PASS: redirect
+PASS: argstr
+PASS: exec
+PASS: pump
+PASS: basic
+PASS: read
+============================================================================
+Testsuite summary for libpipeline 1.5.5
+============================================================================
+# TOTAL: 7
+# PASS:  7
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/usr/oppai/base/libpipeline-1.5.5/tests'
+make[2]: Leaving directory '/usr/oppai/base/libpipeline-1.5.5/tests'
+make[1]: Leaving directory '/usr/oppai/base/libpipeline-1.5.5/tests'
+make[1]: Entering directory '/usr/oppai/base/libpipeline-1.5.5'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/usr/oppai/base/libpipeline-1.5.5'

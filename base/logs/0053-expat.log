@@ -1,0 +1,58 @@
+Making check in lib
+make[1]: Entering directory '/usr/oppai/base/expat-2.4.6/build/lib'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/expat-2.4.6/build/lib'
+Making check in examples
+make[1]: Entering directory '/usr/oppai/base/expat-2.4.6/build/examples'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/expat-2.4.6/build/examples'
+Making check in tests
+make[1]: Entering directory '/usr/oppai/base/expat-2.4.6/build/tests'
+Making check in .
+make[2]: Entering directory '/usr/oppai/base/expat-2.4.6/build/tests'
+make  runtests runtestspp
+make[3]: Entering directory '/usr/oppai/base/expat-2.4.6/build/tests'
+clang -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../tests/../lib   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT runtests.o -MD -MP -MF .deps/runtests.Tpo -c -o runtests.o ../../tests/runtests.c
+mv -f .deps/runtests.Tpo .deps/runtests.Po
+/bin/sh ../libtool  --tag=CC   --mode=link clang  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -fno-strict-aliasing -lm  -o runtests runtests.o libruntests.a ../lib/libexpatinternal.la 
+libtool: link: clang -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -fno-strict-aliasing -o runtests runtests.o  -lm libruntests.a ../lib/.libs/libexpatinternal.a
+clang++ -DHAVE_CONFIG_H -I. -I../../tests -I..  -I../../tests/../lib   -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -MT runtestspp.o -MD -MP -MF .deps/runtestspp.Tpo -c -o runtestspp.o ../../tests/runtestspp.cpp
+mv -f .deps/runtestspp.Tpo .deps/runtestspp.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link clang++  -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -fno-strict-aliasing -lm  -o runtestspp runtestspp.o libruntests.a ../lib/libexpatinternal.la 
+libtool: link: clang++ -march=znver1 -O2 -pipe -fPIC -stdlib=libc++ -rtlib=compiler-rt -unwindlib=libunwind -fuse-ld=lld --target=x86_64-zel-linux-musl -fno-strict-aliasing -o runtestspp runtestspp.o  -lm libruntests.a ../lib/.libs/libexpatinternal.a
+make[3]: Leaving directory '/usr/oppai/base/expat-2.4.6/build/tests'
+make  check-TESTS
+make[3]: Entering directory '/usr/oppai/base/expat-2.4.6/build/tests'
+make[4]: Entering directory '/usr/oppai/base/expat-2.4.6/build/tests'
+PASS: runtests
+PASS: runtestspp
+============================================================================
+Testsuite summary for expat 2.4.6
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/oppai/base/expat-2.4.6/build/tests'
+make[3]: Leaving directory '/usr/oppai/base/expat-2.4.6/build/tests'
+make[2]: Leaving directory '/usr/oppai/base/expat-2.4.6/build/tests'
+Making check in benchmark
+make[2]: Entering directory '/usr/oppai/base/expat-2.4.6/build/tests/benchmark'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/oppai/base/expat-2.4.6/build/tests/benchmark'
+make[1]: Leaving directory '/usr/oppai/base/expat-2.4.6/build/tests'
+Making check in xmlwf
+make[1]: Entering directory '/usr/oppai/base/expat-2.4.6/build/xmlwf'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/expat-2.4.6/build/xmlwf'
+Making check in doc
+make[1]: Entering directory '/usr/oppai/base/expat-2.4.6/build/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/expat-2.4.6/build/doc'
+make[1]: Entering directory '/usr/oppai/base/expat-2.4.6/build'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/usr/oppai/base/expat-2.4.6/build'

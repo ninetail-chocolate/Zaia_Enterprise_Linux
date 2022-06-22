@@ -1,0 +1,72 @@
+Making check in doc
+make[1]: Entering directory '/usr/oppai/base/cpio-2.13/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/cpio-2.13/doc'
+Making check in gnu
+make[1]: Entering directory '/usr/oppai/base/cpio-2.13/gnu'
+make  check-recursive
+make[2]: Entering directory '/usr/oppai/base/cpio-2.13/gnu'
+make[3]: Entering directory '/usr/oppai/base/cpio-2.13/gnu'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/oppai/base/cpio-2.13/gnu'
+make[2]: Leaving directory '/usr/oppai/base/cpio-2.13/gnu'
+make[1]: Leaving directory '/usr/oppai/base/cpio-2.13/gnu'
+Making check in lib
+make[1]: Entering directory '/usr/oppai/base/cpio-2.13/lib'
+make  check-am
+make[2]: Entering directory '/usr/oppai/base/cpio-2.13/lib'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/oppai/base/cpio-2.13/lib'
+make[1]: Leaving directory '/usr/oppai/base/cpio-2.13/lib'
+Making check in rmt
+make[1]: Entering directory '/usr/oppai/base/cpio-2.13/rmt'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/cpio-2.13/rmt'
+Making check in src
+make[1]: Entering directory '/usr/oppai/base/cpio-2.13/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/cpio-2.13/src'
+Making check in po
+make[1]: Entering directory '/usr/oppai/base/cpio-2.13/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/oppai/base/cpio-2.13/po'
+Making check in tests
+make[1]: Entering directory '/usr/oppai/base/cpio-2.13/tests'
+make  genfile
+make[2]: Entering directory '/usr/oppai/base/cpio-2.13/tests'
+  CC       genfile.o
+  CC       argcv.o
+  CCLD     genfile
+make[2]: Leaving directory '/usr/oppai/base/cpio-2.13/tests'
+make  check-local
+make[2]: Entering directory '/usr/oppai/base/cpio-2.13/tests'
+/bin/sh ./testsuite 
+## ------------------------- ##
+## GNU cpio 2.13 test suite. ##
+## ------------------------- ##
+  1: cpio version                                    ok
+  2: basic functionality: copyin/copyout             ok
+  3: symlink                                         ok
+  4: symlink-bad-length                              ok
+  5: symlink-long                                    ok
+  6: symlink --to-stdout                             ok
+  7: interdir                                        ok
+  8: delayed setstat                                 ok
+  9: delayed setstat (with -depth)                   ok
+ 10: delayed setstat (copy-pass)                     ok
+ 11: delayed setstat (umask)                         ok
+ 12: delayed setstat (umask, copy-pass)              ok
+ 13: big block size                                  ok
+ 14: CVE-2015-1197 (--no-absolute-filenames for symlinks) ok
+ 15: CVE-2019-14866 (tar header size overflow)       ok
+
+## ------------- ##
+## Test results. ##
+## ------------- ##
+
+All 15 tests were successful.
+make[2]: Leaving directory '/usr/oppai/base/cpio-2.13/tests'
+make[1]: Leaving directory '/usr/oppai/base/cpio-2.13/tests'
+make[1]: Entering directory '/usr/oppai/base/cpio-2.13'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/usr/oppai/base/cpio-2.13'
